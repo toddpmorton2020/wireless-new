@@ -2,6 +2,58 @@
 @tailwind components;
 @tailwind utilities;
 
+@media (min-width: 1024px) {
+  .press-release-padding {
+    margin-left: 207px;
+    margin-right: 207px;
+  }
+}
+
+.indent {
+  text-indent: -12px;
+}
+
+.news-archive {
+  width: 130px !important;
+}
+
+.news-archive1 {
+  width: 150px !important;
+}
+
+.news-archive2 {
+  width: 140px !important;
+}
+
+.news-archive3 {
+  width: 102px !important;
+}
+
+.news-archive4 {
+  width: 120px !important;
+}
+
+.news-archive-heading {
+  font-size: 36px;
+}
+
+.press-release-lineHeight {
+  line-height: 1.15;
+}
+
+.borderline-break {
+  border: 0.25px solid grey;
+  opacity: 0.5;
+}
+
+.press-line-height {
+  line-height: 1.15;
+}
+
+.frame-width {
+  width: 540px;
+}
+
 .btn {
   @apply bg-orange-500 uppercase text-white cursor-pointer font-bold px-4 py-3 transition-colors duration-300 rounded-sm;
 }
@@ -15,10 +67,9 @@
   @apply bg-orange-600;
 }
 
-.text-blue-500{
+.text-blue-500 {
   color: #6674f8;
 }
-
 
 .long-btn-purple {
   @apply bg-purple-500 uppercase text-white cursor-pointer font-bold px-12 py-3 transition-colors duration-300 rounded-sm;
@@ -151,10 +202,10 @@ b {
   @apply bg-orange-500 border-orange-500;
 }
 
-.space{
-  width:100%;
+.space {
+  width: 100%;
   height: 1rem;
-  background-color: #C9C7C7;
+  background-color: #c9c7c7;
 }
 
 .learn-more-mob {
@@ -262,15 +313,15 @@ b {
   max-height: 216px;
 }
 
-.banner img{
+.banner img {
   width: 100vw;
 }
 
-.bg-image img{
+.bg-image img {
   width: 100vw;
 }
 
-.pad-width{
+.pad-width {
   padding-left: 32px !important;
   padding-right: 32px !important;
 }
@@ -302,14 +353,14 @@ b {
   flex: 0.75;
 }
 
-@media screen and (max-width: 765px){
+@media screen and (max-width: 765px) {
   .title-container {
     padding-top: 0;
   }
   .title {
     margin-top: 1.8rem;
   }
-  .default{
+  .default {
     display: none;
   }
   .mobile {
@@ -325,7 +376,7 @@ b {
     font-size: 18px;
   }
 
-  .jedi{
+  .jedi {
     text-align: left;
     font-weight: normal;
     color: #fff;
@@ -336,7 +387,6 @@ b {
     font-weight: normal;
     color: #8036f7;
     color: #fff;
-
   }
 
   .moose {
@@ -362,7 +412,7 @@ b {
     color: #f26a22;
   }
 
-  .subtext{
+  .subtext {
     text-align: left;
   }
   .gallery-container {
@@ -378,7 +428,6 @@ b {
   .image-accessory {
     flex: 1;
   }
-
 }
 
 .heading {
@@ -386,7 +435,7 @@ b {
 }
 
 .orange-link {
-  color: #FF5400;
+  color: #ff5400;
 }
 
 .feature-text {
@@ -405,7 +454,7 @@ b {
 @media screen and (max-width: 768px) {
   .heading {
     font-weight: 500 !important;
-    font-size: 36px!important;
+    font-size: 36px !important;
     line-height: 1.06 !important;
   }
   .accessory .gray-back {
@@ -414,9 +463,8 @@ b {
     font-weight: 500;
     font-size: 36px !important;
   }
-  .font-500-small{
+  .font-500-small {
     font-weight: 500;
     font-size: 28px !important;
   }
-
 }

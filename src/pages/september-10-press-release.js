@@ -8,11 +8,11 @@ import "../css/index.css"
 
 import homeImage from "../images/june-8.png"
 
-function June08PressRelease() {
+function Sept10PressRelease() {
   return (
     <Layout>
       <SEO
-        title="Press Release Announcement. June 8 Press Release. Introducing the Wireless Outdoor Cinema Company. Turn Your Backyard into a Year-Round Drive-in"
+        title="Press Release Announcement. September 10 Press Release. Introducing the Wireless Outdoor Cinema Company. Turn Your Backyard into a Year-Round Drive-in"
         description="The Wireless Outdoor Cinema Company today announced the unveiling of their new line of Outdoor Cinema Packages for homeowners and businesses throughout Maine and New Hampshire. The Wireless Outdoor Cinema is a year-round, weather-resistant, pressure-treated wood movie screen frame that comes with a removable cinematic screen, an HD Wi-Fi Projector, Off-Grid Battery Pack and a Wireless Surround Bar Speaker. The Wireless Outdoor Cinema offers a new way for homeowners to enjoy their backyards, year-round, under the stars and moon watching their favorite movie, TV show, sporting event, or playing video games on a larger than life screen."
       />
 
@@ -26,7 +26,7 @@ function June08PressRelease() {
               <span className="mx-2">&gt;</span>
               <Link to="/in-the-news">In the News</Link>
               <span className="mx-2">&gt;</span>
-              <span to="#">June 8 Press Release</span>
+              <span to="#">September 10 Press Release</span>
             </div>
             <div className="md:hidden h-64 w-full full-bleed-mobile max-h-screen relative mb-6 mt-6 bg-center">
               <img
@@ -36,69 +36,63 @@ function June08PressRelease() {
             </div>
             <div className="press-release-padding pt-12">
               <p className="text-xl">Press Release Announcement</p>
-              <p className="text-xl">June 8, 2020</p>
+              <p className="text-xl">September 10, 2020</p>
             </div>
             <div>
               <h1 className="text-14 pt-10 press-release-padding press-line-height">
-                Introducing the Wireless Outdoor Cinema Company
+                Wireless Outdoor Cinema Company Partners with Binnie Media on
+                Pro Football Challenge
               </h1>
             </div>
             <div className="press-release-padding pt-10">
               <p className="text-23 font-extralight pb-5">
                 <strong>
-                  BRIDGTON, MAINE – June 8, 2020 – The Wireless Outdoor Cinema
-                  Company
+                  BRIDGTON, MAINE – September 10, 2020 – The Wireless Outdoor
+                  Cinema Company
                 </strong>{" "}
-                today announced the unveiling of the new line of Outdoor Cinema
-                Packages for homeowners and businesses throughout New England.
-                The Wireless Outdoor Cinema provides a year-round,
-                weather-resistant, pressure-treated wooden frame system that
-                comes with a removable cinematic screen, a 1080p LED Projector,
-                Off-Grid Battery Station, and a Wireless Surround Bar Speaker.
-                The Wireless Outdoor Cinema offers a new way for homeowners to
-                enjoy their backyards year-round, under the stars and moon
-                watching their favorite movie, TV show, sporting event, or
-                playing video games on a larger-than-life screen.
+                today announced the partnership with Binnie Media on running a
+                promotional giveaway for 107.5 Frank FM Fantasy Pro Football
+                Challenge. The Wireless Outdoor Cinema Company will give away
+                their premier 150” Big Moose Outdoor Cinema package to the
+                winner of the Fantasy Pro Football Challenge.
               </p>
               <p className="text-23 font-extralight pb-5">
-                “After I built and set up my first Wireless Outdoor Cinema on my
-                property, I knew immediately other homeowners would love this
-                outdoor experience as much as I do,” said Todd Morton, owner of
-                the Wireless Outdoor Cinema Company. “The cinema setup looks
-                impressive on your property with its 4” x 4“ pressure-treated
-                framing system for the screen, and comes with an easy setup to
-                start watching your favorite movie, show, or use your Xbox,
-                PlayStation, or Wii to game under the stars and moon.”
+                The Pro Football Challenge will start on September 10, 2020, and
+                the person who accumulates the most points throughout the Pro
+                Football Challenge will win the 150” Big Moose Outdoor Cinema
+                package at the end of the scheduled Pro Football season.
               </p>
               <p className="text-23 font-extralight pb-5">
-                <strong>
-                  Features and benefits of the Wireless Outdoor Cinema include:
-                </strong>
-              </p>
-              <p className="text-23 font-extralight pb-5 ml-8 indent">
-                • Enjoy outdoor evenings year-round watching movies with nature
-                and friends
-              </p>
-              <p className="text-23 font-extralight pb-5 ml-8 indent">
-                • Movie screen frames are built with pressure-treated wood,
-                weather-resistant hardware and stays up on your property without
-                the hassle of breaking them down
-              </p>
-              <p className="text-23 font-extralight pb-5 ml-8 indent">
-                • 1080p LED Projector allows you to connect to your smartphone,
-                tablet, laptop, DVD Player, Roku, Amazon Fire TV Stick, Google
-                Chromecast Stick, Xbox, PlayStation, Wii, and Speakers
-              </p>
-              <p className="text-23 font-extralight pb-5 ml-8 indent">
-                • Wireless with no dragging out extension cords and tripping
-                over them at night
+                The 107.5 Frank FM Pro Football Challenge contest works by
+                determining which Pro Football teams will win each week and by
+                how many points. Participants who are the closest to guessing
+                what Pro Football teams win each week and by the final score
+                will get points that will be tallied up week-over-week until the
+                season ends. Then, the person who receives the most points wins
+                the giveaway contest.
               </p>
               <p className="text-23 font-extralight pb-5">
-                The Wireless Outdoor Cinema packages will be available starting
-                June 15, 2020, with the 96” Jedi Bobcat Wireless Outdoor Cinema
-                base package starting at $2,499. For more information on the
-                complete line of cinema packages please visit:
-                www.wirelessoutdoorcinema.com
+                "I'm excited about this opportunity to work with Jon Sundberg,
+                VP Sales, of Binnie Media, and giveaway my 150" Big Moose
+                Outdoor Cinema," said Todd Morton, owner of the Wireless Outdoor
+                Cinema Company." "Maine is full of football fans, and to allow
+                one of these fans to watch the Super Bowl on the 150" Big Moose
+                Outdoor Cinema, would give them an incredible experience."
+              </p>
+              <p className="text-23 font-extralight pb-5">
+                The winner of the Pro Football Challenge will be announced on
+                January 3, 2021 over the 107.5 Frank FM radio station and will
+                be reached by phone from Binnie Media. The Wireless Outdoor
+                Cinema Company will announce the winner on their website and
+                notify the winner to schedule the install of the 150” Big Moose
+                Outdoor Cinema.
+              </p>
+              <p className="text-23 font-extralight pb-5">
+                <strong>About Binnie Media</strong> <br /> Media is Maine and
+                New Hampshire’s largest privately owned and locally managed
+                media company. Between radio, digital, and outdoor advertising
+                mediums, Binnie Media engages with over 1.5 million people every
+                week.
               </p>
               <p className="text-23 font-extralight pb-5">
                 <strong>About The Wireless Outdoor Cinema Company</strong>{" "}
@@ -133,4 +127,4 @@ function June08PressRelease() {
   )
 }
 
-export default June08PressRelease
+export default Sept10PressRelease

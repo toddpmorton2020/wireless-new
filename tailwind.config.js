@@ -10,6 +10,17 @@ module.exports = {
       sans: ["Arial", "Helvetica", "sans-serif"],
     },
     extend: {
+      spacing: {
+        '18': '5rem',
+       },
+      fontSize: {
+        '11': '44px',
+        '12': '42px',
+        '13': '30px',
+        '14': '45px',
+        '23': ['20px','1.2'],
+        '31': ['31px','1.1'],
+      },
       colors: {
         orange: {
           100: "#fff6f0",
@@ -21,6 +32,7 @@ module.exports = {
           700: "#993d00",
           800: "#662900",
           900: "#331400",
+          1000: "#ff5400",
         },
         purple: {
           100: "#f6f0fe",
@@ -32,7 +44,10 @@ module.exports = {
           700: "#4407a7",
           800: "#2c046c",
           900: "#140231",
-          1000: "#7636EE",
+          1000: "#b121ce",
+        },
+        blu: {
+          100: "#0036ff",
         },
       },
     },
@@ -43,7 +58,7 @@ module.exports = {
         lg: "1.5rem",
         xl: "0",
       },
-    },
+    },    
   },
   variants: {
     display: ["responsive", "group-hover", "hover"],

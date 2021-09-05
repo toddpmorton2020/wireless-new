@@ -218,6 +218,12 @@ const Header = ({ siteTitle }) => {
                       className="ml-2 h-2 transition-transform transform group-hover:rotate-180 duration-300"
                     />
                     <div className="bg-black absolute inset-x-0 bottom-0 transform translate-y-full z-10 flex-col w-64 pt-6 pb-2 hidden group-hover:flex px-4">
+                      <Link
+                        to="/comparison"
+                        className="py-2  hover:text-orange-500"
+                      >
+                        Cinema Comparison
+                      </Link>
                       <span>Timberline Series</span>
                       <Link
                         to="/timberline-cinema-packages/96-jedi-bobcat-cinema"
@@ -258,16 +264,40 @@ const Header = ({ siteTitle }) => {
                     />
                     <div className="bg-black absolute inset-x-0 bottom-0 transform translate-y-full z-10 flex-col w-64 pt-6 pb-2 hidden group-hover:flex">
                       <Link
-                        to="/june-08-press-release"
+                        to="/august-28-press-release"
                         className="py-2 px-4 hover:text-orange-500"
                       >
-                        June 8 Press Release
+                        Aug 28 2021 Press Release
+                      </Link>
+                      <Link
+                        to="/june-30-press-release"
+                        className="py-2 px-4 hover:text-orange-500"
+                      >
+                        June 30 2021 Press Release
+                      </Link>
+                      <Link
+                        to="/january-04-press-release"
+                        className="py-2 px-4 hover:text-orange-500"
+                      >
+                        Jan 04 2021 Press Release
+                      </Link>
+                      <Link
+                        to="/september-10-press-release"
+                        className="py-2 px-4 hover:text-orange-500"
+                      >
+                        Sept 10 2020 Press Release
                       </Link>
                       <Link
                         to="/june-25-bridgton-news-article"
                         className="py-2 px-4 hover:text-orange-500"
                       >
-                        June 25 Bridgton News
+                        June 25 2020 Press Release
+                      </Link>
+                      <Link
+                        to="/june-08-press-release"
+                        className="py-2 px-4 hover:text-orange-500"
+                      >
+                        June 08 2020 Press Release
                       </Link>
                     </div>
                   </span>
