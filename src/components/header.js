@@ -210,14 +210,14 @@ const Header = ({ siteTitle }) => {
                     to="#"
                     className="cursor-pointer ml-12 flex items-center relative group"
                   >
-                    <Link to="#" className="hover:text-orange-500">
+                    <Link to="/comparison" className="hover:text-orange-500">
                       OUTDOOR CINEMAS
                     </Link>{" "}
                     <img
                       src="/downarrow.png"
                       className="ml-2 h-2 transition-transform transform group-hover:rotate-180 duration-300"
                     />
-                    <div className="bg-black absolute inset-x-0 bottom-0 transform translate-y-full z-10 flex-col w-64 pt-6 pb-2 hidden group-hover:flex px-4">
+                    <div className="bg-black absolute inset-x-0 bottom-0 transform translate-y-full z-10 flex-col w-64 pt-6 pb-2 hidden group-hover:flex px-2">
                       <Link
                         to="/comparison"
                         className="py-2  hover:text-orange-500"
