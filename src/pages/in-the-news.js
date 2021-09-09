@@ -6,8 +6,6 @@ import SEO from "../components/seo"
 import "../css/responsive.css"
 import "../css/index.css"
 
-import pressImage from "../images/press-release.png"
-
 function InTheNews() {
   return (
     <Layout>
@@ -29,16 +27,12 @@ function InTheNews() {
               <span className="mx-2">&gt;</span>
               <span to="#">In the News</span>
             </div>
-            <div
-              className="about-image full-bleed-mobile w-full relative bg-cover bg-bottom mobile bg-center first-image mb-6"
-              style={{ backgroundImage: `url(${pressImage})` }}
-            />
-            <div className="mt-8 text-center md:text-left">
-              <h1 className="text-orange-500 text-3xl md:text-5xl leading-none font-medium relative">
+            <div className="xl:mt-8 md:text-left">
+              <h1 className="text-orange-500 text-3xl xl:text-5xl leading-none font-medium relative xl:visible invisible">
                 <span className="text-black">Latest</span> News
               </h1>
-              <h2 className="inline-block md:hidden text-2xl font-thin leading-tight news-subtitle mt-1">
-                The latest
+              <h2 className="text-orange-500 md:hidden text-2xl heading-outdoor-news leading-tight news-subtitle">
+                <span className="text-black">In the</span> News
               </h2>
             </div>
             <div className="mt-8 hidden md:flex">
@@ -225,11 +219,95 @@ function InTheNews() {
               </div>
             </div>
             <div className="mt-8 flex flex-col items-center md:hidden">
-              <Link to="/june-25-bridgton-news-article" className="mb-8">
-                <img src="bridm.png" className="max-w-full" />
+              <Link
+                to="/august-28-press-release"
+                className="cursor-pointer w-35"
+              >
+                <img src="/28-aug" alt="" />
+                <div className="bg-white pt-5 px-3 cursor-pointer rounded-b-lg">
+                  <p className="text-gray-600 text-sm font-semibold">
+                    PRESS RELEASE
+                  </p>
+                  <p className="text-xl font-semibold leading-tight pt-1">
+                    Introducing the new Timberline Outdoor Cinema Series
+                  </p>
+                  <p className="text-gray-600 pt-1 pb-3">August 28, 2021</p>
+                </div>
               </Link>
-              <Link to="/june-08-press-release">
-                <img src="jun8m.png" className="max-w-full" />
+              <Link
+                to="/june-30-press-release"
+                className="pt-10 cursor-pointer w-35"
+              >
+                <img src="/30-june" alt="" />
+                <div className="bg-white pt-5 px-3 cursor-pointer rounded-b-lg">
+                  <p className="text-gray-600 text-sm font-semibold">
+                    PRESS RELEASE
+                  </p>
+                  <p className="text-xl font-semibold leading-tight pt-1">
+                    Wireless Outdoor Cinema Company brings to market first
+                  </p>
+                  <p className="text-gray-600 pt-1 pb-3">June 30, 2021</p>
+                </div>
+              </Link>
+              <Link
+                to="/january-04-press-release"
+                className="pt-10 cursor-pointer w-35"
+              >
+                <img src="/04-jan" alt="" />
+                <div className="bg-white pt-5 px-3 cursor-pointer rounded-b-lg">
+                  <p className="text-gray-600 text-sm font-semibold">
+                    PRESS RELEASE
+                  </p>
+                  <p className="text-xl font-semibold leading-tight pt-1">
+                    Winner announcement of Fantasy Pro Football Challenge
+                  </p>
+                  <p className="text-gray-600 pt-1 pb-3">January 4, 2021</p>
+                </div>
+              </Link>
+              <Link
+                to="/september-10-press-release"
+                className="pt-10 cursor-pointer w-35"
+              >
+                <img src="/10-sept.png" alt="" className="news-image-link" />
+                <div className="bg-white pt-5 px-3 cursor-pointer rounded-b-lg">
+                  <p className="text-gray-600 text-sm font-semibold">
+                    PRESS RELEASE
+                  </p>
+                  <p className="text-xl font-semibold leading-tight pt-1">
+                    107.5 Frank FM Fantasy Pro Football Challenge
+                  </p>
+                  <p className="text-gray-600 pt-1 pb-3">September 10, 2020</p>
+                </div>
+              </Link>
+              <Link
+                to="/june-25-bridgton-news-article"
+                className="pt-10 cursor-pointer w-35"
+              >
+                <img src="/25-june" alt="" />
+                <div className="bg-white pt-5 px-3 cursor-pointer rounded-b-lg">
+                  <p className="text-gray-600 text-sm font-semibold">
+                    BRIDGTON NEWS
+                  </p>
+                  <p className="text-xl font-semibold leading-tight pt-1">
+                    Bring movies and gaming outdoors
+                  </p>
+                  <p className="text-gray-600 pt-1 pb-3">June 25, 2020</p>
+                </div>
+              </Link>
+              <Link
+                to="/june-08-press-release"
+                className="pt-10 cursor-pointer w-35"
+              >
+                <img src="/08-june" alt="" />
+                <div className="bg-white pt-5 px-3 cursor-pointer rounded-b-lg">
+                  <p className="text-gray-600 text-sm font-semibold">
+                    PRESS RELEASE
+                  </p>
+                  <p className="text-xl font-semibold leading-tight pt-1">
+                    Introducing the Wireless Outdoor Cinema Company
+                  </p>
+                  <p className="text-gray-600 pt-1 pb-3">June 8, 2020</p>
+                </div>
               </Link>
             </div>
           </div>

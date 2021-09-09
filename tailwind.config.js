@@ -13,6 +13,9 @@ module.exports = {
       spacing: {
         '18': '5rem',
        },
+      width: {
+        '35': '340px',
+      },
       fontSize: {
         '11': '44px',
         '12': '42px',
@@ -48,6 +51,14 @@ module.exports = {
         },
         blu: {
           100: "#0036ff",
+          200: "#0947c4",
+        },
+        grey: {
+          10: "#101010",
+          100: "#afafaf",
+        },
+        green: {
+          100: "#4c7c07",
         },
       },
     },

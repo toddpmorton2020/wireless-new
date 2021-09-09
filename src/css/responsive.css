@@ -30,6 +30,15 @@
   font-weight: bold;
 }
 
+.press-release-heading {
+  font-size: 29px;
+  line-height: 33px;
+}
+
+.image-text-press {
+  line-height: 16px;
+}
+
 .first-outdoor {
   text-transform: uppercase !important;
 }
