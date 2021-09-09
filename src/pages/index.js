@@ -286,7 +286,7 @@ const IndexPage = ({ location }) => {
                 )}
               </div>
               <div className="banner">
-                <img src="8-june-full.png" />
+                <img src="/banner-home.png" />
               </div>
             </Carousel>
           </div>
