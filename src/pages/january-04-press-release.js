@@ -119,17 +119,24 @@ function Jan04PressRelease() {
               <h2 className="xl:text-31 text-2xl xl:pb-5 pb-4 xl:pt-5 pt-8 press-contact">
                 Press Contact
               </h2>
-              <p className="text-23 text-base contact-det">
+              <p className="xl:text-23 text-base contact-det">
                 Wireless Outdoor Cinema Company
                 <br />
                 Todd Morton – owner
               </p>
-              <p className="text-blue-600 text-23 text-base contact-det">
+              <a
+                className="text-blue-600 xl:text-23 text-base contact-det"
+                href="mailto:todd@wirelessoutdoorcinema.com"
+              >
                 todd@wirelessoutdoorcinema.com
-              </p>
-              <p className="text-23 text-base contact-det phone-color">
+              </a>
+              <br />
+              <a
+                className="xl:text-23 phone-color text-base contact-det"
+                href="tel:207-647-8759"
+              >
                 (207) 647-8759
-              </p>
+              </a>
             </div>
           </div>
         </div>

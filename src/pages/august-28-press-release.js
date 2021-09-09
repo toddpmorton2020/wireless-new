@@ -140,12 +140,19 @@ function Aug28PressRelease() {
                 <br />
                 Todd Morton – owner
               </p>
-              <p className="text-blue-600 xl:text-23 text-base contact-det">
+              <a
+                className="text-blue-600 xl:text-23 text-base contact-det"
+                href="mailto:todd@wirelessoutdoorcinema.com"
+              >
                 todd@wirelessoutdoorcinema.com
-              </p>
-              <p className="xl:text-23 phone-color text-base contact-det">
+              </a>
+              <br />
+              <a
+                className="xl:text-23 phone-color text-base contact-det"
+                href="tel:207-647-8759"
+              >
                 (207) 647-8759
-              </p>
+              </a>
             </div>
           </div>
         </div>
