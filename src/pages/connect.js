@@ -279,13 +279,13 @@ function Connect() {
                     <div>
                       <p>
                         Phone:{" "}
-                        <a className="font-change" href="tel:2076478759">
+                        <a className="font-change" href="tel:207-647-8759">
                           207-647-8759
                         </a>
                       </p>
                       <p>
                         Text:{" "}
-                        <a className="font-change" href="tel:20759529060">
+                        <a className="font-change" href="tel:207-595-2960">
                           207-595-2960
                         </a>
                       </p>

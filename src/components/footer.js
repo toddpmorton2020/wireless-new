@@ -42,14 +42,14 @@ function Footer() {
               className="cursor-pointer flex items-center mb-3 mt-4"
             >
               <img src={`/cell.png`} className="h-5" />
-              <span className="ml-1">(207) 595-2960</span>
+              <span className="ml-2">(207) 595-2960</span>
             </a>
             <a
               href="mailto:todd@wirelessoutdoorcinema.com"
               className="cursor-pointer flex items-center"
             >
               <img src={`/emailwhite.png`} className="h-3" />
-              <span className="ml-1">todd@wirelessoutdoorcinema.com</span>
+              <span className="ml-2">todd@wirelessoutdoorcinema.com</span>
             </a>
           </div>
           <div className="mb-4">

@@ -56,7 +56,7 @@ const questions = [
 function FAQQuestion({ question, answer }) {
   const [open, setOpen] = useState(false)
   let arrowClassName =
-    "w-4 transition-transform transform duration-300 translate-y-1"
+    "w-4 transition-transform transform duration-300 translate-y-1 xl:pt-0 pt-2"
   if (!open) arrowClassName += " -rotate-90"
   else arrowClassName += " rotate-0"
   let answerClassName = "transform duration-300 overflow-hidden"
@@ -64,10 +64,7 @@ function FAQQuestion({ question, answer }) {
   else answerClassName += " closed-answer closed-ps pb-0"
   return (
     <div className="border-t sm:border border-gray-400 sm:bg-white flex flex-row-reverse sm:flex-row sm:mb-3 px-6 pt-6 rounded ">
-      <div
-        className="w-8 cursor-pointer xl:m-0 m-1"
-        onClick={() => setOpen(!open)}
-      >
+      <div className="w-8 cursor-pointer" onClick={() => setOpen(!open)}>
         <img src="/orangearrow.png" className={arrowClassName} />
       </div>
       <div className="flex-1">

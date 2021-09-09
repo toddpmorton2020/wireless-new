@@ -58,26 +58,26 @@ function Sitemap() {
                   <Link to="/in-the-news" className="link mb-2">
                     In the News
                   </Link>
-                  <Link to="/june-08-press-release" className="link mb-2">
-                    > June 08 2020 Press Release
+                  <Link to="/august-28-press-release" className="link mb-2">
+                    > August 28, 2021 Press Release
+                  </Link>
+                  <Link to="/june-30-press-release" className="link mb-2">
+                    > June 30, 2021 Press Release
+                  </Link>
+                  <Link to="/january-04-press-release" className="link mb-2">
+                    > January 04, 2021 Press Release
+                  </Link>
+                  <Link to="/september-10-press-release" className="link mb-2">
+                    > September 10, 2020 Press Release
                   </Link>
                   <Link
                     to="/june-25-bridgton-news-article"
                     className="link mb-2"
                   >
-                    > June 25 2020 Press Release
+                    > June 25, 2020 Press Release
                   </Link>
-                  <Link to="/september-10-press-release" className="link mb-2">
-                    > September 10 2020 Press Release
-                  </Link>
-                  <Link to="/january-04-press-release" className="link mb-2">
-                    > January 04 2021 Press Release
-                  </Link>
-                  <Link to="/june-30-press-release" className="link mb-2">
-                    > June 30 2021 Press Release
-                  </Link>
-                  <Link to="/august-28-press-release" className="link mb-2">
-                    > August 28 2021 Press Release
+                  <Link to="/june-08-press-release" className="link mb-2">
+                    > June 08, 2020 Press Release
                   </Link>
                   <Link to="/faq" className="link mb-2">
                     FAQ
