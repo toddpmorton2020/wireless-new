@@ -37,7 +37,7 @@ const Accessory = () => {
               <div className="md:hidden h-64 w-full full-bleed-mobile max-h-screen relative mt-6 mb-6">
                 <img
                   className="w-full h-full object-cover "
-                  src="/8-june-full.png"
+                  src="/cinema-accessories"
                 />
               </div>
               <h1 className="text-5xl mt-6 heading ">
