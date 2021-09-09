@@ -3,8 +3,9 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import "../css/index.css"
 
-import privacy from '../images/privacy.png'
+import privacy from "../images/privacy.png"
 
 function Privacy() {
   return (
@@ -33,7 +34,7 @@ function Privacy() {
               </h1>
             </div>
             <div className="sm:mt-8">
-              <div className="text-center sm:font-bold text-base sm:text-2xl mt-1 sm:mt-0 news-subtitle">
+              <div className="text-center sm:font-bold text-base sm:text-2xl mt-1 sm:mt-0 news-subtitle hide">
                 <h3>Protecting your private information is our priority</h3>
               </div>
               <div className="mt-6">

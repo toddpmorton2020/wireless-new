@@ -11,6 +11,7 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 import "../css/responsive.css"
+import "../css/index.css"
 
 import connectImage from "../images/todd-wireless-outdoor-cinema.png"
 
@@ -264,7 +265,7 @@ function Connect() {
               <h1 className="text-orange-500 text-5xl leading-none relative heading let-connnect">
                 Let&apos;s <span className="text-black">Connect</span>
               </h1>
-              <h2 className="text-2xl mt-1 leading-tight news-subtitle">
+              <h2 className="text-2xl mt-1 leading-tight news-subtitle hide">
                 Call. Text. Email.
               </h2>
             </div>
@@ -278,6 +279,12 @@ function Connect() {
                     <div>
                       <p>
                         Phone:{" "}
+                        <a className="font-change" href="tel:2076478759">
+                          207-647-8759
+                        </a>
+                      </p>
+                      <p>
+                        Text:{" "}
                         <a className="font-change" href="tel:20759529060">
                           207-595-2960
                         </a>
@@ -305,7 +312,7 @@ function Connect() {
                       <img src="/homeicon.png" className="w-10" />
                     </div>
                     <div>
-                      <p className="font-change">
+                      <p className="font-change leading-tight">
                         Wireless Outdoor Cinema Company
                         <br />
                         PO Box 752

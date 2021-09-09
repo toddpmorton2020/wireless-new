@@ -20,29 +20,31 @@ function About() {
     <Layout>
       <SEO title="About" />
       {/* <div> */}
-        <div className="container mx-auto">
-            <div className="pt-6">
-              <div className="flex items-center text-xs sm:text-sm font-">
-                <Link
-                  to="/"
-                  className="text-blue-600 sm:text-black cursor-pointer"
-                >
-                  Home
-                </Link>
-                <span className="mx-1 sm:mx-2">&gt;</span>
-                <span to="#">About</span>
-            </div>
+      <div className="container mx-auto">
+        <div className="pt-6">
+          <div className="flex items-center text-xs sm:text-sm font-">
+            <Link to="/" className="text-blue-600 sm:text-black cursor-pointer">
+              Home
+            </Link>
+            <span className="mx-1 sm:mx-2">&gt;</span>
+            <span to="#">About</span>
           </div>
         </div>
-        <div className="container mx-auto images-banner">
-            <div
-              className="about-image w-full relative bg-cover bg-bottom mobile bg-center first-image"
-              style={{ backgroundImage: `url(${bannerMobile})` }}
-            />
-          </div>
-        <div className="container mx-auto top-heading">
-            <h1 className="text-orange-500 text-5xl mt-6 heading about-heading"><span className="about">About</span> Todd Morton</h1>
-        </div>
+      </div>
+      <div className="container mx-auto images-banner">
+        <div
+          className="about-image w-full relative bg-cover bg-bottom mobile bg-center first-image"
+          style={{ backgroundImage: `url(${bannerMobile})` }}
+        />
+      </div>
+      <div className="container mx-auto top-heading">
+        <h1 className="text-orange-500 text-5xl mt-6 heading about-heading hide">
+          <span className="about">About</span> Todd Morton
+        </h1>
+        <h1 className="text-orange-500 text-5xl mt-6 heading about-heading">
+          <span className="about">About</span>
+        </h1>
+      </div>
       {/* </div> */}
       <div
         className="about-image w-full relative bg-cover bg-bottom desktop"
@@ -122,13 +124,19 @@ function About() {
           When I built my first outdoor movie theater in my backyard, I knew
           other homeowners would love this as much as I do. Today, I am
           providing big-screen entertainment to homeowners and businesses and
-          passionate about what I do. 
+          passionate about what I do.
           {/* I’m looking forward to helping you reach */}
           {/* your dream of owning the best outdoor movie theater available on the */}
           {/* market. */}
         </div>
-        <img src={signatureWhite} className="h-10 mt-3 mx-auto signature-white" />
-        <img src={signatureBlack} className="h-10 mt-3 mx-auto signature-black" />
+        <img
+          src={signatureWhite}
+          className="h-10 mt-3 mx-auto signature-white"
+        />
+        <img
+          src={signatureBlack}
+          className="h-10 mt-3 mx-auto signature-black"
+        />
       </div>
       <div className="container mx-auto">
         <div className="sm:pt-16 sm:pt-8">
@@ -149,28 +157,25 @@ function About() {
           </p>
           <p className="mb-4">
             I spent over two years testing different outdoor cinema equipment
-            and fine-tuning my outdoor cinema solution. Last year, I
-            developed a simple to use, impressive outdoor movie theater. When I
-            first started testing different projectors and cinematic screens, my
-            first challenge was hanging the screen, aligning it properly, and
-            getting it square. I remember purchasing clothesline rope and
-            hanging it from two trees in my backyard and didn’t like how it
-            looked. Then I tried using adjustable tripod stands, where I found
-            out the first gust of wind would topple over the stands and screen,
-            abruptly stopping the movie experience. And a 150” screen was too
-            heavy for the tripod stands, and the screen would sag. And there was
-            no way I was going to tac the cinematic screen up against my home
-            putting holes into the side of my house.
+            and fine-tuning my outdoor cinema solution. Last year, I developed a
+            simple to use, impressive outdoor movie theater. When I first
+            started testing different projectors and cinematic screens, my first
+            challenge was hanging the screen, aligning it properly, and getting
+            it square. I remember purchasing clothesline rope and hanging it
+            from two trees in my backyard and didn’t like how it looked. Then I
+            tried using adjustable tripod stands, where I found out the first
+            gust of wind would topple over the stands and screen, abruptly
+            stopping the movie experience. And a 150” screen was too heavy for
+            the tripod stands, and the screen would sag. And there was no way I
+            was going to tac the cinematic screen up against my home putting
+            holes into the side of my house.
           </p>
           <p className="mb-4">
             Then I researched the inflatable air screen movie setups, and they
-            looked too much like a carnival attraction – almost like an
-            inflatable bounce house that your kids would use. These are a great
-            solution for large venues. However, the air screens have about a
-            30-45 minute setup, you need an air compressor, patience to blow
-            them up slowly, and they’re expensive. You also have to worry about
-            any neighborhood cats using it to sharpen their claws on and be
-            careful not to puncture any holes in them.
+            seem like a good choice for large venue settings. However, the air
+            screens have about a 30-45 minute setup, and you need a good air
+            compressor and patience to blow them up slowly and then deflate at
+            the end of the movie.
           </p>
           <p>
             I wanted to create a weather-resistant frame that could stay up on
@@ -186,8 +191,8 @@ function About() {
             property.
           </p>
         </div>
-        </div>
-        <div className="no-padding container mx-auto">
+      </div>
+      <div className="no-padding container mx-auto">
         <div
           className="about-image w-full relative bg-cover bg-bottom mt-8 mobile mobile-tree"
           style={{ backgroundImage: `url(${frameMobile})` }}
@@ -198,38 +203,38 @@ function About() {
         style={{ backgroundImage: `url(${frameAbout})` }}
       />
       <div className="container mx-auto">
-          <div className="pt-8">
-            <p className="mb-4">
-              After developing a solid frame system, the next challenge was
-              figuring out how to organize all of my cinema equipment such as the
-              projector, DVD player, streaming media player, digital tuner,
-              transmitter, speakers, and more. I remember using milk crates, then
-              a couple of Home Depot 5 Gallon buckets, and was frustrated with how
-              sloppy and unorganized everything looked. I spent weeks scouring the
-              web to find a solution and found nothing but indoor cart stands you
-              would use in business conference rooms, or the cheap flimsy tripod
-              projector stands that only holds a projector. So I decided to go
-              back to the drawing board, made a few designs for an outdoor
-              projector stand, and started building various models to organize all
-              the equipment.
-            </p>
-            <p className="mb-4">
-              The final result was a beautiful cedar wood projector stand that
-              neatly organized all of my equipment. The projector stand is
-              lightweight, easy to carry, weather-resistant, and it has an
-              adjustable projector shelf to get the proper viewing angle to reach
-              the cinematic screen – the only one of its kind on the market. The
-              cinema equipment stays on the stand and does not need to be removed
-              - similar to an entertainment center inside your home. Store the
-              projector stand with everything on it inside your home, and when you
-              want to have a movie night, carry the stand outside, power it on,
-              and start watching immediately. After the movie, you’ll need to take
-              the projector stand back inside your home, as the cinema equipment
-              is not waterproof.
-            </p>
-          </div>
+        <div className="pt-8">
+          <p className="mb-4">
+            After developing a solid frame system, the next challenge was
+            figuring out how to organize all of my cinema equipment such as the
+            projector, DVD player, streaming media player, digital tuner,
+            transmitter, speakers, and more. I remember using milk crates, then
+            a couple of Home Depot 5 Gallon buckets, and was frustrated with how
+            sloppy and unorganized everything looked. I spent weeks scouring the
+            web to find a solution and found nothing but indoor cart stands you
+            would use in business conference rooms, or the cheap flimsy tripod
+            projector stands that only holds a projector. So I decided to go
+            back to the drawing board, made a few designs for an outdoor
+            projector stand, and started building various models to organize all
+            the equipment.
+          </p>
+          <p className="mb-4">
+            The final result was a beautiful cedar wood projector stand that
+            neatly organized all of my equipment. The projector stand is
+            lightweight, easy to carry, weather-resistant, and it has an
+            adjustable projector shelf to get the proper viewing angle to reach
+            the cinematic screen – the only one of its kind on the market. The
+            cinema equipment stays on the stand and does not need to be removed
+            - similar to an entertainment center inside your home. Store the
+            projector stand with everything on it inside your home, and when you
+            want to have a movie night, carry the stand outside, power it on,
+            and start watching immediately. After the movie, you’ll need to take
+            the projector stand back inside your home, as the cinema equipment
+            is not waterproof.
+          </p>
         </div>
-        <div className="no-padding container mx-auto">
+      </div>
+      <div className="no-padding container mx-auto">
         <div
           className="about-image w-full relative bg-cover bg-bottom mt-8 mobile standMobile"
           style={{ backgroundImage: `url(${standMobile})` }}

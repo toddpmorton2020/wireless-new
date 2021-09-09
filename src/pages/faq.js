@@ -64,7 +64,10 @@ function FAQQuestion({ question, answer }) {
   else answerClassName += " closed-answer closed-ps pb-0"
   return (
     <div className="border-t sm:border border-gray-400 sm:bg-white flex flex-row-reverse sm:flex-row sm:mb-3 px-6 pt-6 rounded ">
-      <div className="w-8 cursor-pointer" onClick={() => setOpen(!open)}>
+      <div
+        className="w-8 cursor-pointer xl:m-0 m-1"
+        onClick={() => setOpen(!open)}
+      >
         <img src="/orangearrow.png" className={arrowClassName} />
       </div>
       <div className="flex-1">
@@ -106,7 +109,7 @@ function FAQ() {
                 FAQ
               </h1>
               <h2 className="news-subtitle sm:text-3xl sm:mt-3 font-thin leading-tight">
-                Search the knowledge base.
+                Search the knowledge base
               </h2>
             </div>
           </div>

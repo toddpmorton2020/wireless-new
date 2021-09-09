@@ -286,7 +286,7 @@ const IndexPage = ({ location }) => {
                 )}
               </div>
               <div className="banner">
-                <img src={Banner} />
+                <img src="8-june-full.png" />
               </div>
             </Carousel>
           </div>
@@ -397,8 +397,8 @@ const IndexPage = ({ location }) => {
                 <div className="w-1/2 float-left">
                   <img src={Gallery1} />
                   <div className="text-lg leading-tight text-center mt-2 feature-text">
-                    <h2 className="mt-4 mb-2 text-lg feature-home-image">
-                      Strongest frame
+                    <h2 className="mt-4 mb-2 text-lg feature-home-image font-medium">
+                      Strongest Frame System
                     </h2>
 
                     <div className="text-black">
@@ -412,8 +412,8 @@ const IndexPage = ({ location }) => {
                     <img src={Gallery2} className="float-right" />
                   </div>
                   <div className="text-lg leading-tight text-center mt-2 feature-text feature-right">
-                    <h2 className="mt-4 mb-2 text-lg feature-home-image">
-                      Projector stand
+                    <h2 className="mt-4 mb-2 text-lg feature-home-image font-medium">
+                      Projector Stand
                     </h2>
                     <div className="text-black">
                       Handcrafted from cedar wood, this outdoor projector stand
@@ -427,8 +427,8 @@ const IndexPage = ({ location }) => {
                 <div className="w-1/2 float-left">
                   <img src={Gallery3} />
                   <div className="text-lg leading-tight text-center mt-2 feature-text">
-                    <h2 className=" mt-4 mb-2 text-lg feature-home-image">
-                      Fastest <br /> setup
+                    <h2 className=" mt-4 mb-2 text-lg feature-home-image font-medium">
+                      Fastest <br /> Setup
                     </h2>
                     <div className="text-black">
                       To attach the cinematic screen to the wooden frame, place
@@ -442,8 +442,8 @@ const IndexPage = ({ location }) => {
                     <img src={Gallery4} className="float-right" />
                   </div>
                   <div className="text-lg leading-tight text-center mt-2 feature-text feature-right">
-                    <h2 className="mt-4 mb-2 text-lg feature-home-image">
-                      Year-round use
+                    <h2 className="mt-4 mb-2 text-lg feature-home-image font-medium">
+                      Year-Round Use
                     </h2>
                     <div className="text-black">
                       Why limit yourself to watch movies only in the summer

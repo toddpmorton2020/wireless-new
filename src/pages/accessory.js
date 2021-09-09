@@ -37,7 +37,7 @@ const Accessory = () => {
               <div className="md:hidden h-64 w-full full-bleed-mobile max-h-screen relative mt-6 mb-6">
                 <img
                   className="w-full h-full object-cover "
-                  src={bannerAccessory}
+                  src="/8-june-full.png"
                 />
               </div>
               <h1 className="text-5xl mt-6 heading ">
@@ -52,7 +52,7 @@ const Accessory = () => {
           />
           <div>
             <div className="mt-3 sm:mt-0 sm:pt-12 container mx-auto">
-              <h2 className="text-xl sm:text-2xl mb-4 news-subtitle">
+              <h2 className="text-xl sm:text-2xl mb-4 news-subtitle hide">
                 Get the most out of your outdoor movie theater
               </h2>
               <p>

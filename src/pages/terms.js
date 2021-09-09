@@ -3,8 +3,9 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import "../css/index.css"
 
-import terms from '../images/terms.png'
+import terms from "../images/terms.png"
 
 function Terms() {
   return (
@@ -27,18 +28,27 @@ function Terms() {
               <img className="w-full h-full object-cover " src={terms} />
             </div>
             <div className="mt-12">
-              <h1 className="heading text-center sm:text-left text-black sm:text-orange-500 heading sm:text-5xl leading-none font-bold relative">
+              <h1 className="heading text-center sm:text-left text-black sm:text-orange-500 heading sm:text-5xl leading-none font-bold relative hide">
                 Terms And{" "}
                 <span className="text-orange-500 sm:text-black block sm:inline">
                   Conditions
                 </span>
               </h1>
+              <h1 className="heading text-center text-black sm:text-orange-500 sm:text-5xl leading-none font-bold relative xl:invisible visible">
+                Terms and{" "}
+                <span className="text-orange-500 sm:text-black">
+                  Conditions
+                </span>
+              </h1>
             </div>
-            <div className="sm:mt-8">
-              <div className="text-center sm:font-bold text-base sm:text-2xl mt-1 sm:mt-0 news-subtitle">
+            <div className="sm:mt-8 xl:mt-0">
+              <div className="text-center sm:font-bold text-base sm:text-2xl mt-1 sm:mt-0 news-subtitle hide">
                 <h3>
-                
-                  Agreement between user &<span className="text-2xl"> www.wirelessoutdoorcinema.com</span>
+                  Agreement between user &
+                  <span className="text-2xl">
+                    {" "}
+                    www.wirelessoutdoorcinema.com
+                  </span>
                 </h3>
               </div>
               <div className="mt-6">
