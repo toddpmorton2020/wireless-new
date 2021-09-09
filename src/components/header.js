@@ -341,6 +341,9 @@ const Header = ({ siteTitle }) => {
                 </span>
                 {openW && (
                   <div className="flex flex-col text-orange-500 py-2 border-t border-gray-600 px-6">
+                    <Link to="/comparison" className="block py-1">
+                      Cinema Comparison
+                    </Link>
                     <span>Timberline Series</span>
                     <Link
                       to="/timberline-cinema-packages/96-jedi-bobcat-cinema"
