@@ -50,7 +50,7 @@ function InTheNews() {
                   <div className="bg-white pt-5 px-5 frame-width cursor-pointer rounded-b-lg">
                     <p className="text-gray-600">Press Release</p>
                     <p className="text-xl leading-tight pt-5 font-bold">
-                      Wireless Outdoor Cinema Company Unveils New Timberline
+                      Wireless Outdoor Cinema Company unveils new Timberline
                       Outdoor Cinema Series Frame System
                     </p>
                     <p className="text-gray-600 pt-5 pb-5">August 28, 2021</p>
@@ -69,7 +69,7 @@ function InTheNews() {
                   <div className="bg-white pt-5 px-5 frame-width cursor-pointer rounded-b-lg">
                     <p className="text-gray-600">Press Release</p>
                     <p className="text-xl leading-tight pt-5 font-bold">
-                      Wireless Outdoor Cinema Company Brings to Market the 1st
+                      Wireless Outdoor Cinema Company brings to market the first
                       Outdoor Cinema Projector Stand
                     </p>
                     <p className="text-gray-600 pt-5 pb-5">June 30, 2021</p>

@@ -37,7 +37,7 @@
   word-spacing: 4px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 450px) {
   .hide {
     display: none;
   }
