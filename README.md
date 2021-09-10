@@ -1,5 +1,5 @@
 
-<p align="center">
+<p align="center" background="black">
   <a>
     <img alt="Gatsby" src="https://www.wirelessoutdoorcinema.com/cinemalogo.png" />
   </a>
