@@ -9,7 +9,6 @@
 
 .quote-box .quote {
   text-align: center;
-
 }
 
 .heading {
@@ -21,7 +20,7 @@
 }
 
 .desktop {
-  display: block
+  display: block;
 }
 
 @media screen and (max-width: 768px) {
@@ -41,5 +40,9 @@
   }
   .first-image {
     margin-top: 1.5rem;
+  }
+  .mobile-padding {
+    padding-left: 24px !important;
+    padding-right: 24px !important;
   }
 }

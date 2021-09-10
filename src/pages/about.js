@@ -21,8 +21,8 @@ function About() {
       <SEO title="About" />
       {/* <div> */}
       <div className="container mx-auto">
-        <div className="pt-6">
-          <div className="flex items-center text-xs sm:text-sm font-">
+        <div className="pt-4">
+          <div className="flex items-center text-xs sm:text-sm breadcrums-margin">
             <Link to="/" className="text-blue-600 sm:text-black cursor-pointer">
               Home
             </Link>
@@ -37,42 +37,41 @@ function About() {
           style={{ backgroundImage: `url(${bannerMobile})` }}
         />
       </div>
-      <div className="container mx-auto top-heading">
-        <h1 className="text-orange-500 text-5xl mt-6 heading about-heading hide">
-          <span className="about">About</span> Todd Morton
-        </h1>
-        <h1 className="text-orange-500 text-5xl mt-6 heading about-heading">
+      <div className="top-heading press-release-padding-1">
+        <h1 className="text-orange-500 text-4xl xl:ml-0 ml-6 mt-6 xl:font-semibold">
           <span className="about">About</span>
         </h1>
       </div>
       {/* </div> */}
-      <div
-        className="about-image w-full relative bg-cover bg-bottom desktop"
-        style={{ backgroundImage: `url(${bannerTodd})` }}
-      />
-
-      <div className="container mx-auto">
-        <div className="sm:pt-16 sm:mt-6">
-          <p className="mb-4">
+      <div className="press-release-padding-1 xl:pt-4 desktop">
+        <img src="/first.png" alt="" />
+        <p className="image-text-color image-text-press-1 text-sm pt-3 ml-2">
+          Todd Morton, owner of the Wireless Outdoor Cinema Company fishing on
+          Woods Pond in Bridgton, ME.
+        </p>
+      </div>
+      <div className="press-release-padding-1 mobile-padding">
+        <div className="sm:pt-16 xl:pt-1 sm:mt-6">
+          <p className="mb-4 xl:ml-2">
             Thank you for taking the time to stop by, and I appreciate your
             interest in learning more about me and what I do. I know your time
             is valuable and have tried to provide interesting and helpful
             content so you can get to know me better.
           </p>
-          <p className="mb-4">
+          <p className="mb-4 xl:ml-2">
             Born in Burlington, VT, and spending time between Vermont and Maine
             growing up, I was fortunate to have a great childhood thanks to my
             wonderful and loving parents. I’m a mix of British, Irish, Scottish,
             French Canadien and have a Capricorn sign born in January.
           </p>
-          <p className="mb-4">
+          <p className="mb-4 xl:ml-2">
             Growing up as a kid, I remember how much I enjoyed being outdoors,
             playing in the woods, watching wildlife, fishing, swimming, hiking,
             and camping outside with my brother and friends in the summer
             months. It was sometimes difficult for my parents to get me back
             inside the house because I loved spending time outdoors.
           </p>
-          <p className="mb-4">
+          <p className="mb-4 xl:ml-2">
             When I was ten years old, I started learning about construction,
             watching my grandfather and father doing miscellaneous projects and
             repairs around the house and camp. I was interested in building
@@ -81,7 +80,7 @@ function About() {
             building waterfront dock systems, decks and repairing things for
             neighbors and friends.
           </p>
-          <p className="mb-4">
+          <p className="mb-4 xl:ml-2">
             During high school, I had an incredible Woodshop Teacher named David
             Tieff, who is a master woodcarver and woodworker. I was inspired by
             his work and took every available woodshop class he offered. Here is
@@ -89,7 +88,7 @@ function About() {
             carve, and apply different types of stains on various wood species.
             I remember always dreaming of having my own woodshop someday.
           </p>
-          <p className="mb-4">
+          <p className="mb-4 xl:ml-2">
             After high school, I took some time off and worked for various home
             builders, and was taught about the building trade. I even helped
             build a couple of log homes, one of which I live in now full-time in
@@ -98,7 +97,14 @@ function About() {
             at Champlain College in Burlington, Vermont, to help with my
             business knowledge.
           </p>
-          <p className="mb-4">
+          <div className="xl:pt-4 desktop">
+            <img src="/second.png" alt="" />
+            <p className="image-text-color image-text-press-1 text-sm pt-3 xl:ml-2">
+              Todd Morton, the Wireless Outdoor Cinema Company owner, preparing
+              cuts on a table saw at his property in Bridgton, ME.
+            </p>
+          </div>
+          <p className="mb-4 xl:pt-5 xl:ml-2">
             Soon after college, I self-taught myself all about the emerging
             internet and built my first website. I then moved into the Internet
             Marketing field and worked for high technology companies building
@@ -109,7 +115,7 @@ function About() {
             Software (the voice-to-text software), a division of Nuance
             Communications – now owned by Microsoft.
           </p>
-          <p>
+          <p className="xl:ml-2">
             After twenty-five years of working in the Internet Marketing field,
             the desire to get back to my roots occupied my thoughts. After a
             considerable company layoff, I decided to take time off from the
@@ -119,7 +125,7 @@ function About() {
           </p>
         </div>
       </div>
-      <div className="quote-box mt-8 sm:mt-16 quote-background">
+      <div className="quote-box mt-8 sm:mt-16 quote-background mobile">
         <div className="container mx-auto text-lg sm:text-3xl leading-tight pt-1 quote py-6 when-build">
           When I built my first outdoor movie theater in my backyard, I knew
           other homeowners would love this as much as I do. Today, I am
@@ -138,9 +144,9 @@ function About() {
           className="h-10 mt-3 mx-auto signature-black"
         />
       </div>
-      <div className="container mx-auto">
-        <div className="sm:pt-16 sm:pt-8">
-          <h2 className="sm:mb-4 text-xl sm:text-2xl font-bold product-title heading-outdoor">
+      <div className="press-release-padding-1 mobile-padding">
+        <div className="sm:pt-16 xl:pt-5 sm:pt-8 xl:ml-2">
+          <h2 className="sm:mb-4 xl:mb-0 text-xl sm:text-2xl font-bold product-title heading-outdoor">
             The Outdoor Cinema <span className="solution-orange">Solution</span>
           </h2>
           <p className="mb-4">
@@ -198,12 +204,16 @@ function About() {
           style={{ backgroundImage: `url(${frameMobile})` }}
         />
       </div>
-      <div
-        className="about-image w-full relative bg-cover bg-bottom mt-8 sm:mt-16 desktop"
-        style={{ backgroundImage: `url(${frameAbout})` }}
-      />
-      <div className="container mx-auto">
-        <div className="pt-8">
+      <div className="press-release-padding-1 xl:pt-8 desktop">
+        <img src="/third.png" alt="" />
+        <p className="image-text-color image-text-press-1 text-sm pt-3 ml-2">
+          New Timberline Outdoor Cinema 150” Big Moose wired option package
+          located on site of the Wireless Outdoor Cinema Company property in
+          Bridgton, ME.
+        </p>
+      </div>
+      <div className="press-release-padding-1 mobile-padding">
+        <div className="pt-8 xl:ml-2">
           <p className="mb-4">
             After developing a solid frame system, the next challenge was
             figuring out how to organize all of my cinema equipment such as the
@@ -240,17 +250,20 @@ function About() {
           style={{ backgroundImage: `url(${standMobile})` }}
         />
       </div>
-      <div
-        className="about-image w-full relative bg-cover bg-bottom mt-8 sm:mt-16 desktop"
-        style={{ backgroundImage: `url(${standAbout})` }}
-      />
-      <div className="container mx-auto thankyou">
-        <div className="pt-8 sm:pt-16">
+      <div className="press-release-padding-1 xl:pt-4 desktop">
+        <img src="/fourth.png" alt="" />
+        <p className="image-text-color image-text-press-1 text-sm pt-3 ml-2">
+          New Outdoor Projector Stand located on site of the Wireless Outdoor
+          Cinema Company property in Bridgton, ME.
+        </p>
+      </div>
+      <div className="press-release-padding-1 mobile-padding thankyou">
+        <div className="pt-8 xl:pt-8 sm:pt-16 xl:ml-2">
           <p className="mb-4">
             Thank you again for stopping by, and don’t hesitate to reach out
             with any questions you may have. I hope we get an opportunity to get
             to know each other and discuss the possibilities of building your
-            dream backyard movie theater someday.
+            dream backyard movie theater someday.
           </p>
           <p className="mb-4">My best,</p>
           <img src={signatureBlack} className="h-10 mb-16" />

@@ -7,6 +7,10 @@
     margin-left: 376px;
     margin-right: 376px;
   }
+  .press-release-padding-1 {
+    margin-left: 388px;
+    margin-right: 388px;
+  }
   .mobile-hide {
     display: none;
   }
@@ -32,6 +36,9 @@
   .image-text-press-1 {
     line-height: 18px;
   }
+  .breadcrums-margin {
+    padding-left: 91px !important;
+  }
 }
 
 .press-main-image {
@@ -40,10 +47,6 @@
 
 .grey-text-spacing {
   word-spacing: 4px;
-}
-
-.breadcrums-margin {
-  padding-left: 91px !important;
 }
 
 @media (max-width: 450px) {
