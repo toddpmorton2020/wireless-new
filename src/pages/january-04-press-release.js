@@ -17,14 +17,14 @@ function Jan04PressRelease() {
       <div className="xl:bg-white bg-grey-10 pb-12">
         <div className="container mx-auto">
           <div className="container-insider">
-            <div className="flex items-center text-sm flex-wrap change xl:text-black text-white">
+            <div className="flex items-center text-sm flex-wrap change xl:text-black text-white breadcrums-margin">
               <Link to="/" className="cursor-pointer">
                 Home
               </Link>
               <span className="mx-2">&gt;</span>
               <Link to="/in-the-news">In the News</Link>
               <span className="mx-2">&gt;</span>
-              <span to="#">January 04 Press Release</span>
+              <span to="#">January 04, 2021 Press Release</span>
             </div>
             <div className="xl:invisible visible text-center">
               <h2 className="text-grey-100 pt-6 grey-text-spacing">
@@ -45,14 +45,25 @@ function Jan04PressRelease() {
               installed at Justin's home in Lewiston, Maine, in May 2021.
             </p>
             <div className="press-release-padding -mt-32 hide">
-              <p className="text-xl">Press Release Announcement</p>
-              <p className="text-xl">January 04, 2021</p>
+              <p className="text-xl image-text-color -mb-1">Press Release</p>
+              <p className="text-xl image-text-color">January 04, 2021</p>
             </div>
             <div>
-              <h1 className="text-14 xl:pt-10 press-release-padding press-line-height hide">
+              <h1 className="main-heading font-semibold xl:pt-6 pt-8 press-release-padding press-line-height hide">
                 Wireless Outdoor Cinema Company Announces Winner to the 107.5
                 Frank FM Fantasy Football Challenge
               </h1>
+            </div>
+            <div className="hide press-release-padding">
+              <h2 className="xl:pt-4 main-image-upper-text">
+                Justin from Lewiston, Maine, was announced the 107.5 Frank Fm
+                Fantasy Pro Football Challenge winner
+              </h2>
+              <img src="/4Jan-Full.png" alt="" className="pt-6" />
+              <p className="image-text-color image-text-press text-sm pt-3">
+                The Wireless Outdoor Cinema 150" Premium Big Moose package was
+                installed at Justin's home in Lewiston, Maine, in May 2021.
+              </p>
             </div>
             <div className="press-release-padding xl:pt-10 pt-6 xl:text-black text-white">
               <p className="xl:text-23 text-base press-text font-extralight pb-5">

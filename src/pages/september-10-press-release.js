@@ -17,14 +17,14 @@ function Sept10PressRelease() {
       <div className="xl:bg-white bg-grey-10 pb-12">
         <div className="container mx-auto">
           <div className="container-insider">
-            <div className="flex items-center text-sm flex-wrap change xl:text-black text-white">
+            <div className="flex items-center text-sm flex-wrap change xl:text-black text-white breadcrums-margin">
               <Link to="/" className="cursor-pointer">
                 Home
               </Link>
               <span className="xl:mx-2 mx-1">&gt;</span>
               <Link to="/in-the-news">In the News</Link>
               <span className="xl:mx-2 mx-1">&gt;</span>
-              <span to="#">September 10 Press Release</span>
+              <span to="#">September 10, 2020 Press Release</span>
             </div>
             <div className="xl:invisible visible text-center">
               <h2 className="text-grey-100 pt-6 grey-text-spacing">
@@ -47,14 +47,27 @@ function Sept10PressRelease() {
               phone on January 4, 2021.
             </p>
             <div className="press-release-padding -mt-40 hide">
-              <p className="text-xl">Press Release Announcement</p>
-              <p className="text-xl">September 10, 2020</p>
+              <p className="text-xl image-text-color -mb-1">Press Release</p>
+              <p className="text-xl image-text-color">September 10, 2020</p>
             </div>
             <div>
-              <h1 className="text-14 xl:pt-10 press-release-padding press-line-height hide">
+              <h1 className="main-heading font-semibold xl:pt-6 pt-8 press-release-padding press-line-height hide">
                 Wireless Outdoor Cinema Company Partners with Binnie Media on
                 Pro Football Challenge
               </h1>
+            </div>
+            <div className="hide press-release-padding">
+              <h2 className="xl:pt-4 main-image-upper-text">
+                The winner of the 107.5 Frank FM Fantasy Pro Football Challenge
+                will receive a Wireless Outdoor Cinema Premium 150" Big Moose
+                Cinema package with installation
+              </h2>
+              <img src="/10Sep-Full.png" alt="" className="pt-6" />
+              <p className="image-text-color image-text-press text-sm pt-3">
+                The Fantasy Pro Football Challenge begins September 10, 2020,
+                and the winner will be announced over the radio and contacted
+                through phone on January 4, 2021.
+              </p>
             </div>
             <div className="press-release-padding xl:pt-10 pt-6 xl:text-black text-white">
               <p className="xl:text-23 text-base press-text font-extralight pb-5">
@@ -123,7 +136,7 @@ function Sept10PressRelease() {
                 notify the winner to schedule the install of the 150” Big Moose
                 Outdoor Cinema.
               </p>
-              <p className="xl:text-23 text-base press-text font-extralight pb-5 xl:-mt-40">
+              <p className="xl:text-23 text-base press-text font-extralight pb-5 text-margin">
                 <strong>About Binnie Media</strong> <br /> Media is Maine and
                 New Hampshire’s largest privately owned and locally managed
                 media company. Between radio, digital, and outdoor advertising

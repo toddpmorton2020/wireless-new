@@ -14,11 +14,18 @@
     display: none;
   }
   .main-heading {
-    font-size: 40px;
+    font-size: 38px;
   }
   .main-image-upper-text {
-    font-size: 16px;
+    font-size: 17px;
+    font-weight: 600;
     line-height: 20px;
+  }
+  .image-text-color {
+    color: #5e5e5e;
+  }
+  .text-margin {
+    margin-top: -230px;
   }
 }
 

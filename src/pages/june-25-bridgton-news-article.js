@@ -16,14 +16,14 @@ function June25PressRelease() {
       <div className="xl:bg-white bg-grey-10 pb-12">
         <div className="container mx-auto">
           <div className="container-insider">
-            <div className="flex items-center text-sm flex-wrap change xl:text-black text-white">
+            <div className="flex items-center text-sm flex-wrap change xl:text-black text-white breadcrums-margin">
               <Link to="/" className="cursor-pointer">
                 Home
               </Link>
               <span className="xl:mx-2 mx-1">&gt;</span>
               <Link to="/in-the-news">In the News</Link>
               <span className="xl:mx-2 mx-1">&gt;</span>
-              <span to="#">June 25 Bridgton News Article</span>
+              <span to="#">June 25, 2020 News Article</span>
             </div>
             <div className="xl:invisible visible text-center">
               <h3 className="text-grey-100 pt-6 grey-text-spacing">
@@ -47,16 +47,27 @@ function June25PressRelease() {
               owner of the Wireless Outdoor Cinema Company
             </p>
             <div className="press-release-padding -mt-40 hide">
-              <p className="text-xl">Press Release Announcement</p>
-              <p className="text-xl">June 25, 2020</p>
-              <p className="text-xl pt-5">
+              <p className="text-xl image-text-color -mb-1">BRIDGTON NEWS</p>
+              <p className="text-xl image-text-color">June 25, 2020</p>
+              <p className="text-xl pt-5 image-text-color">
                 By Wayne E. Rivet – Staff Writer for the Bridgton News
               </p>
             </div>
             <div>
-              <h1 className="text-14 xl:pt-10 press-release-padding press-line-height hide">
+              <h1 className="main-heading font-semibold xl:pt-6 pt-8 press-release-padding press-line-height hide">
                 Bring Movies and Gaming Outdoors
               </h1>
+            </div>
+            <div className="hide press-release-padding">
+              <h2 className="xl:pt-4 main-image-upper-text">
+                Interview with Wayne Rivet from the Bridgton News and Todd
+                Morton, owner of the Wireless Outdoor Cinema Company
+              </h2>
+              <img src="/25June-Full.png" alt="" className="pt-6" />
+              <p className="image-text-color image-text-press text-sm pt-3">
+                Todd Morton, the Wireless Outdoor Cinema Company owner, was
+                interviewed at his home in Bridgton, Maine, on June 20, 2020.
+              </p>
             </div>
             <div className="press-release-padding xl:pt-10 pt-6 xl:text-black text-white">
               <p className="xl:text-23 text-base press-text font-extralight pb-5">

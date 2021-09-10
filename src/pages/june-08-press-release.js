@@ -17,14 +17,14 @@ function June08PressRelease() {
       <div className="xl:bg-white bg-grey-10 pb-12">
         <div className="container mx-auto">
           <div className="container-insider">
-            <div className="flex items-center text-sm flex-wrap change xl:text-black text-white">
+            <div className="flex items-center text-sm flex-wrap change xl:text-black text-white breadcrums-margin">
               <Link to="/" className="cursor-pointer">
                 Home
               </Link>
               <span className="mx-2">&gt;</span>
               <Link to="/in-the-news">In the News</Link>
               <span className="mx-2">&gt;</span>
-              <span to="#">June 8 Press Release</span>
+              <span to="#">June 8, 2020 Press Release</span>
             </div>
             <div className="xl:invisible visible text-center">
               <h2 className="text-grey-100 pt-6 grey-text-spacing">
@@ -45,13 +45,26 @@ function June08PressRelease() {
               Bridgton, Maine.
             </p>
             <div className="press-release-padding -mt-32 hide">
-              <p className="text-xl">Press Release Announcement</p>
-              <p className="text-xl">June 8, 2020</p>
+              <p className="text-xl image-text-color -mb-1">Press Release</p>
+              <p className="text-xl image-text-color">June 8, 2020</p>
             </div>
             <div>
-              <h1 className="text-14 xl:pt-10 press-release-padding press-line-height hide">
+              <h1 className="main-heading font-semibold xl:pt-6 pt-8 press-release-padding press-line-height hide">
                 Introducing the Wireless Outdoor Cinema Company
               </h1>
+            </div>
+            <div className="hide press-release-padding">
+              <h2 className="xl:pt-4 main-image-upper-text">
+                The winner of the 107.5 Frank FM Fantasy Pro Football Challenge
+                will receive a Wireless Outdoor Cinema Premium 150" Big Moose
+                Cinema package with installation
+              </h2>
+              <img src="/8June-Full.png" alt="" className="pt-6" />
+              <p className="image-text-color image-text-press text-sm pt-3">
+                The Fantasy Pro Football Challenge begins September 10, 2020,
+                and the winner will be announced over the radio and contacted
+                through phone on January 4, 2021.
+              </p>
             </div>
             <div className="press-release-padding xl:pt-10 pt-6 xl:text-black text-white">
               <p className="xl:text-23 text-base press-text font-extralight pb-5">

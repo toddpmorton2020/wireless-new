@@ -24,7 +24,7 @@ function Aug28PressRelease() {
               <span className="mx-2">&gt;</span>
               <Link to="/in-the-news">In the News</Link>
               <span className="mx-2">&gt;</span>
-              <span to="#">August 28 Press Release</span>
+              <span to="#">August 28, 2021 Press Release</span>
             </div>
             <div className="xl:invisible visible text-center">
               <h2 className="text-grey-100 pt-6 grey-text-spacing">
@@ -46,8 +46,8 @@ function Aug28PressRelease() {
               beam hardware.
             </p>
             <div className="press-release-padding -mt-32 xl:visible invisible">
-              <p className="text-xl text-grey-10 -mb-1">Press Release</p>
-              <p className="text-xl text-grey-10">August 28, 2021</p>
+              <p className="text-xl image-text-color -mb-1">Press Release</p>
+              <p className="text-xl image-text-color">August 28, 2021</p>
             </div>
             <div>
               <h1 className="main-heading font-semibold xl:pt-6 press-release-padding press-line-height hide">
@@ -59,8 +59,8 @@ function Aug28PressRelease() {
                 New and improved frame system with added stability supports to
                 the base and weather-resistance post and beam hardware
               </h2>
-              <img src="/28Aug-Full.png" alt="" className="pt-10" />
-              <p className="text-grey-100 image-text-press text-sm pt-3">
+              <img src="/28Aug-Full.png" alt="" className="pt-6" />
+              <p className="image-text-color image-text-press text-sm pt-3">
                 The new Timberline Outdoor Cinema Series frame system provides
                 additional base support and durable weather-resistant post and
                 beam hardware.
