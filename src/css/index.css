@@ -8,7 +8,7 @@
     margin-right: 376px;
   }
   .breadcrums-margin {
-    margin-left: 91px;
+    margin-left: 91px !important;
   }
   .mobile-hide {
     display: none;
