@@ -46,7 +46,7 @@ function Aug28PressRelease() {
               beam hardware.
             </p>
             <div className="press-release-padding -mt-32 xl:visible invisible">
-              <p className="text-xl image-text-color -mb-1">Press Release</p>
+              <p className="text-xl image-text-color">Press Release</p>
               <p className="text-xl image-text-color">August 28, 2021</p>
             </div>
             <div>
