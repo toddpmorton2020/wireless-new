@@ -17,7 +17,7 @@ function Aug28PressRelease() {
       <div className="xl:bg-white bg-grey-10 xl:pb-8 pb-12">
         <div className="container mx-auto">
           <div className="container-insider">
-            <div className="flex items-center text-sm flex-wrap change xl:text-black text-white breadcrums-margin">
+            <div className="flex text-sm flex-wrap items-center change xl:text-black text-white breadcrums-margin">
               <Link to="/" className="cursor-pointer">
                 Home
               </Link>

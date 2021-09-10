@@ -7,9 +7,6 @@
     margin-left: 376px;
     margin-right: 376px;
   }
-  .breadcrums-margin {
-    margin-left: 91px !important;
-  }
   .mobile-hide {
     display: none;
   }
@@ -17,7 +14,7 @@
     font-size: 38px;
   }
   .main-image-upper-text {
-    font-size: 19px;
+    font-size: 21px;
     font-weight: 400;
     line-height: 23px;
   }
@@ -38,6 +35,10 @@
 
 .grey-text-spacing {
   word-spacing: 4px;
+}
+
+.breadcrums-margin {
+  padding-left: 91px !important;
 }
 
 @media (max-width: 450px) {
