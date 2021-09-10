@@ -1053,7 +1053,7 @@ const IndexPage = ({ location }) => {
                       </div>
                       <div className="text text-right pd-grid-small ">
                         <h3 className="text-2xl mr-10 font-medium mt-3 mb-1  text-center leading-wide">
-                          #1 Projector Stand
+                          Projector Stand
                         </h3>
                         <p className="text-center text-xl font-sm pd-grid-small ">
                           Handcrafted from cedar wood, this outdoor projector
@@ -1086,7 +1086,7 @@ const IndexPage = ({ location }) => {
                           Year-round Use
                         </h3>
                         <p className="text-center text-xl font-sm pd-grid-small ">
-                          Why limit yourself to watch movies only in the summer
+                          Why limit yourself to movies only in the summer
                           months? These outdoor cinemas were designed for
                           outdoor enjoyment in every season.
                         </p>

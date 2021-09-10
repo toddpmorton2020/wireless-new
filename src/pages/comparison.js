@@ -78,7 +78,7 @@ const Comparison = () => {
                   />
                   <h1 className="py-6 text-31 font-medium">
                     <span className="text-purple-1000">120” Bella Bear</span>
-                    <br /> Backyard Outdoor <br />
+                    <br /> Outdoor <br />
                     Cinema
                   </h1>
                   <hr className="mx-12 border-gray-500" />
