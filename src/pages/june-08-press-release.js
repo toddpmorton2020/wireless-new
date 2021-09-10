@@ -45,7 +45,7 @@ function June08PressRelease() {
               Bridgton, Maine.
             </p>
             <div className="press-release-padding -mt-32 hide">
-              <p className="text-xl image-text-color -mb-1">Press Release</p>
+              <p className="text-xl image-text-color">Press Release</p>
               <p className="text-xl image-text-color">June 8, 2020</p>
             </div>
             <div>

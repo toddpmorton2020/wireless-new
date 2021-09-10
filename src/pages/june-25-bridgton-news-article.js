@@ -47,7 +47,7 @@ function June25PressRelease() {
               owner of the Wireless Outdoor Cinema Company
             </p>
             <div className="press-release-padding -mt-40 hide">
-              <p className="text-xl image-text-color -mb-1">BRIDGTON NEWS</p>
+              <p className="text-xl image-text-color">BRIDGTON NEWS</p>
               <p className="text-xl image-text-color">June 25, 2020</p>
               <p className="text-xl pt-5 image-text-color">
                 By Wayne E. Rivet – Staff Writer for the Bridgton News

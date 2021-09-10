@@ -47,7 +47,7 @@ function Sept10PressRelease() {
               phone on January 4, 2021.
             </p>
             <div className="press-release-padding -mt-40 hide">
-              <p className="text-xl image-text-color -mb-1">Press Release</p>
+              <p className="text-xl image-text-color">Press Release</p>
               <p className="text-xl image-text-color">September 10, 2020</p>
             </div>
             <div>

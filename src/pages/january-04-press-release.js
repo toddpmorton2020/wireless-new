@@ -45,7 +45,7 @@ function Jan04PressRelease() {
               installed at Justin's home in Lewiston, Maine, in May 2021.
             </p>
             <div className="press-release-padding -mt-32 hide">
-              <p className="text-xl image-text-color -mb-1">Press Release</p>
+              <p className="text-xl image-text-color">Press Release</p>
               <p className="text-xl image-text-color">January 04, 2021</p>
             </div>
             <div>

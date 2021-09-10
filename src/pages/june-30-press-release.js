@@ -46,7 +46,7 @@ function June30PressRelease() {
               on a lightweight, easy-to-carry cedar wood stand.
             </p>
             <div className="press-release-padding -mt-40 hide">
-              <p className="text-xl image-text-color -mb-1">Press Release</p>
+              <p className="text-xl image-text-color">Press Release</p>
               <p className="text-xl image-text-color">June 30, 2021</p>
             </div>
             <div>
