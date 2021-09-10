@@ -87,7 +87,7 @@ function FAQ() {
       <div className="gray-back pb-8">
         <div className="container mx-auto">
           <div className="md:px-8 change">
-            <div className="flex flex-wrap items-center text-sm">
+            <div className="flex flex-wrap items-center text-sm xl:pt-3">
               <Link
                 to="/"
                 className="text-blue-600 sm:text-black cursor-pointer"
