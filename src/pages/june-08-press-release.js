@@ -61,9 +61,8 @@ function June08PressRelease() {
               </h2>
               <img src="/8June-Full.png" alt="" className="pt-6" />
               <p className="image-text-color image-text-press text-sm pt-3">
-                The Fantasy Pro Football Challenge begins September 10, 2020,
-                and the winner will be announced over the radio and contacted
-                through phone on January 4, 2021.
+                Property of the Wireless Outdoor Cinema Company located in
+                Bridgton, Maine.
               </p>
             </div>
             <div className="press-release-padding xl:pt-10 pt-6 xl:text-black text-white">

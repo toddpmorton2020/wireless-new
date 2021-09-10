@@ -30,8 +30,8 @@ const Comparison = () => {
               </div>
               <div>
                 <h1 className="xl:text-5xl text-3xl text-center pt-4">
-                  <span className="text-orange-500">Compare</span> Timberline
-                  Outdoor Cinemas
+                  <span className="text-orange-500">Compare</span> timberline
+                  outdoor cinemas
                 </h1>
                 <p className="xl:text-2xl text-xl text-center">
                   Get help choosing which cinema is best for you.{" "}
