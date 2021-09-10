@@ -17,8 +17,8 @@
     font-size: 38px;
   }
   .main-image-upper-text {
-    font-size: 17px;
-    font-weight: 600;
+    font-size: 19px;
+    font-weight: 400;
     line-height: 20px;
   }
   .image-text-color {
@@ -26,6 +26,9 @@
   }
   .text-margin {
     margin-top: -230px;
+  }
+  .image-text-press-1 {
+    line-height: 18px;
   }
 }
 

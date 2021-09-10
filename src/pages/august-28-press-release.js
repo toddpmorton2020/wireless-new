@@ -60,7 +60,7 @@ function Aug28PressRelease() {
                 the base and weather-resistance post and beam hardware
               </h2>
               <img src="/28Aug-Full.png" alt="" className="pt-6" />
-              <p className="image-text-color image-text-press text-sm pt-3">
+              <p className="image-text-color image-text-press-1 text-sm pt-3">
                 The new Timberline Outdoor Cinema Series frame system provides
                 additional base support and durable weather-resistant post and
                 beam hardware.
