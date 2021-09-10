@@ -134,7 +134,7 @@ function InTheNews() {
                     <div className="ml-6 flex flex-col justify-between text-lg">
                       <h4 className="text-gray-600">Press Release</h4>
                       <h3 className="text-gray-800 font-bold press-release-lineHeight">
-                        Wireless Outdoor Cinema Company Brings to Market ...
+                        Wireless Outdoor Cinema Company brings to market ...
                       </h3>
                       <h4 className="text-gray-600 font-thin">June 30, 2021</h4>
                     </div>
