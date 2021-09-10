@@ -54,13 +54,13 @@ function Aug28PressRelease() {
                 Wireless Outdoor Cinema Company Announces new Timberline Series
               </h1>
             </div>
-            <div className="xl:visible invisible press-release-padding">
+            <div className="hide press-release-padding">
               <h2 className="xl:pt-4 main-image-upper-text">
                 New and improved frame system with added stability supports to
                 the base and weather-resistance post and beam hardware
               </h2>
               <img src="/28Aug-Full.png" alt="" className="pt-10" />
-              <p className="text-grey-100 image-text-press text-sm xl:visible invisible pt-3">
+              <p className="text-grey-100 image-text-press text-sm pt-3">
                 The new Timberline Outdoor Cinema Series frame system provides
                 additional base support and durable weather-resistant post and
                 beam hardware.
