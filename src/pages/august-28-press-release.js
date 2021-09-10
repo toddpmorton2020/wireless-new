@@ -17,7 +17,7 @@ function Aug28PressRelease() {
       <div className="xl:bg-white bg-grey-10 xl:pb-8 pb-12">
         <div className="container mx-auto">
           <div className="container-insider">
-            <div className="flex items-center text-sm flex-wrap change xl:text-black text-white">
+            <div className="flex items-center text-sm flex-wrap change xl:text-black text-white breadcrums-margin">
               <Link to="/" className="cursor-pointer">
                 Home
               </Link>
@@ -46,15 +46,27 @@ function Aug28PressRelease() {
               beam hardware.
             </p>
             <div className="press-release-padding -mt-32 xl:visible invisible">
-              <p className="text-xl">Press Release Announcement</p>
-              <p className="text-xl">August 28, 2021</p>
+              <p className="text-xl text-grey-10 -mb-1">Press Release</p>
+              <p className="text-xl text-grey-10">August 28, 2021</p>
             </div>
             <div>
-              <h1 className="text-14 xl:pt-10 press-release-padding press-line-height hide">
+              <h1 className="main-heading font-semibold xl:pt-6 press-release-padding press-line-height hide">
                 Wireless Outdoor Cinema Company Announces new Timberline Series
               </h1>
             </div>
-            <div className="press-release-padding xl:pt-10 pt-24 xl:text-black text-white">
+            <div className="xl:visible invisible press-release-padding">
+              <h2 className="xl:pt-4 main-image-upper-text">
+                New and improved frame system with added stability supports to
+                the base and weather-resistance post and beam hardware
+              </h2>
+              <img src="/28Aug-Full.png" alt="" className="pt-10" />
+              <p className="text-grey-100 image-text-press text-sm xl:visible invisible pt-3">
+                The new Timberline Outdoor Cinema Series frame system provides
+                additional base support and durable weather-resistant post and
+                beam hardware.
+              </p>
+            </div>
+            <div className="press-release-padding xl:pt-10 pt-0 xl:text-black text-white margin-top-mobile">
               <p className="xl:text-23 text-base font-extralight pb-5 press-text">
                 <strong>
                   BRIDGTON, MAINE – August 28, 2021 – The Wireless Outdoor

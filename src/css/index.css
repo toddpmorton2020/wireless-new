@@ -2,10 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
-@media (min-width: 1024px) {
+@media screen and (min-width: 1280px) {
   .press-release-padding {
-    margin-left: 207px;
-    margin-right: 207px;
+    margin-left: 376px;
+    margin-right: 376px;
+  }
+  .breadcrums-margin {
+    margin-left: 91px;
+  }
+  .mobile-hide {
+    display: none;
+  }
+  .main-heading {
+    font-size: 40px;
+  }
+  .main-image-upper-text {
+    font-size: 16px;
+    line-height: 20px;
   }
 }
 
@@ -37,6 +50,9 @@
   .news-image-link {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+  }
+  .margin-top-mobile {
+    margin-top: -290px;
   }
 }
 
