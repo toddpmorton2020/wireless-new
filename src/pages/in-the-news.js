@@ -49,7 +49,7 @@ function InTheNews() {
                   />
                   <div className="bg-white pt-5 px-5 frame-width cursor-pointer rounded-b-lg">
                     <p className="text-gray-600">Press Release</p>
-                    <p className="text-xl leading-tight pt-5">
+                    <p className="text-xl leading-tight pt-5 font-bold">
                       Wireless Outdoor Cinema Company Unveils New Timberline
                       Outdoor Cinema Series Frame System
                     </p>
@@ -68,7 +68,7 @@ function InTheNews() {
                   />
                   <div className="bg-white pt-5 px-5 frame-width cursor-pointer rounded-b-lg">
                     <p className="text-gray-600">Press Release</p>
-                    <p className="text-xl leading-tight pt-5">
+                    <p className="text-xl leading-tight pt-5 font-bold">
                       Wireless Outdoor Cinema Company Brings to Market the 1st
                       Outdoor Cinema Projector Stand
                     </p>
