@@ -66,7 +66,7 @@ function Aug28PressRelease() {
                 beam hardware.
               </p>
             </div>
-            <div className="press-release-padding xl:pt-10 pt-0 xl:text-black text-white margin-top-mobile">
+            <div className="press-release-padding xl:pt-10 pt-24 xl:text-black text-white">
               <p className="xl:text-23 text-base font-extralight pb-5 press-text">
                 <strong>
                   BRIDGTON, MAINE – August 28, 2021 – The Wireless Outdoor
