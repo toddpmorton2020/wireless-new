@@ -59,12 +59,12 @@ function June25PressRelease() {
               </h1>
             </div>
             <div className="hide press-release-padding">
-              <h2 className="xl:pt-4 main-image-upper-text">
+              <h2 className="xl:pt-4 main-image-upper-text-1">
                 Interview with Wayne Rivet from the Bridgton News and Todd
                 Morton, owner of the Wireless Outdoor Cinema Company
               </h2>
               <img src="/25June-Full.png" alt="" className="pt-6" />
-              <p className="image-text-color image-text-press text-sm pt-3">
+              <p className="image-text-color image-text-press-1 text-sm pt-3">
                 Todd Morton, the Wireless Outdoor Cinema Company owner, was
                 interviewed at his home in Bridgton, Maine, on June 20, 2020.
               </p>

@@ -55,12 +55,12 @@ function Jan04PressRelease() {
               </h1>
             </div>
             <div className="hide press-release-padding">
-              <h2 className="xl:pt-4 main-image-upper-text">
+              <h2 className="xl:pt-4 main-image-upper-text-1">
                 Justin from Lewiston, Maine, was announced the 107.5 Frank Fm
                 Fantasy Pro Football Challenge winner
               </h2>
               <img src="/4Jan-Full.png" alt="" className="pt-6" />
-              <p className="image-text-color image-text-press text-sm pt-3">
+              <p className="image-text-color image-text-press-1 text-sm pt-3">
                 The Wireless Outdoor Cinema 150" Premium Big Moose package was
                 installed at Justin's home in Lewiston, Maine, in May 2021.
               </p>

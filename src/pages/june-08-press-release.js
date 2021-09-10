@@ -54,13 +54,13 @@ function June08PressRelease() {
               </h1>
             </div>
             <div className="hide press-release-padding">
-              <h2 className="xl:pt-4 main-image-upper-text">
+              <h2 className="xl:pt-4 main-image-upper-text-1">
                 The winner of the 107.5 Frank FM Fantasy Pro Football Challenge
                 will receive a Wireless Outdoor Cinema Premium 150" Big Moose
                 Cinema package with installation
               </h2>
               <img src="/8June-Full.png" alt="" className="pt-6" />
-              <p className="image-text-color image-text-press text-sm pt-3">
+              <p className="image-text-color image-text-press-1 text-sm pt-3">
                 Property of the Wireless Outdoor Cinema Company located in
                 Bridgton, Maine.
               </p>

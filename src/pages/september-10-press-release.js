@@ -57,13 +57,13 @@ function Sept10PressRelease() {
               </h1>
             </div>
             <div className="hide press-release-padding">
-              <h2 className="xl:pt-4 main-image-upper-text">
+              <h2 className="xl:pt-4 main-image-upper-text-1">
                 The winner of the 107.5 Frank FM Fantasy Pro Football Challenge
                 will receive a Wireless Outdoor Cinema Premium 150" Big Moose
                 Cinema package with installation
               </h2>
               <img src="/10Sep-Full.png" alt="" className="pt-6" />
-              <p className="image-text-color image-text-press text-sm pt-3">
+              <p className="image-text-color image-text-press-1 text-sm pt-3">
                 The Fantasy Pro Football Challenge begins September 10, 2020,
                 and the winner will be announced over the radio and contacted
                 through phone on January 4, 2021.

@@ -56,13 +56,13 @@ function June30PressRelease() {
               </h1>
             </div>
             <div className="hide press-release-padding">
-              <h2 className="xl:pt-4 main-image-upper-text">
+              <h2 className="xl:pt-4 main-image-upper-text-1">
                 After a year of product development and testing, the Wireless
                 Outdoor Cinema Company introduces the first outdoor projector
                 stand to the retail market
               </h2>
               <img src="/30June-Full.png" alt="" className="pt-6" />
-              <p className="image-text-color image-text-press text-sm pt-3">
+              <p className="image-text-color image-text-press-1 text-sm pt-3">
                 The new Outdoor Projector Stand organizes all cinema electronics
                 on a lightweight, easy-to-carry cedar wood stand.
               </p>
