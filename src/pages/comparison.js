@@ -16,8 +16,8 @@ const Comparison = () => {
         <div>
           <div>
             <div className="container mx-auto">
-              <div className="sm:pt-6 change">
-                <div className="flex items-center sm:text-sm text-sm">
+              <div className="sm:pt-6 xl:pt-4 change">
+                <div className="flex items-center sm:text-sm text-sm breadcrums-margin">
                   <Link
                     to="/"
                     className="text-blue-600 sm:text-black cursor-pointer"
@@ -29,11 +29,11 @@ const Comparison = () => {
                 </div>
               </div>
               <div>
-                <h1 className="xl:text-5xl text-3xl text-center pt-4">
-                  <span className="text-orange-500">Compare</span> timberline
-                  outdoor cinemas
+                <h1 className="xl:text-5xl text-3xl text-center xl:mt-6">
+                  <span className="text-orange-500">Compare</span> Timberline
+                  Outdoor Cinemas
                 </h1>
-                <p className="xl:text-2xl text-xl text-center">
+                <p className="xl:text-3xl text-xl text-center">
                   Get help choosing which cinema is best for you.{" "}
                   <span
                     className="text-blu-100 cursor-pointer"
@@ -78,7 +78,8 @@ const Comparison = () => {
                   />
                   <h1 className="py-6 text-31 font-medium">
                     <span className="text-purple-1000">120” Bella Bear</span>
-                    <br /> Outdoor <br />
+                    <br />
+                    Backyard Outdoor <br />
                     Cinema
                   </h1>
                   <hr className="mx-12 border-gray-500" />

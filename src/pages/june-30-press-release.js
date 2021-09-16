@@ -16,7 +16,7 @@ function June30PressRelease() {
 
       <div className="xl:bg-white bg-grey-10 pb-12">
         <div className="container mx-auto">
-          <div className="container-insider">
+          <div className="xl:pt-4">
             <div className="flex items-center text-sm flex-wrap change xl:text-black text-white breadcrums-margin">
               <Link to="/" className="cursor-pointer">
                 Home

@@ -43,8 +43,8 @@
   text-transform: uppercase !important;
 }
 .attaching-gaming {
-  text-transform: uppercase !important;
-  font-weight: bold;
+  /* text-transform: capitalize !important; */
+  font-weight: 500;
 }
 .watch-netflix {
   margin-bottom: 1.5rem;
@@ -217,8 +217,7 @@
     padding: 0px !important;
   }
   .news-subtitle {
-    font-size: 1.75rem;
-    line-height: 1.2;
+    line-height: 10px;
   }
   .full-bleed-mobile {
     position: relative;

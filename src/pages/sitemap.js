@@ -12,8 +12,8 @@ function Sitemap() {
       <SEO title="Sitemap" />
       <div className="gray-back pb-24">
         <div className="container mx-auto">
-          <div className="md:px-8 sm:py-6 change">
-            <div className="flex flex-wrap items-center text-sm">
+          <div className="sm:py-6 xl:pt-4 change">
+            <div className="flex flex-wrap items-center text-sm breadcrums-margin">
               <Link
                 to="/"
                 className="text-blue-600 sm:text-black cursor-pointer"
@@ -26,13 +26,13 @@ function Sitemap() {
             <div className="md:hidden h-64 w-full full-bleed-mobile max-h-screen relative mt-6 mb-6">
               <img className="w-full h-full object-cover " src={sitemap} />
             </div>
-            <div className="mt-12">
-              <h1 className="heading text-center sm:text-left text-black sm:text-orange-500 text-4xl sm:text-5xl  leading-none font-bold heading relative">
+            <div className="mt-8 xl:px-6">
+              <h1 className="text-center sm:text-left text-black sm:text-orange-500 text-4xl xl:text-5xl leading-none relative">
                 Site <span className="text-orange-500 sm:text-black">Map</span>
               </h1>
             </div>
-            <div className="sm:mt-8">
-              <div className="text-center sm:font-bold text-base sm:text-2xl mt-1 sm:mt-0 news-subtitle">
+            <div className="sm:mt-8 xl:px-6">
+              <div className="xl:text-3xl text-base sm:text-2xl xl:-mt-6 sm:mt-0 news-subtitle">
                 <h3>Search Engines Crawl Away</h3>
               </div>
               <div className="mt-6">
@@ -40,52 +40,58 @@ function Sitemap() {
                   <h3>Pages</h3>
                 </div>
                 <div className="flex flex-col mt-4">
-                  <Link to="/" className="link mb-2">
+                  <Link to="/" className="link mb-1">
                     Home
                   </Link>
-                  <Link to="/72-jedi-bobcat-cinema" className="link mb-2">
+                  <Link to="/about" className="link mb-1">
+                    About
+                  </Link>
+                  <Link to="/comparison" className="link mb-1">
+                    Cinema Comparison
+                  </Link>
+                  <Link to="/timberline-cinema-packages/96-jedi-bobcat-cinema" className="link mb-1">
                     96" Jedi Bobcat Wireless Outdoor Cinema
                   </Link>
-                  <Link to="/120-bella-bear-cinema" className="link mb-2">
+                  <Link to="/timberline-cinema-packages/120-bella-bear-cinema" className="link mb-1">
                     120" Bella Bear Wireless Outdoor Cinema
                   </Link>
-                  <Link to="/150-big-moose-cinema" className="link mb-2">
+                  <Link to="/timberline-cinema-packages/150-big-moose-cinema" className="link mb-1">
                     150" Big Moose Wireless Outdoor Cinema
                   </Link>
-                  <Link to="/accessory" className="link mb-2">
+                  <Link to="/accessory" className="link mb-1">
                     Outdoor Cinema Accessories
                   </Link>
-                  <Link to="/in-the-news" className="link mb-2">
+                  <Link to="/in-the-news" className="link mb-1">
                     In the News
                   </Link>
-                  <Link to="/august-28-press-release" className="link mb-2">
+                  <Link to="/august-28-press-release" className="link mb-1">
                     > August 28, 2021 Press Release
                   </Link>
-                  <Link to="/june-30-press-release" className="link mb-2">
+                  <Link to="/june-30-press-release" className="link mb-1">
                     > June 30, 2021 Press Release
                   </Link>
-                  <Link to="/january-04-press-release" className="link mb-2">
+                  <Link to="/january-04-press-release" className="link mb-1">
                     > January 04, 2021 Press Release
                   </Link>
-                  <Link to="/september-10-press-release" className="link mb-2">
+                  <Link to="/september-10-press-release" className="link mb-1">
                     > September 10, 2020 Press Release
                   </Link>
                   <Link
                     to="/june-25-bridgton-news-article"
-                    className="link mb-2"
+                    className="link mb-1"
                   >
                     > June 25, 2020 Press Release
                   </Link>
-                  <Link to="/june-08-press-release" className="link mb-2">
+                  <Link to="/june-08-press-release" className="link mb-1">
                     > June 08, 2020 Press Release
                   </Link>
-                  <Link to="/faq" className="link mb-2">
+                  <Link to="/faq" className="link mb-1">
                     FAQ
                   </Link>
-                  <Link to="/connect" className="link mb-2">
+                  <Link to="/connect" className="link mb-1">
                     Connect
                   </Link>
-                  <Link to="/sitemap" className="link mb-2">
+                  <Link to="/sitemap" className="link mb-1">
                     Sitemap
                   </Link>
                 </div>

@@ -2,14 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-@media screen and (min-width: 1240px) {
+@media screen and (min-width: 1340px) {
   .press-release-padding {
     margin-left: 376px;
     margin-right: 376px;
   }
   .press-release-padding-1 {
-    margin-left: 388px;
-    margin-right: 388px;
+    margin-left: 400px;
+    margin-right: 400px;
   }
   .mobile-hide {
     display: none;
@@ -37,8 +37,44 @@
     line-height: 18px;
   }
   .breadcrums-margin {
-    padding-left: 91px !important;
+    padding-left: 28px !important;
   }
+  .accessory-padding {
+    padding-left: 9rem;
+    padding-right: 9rem;
+  }
+  .acc-margin {
+    margin-left: 8.5rem;
+  }
+  .acc-line-height {
+    line-height: 34px;
+  }
+  .connect-padding {
+    padding-left: 1.5rem;
+    padding-right: 7rem;
+  }
+  .terms-padding {
+    padding-right: 83px;
+  }
+  .privacy-padding {
+    padding-right: 78px;
+  }
+  .term-margin-heading {
+    margin-left: 310px;
+  }
+  .term-margin-subHeading {
+    margin-left: 145px;
+  }
+  .privacy-margin-heading {
+    margin-left: 382px;
+  }
+  .privacy-margin-subHeading {
+    margin-left: 215px;
+  }
+}
+
+.home-grid-width {
+  width: 13.75rem;
 }
 
 .press-main-image {

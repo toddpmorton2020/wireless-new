@@ -16,7 +16,7 @@ function June08PressRelease() {
 
       <div className="xl:bg-white bg-grey-10 pb-12">
         <div className="container mx-auto">
-          <div className="container-insider">
+          <div className="xl:pt-4">
             <div className="flex items-center text-sm flex-wrap change xl:text-black text-white breadcrums-margin">
               <Link to="/" className="cursor-pointer">
                 Home
@@ -55,9 +55,8 @@ function June08PressRelease() {
             </div>
             <div className="hide press-release-padding">
               <h2 className="xl:pt-4 main-image-upper-text-1">
-                The winner of the 107.5 Frank FM Fantasy Pro Football Challenge
-                will receive a Wireless Outdoor Cinema Premium 150" Big Moose
-                Cinema package with installation
+                Providing homeowners and businesses with a unique wireless
+                outdoor movie experience
               </h2>
               <img src="/8June-Full.png" alt="" className="pt-6" />
               <p className="image-text-color image-text-press-1 text-sm pt-3">

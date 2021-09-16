@@ -15,7 +15,7 @@ function ProductSection({ title, content }) {
           className="flex justify-between md:justify-start items-center"
           onClick={() => setOpen(!open)}
         >
-          <h2 className="text-xl md:text-3xl uppercase font-thin flex-1 sm:flex-initial">
+          <h2 className="text-xl md:text-3xl font-thin flex-1 sm:flex-initial">
             {title}
           </h2>
           <img

@@ -217,11 +217,11 @@ function Footer() {
               <img src={`/cinemalogo.png`} className="h-12" />
             </Link>
             <p className="mt-3 pl-0" style={{ textAlign: "left" }}>
-              Create unforgettable memories "year-round" with a Wireless Outdoor
-              Cinema. Watch your favorite shows by connecting your Smartphone,
-              Tablet, Laptop, DVD Player, Gaming console, Roku, Fire TV Stick,
-              Google Chromecast, and more to the HD Projector. A unique Drive-in
-              movie experience in the privacy of your backyard.
+              Turn your backyard into an exciting outdoor movie theater. Watch
+              big-screen movies, sporting events, play video games, and stream
+              your favorite shows with family and friends outside under the
+              stars and moon. A unique Drive-in movie experience in the privacy
+              of your backyard.
             </p>
           </div>
         </div>
@@ -244,11 +244,11 @@ function Footer() {
               Quick Links
             </h5>
             <div className="flex flex-col footer-links-align">
-              <Link to="/#about" className="flex items-center">
+              <Link to="/about" className="flex items-center">
                 <img src="/arrowright.png" className="h-3 mr-3" />
                 About
               </Link>
-              <Link to="/#cinema-packages" className="flex items-center">
+              <Link to="/comparison" className="flex items-center">
                 <img src="/arrowright.png" className="h-3 mr-3" />
                 Cinema Packages
               </Link>
@@ -319,7 +319,7 @@ function Footer() {
               Terms of Use
             </Link>{" "}
             <span className="mx-1">|</span> <Link to="/privacy">Privacy</Link>{" "}
-            <span className="mx-1">|</span> <Link to="/sitemap">Sitemap</Link>
+            <span className="mx-1">|</span> <Link to="/sitemap">Site Map</Link>
           </span>
         </div>
         <div className="flex items-center justify-center hidden lg:hidden">

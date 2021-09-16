@@ -16,8 +16,8 @@ function InTheNews() {
       />
       <div className="gray-back pb-20">
         <div className="container mx-auto">
-          <div className="md:px-8">
-            <div className="flex flex-wrap items-center text-sm change pt-5">
+          <div className="xl:pt-4">
+            <div className="flex flex-wrap items-center text-sm change breadcrums-margin">
               <Link
                 to="/"
                 className="text-blue-600 sm:text-black cursor-pointer"
@@ -27,7 +27,7 @@ function InTheNews() {
               <span className="mx-2">&gt;</span>
               <span to="#">In the News</span>
             </div>
-            <div className="xl:mt-8 md:text-left">
+            <div className="xl:mt-8 md:text-left xl:px-6">
               <h1 className="text-orange-500 text-3xl xl:text-5xl leading-none font-medium relative xl:visible invisible">
                 <span className="text-black">Latest</span> News
               </h1>
@@ -35,7 +35,7 @@ function InTheNews() {
                 <span className="text-black">In the</span> News
               </h2>
             </div>
-            <div className="mt-8 hidden md:flex">
+            <div className="mt-8 hidden md:flex xl:px-6">
               <div className="w-7/12 pr-12 block">
                 <div
                   className="cursor-pointer"

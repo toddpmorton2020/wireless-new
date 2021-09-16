@@ -86,8 +86,8 @@ function FAQ() {
       <SEO title="FAQ" description="Search the knowledge base." />
       <div className="gray-back pb-8">
         <div className="container mx-auto">
-          <div className="md:px-8 change">
-            <div className="flex flex-wrap items-center text-sm xl:pt-3">
+          <div className="xl:pt-4">
+            <div className="flex flex-wrap items-center text-sm breadcrums-margin">
               <Link
                 to="/"
                 className="text-blue-600 sm:text-black cursor-pointer"
@@ -101,8 +101,8 @@ function FAQ() {
               className="about-image full-bleed-mobile w-full relative bg-cover bg-bottom mobile bg-center first-image mb-6"
               style={{ backgroundImage: `url(${faqImage})` }}
             />
-            <div className="mt-12 text-center sm:text-left">
-              <h1 className="text-black sm:text-orange-500 text-3xl sm:text-5xl leading-none font-bold uppercase relative heading">
+            <div className="text-center sm:text-left xl:px-32">
+              <h1 className="text-black sm:text-orange-500 text-3xl xl:text-5xl leading-none uppercase relative xl:mt-8">
                 FAQ
               </h1>
               <h2 className="news-subtitle sm:text-3xl sm:mt-3 font-thin leading-tight">
@@ -114,7 +114,7 @@ function FAQ() {
         <div className="sm:container mx-auto">
           <div className="md:px-8 py-6">
             <div className="sm:mt-8">
-              <div className="text-center hidden sm:block">
+              {/* <div className="text-center hidden sm:block">
                 <h1 className="text-3xl text-gray-800 font-bold">FAQS</h1>
                 <p className="text-lg">
                   If you can't find what you&apos;re looking for, try{" "}
@@ -123,7 +123,7 @@ function FAQ() {
                   </Link>
                   .
                 </p>
-              </div>
+              </div> */}
               <div className="sm:mt-8 mx-auto w-full max-w-screen-lg">
                 {questions.map((q, index) => (
                   <FAQQuestion

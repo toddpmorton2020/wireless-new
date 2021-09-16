@@ -678,7 +678,7 @@ const IndexPage = ({ location }) => {
                 </h1>
                 <h2 className="text-lg mt-2 leading-tight text-white">
                   Get out of the way forest creatures and two-legged land
-                  dwellers — the Big Moose Outdoor Cinema needs extras space
+                  dwellers — the Big Moose Outdoor Cinema needs extra space
                   with its impressive 12‘ ft width and 10‘ ft height framing
                   system.
                 </h2>
@@ -731,7 +731,7 @@ const IndexPage = ({ location }) => {
                 <div
                   onClick={onClickHandler}
                   title={label}
-                  style={{ ...arrowStyles, right: 15, top: "46%" }}
+                  style={{ ...arrowStyles, right: 15, top: "38%" }}
                   className="focus:outline-none"
                 >
                   <AiOutlineRight color={"#ffffff"} size={ICON_SIZE} />
@@ -744,7 +744,7 @@ const IndexPage = ({ location }) => {
                   type="button"
                   onClick={onClickHandler}
                   title={label}
-                  style={{ ...arrowStyles, left: 15, top: "44%" }}
+                  style={{ ...arrowStyles, left: 15, top: "38%" }}
                   className="focus:outline-none"
                 >
                   <AiOutlineLeft color={"#ffffff"} size={ICON_SIZE} />
@@ -767,7 +767,7 @@ const IndexPage = ({ location }) => {
               </video>
 
               {playFlag && (
-                <div style={{ ...startBtn, top: "46%" }}>
+                <div style={{ ...startBtn, top: "38%" }}>
                   <AiFillPlayCircle
                     size={90}
                     color="#ffffff"
@@ -1032,63 +1032,63 @@ const IndexPage = ({ location }) => {
                     </p>
                   </div>
                   <div className="grid grid-column4 mt-8 grid-flow-col-dense gap-x-0 content-center">
-                    <div className="content-center   ">
+                    <div className="content-center  home-grid-width">
                       <div className="bg-image bg-grid-small content-center">
                         <img src={Feature1} />
                       </div>
-                      <div className="text text-right pd-grid-small">
-                        <h3 className="text-2xl font-medium mt-3 mb-1 mr-10 text-center leading-wide">
+                      <div className="text text-right">
+                        <h3 className="text-2xl font-medium mt-3 mb-1 text-center leading-wide">
                           Strongest Frame
                         </h3>
-                        <p className="text-center font-sm text-xl pd-grid-small ">
+                        <p className="text-center font-sm text-xl">
                           Frame never has to be broken down, taken apart, shoved
                           in a box, or deflated. It stays outside just like your
                           deck attached to your house. Built to last.
                         </p>
                       </div>
                     </div>
-                    <div className="content-center ">
+                    <div className="content-center home-grid-width">
                       <div className="bg-image bg-grid-small content-center">
                         <img src={Feature2} />
                       </div>
-                      <div className="text text-right pd-grid-small ">
-                        <h3 className="text-2xl mr-10 font-medium mt-3 mb-1  text-center leading-wide">
+                      <div className="text text-right">
+                        <h3 className="text-2xl font-medium mt-3 mb-1 text-center leading-wide">
                           Projector Stand
                         </h3>
-                        <p className="text-center text-xl font-sm pd-grid-small ">
+                        <p className="text-center text-xl font-sm">
                           Handcrafted from cedar wood, this outdoor projector
                           stand is the only one available in the retail market.
                           Light-weight and easy to carry.
                         </p>
                       </div>
                     </div>
-                    <div className="content-center   ">
+                    <div className="content-center  home-grid-width">
                       <div className="bg-image bg-grid-small content-center">
                         <img src={Feature3} />
                       </div>
-                      <div className="text text-right pd-grid-small ">
-                        <h3 className="text-2xl mr-10 font-medium mt-3 mb-1  text-center leading-wide">
+                      <div className="text text-right">
+                        <h3 className="text-2xl font-medium mt-3 mb-1  text-center leading-wide">
                           Fastest Setup
                         </h3>
-                        <p className="text-center text-xl font-sm pd-grid-small ">
+                        <p className="text-center text-xl font-sm ">
                           To attach the cinematic screen to the wooden frame,
                           place the projector stand 10-12’ ft away from the
                           screen, and power on takes about 3 minutes.
                         </p>
                       </div>
                     </div>
-                    <div className="content-center   ">
+                    <div className="content-center home-grid-width">
                       <div className="bg-image bg-grid-small content-center">
                         <img src={Feature4} />
                       </div>
-                      <div className="text text-right pd-grid-small ">
-                        <h3 className="text-2xl mr-10 font-medium mt-3 mb-1  text-center leading-wide">
+                      <div className="text text-right">
+                        <h3 className="text-2xl font-medium mt-3 mb-1  text-center leading-wide">
                           Year-round Use
                         </h3>
-                        <p className="text-center text-xl font-sm pd-grid-small ">
-                          Why limit yourself to movies only in the summer
-                          months? These outdoor cinemas were designed for
-                          outdoor enjoyment in every season.
+                        <p className="text-center text-xl font-sm">
+                          Why limit yourself to movies only in the summer? These
+                          outdoor cinemas were designed for outdoor enjoyment in
+                          every season.
                         </p>
                       </div>
                     </div>
@@ -1216,9 +1216,9 @@ const IndexPage = ({ location }) => {
                           <h3 className="h3-grid-large ">
                             <span
                               className="text-3xl "
-                              style={{ fontSize: "2rem" }}
+                              style={{ fontSize: "2rem", width: "200px" }}
                             >
-                              Backyard Outdoor{" "}
+                              Backyard Outdoor
                             </span>
                           </h3>
                           <h3 className="h3-grid-large pb-2">
@@ -1226,7 +1226,6 @@ const IndexPage = ({ location }) => {
                               className="text-3xl"
                               style={{ fontSize: "2rem" }}
                             >
-                              {" "}
                               Cinema
                             </span>
                           </h3>

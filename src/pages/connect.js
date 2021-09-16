@@ -247,8 +247,8 @@ function Connect() {
       />
       <div className="gray-back">
         <div className="container mx-auto">
-          <div className="md:px-8 change">
-            <div className="flex flex-wrap items-center text-sm xl:pt-3">
+          <div className="xl:pt-4 change">
+            <div className="flex flex-wrap items-center text-sm breadcrums-margin">
               <Link
                 to="/"
                 className="text-blue-600 sm:text-black cursor-pointer"
@@ -261,15 +261,12 @@ function Connect() {
             <div className="md:hidden h-64 w-full full-bleed-mobile max-h-screen relative mt-6 mb-6">
               <img className="w-full h-full object-cover " src={connectImage} />
             </div>
-            <div className="mt-12">
-              <h1 className="text-orange-500 text-5xl leading-none relative heading let-connnect">
+            <div className="mt-8 xl:px-6">
+              <h1 className="text-orange-500 text-5xl leading-none relative">
                 Let&apos;s <span className="text-black">Connect</span>
               </h1>
-              <h2 className="text-2xl mt-1 leading-tight news-subtitle hide">
-                Call. Text. Email.
-              </h2>
             </div>
-            <div className="mt-4 flex">
+            <div className="mt-4 flex connect-padding">
               <div className="md:w-7/12">
                 <div className="max-w-xl padding-toAdd">
                   <div className="flex items-center mb-4 font-thin">
@@ -456,7 +453,7 @@ function Connect() {
                 </div>
               </div>
               <div className="hidden md:block flex-1 pl-6 xl:pl-0">
-                <div className="w-full shadow-xl rounded-lg">
+                <div className="w-full shadow-xl rounded-lg xl:-mt-10">
                   <img
                     src="todd.jpg"
                     className="w-full shadow-xl rounded-lg todd-image"

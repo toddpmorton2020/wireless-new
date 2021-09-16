@@ -11,10 +11,10 @@ function Privacy() {
   return (
     <Layout>
       <SEO title="Privacy Policy" />
-      <div className="gray-back pb-24">
+      <div className="gray-back pb-8">
         <div className="container mx-auto">
-          <div className="md:px-8 change sm:py-6">
-            <div className="flex flex-wrap items-center text-sm">
+          <div className="change sm:py-6 xl:pt-4">
+            <div className="flex flex-wrap items-center text-sm breadcrums-margin">
               <Link
                 to="/"
                 className="text-blue-600 sm:text-black cursor-pointer"
@@ -27,17 +27,17 @@ function Privacy() {
             <div className="md:hidden h-64 w-full full-bleed-mobile max-h-screen relative mt-6 mb-6">
               <img className="w-full h-full object-cover " src={privacy} />
             </div>
-            <div className="mt-12">
-              <h1 className="text-center sm:text-left sm:text-black sm:text-orange-500 text-3xl sm:text-5xl leading-none sm:font-bold relative heading">
+            <div className="mt-8 xl:px-6">
+              <h1 className="privacy-margin-heading sm:text-left sm:text-black sm:text-orange-500 text-3xl xl:text-5xl leading-none relative">
                 Privacy{" "}
                 <span className="text-orange-500 sm:text-black">Policy</span>
               </h1>
             </div>
-            <div className="sm:mt-8">
-              <div className="text-center sm:font-bold text-base sm:text-2xl mt-1 sm:mt-0 news-subtitle hide">
-                <h3>Protecting your private information is our priority</h3>
+            <div className="sm:mt-8 xl:px-6">
+              <div className="xl:text-3xl text-base sm:text-2xl xl:-mt-6 mt-1 sm:mt-0 news-subtitle hide">
+                <h3 className="privacy-margin-subHeading">Protecting your private information is our priority</h3>
               </div>
-              <div className="mt-6">
+              <div className="mt-6 privacy-padding">
                 <p className="mb-6">
                   This Statement of Privacy applies to
                   www.wirelessoutdoorcinema.com and The Wireless Outdoor Cinema
@@ -269,7 +269,7 @@ function Privacy() {
                   acknowledgment of the modified Privacy Policy; and (b)
                   agreement to abide and be bound by that Policy.
                 </p>
-                <p className="mb-6">
+                {/* <p className="mb-6">
                   <b>Contact Information</b>
                   <br />
                   Wireless Outdoor Cinema welcomes your questions or comments
@@ -294,7 +294,7 @@ function Privacy() {
                   <br />
                   (207) 595-2960
                 </p>
-                <p className="mb-6">Effective as of August 20, 2020</p>
+                <p className="mb-6">Effective as of August 20, 2020</p> */}
               </div>
             </div>
           </div>

@@ -4,9 +4,6 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import bannerTodd from "../images/banner_todd.png"
-import frameAbout from "../images/frame_about.png"
-import standAbout from "../images/stand_about.png"
 import bannerMobile from "../images/todd-wireless-outdoor-cinema.png"
 import frameMobile from "../images/outdoor-movie-theater-frame.jpg"
 import standMobile from "../images/outdoor-movie-projector-stand.jpg"
@@ -38,7 +35,7 @@ function About() {
         />
       </div>
       <div className="top-heading press-release-padding-1">
-        <h1 className="text-orange-500 text-4xl xl:ml-0 ml-6 mt-6 xl:font-semibold">
+        <h1 className="text-orange-500 xl:text-5xl xl:ml-0 ml-6 mt-6">
           <span className="about">About</span>
         </h1>
       </div>
@@ -146,7 +143,7 @@ function About() {
       </div>
       <div className="press-release-padding-1 mobile-padding">
         <div className="sm:pt-16 xl:pt-5 sm:pt-8 xl:ml-2">
-          <h2 className="sm:mb-4 xl:mb-0 text-xl sm:text-2xl font-bold product-title heading-outdoor">
+          <h2 className="sm:mb-4 xl:mb-3 text-xl sm:text-2xl font-bold product-title heading-outdoor">
             The Outdoor Cinema <span className="solution-orange">Solution</span>
           </h2>
           <p className="mb-4">

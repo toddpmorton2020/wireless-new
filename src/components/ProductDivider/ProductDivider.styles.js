@@ -13,9 +13,9 @@ export const Container = styled.div`
 `
 
 export const Text = styled.h2`
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 2.5rem;
+  text-transform: none;
+  /* font-weight: bold; */
+  font-size: 3rem;
 `
 
 export const ColoredText = styled.span`

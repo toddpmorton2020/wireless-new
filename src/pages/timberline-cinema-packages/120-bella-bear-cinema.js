@@ -118,8 +118,8 @@ function BellaBear() {
       />
       <div className="wrapper desktop">
         <div className="container mx-auto">
-          <div className="py-6">
-            <div className="flex flex-wrap items-center text-sm">
+          <div className="py-6 xl:pt-4">
+            <div className="flex flex-wrap items-center text-sm breadcrums-margin">
               <Link
                 to="/"
                 className="text-blue-600 sm:text-black cursor-pointer"
@@ -127,16 +127,16 @@ function BellaBear() {
                 Home
               </Link>
               <span className="mx-2">&gt;</span>
-              <span to="#">Timberline Cinema Packages</span>
+              <Link to="/comparison">Timberline Cinema Packages</Link>
               <span className="mx-2">&gt;</span>
               <span>120" Bella Bear</span>
             </div>
-            <div className="mt-12 flex flex-col-reverse md:flex-row">
+            <div className="mt-12 flex flex-col-reverse md:flex-row mx-6">
               <div className="flex-1 mt-6 md:mt-0 pr-0 md:pr-12">
-                <h1 className="text-purple-500 text-3xl sm:text-5xl leading-none font-bold uppercase relative">
+                <h1 className="text-purple-500 text-3xl xl:text-5xl leading-none relative">
                   120" Bella Bear
                 </h1>
-                <h1 className="text-black text-3xl sm:text-5xl leading-none font-bold uppercase relative">
+                <h1 className="text-black text-3xl xl:text-5xl leading-none relative">
                   Cinema Package
                 </h1>
                 <h2 className="text-2xl sm:text-3xl mt-3 font-thin leading-tight medium-text mb-8">
@@ -159,8 +159,8 @@ function BellaBear() {
             </div>
 
             <ProductDivider
-              coloredText="option 1: "
-              text="go wireless"
+              coloredText="Option 1: "
+              text="Go Wireless"
               color="#8036F7"
             />
             <div className="flex flex-col-reverse md:flex-row secondContainer">
@@ -171,8 +171,8 @@ function BellaBear() {
                 />
               </div>
               <div className="flex-1 mt-6 md:mt-0 rightContainer md:pl-12 description-container">
-                <h2 className="text-xl sm:text-xl uppercase product-title mb-2">
-                  GET THE ONLY WIRELESS OUTDOOR CINEMA
+                <h2 className="xl:text-3xl product-title mb-2">
+                  Get the only Wireless Outdoor Cinema
                 </h2>
                 <p className="mb-2 text-md">
                   Get this revolutionary wireless outdoor movie theater without
@@ -184,8 +184,8 @@ function BellaBear() {
                   Digital FM Transmitter, as shown below, due to the extra power
                   consumption.
                 </p>
-                <h3 className="text-md sm:text-xl uppercase">
-                  WIRELESS CINEMA PACKAGE INCLUDES
+                <h3 className="xl:text-3xl sm:text-xl mb-1">
+                  Wireless Cinema Package Includes
                 </h3>
                 <ul className="list">
                   <li>Pressure-treated wooden movie frame</li>
@@ -241,7 +241,7 @@ function BellaBear() {
               </div>
             </div>
             <ProductSection
-              title="WIRELESS CINEMA SPECIFICATIONS"
+              title="Wireless Cinema Specifications"
               content={
                 <div className="grid gap-2 sm:grid-cols-2 mt-4">
                   <div>
@@ -443,14 +443,14 @@ function BellaBear() {
               }
             />
             <ProductDivider
-              coloredText="option 2: "
-              text="go wired"
+              coloredText="Option 2: "
+              text="Go Wired"
               color="#8036F7"
             />
             <div className="mt-12 flex flex-col-reverse md:flex-row secondContainer ">
               <div className="flex-1 mt-6 md:mt-0 pr-0 md:pr-12 description-container">
-                <h2 className="text-xl sm:text-xl uppercase product-title mb-2">
-                  GET A YEAR-ROUND BACKYARD OUTDOOR CINEMA
+                <h2 className="xl:text-3xl sm:text-xl product-title mb-3">
+                  Get a year-round Backyard Outdoor Cinema
                 </h2>
                 <p className="mb-2 text-md">
                   Get this fantastic backyard outdoor cinema setup and use it in
@@ -462,8 +462,8 @@ function BellaBear() {
                   version above because it includes two powerful 8” outdoor
                   speakers with tripod stands and a Digital FM Transmitter.
                 </p>
-                <h3 className="text-md sm:text-xl uppercase">
-                  WIRED CINEMA PACKAGE INCLUDES
+                <h3 className="xl:text-3xl sm:text-xl mb-2">
+                  Wired Cinema Package Includes
                 </h3>
                 <ul className="list">
                   <li>Pressure-treated wooden movie frame</li>
@@ -529,7 +529,7 @@ function BellaBear() {
               </div>
             </div>
             <ProductSection
-              title="WIRED CINEMA SPECIFICATIONS"
+              title="Wired Cinema Specifications"
               content={
                 <div className="grid gap-2 sm:grid-cols-2 mt-4">
                   <div>
@@ -731,8 +731,8 @@ function BellaBear() {
               }
             />
             <ProductDivider
-              coloredText="HOW TO USE YOUR "
-              text="OUTDOOR CINEMA"
+              coloredText="How to use your "
+              text="Outdoor Cinema"
               color="#8036F7"
             />
             <div className="mt-12 flex flex-col-reverse md:flex-row mb-16">
@@ -740,7 +740,7 @@ function BellaBear() {
                 <img src={screenSetup} />
               </div>
               <div className="flex-1 pl-0 md:pl-12 text-center md:text-left rightContainer">
-                <h3 className="text-xl mb-2">ATTACHING THE SCREEN</h3>
+                <h3 className="xl:text-3xl mb-2">Attaching the Screen</h3>
                 <p className="mb-4">
                   After the outdoor cinema is professionally installed and
                   calibrated in your backyard, using it is almost as easy as
@@ -770,7 +770,7 @@ function BellaBear() {
             </div>
             <div className="mt-12 flex flex-col-reverse md:flex-row">
               <div className="flex-1 mt-6 md:mt-0 pr-0 md:pr-12">
-                <h3 className="text-xl mb-2">USING THE CINEMA EQUIPMENT</h3>
+                <h3 className="xl:text-3xl mb-2">Using the Cinema Equipment</h3>
                 <p className="mb-4">
                   After your cinema package is professionally installed, all the
                   electronic equipment stays organized on the custom (patent
@@ -801,13 +801,13 @@ function BellaBear() {
               </div>
             </div>
             <ProductDivider
-              coloredText="OUTDOOR PROJECTOR "
-              text="VARIOUS CONNECTIONS"
+              coloredText="Outdoor Projector "
+              text="various connections"
               color="#8036F7"
             />
             <div className="mb-20">
-              <h3 className="text-2xl mb-4">
-                EVERYTHING YOU CAN USE WITH THE PROJECTOR
+              <h3 className="xl:text-3xl text-xl mb-4">
+                Everything you can use with the projector
               </h3>
               <div className="mt-4 various-connections">
                 <div className="mb-6 flex items-start">

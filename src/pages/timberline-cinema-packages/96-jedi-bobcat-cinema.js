@@ -111,8 +111,8 @@ function JediBobcat() {
       />
       <div className="wrapper desktop">
         <div className="container mx-auto">
-          <div className="py-6">
-            <div className="flex flex-wrap items-center text-sm">
+          <div className="py-6 xl:pt-4">
+            <div className="flex flex-wrap items-center text-sm breadcrums-margin">
               <Link
                 to="/"
                 className="text-orange-500 sm:text-black cursor-pointer"
@@ -120,17 +120,17 @@ function JediBobcat() {
                 Home
               </Link>
               <span className="mx-2">&gt;</span>
-              <span to="#">Timberline Cinema Packages</span>
+              <Link to="/comparison">Timberline Cinema Packages</Link>
               <span className="mx-2">&gt;</span>
               <span>96” Jedi Bobcat</span>
             </div>
-            <div className="mt-12 flex flex-col-reverse md:flex-row">
+            <div className="mt-12 flex flex-col-reverse md:flex-row mx-6">
               <div className="flex-1 mt-6 md:mt-0 pr-0 md:pr-12">
-                <h1 className="text-orange-500 text-3xl sm:text-5xl leading-none font-bold uppercase relative">
-                  96” JEDI BOBCAT
+                <h1 className="text-orange-500 text-3xl xl:text-5xl leading-none relative">
+                  96” Jedi Bobcat
                 </h1>
-                <h1 className="text-black text-3xl sm:text-5xl leading-none font-bold uppercase relative">
-                  OUTDOOR GAMING CINEMA
+                <h1 className="text-black text-3xl xl:text-5xl leading-none relative">
+                  Outdoor Gaming Cinema
                 </h1>
                 <h2 className="text-2xl sm:text-3xl mt-3 font-thin leading-tight medium-text mb-8">
                   Standing at 8’ ft. wide and 8’ ft. high, this cool year-round
@@ -155,8 +155,8 @@ function JediBobcat() {
             </div>
 
             <ProductDivider
-              coloredText="GET THE ONLY "
-              text="OUTDOOR GAMING CINEMA"
+              coloredText="Get the only "
+              text="Outdoor Gaming Cinema "
               color="#FF6600"
             />
             <div className="flex flex-col-reverse md:flex-row secondContainer">
@@ -167,8 +167,8 @@ function JediBobcat() {
                 />
               </div>
               <div className="flex-1 mt-6 md:mt-0 rightContainer md:pl-12 description-container">
-                <h2 className="text-xl sm:text-xl uppercase product-title mb-2">
-                  THE FIRST OUTDOOR GAMING CINEMA
+                <h2 className="xl:text-3xl text-lg product-title mb-4 font-medium">
+                  The first Outdoor Gaming Cinema
                 </h2>
                 <p className="mb-2 text-md">
                   Get this amazing outdoor gaming system designed for the
@@ -181,8 +181,8 @@ function JediBobcat() {
                   with black backing cinematic gaming screen, the visual quality
                   will jump off the screen.
                 </p>
-                <h3 className="text-md sm:text-xl uppercase">
-                  GAMING CINEMA PACKAGE INCLUDES
+                <h3 className="xl:text-3xl sm:text-xl mb-2 font-medium">
+                  Gaming Cinema Package Includes
                 </h3>
                 <ul className="list">
                   <li>Pressure-treated wooden movie frame</li>
@@ -244,7 +244,7 @@ function JediBobcat() {
               </div>
             </div>
             <ProductSection
-              title="GAMING CINEMA SPECIFICATIONS"
+              title="Gaming Cinema Specifications"
               content={
                 <div className="grid gap-2 sm:grid-cols-2 mt-4">
                   <div>
@@ -447,8 +447,8 @@ function JediBobcat() {
             />
 
             <ProductDivider
-              coloredText="HOW TO USE YOUR "
-              text="OUTDOOR GAMING CINEMA"
+              coloredText="How to use your "
+              text="Outdoor Gaming Cinema"
               color="#FF6600"
             />
             <div className="mt-12 flex flex-col-reverse md:flex-row mb-16">
@@ -456,8 +456,8 @@ function JediBobcat() {
                 <img src={screenSetup} />
               </div>
               <div className="flex-1 pl-0 md:pl-12 text-center md:text-left rightContainer">
-                <h3 className="text-xl mb-2 attaching-gaming">
-                  Attaching The Gaming Screen
+                <h3 className="xl:text-3xl text-xl mb-2 attaching-gaming">
+                  Attaching the Gaming Screen
                 </h3>
                 <p className="mb-4">
                   After your outdoor gaming cinema has been professionally
@@ -488,7 +488,9 @@ function JediBobcat() {
             </div>
             <div className="mt-12 flex flex-col-reverse md:flex-row">
               <div className="flex-1 mt-6 md:mt-0 pr-0 md:pr-12">
-                <h3 className="text-xl mb-2">USING THE CINEMA EQUIPMENT</h3>
+                <h3 className="text-xl xl:text-3xl mb-2">
+                  Using the Cinema Equipment
+                </h3>
                 <p className="mb-4">
                   After your outdoor gaming cinema is professionally installed,
                   all electronic equipment is kept organized on the custom
@@ -521,13 +523,13 @@ function JediBobcat() {
               </div>
             </div>
             <ProductDivider
-              coloredText="OUTDOOR PROJECTOR "
-              text="VARIOUS CONNECTIONS"
+              coloredText="Outdoor Projector "
+              text="various connections"
               color="#FF6600"
             />
             <div className="mb-20">
-              <h3 className="text-2xl mb-4">
-                ADDITIONAL USES FOR THE OUTDOOR GAMING PROJECTOR
+              <h3 className="text-3xl mb-4">
+                Additional uses for the Outdoor Gaming Projector
               </h3>
               <div className="mt-4 various-connections">
                 <div className="mb-6 flex items-start">

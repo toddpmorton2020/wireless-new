@@ -121,8 +121,8 @@ function BigMoose() {
       />
       <div className="wrapper desktop">
         <div className="container mx-auto">
-          <div className="py-6">
-            <div className="flex flex-wrap items-center text-sm">
+          <div className="py-6 xl:pt-4">
+            <div className="flex flex-wrap items-center text-sm breadcrums-margin">
               <Link
                 to="/"
                 className="text-blue-600 sm:text-black cursor-pointer"
@@ -130,17 +130,17 @@ function BigMoose() {
                 Home
               </Link>
               <span className="mx-2">&gt;</span>
-              <span to="#">Timberline Cinema Packages</span>
+              <Link to="/comparison">Timberline Cinema Packages</Link>
               <span className="mx-2">&gt;</span>
               <span>150" Big Moose</span>
             </div>
-            <div className="mt-12 flex flex-col-reverse md:flex-row">
+            <div className="mt-12 flex flex-col-reverse md:flex-row mx-6">
               <div className="flex-1 mt-6 md:mt-0 pr-0 md:pr-12">
-                <h1 className="text-orange-500 text-3xl sm:text-5xl leading-none font-bold uppercase relative">
-                  150” BIG MOOSE
+                <h1 className="text-orange-500 text-3xl xl:text-5xl leading-none relative">
+                  150” Big Moose
                 </h1>
-                <h1 className="text-black text-3xl sm:text-5xl leading-none font-bold uppercase relative">
-                  OUTDOOR CINEMA
+                <h1 className="text-black text-3xl xl:text-5xl leading-none relative">
+                  Outdoor Cinema
                 </h1>
                 <h2 className="text-2xl sm:text-3xl mt-3 font-thin leading-tight medium-text mb-8">
                   Standing at 12’ ft. wide and 10’ ft. high, this massive
@@ -161,8 +161,8 @@ function BigMoose() {
             </div>
 
             <ProductDivider
-              coloredText="option 1: "
-              text="go wireless"
+              coloredText="Option 1: "
+              text="Go Wireless"
               color="#FF6600"
             />
             <div className="flex flex-col-reverse md:flex-row secondContainer ">
@@ -173,8 +173,8 @@ function BigMoose() {
                 />
               </div>
               <div className="flex-1 mt-6 md:mt-0 rightContainer md:pl-12 description-container">
-                <h2 className="text-md sm:text-xl uppercase product-title mb-2">
-                  GET THE ONLY WIRELESS OUTDOOR CINEMA
+                <h2 className="text-md xl:text-3xl sm:text-xl product-title mb-2">
+                  Get the only Wireless Outdoor Cinema
                 </h2>
                 <p className="mb-2 text-md">
                   Get this ground-breaking wireless outdoor movie theater and
@@ -186,10 +186,10 @@ function BigMoose() {
                   you to connect the speakers with stands or the Digital FM
                   Transmitter, as shown below.
                 </p>
-                <h3 className="text-md sm:text-xl uppercase">
-                  WIRELESS CINEMA PACKAGE INCLUDES
+                <h3 className="xl:text-3xl sm:text-xl">
+                  Wireless Cinema Package Includes
                 </h3>
-                <ul className="list">
+                <ul className="list mt-1">
                   <li>Pressure-treated wooden movie frame</li>
                   <li>Wrinkle-free Cinematic Screen with black backing</li>
                   <li>1080p HD Projector with 4,000 Lumens</li>
@@ -243,7 +243,7 @@ function BigMoose() {
               </div>
             </div>
             <ProductSection
-              title="WIRELESS CINEMA SPECIFICATIONS"
+              title="Wireless Cinema Specifications"
               content={
                 <div className="grid gap-2 sm:grid-cols-2 mt-4">
                   <div>
@@ -445,14 +445,14 @@ function BigMoose() {
               }
             />
             <ProductDivider
-              coloredText="option 2: "
-              text="go wired"
+              coloredText="Option 2: "
+              text="Go Wired"
               color="#FF6600"
             />
             <div className="mt-12 flex flex-col-reverse md:flex-row secondContainer">
               <div className="flex-1 mt-6 md:mt-0 pr-0 md:pr-12 description-container">
-                <h2 className="text-md sm:text-xl uppercase product-title mb-2">
-                  GET A YEAR-ROUND BACKYARD OUTDOOR CINEMA
+                <h2 className="text-md sm:text-xl xl:text-3xl product-title mb-3">
+                  Get a year-round Backyard Outdoor Cinema
                 </h2>
                 <p className="mb-2 text-md">
                   Get this fantastic backyard outdoor cinema setup and use it in
@@ -465,8 +465,8 @@ function BigMoose() {
                   outdoor speakers with tripod stands and a Digital FM
                   Transmitter.
                 </p>
-                <h3 className="text-md sm:text-xl uppercase">
-                  WIRED CINEMA PACKAGE INCLUDES
+                <h3 className="xl:text-3xl sm:text-xl mb-2">
+                  Wired Cinema Package Includes
                 </h3>
                 <ul className="list">
                   <li>Pressure-treated wooden movie frame</li>
@@ -532,7 +532,7 @@ function BigMoose() {
               </div>
             </div>
             <ProductSection
-              title="WIRED CINEMA SPECIFICATIONS"
+              title="Wired Cinema Specifications"
               content={
                 <div className="grid gap-2 sm:grid-cols-2 mt-4">
                   <div>
@@ -734,8 +734,8 @@ function BigMoose() {
               }
             />
             <ProductDivider
-              coloredText="HOW TO OPERATE YOUR "
-              text="OUTDOOR CINEMA"
+              coloredText="How to operate your "
+              text="Outdoor Cinema"
               color="#FF6600"
             />
             <div className="mt-12 flex flex-col-reverse md:flex-row mb-16">
@@ -743,7 +743,9 @@ function BigMoose() {
                 <img src={screenSetup} />
               </div>
               <div className="flex-1 pl-0 md:pl-12 text-center md:text-left rightContainer">
-                <h3 className="text-xl mb-2">ATTACHING THE CINEMATIC SCREEN</h3>
+                <h3 className="text-xl xl:text-3xl mb-2">
+                  Attaching the Cinematic Screen
+                </h3>
                 <p className="mb-4">
                   After your outdoor cinema has been professionally installed in
                   your backyard, using it is almost as easy as watching
@@ -772,7 +774,9 @@ function BigMoose() {
             </div>
             <div className="mt-12 flex flex-col-reverse md:flex-row">
               <div className="flex-1 mt-6 md:mt-0 pr-0 md:pr-12">
-                <h3 className="text-xl mb-2">USING THE CINEMA COMPONENTS</h3>
+                <h3 className="text-xl xl:text-3xl mb-2">
+                  Using the Cinema Components
+                </h3>
                 <p className="mb-4">
                   After your cinema package has been professionally installed,
                   all electronic equipment is kept organized on the custom
@@ -804,13 +808,13 @@ function BigMoose() {
               </div>
             </div>
             <ProductDivider
-              coloredText="OUTDOOR PROJECTOR "
-              text="VARIOUS CONNECTIONS"
+              coloredText="Outdoor Projector "
+              text="various connections"
               color="#FF6600"
             />
             <div className="mb-20">
-              <h3 className="text-2xl mb-4">
-                WHAT YOU CAN PLUG INTO THE PROJECTOR
+              <h3 className="text-2xl xl:text-3xl mb-4">
+                What you can plug into the projector
               </h3>
               <div className="mt-4 various-connections">
                 <div className="mb-6 flex items-start">

@@ -19,7 +19,7 @@ function BellaBearContest() {
       <div className="gray-back hidden md:block">
         <div className="container mx-auto">
           <div className="px-8 py-6">
-            <div className="flex items-center text-sm font-">
+            <div className="flex items-center text-sm breadcrums-margin">
               <Link
                 to="/"
                 className="text-blue-600 sm:text-black cursor-pointer"

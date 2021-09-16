@@ -224,7 +224,12 @@ const Header = ({ siteTitle }) => {
                       >
                         Cinema Comparison
                       </Link>
-                      <span>Timberline Series</span>
+                      <Link
+                        to="/comparison"
+                        className="pt-2 hover:text-orange-500"
+                      >
+                        Timberline Series
+                      </Link>
                       <Link
                         to="/timberline-cinema-packages/96-jedi-bobcat-cinema"
                         className="py-2 px-4 hover:text-orange-500"

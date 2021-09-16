@@ -14,9 +14,9 @@ function Aug28PressRelease() {
         description="The Wireless Outdoor Cinema Company today announced the unveiling of their new line of Outdoor Cinema Packages for homeowners and businesses throughout Maine and New Hampshire. The Wireless Outdoor Cinema is a year-round, weather-resistant, pressure-treated wood movie screen frame that comes with a removable cinematic screen, an HD Wi-Fi Projector, Off-Grid Battery Pack and a Wireless Surround Bar Speaker. The Wireless Outdoor Cinema offers a new way for homeowners to enjoy their backyards, year-round, under the stars and moon watching their favorite movie, TV show, sporting event, or playing video games on a larger than life screen."
       />
 
-      <div className="xl:bg-white bg-grey-10 xl:pb-8 pb-12">
+      <div className="xl:bg-white bg-grey-10 xl:pb-12 pb-12">
         <div className="container mx-auto">
-          <div className="container-insider">
+          <div className="xl:pt-4">
             <div className="flex text-sm flex-wrap items-center change xl:text-black text-white breadcrums-margin">
               <Link to="/" className="cursor-pointer">
                 Home
