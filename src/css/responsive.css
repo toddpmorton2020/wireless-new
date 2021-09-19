@@ -217,7 +217,10 @@
     padding: 0px !important;
   }
   .news-subtitle {
-    line-height: 10px;
+    line-height: 20px;
+  }
+  .news-subtitle-2 {
+    line-height: 26px;
   }
   .full-bleed-mobile {
     position: relative;
@@ -238,6 +241,16 @@
   }
   .feature-home-image {
     margin-top: calc(1rem - 3px);
+  }
+  .site-map-sub {
+    text-align: center;
+    padding-top: 10px;
+  }
+  .privacy-mob {
+    text-align: center;
+  }
+  .news-subtitle-3 {
+    line-height: 36px;
   }
 }
 @media screen and (max-width: 375px) {

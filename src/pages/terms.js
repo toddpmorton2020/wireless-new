@@ -34,7 +34,7 @@ function Terms() {
                   Conditions
                 </span>
               </h1>
-              <h1 className="heading text-center text-black sm:text-orange-500 sm:text-5xl leading-none font-bold relative xl:invisible visible">
+              <h1 className="text-center text-3xl text-black sm:text-orange-500 xl:invisible visible">
                 Terms and{" "}
                 <span className="text-orange-500 sm:text-black">
                   Conditions

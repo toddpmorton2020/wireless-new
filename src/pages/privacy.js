@@ -28,7 +28,7 @@ function Privacy() {
               <img className="w-full h-full object-cover " src={privacy} />
             </div>
             <div className="mt-8 xl:px-6">
-              <h1 className="privacy-margin-heading sm:text-left sm:text-black sm:text-orange-500 text-3xl xl:text-5xl leading-none relative">
+              <h1 className="privacy-margin-heading privacy-mob sm:text-black sm:text-orange-500 text-3xl xl:text-5xl leading-none relative">
                 Privacy{" "}
                 <span className="text-orange-500 sm:text-black">Policy</span>
               </h1>

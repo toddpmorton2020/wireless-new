@@ -86,7 +86,7 @@ function FAQ() {
       <SEO title="FAQ" description="Search the knowledge base." />
       <div className="gray-back pb-8">
         <div className="container mx-auto">
-          <div className="xl:pt-4">
+          <div className="xl:pt-4 change">
             <div className="flex flex-wrap items-center text-sm breadcrums-margin">
               <Link
                 to="/"
@@ -105,7 +105,7 @@ function FAQ() {
               <h1 className="text-black sm:text-orange-500 text-3xl xl:text-5xl leading-none uppercase relative xl:mt-8">
                 FAQ
               </h1>
-              <h2 className="news-subtitle sm:text-3xl sm:mt-3 font-thin leading-tight">
+              <h2 className="xl:text-3xl xl:mt-3 font-thin text-xl mt-2">
                 Search the knowledge base
               </h2>
             </div>

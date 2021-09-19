@@ -32,7 +32,7 @@ function Sitemap() {
               </h1>
             </div>
             <div className="sm:mt-8 xl:px-6">
-              <div className="xl:text-3xl text-base sm:text-2xl xl:-mt-6 sm:mt-0 news-subtitle">
+              <div className="xl:text-3xl text-base text-xl xl:-mt-6 sm:mt-0 news-subtitle site-map-sub">
                 <h3>Search Engines Crawl Away</h3>
               </div>
               <div className="mt-6">
@@ -49,13 +49,22 @@ function Sitemap() {
                   <Link to="/comparison" className="link mb-1">
                     Cinema Comparison
                   </Link>
-                  <Link to="/timberline-cinema-packages/96-jedi-bobcat-cinema" className="link mb-1">
+                  <Link
+                    to="/timberline-cinema-packages/96-jedi-bobcat-cinema"
+                    className="link mb-1"
+                  >
                     96" Jedi Bobcat Wireless Outdoor Cinema
                   </Link>
-                  <Link to="/timberline-cinema-packages/120-bella-bear-cinema" className="link mb-1">
+                  <Link
+                    to="/timberline-cinema-packages/120-bella-bear-cinema"
+                    className="link mb-1"
+                  >
                     120" Bella Bear Wireless Outdoor Cinema
                   </Link>
-                  <Link to="/timberline-cinema-packages/150-big-moose-cinema" className="link mb-1">
+                  <Link
+                    to="/timberline-cinema-packages/150-big-moose-cinema"
+                    className="link mb-1"
+                  >
                     150" Big Moose Wireless Outdoor Cinema
                   </Link>
                   <Link to="/accessory" className="link mb-1">

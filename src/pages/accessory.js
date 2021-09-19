@@ -22,7 +22,7 @@ const Accessory = () => {
         <div className="accessory">
           <div>
             <div className="container mx-auto">
-              <div className="sm:pt-6 xl:pt-4 change">
+              <div className="pt-2 xl:pt-4 change">
                 <div className="flex items-center text-xs sm:text-sm text-sm breadcrums-margin">
                   <Link
                     to="/"
@@ -40,7 +40,7 @@ const Accessory = () => {
                   src="/cinema-accessories"
                 />
               </div>
-              <h1 className="text-5xl mt-5 acc-margin">
+              <h1 className="xl:text-5xl text-4xl leading-10 xl:mt-5 acc-margin">
                 Outdoor Cinema{" "}
                 <span className="text-orange-500">Accessories</span>
               </h1>
@@ -49,7 +49,7 @@ const Accessory = () => {
               </h2>
             </div>
           </div>
-          <div className="text-center mt-2">
+          <div className="text-center mt-2 hide">
             <img src={bannerAccessory} alt="" className="mx-auto" />
           </div>
           <div>
@@ -57,12 +57,12 @@ const Accessory = () => {
               {/* <h2 className="xl:text-3xl sm:text-2xl mb-4 news-subtitle hide">
                 Get the most out of your outdoor movie theater
               </h2> */}
-              <p className="image-text-color image-text-press-1 text-sm pt-2">
+              <p className="image-text-color image-text-press-1 text-sm pt-2 hide">
                 My family sitting around a bonfire watching The Hitman's Wife's
                 Bodyguard movie on the Timberline Outdoor Cinema 150" Big Moose
                 model in Bridgton, Maine.
               </p>
-              <p className="pt-6">
+              <p className="xl:pt-6">
                 I’ve gathered a list of great outdoor accessories to help you
                 enjoy your outdoor movie experience. My movie theaters are
                 designed for year-round use and have included items to keep you
@@ -112,7 +112,7 @@ const Accessory = () => {
             <div className="gray-back">
               <div className="mt-12 sm:mt-0 sm:py-12 flex flex-col-reverse md:flex-row container mx-auto accessory-padding">
                 <div className="flex-1 mt-6 md:mt-0 pr-0 md:pr-12 mb-6 sm:mb-0">
-                  <h3 className="text-lg mb-6 sm:mb-8 news-subtitle xl:text-3xl acc-line-height">
+                  <h3 className="text-lg mb-6 sm:mb-8 news-subtitle-2 xl:text-3xl acc-line-height">
                     Outdoor Propane Patio Heater with wheels - 46,000 BTU
                   </h3>
                   <div className="mb-6 pl-0 text-center md:text-left mobile">

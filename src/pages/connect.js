@@ -318,7 +318,7 @@ function Connect() {
                       </p>
                     </div>
                   </div>
-                  <h2 className="text-3xl mt-4 what-interested font-thin leading-tight news-subtitle">
+                  <h2 className="text-3xl mt-4 what-interested font-thin leading-tight news-subtitle-3">
                     What are you interested in learning more about?
                   </h2>
                   <p className="mt-4 what-interested">
