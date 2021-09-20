@@ -102,10 +102,10 @@ function FAQ() {
               style={{ backgroundImage: `url(${faqImage})` }}
             />
             <div className="text-center sm:text-left xl:px-32">
-              <h1 className="text-black sm:text-orange-500 text-3xl xl:text-5xl leading-none uppercase relative xl:mt-8">
+              <h1 className="text-black sm:text-orange-500 privacy-heading xl:text-5xl leading-none uppercase relative xl:mt-8">
                 FAQ
               </h1>
-              <h2 className="xl:text-3xl xl:mt-3 font-thin text-xl mt-2">
+              <h2 className="xl:text-3xl xl:mt-3 font-thin sitemap-sub">
                 Search the knowledge base
               </h2>
             </div>

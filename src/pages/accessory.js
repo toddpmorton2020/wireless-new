@@ -40,11 +40,11 @@ const Accessory = () => {
                   src="/cinema-accessories"
                 />
               </div>
-              <h1 className="xl:text-5xl text-4xl leading-10 xl:mt-5 acc-margin">
+              <h1 className="xl:text-5xl privacy-heading leading-10 xl:mt-8 acc-margin">
                 Outdoor Cinema{" "}
                 <span className="text-orange-500">Accessories</span>
               </h1>
-              <h2 className="acc-margin news-subtitle mt-1 sm:text-3xl leading-tight pb-4">
+              <h2 className="acc-margin hide news-subtitle mt-2 sm:text-3xl leading-tight pb-4">
                 Get the most out of your outdoor movie theater
               </h2>
             </div>
@@ -62,7 +62,7 @@ const Accessory = () => {
                 Bodyguard movie on the Timberline Outdoor Cinema 150" Big Moose
                 model in Bridgton, Maine.
               </p>
-              <p className="xl:pt-6">
+              <p className="xl:pt-6 pt-4">
                 I’ve gathered a list of great outdoor accessories to help you
                 enjoy your outdoor movie experience. My movie theaters are
                 designed for year-round use and have included items to keep you

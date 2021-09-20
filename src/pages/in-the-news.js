@@ -31,7 +31,7 @@ function InTheNews() {
               <h1 className="text-orange-500 text-3xl xl:text-5xl leading-none font-medium relative xl:visible invisible">
                 <span className="text-black">Latest</span> News
               </h1>
-              <h2 className="text-orange-500 md:hidden text-2xl heading-outdoor-news leading-tight news-subtitle">
+              <h2 className="text-orange-500 md:hidden privacy-heading heading-outdoor-news leading-tight news-subtitle">
                 <span className="text-black">In the</span> News
               </h2>
             </div>

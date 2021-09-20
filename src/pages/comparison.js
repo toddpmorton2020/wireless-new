@@ -29,11 +29,11 @@ const Comparison = () => {
                 </div>
               </div>
               <div>
-                <h1 className="xl:text-5xl text-3xl text-center xl:mt-6">
+                <h1 className="xl:text-5xl privacy-heading text-center mt-4 xl:leading-none leading-10 xl:mt-6">
                   <span className="text-orange-500">Compare</span> Timberline
                   Outdoor Cinemas
                 </h1>
-                <p className="xl:text-3xl text-xl text-center">
+                <p className="xl:text-3xl hide text-center">
                   Get help choosing which cinema is best for you.{" "}
                   <span
                     className="text-blu-100 cursor-pointer"
@@ -43,7 +43,7 @@ const Comparison = () => {
                   </span>
                 </p>
               </div>
-              <div className="xl:flex pt-16 xl:space-x-4 text-center items-center px-10">
+              <div className="xl:flex xl:pt-16 pt-8 xl:space-x-4 text-center items-center px-10">
                 <div>
                   <img
                     src={jediBobcat}

@@ -262,7 +262,7 @@ function Connect() {
               <img className="w-full h-full object-cover " src={connectImage} />
             </div>
             <div className="mt-8 xl:px-6">
-              <h1 className="text-orange-500 text-5xl leading-none relative">
+              <h1 className="text-orange-500 privacy-heading xl:text-5xl leading-none relative">
                 Let&apos;s <span className="text-black">Connect</span>
               </h1>
             </div>

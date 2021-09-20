@@ -109,6 +109,15 @@
   .margin-top-mobile {
     margin-top: -310px;
   }
+  .terms-heading {
+    font-size: 36px !important;
+  }
+  .privacy-heading {
+    font-size: 36px !important;
+  }
+  .sitemap-sub {
+    font-size: 28px !important;
+  }
 }
 
 .indent {

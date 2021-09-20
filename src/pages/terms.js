@@ -28,20 +28,20 @@ function Terms() {
               <img className="w-full h-full object-cover " src={terms} />
             </div>
             <div className="mt-8 xl:px-6">
-              <h1 className="term-margin-heading sm:text-left text-black sm:text-orange-500 xl:text-5xl leading-none relative hide">
+              <h1 className="term-margin-heading text-black sm:text-orange-500 xl:text-5xl leading-none relative hide">
                 Terms and{" "}
                 <span className="text-orange-500 sm:text-black block sm:inline">
                   Conditions
                 </span>
               </h1>
-              <h1 className="text-center text-3xl text-black sm:text-orange-500 xl:invisible visible">
+              <h1 className="text-center terms-heading text-black sm:text-orange-500 xl:invisible visible">
                 Terms and{" "}
                 <span className="text-orange-500 sm:text-black">
                   Conditions
                 </span>
               </h1>
             </div>
-            <div className="sm:mt-8 xl:-mt-10 xl:mt-0 xl:px-6">
+            <div className="sm:mt-8 xl:-mt-6 xl:px-6">
               <div className="term-margin-subHeading text-base sm:text-2xl xl:text-3xl mt-1 sm:mt-0 news-subtitle hide">
                 <h3>
                   Agreement between user &

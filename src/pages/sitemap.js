@@ -27,12 +27,12 @@ function Sitemap() {
               <img className="w-full h-full object-cover " src={sitemap} />
             </div>
             <div className="mt-8 xl:px-6">
-              <h1 className="text-center sm:text-left text-black sm:text-orange-500 text-4xl xl:text-5xl leading-none relative">
+              <h1 className="text-center sm:text-left text-black sm:text-orange-500 privacy-heading xl:text-5xl leading-none relative">
                 Site <span className="text-orange-500 sm:text-black">Map</span>
               </h1>
             </div>
             <div className="sm:mt-8 xl:px-6">
-              <div className="xl:text-3xl text-base text-xl xl:-mt-6 sm:mt-0 news-subtitle site-map-sub">
+              <div className="xl:text-3xl text-base sitemap-sub xl:-mt-6 sm:mt-0 news-subtitle site-map-sub">
                 <h3>Search Engines Crawl Away</h3>
               </div>
               <div className="mt-6">
