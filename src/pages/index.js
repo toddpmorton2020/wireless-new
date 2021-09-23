@@ -9,10 +9,6 @@ import Checkmark from "../images/checkmark-icon.png"
 import Banner from "../images/mobile-home-page-image-cropped.png"
 import Timberline from "../images/timberline-outdoor-cinema-frame-mobile.png"
 import Projector from "../images/outdoor-cinema-projector-stand-mobile.png"
-import Gallery1 from "../images/sm-outdoor-cinema-setup.png"
-import Gallery2 from "../images/sm-outdoor-projector.png"
-import Gallery3 from "../images/sm-outdoor-cinema-frame.png"
-import Gallery4 from "../images/sm-outdoor-cinema-winter.png"
 
 import Bobcat from "../images/mobile-jedi-bobcat-home.png"
 import Bear from "../images/mobile-bella-bear-home.png"
@@ -395,7 +391,7 @@ const IndexPage = ({ location }) => {
             <div className="">
               <div className="overflow-auto mb-8">
                 <div className="w-1/2 float-left">
-                  <img src={Gallery1} />
+                  <img src="/timberline-frame-mobile-165x120.jpg" width="165px" />
                   <div className="text-lg leading-tight text-center mt-2 feature-text">
                     <h2 className="mt-4 mb-2 text-lg feature-home-image font-medium">
                       Strongest Frame System
@@ -409,7 +405,7 @@ const IndexPage = ({ location }) => {
                 </div>
                 <div className="w-1/2 float-right">
                   <div className="overflow-auto">
-                    <img src={Gallery2} className="float-right" />
+                    <img src="/projector-stand-feature-mobile-165x120.jpg" width="165px" className="float-right" />
                   </div>
                   <div className="text-lg leading-tight text-center mt-2 feature-text feature-right">
                     <h2 className="mt-4 mb-2 text-lg feature-home-image font-medium">
@@ -425,10 +421,10 @@ const IndexPage = ({ location }) => {
               </div>
               <div className="overflow-auto">
                 <div className="w-1/2 float-left">
-                  <img src={Gallery3} />
+                  <img src="/setup-mobile-165x120.jpg" width="165px" />
                   <div className="text-lg leading-tight text-center mt-2 feature-text">
                     <h2 className=" mt-4 mb-2 text-lg feature-home-image font-medium">
-                      Fastest <br /> Setup
+                      Fastest Setup
                     </h2>
                     <div className="text-black">
                       To attach the cinematic screen to the wooden frame, place
@@ -439,7 +435,7 @@ const IndexPage = ({ location }) => {
                 </div>
                 <div className="w-1/2 float-right">
                   <div className="overflow-auto">
-                    <img src={Gallery4} className="float-right" />
+                    <img src="/winter-view-mobile-165x120.jpg" width="165px" className="float-right" />
                   </div>
                   <div className="text-lg leading-tight text-center mt-2 feature-text feature-right">
                     <h2 className="mt-4 mb-2 text-lg feature-home-image font-medium">

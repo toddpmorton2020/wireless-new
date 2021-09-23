@@ -14,7 +14,7 @@ export const White = styled.div`
 `
 
 export const Orange = styled.div`
-  background-color: #ff5400;
+  background-color: #ff5400 !important;
 `
 
 export const Introduction = styled.div`
