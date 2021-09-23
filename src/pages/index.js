@@ -391,7 +391,10 @@ const IndexPage = ({ location }) => {
             <div className="">
               <div className="overflow-auto mb-8">
                 <div className="w-1/2 float-left">
-                  <img src="/timberline-frame-mobile-165x120.jpg" width="165px" />
+                  <img
+                    src="/timberline-frame-mobile-165x120.jpg"
+                    width="165px"
+                  />
                   <div className="text-lg leading-tight text-center mt-2 feature-text">
                     <h2 className="mt-4 mb-2 text-lg feature-home-image font-medium">
                       Strongest Frame
@@ -399,13 +402,18 @@ const IndexPage = ({ location }) => {
 
                     <div className="text-black">
                       Frame never has to be broken down, taken apart, shoved in
-                      a box, or deflated. It stays outside just like your deck.
+                      a box, or deflated. The frame stays outside like the deck
+                      to your home.
                     </div>
                   </div>
                 </div>
                 <div className="w-1/2 float-right">
                   <div className="overflow-auto">
-                    <img src="/projector-stand-feature-mobile-165x120.jpg" width="165px" className="float-right" />
+                    <img
+                      src="/projector-stand-feature-mobile-165x120.jpg"
+                      width="165px"
+                      className="float-right"
+                    />
                   </div>
                   <div className="text-lg leading-tight text-center mt-2 feature-text feature-right">
                     <h2 className="mt-4 mb-2 text-lg feature-home-image font-medium">
@@ -435,7 +443,11 @@ const IndexPage = ({ location }) => {
                 </div>
                 <div className="w-1/2 float-right">
                   <div className="overflow-auto">
-                    <img src="/winter-view-mobile-165x120.jpg" width="165px" className="float-right" />
+                    <img
+                      src="/winter-view-mobile-165x120.jpg"
+                      width="165px"
+                      className="float-right"
+                    />
                   </div>
                   <div className="text-lg leading-tight text-center mt-2 feature-text feature-right">
                     <h2 className="mt-4 mb-2 text-lg feature-home-image font-medium">
