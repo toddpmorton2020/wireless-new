@@ -394,7 +394,7 @@ const IndexPage = ({ location }) => {
                   <img src="/timberline-frame-mobile-165x120.jpg" width="165px" />
                   <div className="text-lg leading-tight text-center mt-2 feature-text">
                     <h2 className="mt-4 mb-2 text-lg feature-home-image font-medium">
-                      Strongest Frame System
+                      Strongest Frame
                     </h2>
 
                     <div className="text-black">
