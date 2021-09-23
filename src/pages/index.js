@@ -581,7 +581,7 @@ const IndexPage = ({ location }) => {
             </h2>
           </div>
 
-          <div className="container mx-auto text-white pb-8">
+          <div className="container mx-auto text-white pb-18">
             <div className="w-full border border-orange-500 mb-8">
               <div className="bg-image">
                 <img src={Bobcat} />
@@ -678,9 +678,8 @@ const IndexPage = ({ location }) => {
                 </h1>
                 <h2 className="text-lg mt-2 leading-tight text-white">
                   Get out of the way forest creatures and two-legged land
-                  dwellers — the Big Moose Outdoor Cinema needs extra space
-                  with its impressive 12‘ ft width and 10‘ ft height framing
-                  system.
+                  dwellers — the Big Moose Outdoor Cinema needs extra space with
+                  its impressive 12‘ ft width and 10‘ ft height framing system.
                 </h2>
                 <h2 className="text-lg mt-4 leading-tight text-white">
                   This cinema package is for the homeowner or business who wants
@@ -708,7 +707,7 @@ const IndexPage = ({ location }) => {
             </div>
           </div>
 
-          <QuoteMobile className="container mx-auto py-4">
+          {/* <QuoteMobile className="container mx-auto py-4">
             <h2 className="text-lg leading-tight text-white text-center">
               “My Wireless Timberline Outdoor Cinemas take less time to set up
               and start watching than it does to pop a bag of popcorn.”
@@ -716,7 +715,7 @@ const IndexPage = ({ location }) => {
             <div className="signature mt-4">
               <img src={signature} alt="signature todd morton" />
             </div>
-          </QuoteMobile>
+          </QuoteMobile> */}
         </div>
         {/* ----------Desktop code----------------- */}
         <DesktopContainer className="">
@@ -1508,7 +1507,7 @@ const IndexPage = ({ location }) => {
           </div>
           <div class="grid grid-section-center-align full-width content-center gap-4">
             <div className="grid-background-last-section"></div>
-            <div className="grid-background-last-section">
+            {/* <div className="grid-background-last-section">
               <Orange className=" py-8 ">
                 <QuoteContainer
                   className="container mx-auto "
@@ -1539,7 +1538,7 @@ const IndexPage = ({ location }) => {
                   </div>
                 </QuoteContainer>
               </Orange>
-            </div>
+            </div> */}
             <div className="grid-background-last-section"></div>
           </div>
 
