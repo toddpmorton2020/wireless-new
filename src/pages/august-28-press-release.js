@@ -31,7 +31,7 @@ function Aug28PressRelease() {
                 PRESS RELEASE | August 28, 2021
               </h2>
               <h1 className="press-release-heading pt-5 text-white font-extrabold pb-3">
-              Wireless Outdoor Cinema Company Introduces Its New Timberline Series Built to Withstand Fall and Winter Weather
+              Wireless Outdoor Cinema Company Introduces Its New Timberline Series Frame Built to Withstand Fall and Winter Weather
               </h1>
             </div>
             <div className="md:hidden full-bleed-mobile relative mb-6 mt-6 bg-center">
