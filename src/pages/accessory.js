@@ -78,7 +78,7 @@ const Accessory = () => {
                 <img src={firePit} />
               </div>
               <div className="flex-1 mt-6 md:mt-0 pr-0 mb-6 sm:mb-0">
-                <h3 className="text-lg xl:text-3xl mb-6 sm:mb-8 acc-line-height">
+                <h3 className="outdoor-subfont xl:text-3xl mb-6 sm:mb-8 acc-line-height">
                   Outland Living 883 Mega Outdoor Propane Gas 24-Inch diameter
                   Fire Pit with 58,000 BTU
                 </h3>
@@ -112,7 +112,7 @@ const Accessory = () => {
             <div className="gray-back">
               <div className="mt-12 sm:mt-0 sm:py-12 flex flex-col-reverse md:flex-row container mx-auto accessory-padding">
                 <div className="flex-1 mt-6 md:mt-0 pr-0 md:pr-12 mb-6 sm:mb-0">
-                  <h3 className="text-lg mb-6 sm:mb-8 news-subtitle-2 xl:text-3xl acc-line-height">
+                  <h3 className="outdoor-subfont mb-6 sm:mb-8 news-subtitle-2 xl:text-3xl acc-line-height">
                     Outdoor Propane Patio Heater with wheels - 46,000 BTU
                   </h3>
                   <div className="mb-6 pl-0 text-center md:text-left mobile">
@@ -150,7 +150,7 @@ const Accessory = () => {
                 <img src={thermail} />
               </div>
               <div className="flex-1 mt-6 md:mt-0 pr-0 mb-6 sm:mb-0">
-                <h3 className="text-lg mb-6 sm:mb-8 xl:text-3xl acc-line-height">
+                <h3 className="outdoor-subfont mb-6 sm:mb-8 xl:text-3xl acc-line-height">
                   Wool Blankets 4 lbs., warm, heavy, washable, large - great for
                   movies outside
                 </h3>
@@ -183,7 +183,7 @@ const Accessory = () => {
             <div className="gray-back">
               <div className="mt-12 sm:mt-0 sm:py-12 flex flex-col-reverse md:flex-row container mx-auto accessory-padding">
                 <div className="flex-1 mt-6 md:mt-0 pr-0 md:pr-12 mb-6 sm:mb-0">
-                  <h3 className="text-lg mb-6 sm:mb-8 xl:text-3xl acc-line-height">
+                  <h3 className="outdoor-subfont mb-6 sm:mb-8 xl:text-3xl acc-line-height">
                     Better Homes & Gardens Azalea Ridge Outdoor Conversation Set
                     with orange cushions
                   </h3>
@@ -225,7 +225,7 @@ const Accessory = () => {
                 <img src={popcorn} />
               </div>
               <div className="flex-1 mt-6 md:mt-0 pr-0 mb-6 sm:mb-0">
-                <h3 className="text-lg mb-6 sm:mb-8 xl:text-3xl acc-line-height">
+                <h3 className="outdoor-subfont mb-6 sm:mb-8 xl:text-3xl acc-line-height">
                   Coleman Handheld Popcorn Popper with long handle
                 </h3>
                 <div className="mobile pl-0 mb-6 md:pr-12 text-center md:text-left flex items-center image-accessory">
@@ -259,7 +259,7 @@ const Accessory = () => {
             <div className="gray-back">
               <div className="mt-12 sm:mt-0 sm:pt-12 xl:pb-20 flex flex-col-reverse md:flex-row container mx-auto accessory-padding">
                 <div className="flex-1 mt-6 md:mt-0 pr-0 md:pr-12 mb-16 sm:mb-0">
-                  <h3 className="text-lg mb-6 sm:mb-8 xl:text-3xl acc-line-height">
+                  <h3 className="outdoor-subfont mb-6 sm:mb-8 xl:text-3xl acc-line-height">
                     OneOdio A70 Bluetooth Over Ear Headphones, foldable, wired
                     and wireless
                   </h3>

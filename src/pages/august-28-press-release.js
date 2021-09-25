@@ -87,7 +87,7 @@ function Aug28PressRelease() {
               </p>
               <div className="xl:bg-transparent bg-green-100 xl:mx-0 -mx-6 pt-5 xl:pt-0 xl:text-left text-center xl:mb-0 mb-5">
                 <p className="xl:text-23 text-base font-extralight pb-2 xl:px-0 px-5 press-text">
-                  "TEST: I'm excited about the new development changes made to the 4"
+                  "I'm excited about the new development changes made to the 4"
                   x 4" pressure-treated wood frame system. The new changes
                   rock-solid frame has made it rock solid in any weather Mother
                   Nature throws at it," said Todd Morton, owner of the Wireless

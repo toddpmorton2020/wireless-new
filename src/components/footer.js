@@ -43,7 +43,7 @@ function Footer() {
                   <strong>promotions</strong>, <strong>giveaways</strong> and{" "}
                   <strong>tips</strong>
                 </h3>
-                <div className="flex xl:flex-row flex-col xl:pt-2 xl:ml-1 input-div">
+                <div className="flex xl:flex-row flex-col xl:pt-4 xl:ml-1 input-div">
                   <div>
                     <input
                       type="text"
@@ -138,9 +138,9 @@ function Footer() {
                   <span className="text-orange-600 mr-2">&gt;</span>
                   About
                 </Link>
-                <Link to="/#cinema-packages" className="flex items-center py-2">
+                <Link to="/comparison" className="flex items-center py-2">
                   <span className="text-orange-500 mr-2">&gt;</span>
-                  Cinema Packages
+                  Outdoor Cinemas
                 </Link>
                 <Link to="/accessory" className="flex items-center py-2">
                   <span className="text-orange-500 mr-2">&gt;</span>
