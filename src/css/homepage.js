@@ -197,6 +197,41 @@ export const QuoteContainer = styled.div`
   }
 `
 
+export const QuoteContainerOr = styled.div`
+  padding: calc(1.5rem - 13px) 1rem;
+  .quote {
+    color: #fff;
+    font-size: 1.875rem;
+    span {
+      font-size: 4rem;
+      line-height: 0;
+      position: relative;
+      top: 16px;
+
+      &.two {
+        top: 21px;
+      }
+    }
+  }
+  .signature {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: #282828;
+    margin-top: 1.5rem;
+    img {
+      height: 35px;
+      width: auto;
+    }
+    .slash {
+      margin: 0 10px;
+    }
+    .owner {
+      font-size: 1.675rem;
+    }
+  }
+`
+
 export const QuoteMobile = styled.div`
   background-color: #ff6600;
   .signature {

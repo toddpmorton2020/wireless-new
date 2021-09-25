@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react"
 import { Link } from "gatsby"
-import { Orange, QuoteContainer } from "../css/homepage"
+import { Orange, QuoteContainerOr } from "../css/homepage"
 
 function Footer() {
   const [error, setError] = useState("")
@@ -28,7 +28,7 @@ function Footer() {
     <div>
       <form onSubmit={handleSubmit} ref={form}>
         <Orange>
-          <QuoteContainer className="container mx-auto">
+          <QuoteContainerOr className="container mx-auto">
             <div className="flex xl:flex-row flex-col orange-mob">
               <img src="/desk-form" alt="" className="ml-3 hide" />
               <img
@@ -43,7 +43,7 @@ function Footer() {
                   <strong>promotions</strong>, <strong>giveaways</strong> and{" "}
                   <strong>tips</strong>
                 </h3>
-                <div className="flex xl:flex-row flex-col xl:pt-4 xl:ml-1 input-div">
+                <div className="flex xl:flex-row flex-col xl:pt-6 xl:ml-1 input-div">
                   <div>
                     <input
                       type="text"
@@ -79,7 +79,7 @@ function Footer() {
                 )}
               </div>
             </div>
-          </QuoteContainer>
+          </QuoteContainerOr>
         </Orange>
       </form>
       <div className="full-width footer-padding bg-black pt-8 lg:pt-12 lg:py-12 text-white">
