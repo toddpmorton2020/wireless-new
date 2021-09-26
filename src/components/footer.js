@@ -43,7 +43,7 @@ function Footer() {
                   <strong>promotions</strong>, <strong>giveaways</strong> and{" "}
                   <strong>tips</strong>
                 </h3>
-                <div className="flex xl:flex-row flex-col xl:pt-5 xl:ml-1 input-div">
+                <div className="flex xl:flex-row flex-col xl:pt-4 xl:ml-1 input-div">
                   <div>
                     <input
                       type="text"
