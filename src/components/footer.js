@@ -209,9 +209,8 @@ function Footer() {
         </div> */}
       </div>
 
-      <div className="grid grid-footer gap-0 content-center text-center ">
-        <div></div>
-        <div>
+      <div className="mx-auto container text-center flex">
+        <div class="flex-1">
           <div className="hidden lg:block">
             <Link to="/" className="cursor-pointer">
               <img src={`/cinemalogo.png`} className="h-12" />
@@ -225,7 +224,7 @@ function Footer() {
             </p>
           </div>
         </div>
-        <div>
+        <div class="flex-1">
           <div className="flex items-end pb-6 sm:pb-0">
             <video
               autoPlay
@@ -238,7 +237,7 @@ function Footer() {
             </video>
           </div>
         </div>
-        <div>
+        <div class="flex-1">
           <div className="pt-0 hidden lg:block">
             <h5 className="text-orange-500 h3-footer-align font-bold uppercase mt-1">
               Quick Links
@@ -309,7 +308,6 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div></div>
       </div>
       <div className="text-left lg:text-center text-sm mt-2 lg:mt-6 py-3 px-6 lg:px-0 lg:py-0 border-t border-gray-800 lg:border-none">
         <div className="flex items-center lg:justify-center lg:mb-2">
