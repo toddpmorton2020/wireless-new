@@ -198,7 +198,7 @@ const Header = ({ siteTitle }) => {
                   </div>
                 </div>
 
-                <div className="flex items-center mt-5">
+                <div className="flex items-center mt-3">
                   <Link
                     to="/about"
                     className="cursor-pointer hover:text-orange-500"

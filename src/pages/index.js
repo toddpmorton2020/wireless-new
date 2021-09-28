@@ -716,7 +716,7 @@ const IndexPage = ({ location }) => {
         {/* ----------Desktop code----------------- */}
         <DesktopContainer className="">
           <Carousel
-            className="full-width"
+            className="homepage-carousel full-width"
             showArrows={true}
             showStatus={false}
             showIndicators={false}
@@ -772,8 +772,8 @@ const IndexPage = ({ location }) => {
               )}
             </div>
             <div
-              className="w-full h-full relative bg-cover bg-bottom hidden sm:flex items-center"
-              style={{ backgroundImage: `url("${newBanner}")` }}
+              className="w-full h-full relative bg-cover bg-bottom hidden sm:flex pt-32"
+              style={{ backgroundImage: `url("${newBanner}")`, backgroundPosition: 'center', backgroundSize: 'cover' }}
             >
               <div>
                 <div
@@ -789,7 +789,7 @@ const IndexPage = ({ location }) => {
                     className="absolute bg-black opacity-50 w-full h-full"
                   />
                   <div className="header-align-text ml-20 lg:ml-40">
-                    <div className="pr-16 py-6 max-w-lg">
+                    <div className="pr-16 lg:pr-40 py-6">
                       <h1 className="text-white top-banner-heading leading-home ml-2 font-normal  relative">
                         Get an Outdoor
                       </h1>

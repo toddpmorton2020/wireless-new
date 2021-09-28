@@ -275,6 +275,20 @@
   border: none;
 }
 
+.homepage-carousel {
+  height: calc(100vh - 86px);
+}
+.carousel.carousel-slider, 
+.carousel .slider-wrapper, 
+.carousel .slider-wrapper .slider, 
+.carousel .slider-wrapper .slide {
+  height: 100%;
+}
+.carousel .slider-wrapper .responsive-video {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 @media screen and (min-width: 800px) {
   body {
     background-color: transparent;
@@ -305,10 +319,6 @@
     margin-top: 40px;
   }
 
-  .header-padding {
-    padding-top: 1.5rem;
-    padding-bottom: 1.25rem;
-  }
   .footer-padding {
     padding-left: 5rem;
     padding-right: 5rem;
