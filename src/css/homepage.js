@@ -25,17 +25,11 @@ export const Introduction = styled.div`
   h2 {
     display: flex;
     flex-direction: column;
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 700;
     line-height: 1;
     color: #282828;
     margin-bottom: 1.5rem;
-  }
-  @media (min-width: 1024px) {
-    
-    h2 {
-      font-size: 3rem;
-    }
   }
 
   .text {

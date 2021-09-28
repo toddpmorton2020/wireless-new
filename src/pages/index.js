@@ -727,7 +727,7 @@ const IndexPage = ({ location }) => {
                   onClick={onClickHandler}
                   title={label}
                   style={{ ...arrowStyles, right: 15, top: "50%" }}
-                  className="focus:outline-none w-12 lg:w-auto"
+                  className="focus:outline-none w-18 lg:w-auto"
                 >
                   <AiOutlineRight color={"#ffffff"} size={ICON_SIZE} className="max-w-full" />
                 </div>
@@ -740,7 +740,7 @@ const IndexPage = ({ location }) => {
                   onClick={onClickHandler}
                   title={label}
                   style={{ ...arrowStyles, left: 15, top: "50%" }}
-                  className="focus:outline-none w-12 lg:w-auto"
+                  className="focus:outline-none w-18 lg:w-auto"
                 >
                   <AiOutlineLeft color={"#ffffff"} size={ICON_SIZE} className="max-w-full" />
                 </button>
@@ -773,14 +773,8 @@ const IndexPage = ({ location }) => {
             </div>
             <div
               className="w-full h-full relative bg-cover bg-bottom hidden sm:flex pt-32"
-              style={{ backgroundImage: `url("${newBanner}")`, backgroundPosition: 'center', backgroundSize: 'cover' }}
+              style={{ backgroundImage: `url("${newBanner}")`, backgroundPosition: 'center right', backgroundSize: 'cover' }}
             >
-              <div>
-                <div
-                  className="absolute original-stamp"
-                  style={{ backgroundImage: `url("${originalStamp}")` }}
-                ></div>
-              </div>
               <div className=" ">
                 <div
                   className="w-full relative block"
@@ -1015,12 +1009,12 @@ const IndexPage = ({ location }) => {
                     </p>
                   </div>
                   <div className="mt-16 flex flex-wrap">
-                    <div className="w-1/2 lg:w-1/4 px-4 lg:px-6 mb-20 lg:mb-0">
-                      <div className="bg-image bg-grid-small mx-auto content-center">
-                        <img src={Feature1} />
+                    <div className="w-1/2 md:w-1/4 px-3 lg:px-5 mb-20 lg:mb-0">
+                      <div className="text-center">
+                        <img src={Feature1} className="inline-block" />
                       </div>
                       <div className="text text-right">
-                        <h3 className="text-2xl font-medium mt-3 lg:mb-1 text-center leading-wide">
+                        <h3 className="text-3xl font-medium mt-3 lg:mb-1 text-center leading-wide">
                           Strongest Frame
                         </h3>
                         <p className="text-center font-sm lg:text-xl mt-5">
@@ -1030,12 +1024,12 @@ const IndexPage = ({ location }) => {
                         </p>
                       </div>
                     </div>
-                    <div className="w-1/2 lg:w-1/4 px-4 lg:px-6 mb-20 lg:mb-0">
-                      <div className="bg-image bg-grid-small mx-auto content-center">
-                        <img src={Feature2} />
+                    <div className="w-1/2 md:w-1/4 px-3 lg:px-5 mb-20 lg:mb-0">
+                      <div className="text-center">
+                        <img src={Feature2} className="inline-block" />
                       </div>
                       <div className="text text-right">
-                        <h3 className="text-2xl font-medium mt-3 lg:mb-1 text-center leading-wide">
+                        <h3 className="text-3xl font-medium mt-3 lg:mb-1 text-center leading-wide">
                           Projector Stand
                         </h3>
                         <p className="text-center lg:text-xl font-sm mt-5">
@@ -1045,12 +1039,12 @@ const IndexPage = ({ location }) => {
                         </p>
                       </div>
                     </div>
-                    <div className="w-1/2 lg:w-1/4 px-4 lg:px-6">
-                      <div className="bg-image bg-grid-small mx-auto content-center">
-                        <img src={Feature3} />
+                    <div className="w-1/2 md:w-1/4 px-3 lg:px-5">
+                      <div className="text-center">
+                        <img src={Feature3} className="inline-block" />
                       </div>
                       <div className="text text-right">
-                        <h3 className="text-2xl font-medium mt-3 lg:mb-1  text-center leading-wide">
+                        <h3 className="text-3xl font-medium mt-3 lg:mb-1  text-center leading-wide">
                           Fastest Setup
                         </h3>
                         <p className="text-center lg:text-xl font-sm mt-5">
@@ -1060,12 +1054,12 @@ const IndexPage = ({ location }) => {
                         </p>
                       </div>
                     </div>
-                    <div className="w-1/2 lg:w-1/4 px-4 lg:px-6">
-                      <div className="bg-image bg-grid-small mx-auto content-center">
-                        <img src={Feature4} />
+                    <div className="w-1/2 md:w-1/4 px-3 lg:px-5">
+                      <div className="text-center">
+                        <img src={Feature4} className="inline-block" />
                       </div>
                       <div className="text text-right">
-                        <h3 className="text-2xl font-medium mt-3 lg:mb-1  text-center leading-wide">
+                        <h3 className="text-3xl font-medium mt-3 lg:mb-1  text-center leading-wide">
                           Year-round Use
                         </h3>
                         <p className="text-center lg:text-xl font-sm mt-5">
@@ -1116,7 +1110,7 @@ const IndexPage = ({ location }) => {
                     </p>
                   </div>
                   <div className="mt-16 text-center flex flex-wrap justify-center">
-                    <div className="w-full lg:w-1/3 px-4 lg:px-6 mb-20 lg:mb-0">
+                    <div className="w-full lg:w-1/3 max-w-lg lg:max-w-full px-4 lg:px-6 mb-20 lg:mb-0">
                       <div className="px-6 mb-8 mx-auto text-center">
                         <img src={newBobcat} className="inline-block" />
                       </div>
@@ -1124,24 +1118,24 @@ const IndexPage = ({ location }) => {
                         className="text flex flex-col items-center"
                       >
                         <div class="text-center leading-tight">
-                          <h3 className="text-orange-500 text-2xl lg:text-3xl">
+                          <h3 className="text-orange-500 text-3xl">
                             96” Jedi Bobcat
                           </h3>
-                          <h3 className="text-2xl lg:text-3xl">
+                          <h3 className="text-3xl">
                             Outdoor Gaming{" "}
                           </h3>
-                          <h3 className="text-2xl lg:text-3xl pb-2">
+                          <h3 className="text-3xl pb-2">
                             {" "}
                             Cinema
                           </h3>
                         </div>
-                        <p className="text-center pt-7.5 lg:text-xl font-xs mt-5 px-4">
+                        <p className="text-center pt-7.5 lg:text-xl mt-5 px-4">
                           Get the only outdoor gaming cinema available on the
                           market. With an 8’ ft. wide frame and cinematic gaming
                           screen, playing your favorite video games outside will
                           make you feel as if you are in real life-size action.
                         </p>
-                        <p className="text-center font-xs lg:text-xl pb-5 px-4">
+                        <p className="text-center lg:text-xl pb-5 px-4">
                           Feel the exhilaration and excitement while you game
                           away under the stars and moon. Get out of the house
                           and experience how video gaming should be.
@@ -1150,10 +1144,8 @@ const IndexPage = ({ location }) => {
                           style={{ textDecoration: "none" }}
                           to="/timberline-cinema-packages/96-jedi-bobcat-cinema"
                         >
-                          <p className="text-center text-orange-500 lg:text-lg">
-                            Learn more about the 96”<br/>
-                            Jedi Bobcat Outdoor<br/>
-                            Gaming Cinema.
+                          <p className="text-center text-orange-500 lg:text-lg max-w-sm lg:max-w-full">
+                            Learn more about the<br class="block lg:hidden" /> 96”<br class="hidden lg:block" /> Jedi Bobcat Outdoor<br class="hidden lg:block" /> Gaming Cinema.
                           </p>
                         </Link>
 
@@ -1166,7 +1158,7 @@ const IndexPage = ({ location }) => {
                         </Link>
                       </div>
                     </div>
-                    <div className="w-full lg:w-1/3 px-4 lg:px-6 mb-20 lg:mb-0">
+                    <div className="w-full lg:w-1/3 max-w-lg lg:max-w-full px-4 lg:px-6 mb-20 lg:mb-0">
                       <div className="px-6 mb-8 mx-auto text-center">
                         <img src={BearBanner} className="inline-block" />
                       </div>
@@ -1174,13 +1166,13 @@ const IndexPage = ({ location }) => {
                         className="text flex flex-col items-center"
                       >
                         <div className="text-center leading-tight">
-                          <h3 className="text-purple-1000 text-2xl lg:text-3xl">
+                          <h3 className="text-purple-1000 text-3xl">
                             120” Bella Bear
                           </h3>
-                          <h3 className="text-2xl lg:text-3xl">
+                          <h3 className="text-3xl">
                             Backyard Outdoor
                           </h3>
-                          <h3 className="text-2xl lg:text-3xl pb-2">
+                          <h3 className="text-3xl pb-2">
                             Cinema
                           </h3>
                         </div>
@@ -1196,15 +1188,13 @@ const IndexPage = ({ location }) => {
                           and make you feel like you are at the drive-in movie
                           theater while being in the comfort of your backyard.
                         </p>
-                        <p className="text-center text-purple-1000 lg:text-lg">
+                        <p className="text-center text-purple-1000 lg:text-lg max-w-sm lg:max-w-full">
                           <Link
                             style={{ textDecoration: "none" }}
                             to="/timberline-cinema-packages/120-bella-bear-cinema/"
                           >
                             {" "}
-                            Learn more about the 120”<br/> 
-                            Bella Bear Backyard<br/>
-                            Outdoor Cinema.
+                            Learn more about the<br class="block lg:hidden" /> 120”<br class="hidden lg:block" /> Bella Bear Backyard<br class="hidden lg:block" /> Outdoor Cinema.
                           </Link>
                         </p>
                         <hr className="bg-#E0E0E0 hr-grid max-w-full my-2 mx-auto"></hr>
@@ -1216,7 +1206,7 @@ const IndexPage = ({ location }) => {
                         </Link>
                       </div>
                     </div>
-                    <div className="w-full lg:w-1/3 px-4 lg:px-6">
+                    <div className="w-full lg:w-1/3 max-w-lg lg:max-w-full px-4 lg:px-6">
                       <div className="px-6 mb-8 mx-auto text-center">
                         <img src={MooseBanner} className="inline-block" />
                       </div>
@@ -1224,13 +1214,13 @@ const IndexPage = ({ location }) => {
                         className="text flex flex-col items-center"
                       >
                         <div className="text-center leading-tight">
-                          <h3 className="text-orange-500 text-2xl lg:text-3xl">
+                          <h3 className="text-orange-500 text-3xl">
                             150” Big Moose
                           </h3>
-                          <h3 className="text-2xl lg:text-3xl">
+                          <h3 className="text-3xl">
                             Premium Outdoor{" "}
                           </h3>
-                          <h3 className="text-2xl lg:text-3xl pb-2">
+                          <h3 className="text-3xl pb-2">
                             {" "}
                             Cinema
                           </h3>
@@ -1242,7 +1232,7 @@ const IndexPage = ({ location }) => {
                           ft height framing system. Simply stated - this cinema
                           is huge.
                         </p>
-                        <p className="text-center lg:min-w-0text-xl pb-5 px-4">
+                        <p className="text-center lg:text-xl pb-5 px-4">
                           Designed for homeowners and businesses who want to do
                           some serious entertaining outside for friends, family
                           and want nothing but the biggest and best.
@@ -1251,10 +1241,8 @@ const IndexPage = ({ location }) => {
                           style={{ textDecoration: "none" }}
                           to="/timberline-cinema-packages/150-big-moose-cinema"
                         >
-                          <p className="text-center text-orange-500 lg:text-lg">
-                            Learn more about the 150”<br/> 
-                            Big Moose Premium<br/>
-                            Outdoor Cinema.
+                          <p className="text-center text-orange-500 lg:text-lg max-w-sm lg:max-w-full">
+                            Learn more about the<br class="block lg:hidden" /> 150”<br class="hidden lg:block" /> Big Moose Premium<br class="hidden lg:block" /> Outdoor Cinema.
                           </p>
                         </Link>
 

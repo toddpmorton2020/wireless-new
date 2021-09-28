@@ -210,8 +210,8 @@ function Footer() {
       </div>
 
       <div className="mx-auto container text-center flex">
-        <div class="flex-1">
-          <div className="hidden lg:block">
+        <div class="flex-1 hidden lg:block">
+          <div>
             <Link to="/" className="cursor-pointer">
               <img src={`/cinemalogo.png`} className="h-12" />
             </Link>
@@ -231,18 +231,18 @@ function Footer() {
               loop
               muted
               playsInline
-              className="w-4/5 mx-auto margin-footer-fire"
+              className="lg:w-4/5 mx-auto margin-footer-fire"
             >
               <source src="/campfire.mp4" type="video/mp4" />
             </video>
           </div>
         </div>
-        <div class="flex-1">
-          <div className="pt-0 hidden lg:block">
-            <h5 className="text-orange-500 h3-footer-align font-bold uppercase mt-1">
-              Quick Links
-            </h5>
+        <div class="flex-1 hidden lg:block">
+          <div className="pt-0">
             <div className="flex flex-col footer-links-align">
+              <h5 className="text-left text-orange-500 font-bold uppercase mb-1">
+                Quick Links
+              </h5>
               <Link to="/about" className="flex items-center">
                 <img src="/arrowright.png" className="h-3 mr-3" />
                 About
