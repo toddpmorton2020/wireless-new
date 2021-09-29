@@ -31,7 +31,7 @@ function Aug28PressRelease() {
                 PRESS RELEASE | August 28, 2021
               </h2>
               <h1 className="press-release-heading pt-5 text-white font-extrabold pb-3">
-                Wireless Outdoor Cinema Company announces new Timberline Series
+              Wireless Outdoor Cinema Company Introduces its New Timberline Series Frame System Built to Withstand Fall and Winter Weather
               </h1>
             </div>
             <div className="md:hidden full-bleed-mobile relative mb-6 mt-6 bg-center">
@@ -51,7 +51,7 @@ function Aug28PressRelease() {
             </div>
             <div>
               <h1 className="main-heading font-semibold xl:pt-6 press-release-padding press-line-height hide">
-                Wireless Outdoor Cinema Company Announces new Timberline Series
+              Wireless Outdoor Cinema Company Introduces its New Timberline Series Frame System Built to Withstand Fall and Winter Weather
               </h1>
             </div>
             <div className="hide press-release-padding">
@@ -70,29 +70,16 @@ function Aug28PressRelease() {
               <p className="xl:text-23 text-base font-extralight pb-5 press-text">
                 <strong>
                   BRIDGTON, MAINE – August 28, 2021 – The Wireless Outdoor
-                  Cinema Company
+                  Cinema Company,
                 </strong>{" "}
-                today announced the new Timberline Outdoor Cinema Series with a
-                new and improved frame system to attach the cinematic screen to.
-                The new frame system is more sturdy and durable than the
-                original frame that was introduced last year.
+                a premier provider of complete outdoor movie theater solutions for homeowners and businesses, today announced the availability of the new Timberline Outdoor Cinema Series. The new reinforced frame system is included with the purchase of each of the three Timberline option packages: the 96” Jedi Bobcat Outdoor Gaming Cinema ($2,499); the 120” Bella Bear Backyard Outdoor Cinema (starting at $2,399); and the 150”  Big Moose Premium Outdoor Cinema (starting at $2,899).
               </p>
               <p className="xl:text-23 text-base font-extralight pb-5 press-text">
-                The new frame system was redesigned to give the frame more
-                stability if unexpected strong wind gusts hit the screen while
-                attached to the frame. In addition, the bottom supports to the
-                frame were improved by adding front bottom 45-degree angle
-                supports and new heavy-duty post and beam weather-resistant
-                hardware.
+              The more stable new frame system, that supports the cinematic screen, can withstand strong wind gusts, rain storms and snow. There’s no need to break it down, deflate or shove back into a box since it can remain outdoors year-round. The new frames feature newly added front bottom 45-degree angle supports and new heavy-duty post and beam weather-resistant hardware. Customers who previously purchased an outdoor cinema package will receive the new frame system.
               </p>
               <div className="xl:bg-transparent bg-green-100 xl:mx-0 -mx-6 pt-5 xl:pt-0 xl:text-left text-center xl:mb-0 mb-5">
                 <p className="xl:text-23 text-base font-extralight pb-2 xl:px-0 px-5 press-text">
-                  "I'm excited about the new development changes made to the 4"
-                  x 4" pressure-treated wood frame system. The new changes
-                  rock-solid frame has made it rock solid in any weather Mother
-                  Nature throws at it," said Todd Morton, owner of the Wireless
-                  Outdoor Cinema Company. "The new frame design will last as
-                  long as your outside deck attached to your home will."
+                “Timberline’s new reinforced wood frame system can handle any weather Mother Nature throws at it, making it the ideal outdoor backyard cinema no matter where you live,” said Todd Morton, owner of the Wireless Outdoor Cinema Company. “I’m thrilled to bring this quality woodworking craftsmanship that Maine is known for, to customers. This new frame design will last as long as your outside deck attached to your home will.”
                 </p>
                 <img
                   src="/todd-sign.png"
@@ -102,26 +89,17 @@ function Aug28PressRelease() {
               </div>
               <p className="xl:text-23 text-base font-extralight pb-5 xl:-mt-6 press-text">
                 <strong>
-                  Features and benefits of the Timberline Outdoor Cinema Series
-                  Frame System
+                The Timberline Outdoor Cinema Series Frame System provides the following additional benefits:
                 </strong>
               </p>
               <p className="xl:text-23 text-base font-extralight pb-5 xl:ml-8 ml-2 indent press-text">
-                • Made from pressure-treated wood and is naturally resistant to
-                rot, decay, and insect attacks
+                • Made from pressure-treated wood that is naturally resistant to rot, decay, and insects
               </p>
               <p className="xl:text-23 text-base font-extralight pb-5 xl:ml-8 ml-2 indent press-text">
-                • Only outdoor cinema frame that you never have to break down,
-                shove in a box, or deflate – it stays up on your property
-                year-round
+                • It’s inside hook screws where the grommet hole cinematic screen attaches allows for the fastest setup time in just minutes
               </p>
               <p className="xl:text-23 text-base font-extralight pb-5 xl:ml-8 ml-2 indent press-text">
-                • Allows for the fastest setup time by using inside hook screws
-                where the grommet hole cinematic screen attaches to
-              </p>
-              <p className="xl:text-23 text-base font-extralight pb-5 xl:ml-8 ml-2 indent press-text">
-                • The frame is moveable so that you can place it anywhere on
-                your property
+                • While sturdy, the frame is also moveable, allowing for placement anywhere on the property at any time
               </p>
               <p className="xl:text-23 text-base font-extralight pb-5 press-text">
                 The new frame systems are now available and included with all
@@ -131,15 +109,7 @@ function Aug28PressRelease() {
               </p>
               <p className="xl:text-23 text-base font-extralight pb-5 press-text">
                 <strong>About The Wireless Outdoor Cinema Company</strong>{" "}
-                <br /> The Wireless Outdoor Cinema Company provides homeowners
-                and businesses with a complete outdoor movie theater solution to
-                enjoy big-screen entertainment year-round. The cinema packages
-                are designed to help achieve a fast and easy setup every time
-                you want to go outside and enjoy your favorite entertainment.
-                Cinema packages include a Pressure-treated Frame to attach the
-                screen to, a Cinematic Screen, 1080p LED Projector, Sound
-                System, Roku 4k Media Player, and a light-weight custom cedar
-                wood Projector and Equipment Stand.
+                <br /> Located in Bridgton, a resort area in Maine’s scenic Lakes Region, The Wire Outdoor Cinema Company brings the finest quality craftsmanship of traditional Maine woodworking to the outdoor theater experience. Since 2020, Founder Todd Morton has been constructing outdoor movie theater solution packages that bring big-screen Hollywood entertainment to homeowners and businesses – year-round. Designed to be intuitive with fast and easy set-up, the cinema packages vary by screen size, and all include a pressure-treated frame, a cinematic screen, 1080p LED projector, sound system, Roku 4k media player, and a light-weight custom cedar wood projector and equipment stand. 
               </p>
             </div>
             <div className="press-release-padding pt-8 xl:text-black text-white">
@@ -150,7 +120,7 @@ function Aug28PressRelease() {
               <p className="xl:text-23 text-base contact-det">
                 Wireless Outdoor Cinema Company
                 <br />
-                Todd Morton – owner
+                Todd Morton, Founder
               </p>
               <a
                 className="text-blue-600 xl:text-23 text-base contact-det"

@@ -9,10 +9,6 @@ import Checkmark from "../images/checkmark-icon.png"
 import Banner from "../images/mobile-home-page-image-cropped.png"
 import Timberline from "../images/timberline-outdoor-cinema-frame-mobile.png"
 import Projector from "../images/outdoor-cinema-projector-stand-mobile.png"
-import Gallery1 from "../images/sm-outdoor-cinema-setup.png"
-import Gallery2 from "../images/sm-outdoor-projector.png"
-import Gallery3 from "../images/sm-outdoor-cinema-frame.png"
-import Gallery4 from "../images/sm-outdoor-cinema-winter.png"
 
 import Bobcat from "../images/mobile-jedi-bobcat-home.png"
 import Bear from "../images/mobile-bella-bear-home.png"
@@ -395,20 +391,21 @@ const IndexPage = ({ location }) => {
             <div className="">
               <div className="flex flex-wrap">
                 <div className="flex items-start mb-6">
-                  <img src={Gallery1} className="inline-block mr-4" />
+                  <img src="/timberline-frame-mobile-165x120.jpg" className="inline-block mr-4" />
                   <div className="leading-tight">
                     <h2 className="mb-2 text-lg font-medium">
-                      Strongest Frame System
+                      Strongest Frame
                     </h2>
 
                     <div className="text-black">
                       Frame never has to be broken down, taken apart, shoved in
-                      a box, or deflated. It stays outside just like your deck.
+                      a box, or deflated. The frame stays outside like the deck
+                      to your home.
                     </div>
                   </div>
                 </div>
                 <div className="flex items-start mb-6">
-                  <img src={Gallery2} className="inline-block mr-4" />
+                  <img src="/projector-stand-feature-mobile-165x120.jpg" className="inline-block mr-4" />
                   <div className="leading-tight">
                     <h2 className="mb-2 text-lg font-medium">
                       Projector Stand
@@ -423,7 +420,7 @@ const IndexPage = ({ location }) => {
               </div>
               <div className="flex flex-wrap">
                 <div className="flex items-start mb-6">
-                  <img src={Gallery3} className="inline-block mr-4" />
+                  <img src="/setup-mobile-165x120.jpg" className="inline-block mr-4" />
                   <div className="leading-tight">
                     <h2 className=" mb-2 text-lg font-medium">
                       Fastest Setup
@@ -436,7 +433,7 @@ const IndexPage = ({ location }) => {
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <img src={Gallery4} className="inline-block mr-4" />
+                  <img src="/winter-view-mobile-165x120.jpg" className="inline-block mr-4" />
                   <div className="leading-tight">
                     <h2 className="mt-4 mb-2 text-lg font-medium">
                       Year-Round Use
@@ -576,7 +573,7 @@ const IndexPage = ({ location }) => {
             </h2>
           </div>
 
-          <div className="container mx-auto text-white pb-8">
+          <div className="container mx-auto text-white pb-18">
             <div className="w-full border border-orange-500 mb-8">
               <div className="bg-image">
                 <img src={Bobcat} />
@@ -673,9 +670,8 @@ const IndexPage = ({ location }) => {
                 </h1>
                 <h2 className="text-lg mt-2 leading-tight text-white">
                   Get out of the way forest creatures and two-legged land
-                  dwellers — the Big Moose Outdoor Cinema needs extra space
-                  with its impressive 12‘ ft width and 10‘ ft height framing
-                  system.
+                  dwellers — the Big Moose Outdoor Cinema needs extra space with
+                  its impressive 12‘ ft width and 10‘ ft height framing system.
                 </h2>
                 <h2 className="text-lg mt-4 leading-tight text-white">
                   This cinema package is for the homeowner or business who wants
@@ -703,7 +699,7 @@ const IndexPage = ({ location }) => {
             </div>
           </div>
 
-          <QuoteMobile className="container mx-auto py-4">
+          {/* <QuoteMobile className="container mx-auto py-4">
             <h2 className="text-lg leading-tight text-white text-center">
               “My Wireless Timberline Outdoor Cinemas take less time to set up
               and start watching than it does to pop a bag of popcorn.”
@@ -711,7 +707,7 @@ const IndexPage = ({ location }) => {
             <div className="signature mt-4">
               <img src={signature} alt="signature todd morton" />
             </div>
-          </QuoteMobile>
+          </QuoteMobile> */}
         </div>
         {/* ----------Desktop code----------------- */}
         <DesktopContainer className="">
