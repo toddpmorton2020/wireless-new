@@ -231,7 +231,7 @@ function Footer() {
               loop
               muted
               playsInline
-              className="lg:w-4/5 mx-auto margin-footer-fire"
+              className="w-4/5 max-w-sm mx-auto margin-footer-fire"
             >
               <source src="/campfire.mp4" type="video/mp4" />
             </video>

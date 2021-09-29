@@ -773,8 +773,14 @@ const IndexPage = ({ location }) => {
             </div>
             <div
               className="w-full h-full relative bg-cover bg-bottom hidden sm:flex pt-32"
-              style={{ backgroundImage: `url("${newBanner}")`, backgroundPosition: 'center right', backgroundSize: 'cover' }}
+              style={{ backgroundImage: `url("${newBanner}")`, backgroundPosition: 'center', backgroundSize: 'cover' }}
             >
+              <div>
+                <div
+                  className="absolute original-stamp"
+                  style={{ backgroundImage: `url("${originalStamp}")` }}
+                ></div>
+              </div>
               <div className=" ">
                 <div
                   className="w-full relative block"
@@ -1014,7 +1020,7 @@ const IndexPage = ({ location }) => {
                         <img src={Feature1} className="inline-block" />
                       </div>
                       <div className="text text-right">
-                        <h3 className="text-3xl font-medium mt-3 lg:mb-1 text-center leading-wide">
+                        <h3 className="text-2xl font-medium mt-3 lg:mb-1 text-center leading-tight">
                           Strongest Frame
                         </h3>
                         <p className="text-center font-sm lg:text-xl mt-5">
@@ -1029,7 +1035,7 @@ const IndexPage = ({ location }) => {
                         <img src={Feature2} className="inline-block" />
                       </div>
                       <div className="text text-right">
-                        <h3 className="text-3xl font-medium mt-3 lg:mb-1 text-center leading-wide">
+                        <h3 className="text-2xl font-medium mt-3 lg:mb-1 text-center leading-tight">
                           Projector Stand
                         </h3>
                         <p className="text-center lg:text-xl font-sm mt-5">
@@ -1044,7 +1050,7 @@ const IndexPage = ({ location }) => {
                         <img src={Feature3} className="inline-block" />
                       </div>
                       <div className="text text-right">
-                        <h3 className="text-3xl font-medium mt-3 lg:mb-1  text-center leading-wide">
+                        <h3 className="text-2xl font-medium mt-3 lg:mb-1 text-center leading-tight">
                           Fastest Setup
                         </h3>
                         <p className="text-center lg:text-xl font-sm mt-5">
@@ -1059,7 +1065,7 @@ const IndexPage = ({ location }) => {
                         <img src={Feature4} className="inline-block" />
                       </div>
                       <div className="text text-right">
-                        <h3 className="text-3xl font-medium mt-3 lg:mb-1  text-center leading-wide">
+                        <h3 className="text-2xl font-medium mt-3 lg:mb-1 text-center leading-tight">
                           Year-round Use
                         </h3>
                         <p className="text-center lg:text-xl font-sm mt-5">
@@ -1118,13 +1124,13 @@ const IndexPage = ({ location }) => {
                         className="text flex flex-col items-center"
                       >
                         <div class="text-center leading-tight">
-                          <h3 className="text-orange-500 text-3xl">
+                          <h3 className="text-orange-500 text-4xl lg:text-3xl">
                             96” Jedi Bobcat
                           </h3>
-                          <h3 className="text-3xl">
+                          <h3 className="text-4xl lg:text-3xl">
                             Outdoor Gaming{" "}
                           </h3>
-                          <h3 className="text-3xl pb-2">
+                          <h3 className="text-4xl lg:text-3xl pb-2">
                             {" "}
                             Cinema
                           </h3>
@@ -1166,13 +1172,13 @@ const IndexPage = ({ location }) => {
                         className="text flex flex-col items-center"
                       >
                         <div className="text-center leading-tight">
-                          <h3 className="text-purple-1000 text-3xl">
+                          <h3 className="text-purple-1000 text-4xl lg:text-3xl">
                             120” Bella Bear
                           </h3>
-                          <h3 className="text-3xl">
+                          <h3 className="text-4xl lg:text-3xl">
                             Backyard Outdoor
                           </h3>
-                          <h3 className="text-3xl pb-2">
+                          <h3 className="text-4xl lg:text-3xl pb-2">
                             Cinema
                           </h3>
                         </div>
@@ -1214,13 +1220,13 @@ const IndexPage = ({ location }) => {
                         className="text flex flex-col items-center"
                       >
                         <div className="text-center leading-tight">
-                          <h3 className="text-orange-500 text-3xl">
+                          <h3 className="text-orange-500 text-4xl lg:text-3xl">
                             150” Big Moose
                           </h3>
-                          <h3 className="text-3xl">
+                          <h3 className="text-4xl lg:text-3xl">
                             Premium Outdoor{" "}
                           </h3>
-                          <h3 className="text-3xl pb-2">
+                          <h3 className="text-4xl lg:text-3xl pb-2">
                             {" "}
                             Cinema
                           </h3>
@@ -1289,10 +1295,10 @@ const IndexPage = ({ location }) => {
                         <img src={Frame} />
                       </div>
                       <div className="text">
-                        <h3 className="text-xl lg:text-2xl font-medium mt-3 mb-1 text-center ">
+                        <h3 className="text-2xl leading-tight font-medium my-3 text-center ">
                           Cinema Frame
                         </h3>
-                        <p className="text-center text-base lg:text-lg ">
+                        <p className="text-center lg:text-lg ">
                           Pressure-treated 4”x4” wooden frame and
                           weather-resistant hardware
                         </p>
@@ -1303,10 +1309,10 @@ const IndexPage = ({ location }) => {
                         <img src={ScreenandFrame} />
                       </div>
                       <div className="text">
-                        <h3 className="text-xl lg:text-2xl font-medium mt-3 mb-1 text-center ">
+                        <h3 className="text-2xl leading-tight font-medium my-3 text-center ">
                           Cinema Screen
                         </h3>
-                        <p className="text-center text-base lg:text-lg pd-grid-smaller">
+                        <p className="text-center lg:text-lg pd-grid-smaller">
                           Cinematic screen with black backing to prevent light
                           transmission
                         </p>
@@ -1317,10 +1323,10 @@ const IndexPage = ({ location }) => {
                         <img src={Projectornew} />
                       </div>
                       <div className="text">
-                        <h3 className="text-xl lg:text-2xl font-medium mt-3 mb-1 text-center ">
+                        <h3 className="text-2xl leading-tight font-medium my-3 text-center ">
                           Projector
                         </h3>
-                        <p className="text-center text-base lg:text-lg pd-grid-smaller">
+                        <p className="text-center lg:text-lg pd-grid-smaller">
                           1080p HD Projector with 4,000 Lumens and multiple
                           connection ports
                         </p>
@@ -1331,10 +1337,10 @@ const IndexPage = ({ location }) => {
                         <img src={SoundbarSpeakers} />
                       </div>
                       <div className="text">
-                        <h3 className="text-xl lg:text-2xl font-medium mt-3 mb-1 text-center ">
+                        <h3 className="text-2xl leading-tight font-medium my-3 text-center ">
                           Soundbar
                         </h3>
-                        <p className="text-center text-base lg:text-lg pd-grid-smaller">
+                        <p className="text-center lg:text-lg pd-grid-smaller">
                           Wireless Soundbar speaker used for the wireless cinema
                           packages
                         </p>
@@ -1345,10 +1351,10 @@ const IndexPage = ({ location }) => {
                         <img src={WiredSpeakers} />
                       </div>
                       <div className="text">
-                        <h3 className="text-xl lg:text-2xl font-medium mt-3 mb-1 text-center ">
+                        <h3 className="text-2xl leading-tight font-medium my-3 text-center ">
                           Speakers
                         </h3>
-                        <p className="text-center text-base lg:text-lg pd-grid-smaller">
+                        <p className="text-center lg:text-lg pd-grid-smaller">
                           Dual PA Outdoor Speakers with Tripod for wired cinema
                           packages
                         </p>
@@ -1359,10 +1365,10 @@ const IndexPage = ({ location }) => {
                         <img src={Roku2} />
                       </div>
                       <div className="text">
-                        <h3 className="text-xl lg:text-2xl font-medium mt-3 mb-1 text-center ">
+                        <h3 className="text-2xl leading-tight font-medium my-3 text-center ">
                           Roku Express
                         </h3>
-                        <p className="text-center text-base lg:text-lg pd-grid-smaller">
+                        <p className="text-center lg:text-lg pd-grid-smaller">
                           Roku Express 4k Player with voice control to access
                           movies and shows
                         </p>
@@ -1373,10 +1379,10 @@ const IndexPage = ({ location }) => {
                         <img src={Battery} />
                       </div>
                       <div className="text">
-                        <h3 className="text-xl lg:text-2xl font-medium mt-3 mb-1 text-center ">
+                        <h3 className="text-2xl leading-tight font-medium my-3 text-center ">
                           Battery Station
                         </h3>
-                        <p className="text-center text-base lg:text-lg pd-grid-smaller">
+                        <p className="text-center lg:text-lg pd-grid-smaller">
                           Off-Grid Battery to power your wireles outdoor cinema
                           package
                         </p>
@@ -1387,10 +1393,10 @@ const IndexPage = ({ location }) => {
                         <img src={DigitalTransmitter} />
                       </div>
                       <div className="text">
-                        <h3 className="text-xl lg:text-2xl font-medium mt-3 mb-1 text-center ">
+                        <h3 className="text-2xl leading-tight font-medium my-3 text-center ">
                           FM Transmitter
                         </h3>
-                        <p className="text-center text-base lg:text-lg pd-grid-smaller">
+                        <p className="text-center lg:text-lg pd-grid-smaller">
                           Rolls FM Digital Transmitter to power speakers for
                           wired cinema packages
                         </p>
@@ -1401,10 +1407,10 @@ const IndexPage = ({ location }) => {
                         <img src={DigitalTuner} />
                       </div>
                       <div className="text">
-                        <h3 className="text-xl lg:text-2xl font-medium mt-3 mb-1 text-center ">
+                        <h3 className="text-2xl leading-tight font-medium my-3 text-center ">
                           Digital Tuner
                         </h3>
-                        <p className="text-center text-base lg:text-lg pd-grid-smaller">
+                        <p className="text-center lg:text-lg pd-grid-smaller">
                           Rolls FM Digital Truner to power speakers for wired
                           cinema packages
                         </p>
@@ -1415,10 +1421,10 @@ const IndexPage = ({ location }) => {
                         <img src={ProjectorStandnew} />
                       </div>
                       <div className="text">
-                        <h3 className="text-xl lg:text-2xl font-medium mt-3 mb-1 text-center ">
+                        <h3 className="text-2xl leading-tight font-medium my-3 text-center ">
                           Projector Stand
                         </h3>
-                        <p className="text-center text-base lg:text-lg pd-grid-smaller">
+                        <p className="text-center lg:text-lg pd-grid-smaller">
                           Hancrafted Cedar Projector Stand to organize all your
                           cinema equipment
                         </p>
