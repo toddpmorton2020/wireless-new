@@ -1431,7 +1431,7 @@ const IndexPage = ({ location }) => {
               </Gray>
             </div>
           </div>
-          <div class="full-width">
+          {/*<div class="full-width">
             <div className="grid-background-last-section">
               <Orange className=" py-8 ">
                 <QuoteContainer
@@ -1460,7 +1460,7 @@ const IndexPage = ({ location }) => {
                 </QuoteContainer>
               </Orange>
             </div>
-          </div>
+          </div>*/}
 
           {/* ******************* //Final Desktop Revamp Code End ********************** */}
           {/* This code aligment for all the elements is distorted, Can be removed if required doesn't play any active part on the website */}
