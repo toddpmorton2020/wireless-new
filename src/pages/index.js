@@ -47,6 +47,10 @@ import ScreenandFrame from "../images/completefeatures/Screen and Frame.png"
 import SoundbarSpeakers from "../images/completefeatures/Soundbar Speaker.png"
 import WiredSpeakers from "../images/completefeatures/Wired Speakers.png"
 import Signaturenew from "../images/signaturenew.png"
+import featureMobileView1 from "../images/home-feature-mobile-section_03.jpg"
+import featureMobileView2 from "../images/home-feature-mobile-section_07.jpg"
+import featureMobileView3 from "../images/home-feature-mobile-section_10.jpg"
+import featureMobileView4 from "../images/home-feature-mobile-section_14.jpg"
 import "../css/index.css"
 import { AiOutlineLeft, AiOutlineRight, AiFillPlayCircle } from "react-icons/ai"
 
@@ -391,7 +395,7 @@ const IndexPage = ({ location }) => {
             <div className="">
               <div className="flex flex-wrap">
                 <div className="mb-10">
-                  <img src="/home-feature-mobile-section_03.jpg" className="block w-full" />
+                  <img src={featureMobileView1} className="block w-full" />
                   <div className="leading-tight">
                     <h2 className="text-3xl my-3 text-center leading-tight">
                       Strongest Frame
@@ -405,7 +409,7 @@ const IndexPage = ({ location }) => {
                   </div>
                 </div>
                 <div className="mb-10">
-                  <img src="/home-feature-mobile-section_07.jpg" className="block w-full" />
+                  <img src={featureMobileView2} className="block w-full" />
                   <div className="leading-tight">
                     <h2 className="text-3xl my-3 text-center leading-tight">
                       Projector Stand
@@ -420,7 +424,7 @@ const IndexPage = ({ location }) => {
               </div>
               <div className="flex flex-wrap">
                 <div className="mb-10">
-                  <img src="/home-feature-mobile-section_10.jpg" className="block w-full" />
+                  <img src={featureMobileView3} className="block w-full" />
                   <div className="leading-tight">
                     <h2 className="text-3xl my-3 text-center leading-tight">
                       Fastest Setup
@@ -433,7 +437,7 @@ const IndexPage = ({ location }) => {
                   </div>
                 </div>
                 <div className="">
-                  <img src="/home-feature-mobile-section_14.jpg" className="block w-full" />
+                  <img src={featureMobileView4} className="block w-full" />
                   <div className="leading-tight">
                     <h2 className="text-3xl my-3 text-center leading-tight">
                       Year-Round Use
