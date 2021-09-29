@@ -390,27 +390,27 @@ const IndexPage = ({ location }) => {
             </h2>
             <div className="">
               <div className="flex flex-wrap">
-                <div className="flex items-start mb-6">
-                  <img src="/timberline-frame-mobile-165x120.jpg" className="inline-block mr-4" />
+                <div className="mb-10">
+                  <img src="/home-feature-mobile-section_03.jpg" className="block w-full" />
                   <div className="leading-tight">
-                    <h2 className="mb-2 text-lg font-medium">
+                    <h2 className="text-3xl my-3 text-center leading-tight">
                       Strongest Frame
                     </h2>
 
-                    <div className="text-black">
+                    <div className="text-center text-lg text-black">
                       Frame never has to be broken down, taken apart, shoved in
                       a box, or deflated. The frame stays outside like the deck
                       to your home.
                     </div>
                   </div>
                 </div>
-                <div className="flex items-start mb-6">
-                  <img src="/projector-stand-feature-mobile-165x120.jpg" className="inline-block mr-4" />
+                <div className="mb-10">
+                  <img src="/home-feature-mobile-section_07.jpg" className="block w-full" />
                   <div className="leading-tight">
-                    <h2 className="mb-2 text-lg font-medium">
+                    <h2 className="text-3xl my-3 text-center leading-tight">
                       Projector Stand
                     </h2>
-                    <div className="text-black">
+                    <div className="text-center text-lg text-black">
                       Handcrafted from cedar wood, this outdoor projector stand
                       is the only one available in the retail market.
                       Light-weight and easy to carry.
@@ -419,26 +419,26 @@ const IndexPage = ({ location }) => {
                 </div>
               </div>
               <div className="flex flex-wrap">
-                <div className="flex items-start mb-6">
-                  <img src="/setup-mobile-165x120.jpg" className="inline-block mr-4" />
+                <div className="mb-10">
+                  <img src="/home-feature-mobile-section_10.jpg" className="block w-full" />
                   <div className="leading-tight">
-                    <h2 className=" mb-2 text-lg font-medium">
+                    <h2 className="text-3xl my-3 text-center leading-tight">
                       Fastest Setup
                     </h2>
-                    <div className="text-black">
+                    <div className="text-center text-lg text-black">
                       To attach the cinematic screen to the wooden frame, place
                       the projector stand 10-12’ ft away from the screen, and
                       power on takes about 3 minutes.
                     </div>
                   </div>
                 </div>
-                <div className="flex items-start">
-                  <img src="/winter-view-mobile-165x120.jpg" className="inline-block mr-4" />
+                <div className="">
+                  <img src="/home-feature-mobile-section_14.jpg" className="block w-full" />
                   <div className="leading-tight">
-                    <h2 className="mt-4 mb-2 text-lg font-medium">
+                    <h2 className="text-3xl my-3 text-center leading-tight">
                       Year-Round Use
                     </h2>
-                    <div className="text-black">
+                    <div className="text-center text-lg text-black">
                       Why limit yourself to watch movies only in the summer
                       months? These outdoor cinemas were designed for outdoor
                       enjoyment in every season.
