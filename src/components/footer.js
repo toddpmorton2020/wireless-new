@@ -29,30 +29,30 @@ function Footer() {
       <form onSubmit={handleSubmit} ref={form}>
         <Orange>
           <QuoteContainerOr className="container mx-auto">
-            <div className="flex xl:flex-row flex-col orange-mob">
-              <img src="/desk-form" alt="" className="ml-3 hide" />
+            <div className="flex md:flex-row flex-col items-center md:items-start py-4 lg:py-0 orange-mob">
+              <img src="/desk-form" alt="" className="ml-3 hidden md:inline-block" />
               <img
                 src="/mobile-form.png"
                 alt=""
-                className="mobile-hide text-center mx-auto"
+                className="inline-block md:hidden"
                 width="210px"
               />
-              <div className="orange-signup">
+              <div className="orange-signup flex flex-col pt-6 lg:pt-10 md:pl-10 lg:pl-16">
                 <h3 className="orange-box-heading orange-box-heading-mob">
                   Signup up to receive quarterly <strong>newsletters</strong>,{" "}
                   <strong>promotions</strong>, <strong>giveaways</strong> and{" "}
                   <strong>tips</strong>
                 </h3>
-                <div className="flex xl:flex-row flex-col xl:pt-4 xl:ml-1 input-div">
-                  <div>
+                <div className="flex md:flex-row flex-col pt-4 md:ml-1 input-div">
+                  <div class="w-full md:w-1/3 lg:w-auto md:pr-3 lg:pr-8 mb-3 md:mb-0">
                     <input
                       type="text"
                       name="firstName"
                       placeholder="First Name"
-                      className="orange-input name-input-setting name-input-setting-mob"
+                      className="orange-input name-input-setting name-input-setting-mob w-full md:w-auto"
                     />
                   </div>
-                  <div className="email-input-setting">
+                  <div className="email-input-setting w-full md:w-1/3 lg:w-full md:pr-3 lg:pr-8 mb-3 md:mb-0">
                     <input
                       type="email"
                       name="email"
@@ -63,16 +63,16 @@ function Footer() {
                   <input
                     type="submit"
                     value="SIGN ME UP"
-                    className="signup-button signup-button-mob"
+                    className="signup-button w-full md:w-1/3 lg:w-auto px-5 lg:px-16 py-2 md:py-0"
                   />
                 </div>
                 {error && (
-                  <p className="xl:mt-3 xl:ml-3 -mt-2 xl:pb-0 pb-2 text-sm text-red-1000">
+                  <p className="md:mt-3 md:ml-3 -mt-2 md:pb-0 pb-2 text-sm text-red-1000">
                     {error}
                   </p>
                 )}
                 {submitted && (
-                  <p className="xl:mt-3 xl:ml-3 mt-2 xl:pb-0 pb-2 text-sm text-green-800">
+                  <p className="md:mt-3 md:ml-3 mt-2 md:pb-0 pb-2 text-sm text-green-800">
                     Your submission has been sent. We will get back to you as
                     soon as possible.
                   </p>

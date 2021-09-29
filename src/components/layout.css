@@ -276,6 +276,42 @@
   height: 0.125rem;
 }
 
+.orange-box-heading {
+  font-size: 26px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.name-input-setting {
+  max-width: 100%;
+  border-radius: 10px !important;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-color: none !important;
+  box-shadow: none !important;
+  border-width: 1px;
+}
+.email-settings {
+  width: 100%;
+  border-radius: 10px !important;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-color: none !important;
+  box-shadow: none !important;
+  border-width: 1px;
+}
+.signup-button {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 10px !important;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #ff5400 !important;
+}
+
 
 @media screen and (min-width: 800px) {
   body {
