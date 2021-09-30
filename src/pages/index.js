@@ -399,7 +399,7 @@ const IndexPage = ({ location }) => {
                     <img src={featureMobileView1} className="block w-full" />
                   </div>
                   <div className="leading-tight">
-                    <h2 className="text-2xl my-3 leading-tight">
+                    <h2 className="text-2xl font-500-small my-3 leading-tight">
                       Strongest Frame
                     </h2>
 
@@ -415,7 +415,7 @@ const IndexPage = ({ location }) => {
                     <img src={featureMobileView2} className="block w-full" />
                   </div>
                   <div className="leading-tight">
-                    <h2 className="text-2xl my-3 leading-tight">
+                    <h2 className="text-2xl font-500-small my-3 leading-tight">
                       Projector Stand
                     </h2>
                     <div className="text-lg text-black">
@@ -432,7 +432,7 @@ const IndexPage = ({ location }) => {
                     <img src={featureMobileView3} className="block w-full" />
                   </div>
                   <div className="leading-tight">
-                    <h2 className="text-2xl my-3 leading-tight">
+                    <h2 className="text-2xl font-500-small my-3 leading-tight">
                       Fastest Setup
                     </h2>
                     <div className="text-lg text-black">
@@ -447,7 +447,7 @@ const IndexPage = ({ location }) => {
                     <img src={featureMobileView4} className="block w-full" />
                   </div>
                   <div className="leading-tight">
-                    <h2 className="text-2xl my-3 leading-tight">
+                    <h2 className="text-2xl font-500-small my-3 leading-tight">
                       Year-Round Use
                     </h2>
                     <div className="text-lg text-black">
