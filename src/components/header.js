@@ -327,13 +327,14 @@ const Header = ({ siteTitle }) => {
       {open && (
         <>
           <div
-            className="w-full bg-orange-500 bg-cover absolute z-30 lg:hidden"
+            className="w-full bg-cover absolute z-30 lg:hidden"
+            style={{ backgroundImage: "url(/blackfade.jpg)" }}
           >
-            <div className="text-white sm:text-xl flex flex-col">
+            <div className="text-white text-xl flex flex-col">
               <Link to="/about">
                 <span className="block py-3 px-6">About</span>
               </Link>
-              <div class="w-full border border-b border-white opacity-25"></div>
+              <div class="w-full border border-b border-gray-600"></div>
               <span
                 onClick={() => setOpenW(!openW)}
                 className="cursor-pointer"
@@ -343,11 +344,11 @@ const Header = ({ siteTitle }) => {
                   <span>&#9660;</span>
                 </span>
                 {openW && (
-                  <div className="flex flex-col py-3 px-6 bg-orange-600">
+                  <div className="flex flex-col text-orange-500 py-3 px-6">
                     <Link to="/comparison" className="block py-3">
                       Cinema Comparison
                     </Link>
-                    <div class="w-full border border-b border-white opacity-25"></div>
+                    <div class="w-full border border-b border-gray-600"></div>
                     <span className="py-3">Timberline Series</span>
                     <Link
                       to="/timberline-cinema-packages/96-jedi-bobcat-cinema"
@@ -367,46 +368,46 @@ const Header = ({ siteTitle }) => {
                     >
                       150" Big Moose
                     </Link>
-                    <div class="w-full border border-b border-white opacity-25 mt-3"></div>
+                    <div class="w-full border border-b border-gray-600 mt-3"></div>
                     <Link to="/accessory" className="block py-3">
                       Outdoor Cinema Accessories
                     </Link>
                   </div>
                 )}
               </span>
-              <div class="w-full border border-b border-white opacity-25"></div>
+              <div class="w-full border border-b border-gray-600"></div>
               <Link to="/in-the-news">
                 <span className="block py-3 px-6">In the News</span>
               </Link>
-              <div class="w-full border border-b border-white opacity-25"></div>
+              <div class="w-full border border-b border-gray-600"></div>
               <Link to="/faq">
                 <span className="block py-3 px-6">
                   Frequently Asked Questions
                 </span>
               </Link>
-              <div class="w-full border border-b border-white opacity-25"></div>
+              <div class="w-full border border-b border-gray-600"></div>
               <Link to="/connect">
                 <span className="block py-3 px-6">Connect</span>
               </Link>
-              <div class="w-full border border-b border-white opacity-25"></div>
+              <div class="w-full border border-b border-gray-600"></div>
               <Link to="/terms">
                 <span className="block py-3 px-6">Terms Of Use</span>
               </Link>
-              <div class="w-full border border-b border-white opacity-25"></div>
+              <div class="w-full border border-b border-gray-600"></div>
               <Link to="/privacy">
                 <span className="block py-3 px-6">Privacy Policy</span>
               </Link>
-              <div class="w-full border border-b border-white opacity-25"></div>
+              <div class="w-full border border-b border-gray-600"></div>
               <Link to="/sitemap" className="">
                 <span className="block py-3 px-6">Sitemap</span>
               </Link>
-              <div class="w-full border border-b border-white opacity-25"></div>
+              <div class="w-full border border-b border-gray-600"></div>
               <div className="py-3 px-6 flex items-center justify-between">
                 <a
                   href="tel:2075952960"
                   className="cursor-pointer flex items-center w-8/12"
                 >
-                  <img src={`/cell.png`} className="h-6" />
+                  <img src={`/cellOrange.png`} className="h-6" />
                   <span className="ml-2">(207) 595-2960</span>
                 </a>
                 <div className="flex items-center">
@@ -415,14 +416,14 @@ const Header = ({ siteTitle }) => {
                     target="_blank"
                     className="cursor-pointer hover:text-orange-500"
                   >
-                    <img src={`/facebook.png`} className="h-4 sm:h-6" />
+                    <img src={`/facebookOrange.png`} className="h-4 sm:h-6" />
                   </a>
                   <a
                     href="https://www.linkedin.com/in/todd-morton-7851b1b"
                     target="_blank"
                     className="cursor-pointer hover:text-orange-500"
                   >
-                    <img src={`/linkedin.png`} className="h-4 sm:h-6 ml-6" />
+                    <img src={`/linkedinOrange.png`} className="h-4 sm:h-6 ml-6" />
                   </a>
                 </div>
               </div>

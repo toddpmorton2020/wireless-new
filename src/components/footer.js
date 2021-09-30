@@ -38,32 +38,32 @@ function Footer() {
                 width="210px"
               />
               <div className="orange-signup flex flex-col pt-6 lg:pt-10 md:pl-10 lg:pl-16">
-                <h3 className="orange-box-heading orange-box-heading-mob">
+                <h3 className="orange-box-heading orange-box-heading-mob -mt-20 md:mt-0 text-center md:text-left leading-tight max-w-sm md:max-w-full">
                   Signup up to receive quarterly <strong>newsletters</strong>,{" "}
                   <strong>promotions</strong>, <strong>giveaways</strong> and{" "}
                   <strong>tips</strong>
                 </h3>
-                <div className="flex md:flex-row flex-col pt-4 md:ml-1 input-div">
-                  <div class="w-full md:w-1/3 lg:w-auto md:pr-3 lg:pr-8 mb-3 md:mb-0">
+                <div className="flex md:flex-row flex-col items-center md:items-stretch pt-4 md:ml-1 input-div">
+                  <div class="w-64 md:w-1/3 lg:w-auto md:pr-3 lg:pr-8 mb-3 md:mb-0">
                     <input
                       type="text"
                       name="firstName"
                       placeholder="First Name"
-                      className="orange-input name-input-setting name-input-setting-mob w-full md:w-auto"
+                      className="orange-input name-input-setting name-input-setting-mob w-full md:w-auto text-center md:text-left"
                     />
                   </div>
-                  <div className="email-input-setting w-full md:w-1/3 lg:w-full md:pr-3 lg:pr-8 mb-3 md:mb-0">
+                  <div className="email-input-setting w-64 md:w-1/3 lg:w-full md:pr-3 lg:pr-8 mb-3 md:mb-0">
                     <input
                       type="email"
                       name="email"
                       placeholder="Email Address"
-                      className="orange-input email-settings email-settings-mob"
+                      className="orange-input email-settings email-settings-mob text-center md:text-left"
                     />
                   </div>
                   <input
                     type="submit"
                     value="SIGN ME UP"
-                    className="signup-button w-full md:w-1/3 lg:w-auto px-5 lg:px-16 py-2 md:py-0"
+                    className="signup-button w-64 md:w-1/3 lg:w-auto px-5 lg:px-16 py-2 md:py-0"
                   />
                 </div>
                 {error && (
