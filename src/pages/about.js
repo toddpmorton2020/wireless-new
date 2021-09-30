@@ -52,12 +52,14 @@ function About() {
           <p className="mb-4 xl:ml-2">
           Welcome! Thank you for stopping by – I appreciate your interest in learning more about me and my Wireless Outdoor Cinema business.
         </p>
+        <p className="xl:text-2xl font-bold mb-2 xl:ml-2">Growing up</p>
           <p className="mb-4 xl:ml-2">
           I’m originally from Vermont, and growing up; I split my time between Vermont and Maine. My childhood memories are filled with unforgettable times spent with my family and friends outdoors – exploring in the woods, observing wildlife, swimming, fishing, hiking, and camping outside. 
         </p>
           <p className="mb-4 xl:ml-2">
           When I was young, I started learning about the construction trade watching my grandfather and father do miscellaneous projects and repairs around our house and at the summer camp in Bridgton, Maine. Watching my Dad and Grandfather build and fix things piqued my interest, and my Dad started to teach me the basics. By the time I was a teen, I was building waterfront dock systems, decks and repairing things for neighbors and friends.
         </p>
+        <p className="xl:text-2xl font-bold mb-2 xl:ml-2">Learning from best</p>
         <p className="mb-4 xl:ml-2">
           In high school, I had a great Woodshop Teacher named David Tieff – a master woodcarver and woodworker. I was inspired by his work and took every available woodshop class he offered. Mr. Tieff taught me how to build furniture, wood carve, and use every type of woodworking power tool and machine available in the state-of-art woodshop. I remember always dreaming of having my own woodshop someday. After high school, I worked for various home builders and quickly learned the building trade. I even helped build a couple of log homes, one of which I built with my family and now live in it full-time in beautiful Bridgton, Maine.
         </p>
@@ -67,9 +69,11 @@ function About() {
               Todd Morton preparing cuts on a table saw at his property in Bridgton, ME.
             </p>
           </div>
-          <p className="mb-4 xl:pt-5 xl:ml-2">
+          <p className="xl:text-2xl font-bold mb-2 mt-6 xl:ml-2">My professional career</p>
+          <p className="mb-4 xl:ml-2">
           At age 23, I took business and marketing courses at Champlain College in Burlington, Vermont, to help with my business knowledge. After college, I self-taught myself all about the emerging internet and built my first website, and started learning about search engine optimization and how to get websites found online. I then moved into the Internet Marketing field and had the opportunity to work for some well-known high technology companies such as Lycos – the internet search company (remember the Black Lab?) and Dragon Software (the voice-to-text software), a division of Nuance Communications – now owned by Microsoft. 
         </p>
+        <p className="xl:text-2xl font-bold mb-2 xl:ml-2">The Outdoor Movie Theater idea</p>
           <p className="xl:ml-2">
           After 25 years of working in the Internet Marketing field, my desire to return to my roots frequently occupied my thoughts. I decided to take time off from the corporate world and strategized on my next career move. I knew I wanted to work for myself and be outside in nature versus being tethered to a desk in an unhealthy corporate environment.
         </p>
