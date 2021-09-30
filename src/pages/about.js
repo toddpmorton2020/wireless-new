@@ -71,14 +71,14 @@ function About() {
             repairing things for neighbors and friends.
           </p>
           <p className="xl:text-2xl font-bold mb-2 xl:ml-2">
-            Learning from best
+            Learning from the best
           </p>
           <p className="mb-4 xl:ml-2">
             In high school, I had a great Woodshop Teacher named David Tieff – a
             master woodcarver and woodworker. I was inspired by his work and
             took every available woodshop class he offered. Mr. Tieff taught me
             how to build furniture, wood carve, and use every type of
-            woodworking power tool and machine available in the state-of-art
+            woodworking power tool and machine available in a state-of-art
             woodshop. I remember always dreaming of having my own woodshop
             someday. After high school, I worked for various home builders and
             quickly learned the building trade. I even helped build a couple of
@@ -97,10 +97,9 @@ function About() {
           </p>
           <p className="mb-4 xl:ml-2">
             At age 23, I took business and marketing courses at Champlain
-            College in Burlington, Vermont, to help with my business knowledge.
+            College in Burlington, Vermont, to help expand my business knowledge.
             After college, I self-taught myself all about the emerging internet
-            and built my first website, and started learning about search engine
-            optimization and how to get websites found online. I then moved into
+            and built my first website, while starting to learn about search engine optimization and how to get websites found online. I then moved into
             the Internet Marketing field and had the opportunity to work for
             some well-known high technology companies such as Lycos – the
             internet search company (remember the Black Lab?) and Dragon
@@ -141,7 +140,7 @@ function About() {
         <div className="sm:pt-16 xl:pt-5 sm:pt-8 xl:ml-2">
           <h2 className="sm:mb-4 xl:mb-3 text-xl sm:text-2xl font-bold product-title heading-outdoor">
             The Outdoor Movie Theater{" "}
-            <span className="solution-orange">Idea</span>
+            <span className="solution-orange">idea</span>
           </h2>
           <p className="mb-4">
             My entrepreneurial wheels started to turn. I wanted to set up an
