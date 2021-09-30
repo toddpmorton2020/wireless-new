@@ -53,7 +53,7 @@ function About() {
           Welcome! Thank you for stopping by – I appreciate your interest in learning more about me and my Wireless Outdoor Cinema business.
         </p>
           <p className="mb-4 xl:ml-2">
-          I’m originally from Vermont, and growing up; I split my time between Vermont and Maine. My childhood memories are filled with unforgettable times spent with my family and friends outdoors – exploring the in woods, observing wildlife, fishing, hiking, and camping outside. 
+          I’m originally from Vermont, and growing up; I split my time between Vermont and Maine. My childhood memories are filled with unforgettable times spent with my family and friends outdoors – exploring in the woods, observing wildlife, swimming, fishing, hiking, and camping outside. 
         </p>
           <p className="mb-4 xl:ml-2">
           When I was young, I started learning about the construction trade watching my grandfather and father do miscellaneous projects and repairs around our house and at the summer camp in Bridgton, Maine. Watching my Dad and Grandfather build and fix things piqued my interest, and my Dad started to teach me the basics. By the time I was a teen, I was building waterfront dock systems, decks and repairing things for neighbors and friends.
@@ -100,7 +100,7 @@ function About() {
           The Outdoor Movie Theater <span className="solution-orange">Idea</span>
           </h2>
           <p className="mb-4">
-          My entrepreneurial wheels started to turn. I wanted to set up an outdoor movie in my backyard for years and started researching online companies that provided outdoor cinemas. Unfortunately, the companies I found online only sold the inflatable air screen cinemas and wanted a better solution that was easy to set up and start watching without a lengthy setup. I spent two years researching and testing different outdoor cinema equipment and fine-tuning my outdoor movie theater solution. Finally, I developed a simple to use, high-quality outdoor movie theater that could be used year-round – even in the cold winter months. 
+          My entrepreneurial wheels started to turn. I wanted to set up an outdoor movie in my backyard for years and started researching online companies that provided outdoor cinemas. Unfortunately, the companies I found online only sold inflatable air screen cinemas and wanted a better solution that was easy to set up and start watching without a lengthy setup. I spent two years researching and testing different outdoor cinema equipment and fine-tuning my outdoor movie theater solution. Finally, I developed a simple to use, high-quality outdoor movie theater that could be used year-round – even in the cold winter months. 
         </p>
           <p className="mb-4">
           I created a weather-resistant movie screen frame built from pressure-treated 4” x 4” wood posts and added post and beam hardware so it would never rust. The final product is strong, durable, can handle any weather condition Mother Nature throws at it and looks fantastic on my property. The movie screen frame never has to be broken down and stays up for year-round use, making it easy to attach and remove the cinematic screen when you want to watch movies. After a year of designing and building various frame systems, I developed one that I knew homeowners would love.
@@ -127,7 +127,7 @@ function About() {
           After developing a solid frame system, the next challenge was figuring out how to organize all of my cinema equipment, such as the projector, DVD player, streaming media player, digital tuner, transmitter, speakers, and more. I searched endlessly online for an outdoor projector and equipment stand solution and only found tripod projector stands with enough room to hold an outdoor projector and nothing else.
         </p>
           <p className="mb-4">
-          Discouraged with the results I found online for projector stand solutions, I began designing various outdoor projector stands that could hold all cinema electronic components on. I built over ten different projector stand models and tested them over a year. The final result was a beautiful cedar wood projector and equipment stand that neatly organized all of my cinema equipment. In addition, the projector stand is lightweight, easy to carry, weather-resistant, and has an adjustable projector shelf to get the proper viewing angle to reach the cinematic screen – the only one of its kind on the market.
+          Discouraged with the results I found online for projector stand solutions, I began designing various outdoor projector stands that could hold all of the cinema electronic components on. I built over ten different projector stand models and tested them over a year. The final result was a beautiful cedar wood projector and equipment stand that neatly organized all of my cinema equipment. In addition, the projector stand is lightweight, easy to carry, weather-resistant, and has an adjustable projector shelf to get the proper viewing angle to reach the cinematic screen – the only one of its kind on the market.
         </p>
         </div>
       </div>
@@ -147,10 +147,10 @@ function About() {
       <div className="press-release-padding-1 mobile-padding thankyou">
         <div className="pt-8 xl:pt-8 sm:pt-16 xl:ml-2">
         <p className="mb-4">
-        The cinema equipment stays on the projector stand and never needs to be removed - similar to an entertainment center inside your home. Store the projector stand with everything on it inside your home, and when you want to have a movie night, carry the stand outside, power it on, and start watching immediately. After the movie, you’ll need to take the projector stand back inside your home, as the cinema equipment is not waterproof.
+        The cinema equipment stays on the projector stand and never needs to be removed - similar to an entertainment center inside your home. Store the projector stand with everything on it inside your house, and when you want to have a movie night, carry the stand outside, power it on, and start watching immediately. After the movie, you’ll need to take the projector stand back inside, as the cinema equipment is not waterproof.
         </p>
         <p className="mb-4">
-        I’ve been thrilled with the positive feedback on my wireless outdoor cinema business from customers and the media. I hope we get an opportunity to get to know each other and explore the possibilities of building your very own dream backyard movie theater.
+        I’ve been thrilled with the positive feedback on my wireless outdoor cinema business from customers, family, friends, and the media. I hope we get an opportunity to get to know each other and explore the possibilities of building your very own dream backyard movie theater.
         </p>
         <p className="mb-4">
           Thanks for taking the time to read about me, and don’t hesitate to reach out with any questions you might have.
