@@ -19,7 +19,7 @@ function About() {
       {/* <div> */}
       <div className="container mx-auto">
         <div className="pt-4">
-          <div className="flex items-center text-xs sm:text-sm breadcrums-margin">
+          <div className="flex items-center text-sm">
             <Link to="/" className="text-blue-600 sm:text-black cursor-pointer">
               Home
             </Link>
@@ -34,20 +34,20 @@ function About() {
           style={{ backgroundImage: `url(${bannerMobile})` }}
         />
       </div>
-      <div className="top-heading press-release-padding-1">
+      <div className="container mx-auto top-heading">
         <h1 className="text-orange-500 xl:text-5xl xl:ml-0 ml-6 mt-6">
           <span className="about">About</span>
         </h1>
       </div>
       {/* </div> */}
-      <div className="press-release-padding-1 xl:pt-4 desktop">
+      <div className="container mx-auto xl:pt-4 desktop">
         <img src="/first.png" alt="" />
         <p className="image-text-color image-text-press-1 text-sm pt-3 ml-2">
           Todd Morton, founder of the Wireless Outdoor Cinema Company fishing on
           Woods Pond in Bridgton, ME.
         </p>
       </div>
-      <div className="press-release-padding-1 mobile-padding">
+      <div className="container mx-auto mobile-padding">
         <div className="sm:pt-16 xl:pt-1 sm:mt-6">
           <p className="mb-4 xl:ml-2">
             Welcome! Thank you for stopping by – I appreciate your interest in
@@ -136,7 +136,7 @@ function About() {
           className="h-10 mt-3 mx-auto signature-black"
         />
       </div>
-      <div className="press-release-padding-1 mobile-padding">
+      <div className="container mx-auto mobile-padding">
         <div className="sm:pt-16 xl:pt-5 sm:pt-8 xl:ml-2">
           <h2 className="sm:mb-4 xl:mb-3 text-xl sm:text-2xl font-bold product-title heading-outdoor">
             The Outdoor Movie Theater{" "}
@@ -173,7 +173,7 @@ function About() {
           style={{ backgroundImage: `url(${frameMobile})` }}
         />
       </div>
-      <div className="press-release-padding-1 xl:pt-8 desktop">
+      <div className="container mx-auto xl:pt-8 desktop">
         <img src="/third.png" alt="" />
         <p className="image-text-color image-text-press-1 text-sm pt-3 ml-2">
           New Timberline Outdoor Cinema 150” Big Moose wired option package
@@ -181,7 +181,7 @@ function About() {
           Bridgton, ME.
         </p>
       </div>
-      <div className="press-release-padding-1 mobile-padding">
+      <div className="container mx-auto mobile-padding">
         <div className="pt-8 xl:ml-2">
           <p className="mb-4">
             After developing a solid frame system, the next challenge was
@@ -212,14 +212,14 @@ function About() {
           style={{ backgroundImage: `url(${standMobile})` }}
         />
       </div>
-      <div className="press-release-padding-1 xl:pt-4 desktop">
+      <div className="container mx-auto xl:pt-4 desktop">
         <img src="/fourth.png" alt="" />
         <p className="image-text-color image-text-press-1 text-sm pt-3 ml-2">
           New Outdoor Projector Stand located on site of the Wireless Outdoor
           Cinema Company property in Bridgton, ME.
         </p>
       </div>
-      <div className="press-release-padding-1 mobile-padding thankyou">
+      <div className="container mx-auto mobile-padding thankyou">
         <div className="pt-8 xl:pt-8 sm:pt-16 xl:ml-2">
           <p className="mb-4">
             The cinema equipment stays on the projector stand and never needs to
