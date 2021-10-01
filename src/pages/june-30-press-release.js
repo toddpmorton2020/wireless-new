@@ -11,7 +11,7 @@ function June30PressRelease() {
     <Layout>
       <SEO
         title="Press Release Announcement. June 30 Press Release. Introducing the Wireless Outdoor Cinema Company. Turn Your Backyard into a Year-Round Drive-in"
-        description="The Wireless Outdoor Cinema Company today announced the unveiling of their new line of Outdoor Cinema Packages for homeowners and businesses throughout Maine and New Hampshire. The Wireless Outdoor Cinema is a year-round, weather-resistant, pressure-treated wood movie screen frame that comes with a removable cinematic screen, an HD Wi-Fi Projector, Off-Grid Battery Pack and a Wireless Surround Bar Speaker. The Wireless Outdoor Cinema offers a new way for homeowners to enjoy their backyards, year-round, under the stars and moon watching their favorite movie, TV show, sporting event, or playing video games on a larger than life screen."
+        description="The Wireless Outdoor Cinema Company today announced the unveiling of the new Outdoor Cinema Projector and Equipment Stand for homeowners and businesses who have or want an outdoor movie theater setup. The Outdoor Projector Stand is the first one introduced into the marketplace."
       />
 
       <div className="xl:bg-white bg-grey-10 pb-12">
@@ -51,7 +51,7 @@ function June30PressRelease() {
             </div>
             <div>
               <h1 className="main-heading font-semibold xl:pt-6 pt-8 press-release-padding press-line-height hide">
-                Wireless Outdoor Cinema Company Brings to Market the 1st Outdoor
+                Wireless Outdoor Cinema Company Brings to Market the First Outdoor
                 Cinema Projector Stand
               </h1>
             </div>
@@ -134,21 +134,13 @@ function June30PressRelease() {
               </p>
               <p className="xl:text-23 text-base press-text font-extralight pb-5">
                 The Outdoor Cinema Projector and Equipment Stand will be
-                available to purchase online worldwide starting October 1, 2021
+                available to purchase online worldwide starting November 1, 2021
                 on the Wireless Outdoor Cinema Company’s website at:
                 www.wirelessoutdoorcinema.com
               </p>
               <p className="xl:text-23 text-base press-text font-extralight pb-5">
                 <strong>About The Wireless Outdoor Cinema Company</strong>{" "}
-                <br /> The Wireless Outdoor Cinema Company provides homeowners
-                and businesses with a complete outdoor movie theater solution to
-                enjoy big-screen entertainment year-round. The cinema packages
-                are designed to help achieve a fast and easy setup every time
-                you want to go outside and enjoy your favorite entertainment.
-                Cinema packages include a Pressure-treated Frame to attach the
-                screen to, a Cinematic Screen, 1080p LED Projector, Sound
-                System, Roku 4k Media Player, and a light-weight custom cedar
-                wood Projector and Equipment Stand.
+                <br /> Located in Bridgton, a resort area in Maine’s scenic Lakes Region, The Wireless Outdoor Cinema Company brings the finest quality craftsmanship of traditional Maine woodworking to the outdoor movie theater experience. Since 2020, Founder Todd Morton has been constructing outdoor movie theater solutions that bring big-screen Hollywood entertainment to homeowners and businesses – year-round. Designed to be intuitive with fast and easy set-up, the cinema packages vary by screen size, and all include a pressure-treated frame, a cinematic screen, 1080p LED projector, sound system, Roku 4k media player, and a light-weight custom cedar wood projector and equipment stand.
               </p>
             </div>
             <div className="press-release-padding pt-8 xl:text-black text-white">
