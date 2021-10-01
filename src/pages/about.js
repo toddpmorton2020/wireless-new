@@ -28,14 +28,11 @@ function About() {
           </div>
         </div>
       </div>
-      <div className="container mx-auto images-banner">
-        <div
-          className="about-image w-full relative bg-cover bg-bottom mobile bg-center first-image"
-          style={{ backgroundImage: `url(${bannerMobile})` }}
-        />
+      <div className="mt-4 md:hidden">
+        <img src={bannerMobile} className="w-full" />
       </div>
       <div className="container mx-auto top-heading">
-        <h1 className="text-orange-500 xl:text-5xl xl:ml-0 ml-6 mt-6">
+        <h1 className="text-orange-500 text-5xl ml-0 mt-6">
           <span className="about">About</span>
         </h1>
       </div>
@@ -48,12 +45,12 @@ function About() {
         </p>
       </div>
       <div className="container mx-auto mobile-padding">
-        <div className="sm:pt-16 xl:pt-1 sm:mt-6">
+        <div className="pt-1 mt-6">
           <p className="mb-4 xl:ml-2">
             Welcome! Thank you for stopping by – I appreciate your interest in
             learning more about me and my Wireless Outdoor Cinema business.
           </p>
-          <p className="xl:text-2xl font-bold mb-2 xl:ml-2">Growing up</p>
+          <p className="text-2xl font-bold mb-2 xl:ml-2">Growing up</p>
           <p className="mb-4 xl:ml-2">
             I’m originally from Vermont, and growing up; I split my time between
             Vermont and Maine. My childhood memories are filled with
@@ -70,7 +67,7 @@ function About() {
             was a teen, I was building waterfront dock systems, decks and
             repairing things for neighbors and friends.
           </p>
-          <p className="xl:text-2xl font-bold mb-2 xl:ml-2">
+          <p className="text-2xl font-bold mb-2 xl:ml-2">
             Learning from the best
           </p>
           <p className="mb-4 xl:ml-2">
@@ -92,7 +89,7 @@ function About() {
               Bridgton, ME.
             </p>
           </div>
-          <p className="xl:text-2xl font-bold mb-2 mt-6 xl:ml-2">
+          <p className="text-2xl font-bold mb-2 mt-6 xl:ml-2">
             My professional career
           </p>
           <p className="mb-4 xl:ml-2">
@@ -167,7 +164,7 @@ function About() {
           </p>
         </div>
       </div>
-      <div className="no-padding container mx-auto">
+      <div className="">
         <div
           className="about-image w-full relative bg-cover bg-bottom mt-8 mobile mobile-tree"
           style={{ backgroundImage: `url(${frameMobile})` }}
@@ -206,7 +203,7 @@ function About() {
           </p>
         </div>
       </div>
-      <div className="no-padding container mx-auto">
+      <div className="">
         <div
           className="about-image w-full relative bg-cover bg-bottom mt-8 mobile standMobile"
           style={{ backgroundImage: `url(${standMobile})` }}
