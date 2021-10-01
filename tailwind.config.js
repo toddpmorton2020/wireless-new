@@ -69,7 +69,10 @@ module.exports = {
         lg: "1.5rem",
         xl: "0",
       },
-    },    
+    }, 
+    whitespace: {
+      nowrap: 'nowrap',
+    }   
   },
   variants: {
     display: ["responsive", "group-hover", "hover"],

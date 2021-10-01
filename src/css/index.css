@@ -70,54 +70,7 @@
   }
   .privacy-margin-subHeading {
     margin-left: 215px;
-  }
-  .orange-signup {
-    display: flex;
-    flex-direction: column;
-    padding-left: 60px;
-    padding-top: 40px;
-  }
-  .orange-box-heading {
-    font-size: 26px;
-    font-weight: 500;
-    color: #ffffff;
-  }
-  .name-input-setting {
-    border-radius: 10px !important;
-    width: 220px !important;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    border-color: none !important;
-    box-shadow: none !important;
-    border-width: 1px;
-  }
-  .email-input-setting {
-    padding-left: 35px;
-    padding-right: 27px;
-  }
-  .email-settings {
-    border-radius: 10px !important;
-    width: 400px !important;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    border-color: none !important;
-    box-shadow: none !important;
-    border-width: 1px;
-  }
-  .signup-button {
-    color: #ffffff;
-    border: 1px solid #ffffff;
-    border-radius: 10px !important;
-    padding-left: 60px;
-    padding-right: 60px;
-    font-weight: bold;
-    cursor: pointer;
-    background-color: #ff5400 !important;
-  }
+  }  
 }
 
 .orange-input::-webkit-input-placeholder {
@@ -176,59 +129,6 @@
   }
   .sitemap-sub {
     font-size: 28px !important;
-  }
-  .orange-box-heading-mob {
-    font-size: 26px;
-    font-weight: 500;
-    color: #ffffff;
-    margin-top: -40px;
-    line-height: 30px;
-  }
-  .orange-mob {
-    text-align: center;
-  }
-  .name-input-setting-mob {
-    border-width: 1px;
-    border-radius: 10px !important;
-    width: 250px !important;
-    background-color: #ffffff !important;
-    margin-top: 30px;
-    text-align: center !important;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    border-color: none !important;
-    box-shadow: none !important;
-  }
-  .email-settings-mob {
-    border-radius: 10px !important;
-    width: 250px !important;
-    background-color: #ffffff !important;
-    margin-top: 20px;
-    text-align: center !important;
-    border-width: 1px;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    border-color: none !important;
-    box-shadow: none !important;
-  }
-  .signup-button-mob {
-    color: #ffffff;
-    border: 1px solid #ffffff;
-    border-radius: 10px !important;
-    width: 250px !important;
-    font-weight: bold;
-    margin-top: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
-    cursor: pointer;
-    background-color: #ff5400 !important;
   }
   .input-div {
     text-align: center !important;

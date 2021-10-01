@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const DesktopContainer = styled.div`
-  @media (max-width: 768px) {
+  @media (max-width: 639px) {
     display: none;
   }
 `
@@ -18,10 +18,9 @@ export const Orange = styled.div`
 `
 
 export const Introduction = styled.div`
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
   position: relative;
-  padding-left: 1rem;
 
   h2 {
     display: flex;
@@ -35,7 +34,7 @@ export const Introduction = styled.div`
 
   .text {
     color: #0c0c0c;
-    line-height: 1.3;
+    line-height: 1.5;
     text-align: justify;
     word-spacing: -2px;
     font-size: 1.1rem;

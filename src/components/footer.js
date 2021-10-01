@@ -29,50 +29,50 @@ function Footer() {
       <form onSubmit={handleSubmit} ref={form}>
         <Orange>
           <QuoteContainerOr className="container mx-auto">
-            <div className="flex xl:flex-row flex-col orange-mob">
-              <img src="/desk-form" alt="" className="ml-3 hide" />
+            <div className="flex md:flex-row flex-col items-center md:items-start py-4 lg:py-0 orange-mob">
+              <img src="/desk-form" alt="" className="ml-3 hidden md:inline-block" />
               <img
                 src="/mobile-form.png"
                 alt=""
-                className="mobile-hide text-center mx-auto"
+                className="inline-block md:hidden"
                 width="210px"
               />
-              <div className="orange-signup">
-                <h3 className="orange-box-heading orange-box-heading-mob">
+              <div className="orange-signup flex flex-col pt-6 lg:pt-10 md:pl-10 lg:pl-16">
+                <h3 className="orange-box-heading orange-box-heading-mob -mt-20 md:mt-0 text-center md:text-left leading-tight max-w-sm md:max-w-full">
                   Signup up to receive quarterly <strong>newsletters</strong>,{" "}
                   <strong>promotions</strong>, <strong>giveaways</strong> and{" "}
                   <strong>tips</strong>
                 </h3>
-                <div className="flex xl:flex-row flex-col xl:pt-4 xl:ml-1 input-div">
-                  <div>
+                <div className="flex md:flex-row flex-col items-center md:items-stretch pt-4 md:ml-1 input-div">
+                  <div class="w-64 md:w-1/3 lg:w-auto md:pr-3 lg:pr-8 mb-3 md:mb-0">
                     <input
                       type="text"
                       name="firstName"
                       placeholder="First Name"
-                      className="orange-input name-input-setting name-input-setting-mob"
+                      className="orange-input name-input-setting name-input-setting-mob w-full md:w-auto text-center md:text-left"
                     />
                   </div>
-                  <div className="email-input-setting">
+                  <div className="email-input-setting w-64 md:w-1/3 lg:w-full md:pr-3 lg:pr-8 mb-3 md:mb-0">
                     <input
                       type="email"
                       name="email"
                       placeholder="Email Address"
-                      className="orange-input email-settings email-settings-mob"
+                      className="orange-input email-settings email-settings-mob text-center md:text-left"
                     />
                   </div>
                   <input
                     type="submit"
                     value="SIGN ME UP"
-                    className="signup-button signup-button-mob"
+                    className="signup-button w-64 md:w-1/3 lg:w-auto px-5 lg:px-16 py-2 md:py-0"
                   />
                 </div>
                 {error && (
-                  <p className="xl:mt-3 xl:ml-3 -mt-2 xl:pb-0 pb-2 text-sm text-red-1000">
+                  <p className="md:mt-3 md:ml-3 -mt-2 md:pb-0 pb-2 text-sm text-red-1000">
                     {error}
                   </p>
                 )}
                 {submitted && (
-                  <p className="xl:mt-3 xl:ml-3 mt-2 xl:pb-0 pb-2 text-sm text-green-800">
+                  <p className="md:mt-3 md:ml-3 mt-2 md:pb-0 pb-2 text-sm text-green-800">
                     Your submission has been sent. We will get back to you as
                     soon as possible.
                   </p>
@@ -288,10 +288,9 @@ function Footer() {
         </div> */}
         </div>
 
-        <div className="grid grid-footer gap-0 content-center text-center ">
-          <div></div>
-          <div>
-            <div className="hidden lg:block">
+        <div className="mx-auto container text-center flex">
+          <div class="flex-1 hidden lg:block">
+            <div>
               <Link to="/" className="cursor-pointer">
                 <img src={`/cinemalogo.png`} className="h-12" />
               </Link>
@@ -299,30 +298,30 @@ function Footer() {
                 Turn your backyard into an exciting outdoor movie theater. Watch
                 big-screen movies, sporting events, play video games, and stream
                 your favorite shows with family and friends outside under the
-                stars and moon. A unique Drive-in movie experience in the
-                privacy of your backyard.
+                stars and moon. A unique Drive-in movie experience in the privacy
+                of your backyard.
               </p>
             </div>
           </div>
-          <div>
+          <div class="flex-1">
             <div className="flex items-end pb-6 sm:pb-0">
               <video
                 autoPlay
                 loop
                 muted
                 playsInline
-                className="w-4/5 mx-auto margin-footer-fire"
+                className="w-4/5 max-w-sm mx-auto margin-footer-fire"
               >
                 <source src="/campfire.mp4" type="video/mp4" />
               </video>
             </div>
           </div>
-          <div>
-            <div className="pt-0 hidden lg:block">
-              <h5 className="text-orange-500 h3-footer-align font-bold uppercase mt-1">
-                Quick Links
-              </h5>
+          <div class="flex-1 hidden lg:block">
+            <div className="pt-0">
               <div className="flex flex-col footer-links-align">
+                <h5 className="text-left text-orange-500 font-bold uppercase mb-1">
+                  Quick Links
+                </h5>
                 <Link to="/about" className="flex items-center">
                   <img src="/arrowright.png" className="h-3 mr-3" />
                   About
@@ -390,6 +389,7 @@ function Footer() {
           </div>
           <div></div>
         </div>
+
         <div className="text-left lg:text-center text-sm mt-2 lg:mt-6 py-3 px-6 lg:px-0 lg:py-0 border-t border-gray-800 lg:border-none">
           <div className="flex items-center lg:justify-center lg:mb-2">
             &copy;2021 The Wireless Outdoor Cinema Company. All Rights Reserved.{" "}
@@ -398,8 +398,7 @@ function Footer() {
                 Terms of Use
               </Link>{" "}
               <span className="mx-1">|</span> <Link to="/privacy">Privacy</Link>{" "}
-              <span className="mx-1">|</span>{" "}
-              <Link to="/sitemap">Site Map</Link>
+              <span className="mx-1">|</span> <Link to="/sitemap">Site Map</Link>
             </span>
           </div>
           <div className="flex items-center justify-center hidden lg:hidden">
