@@ -460,7 +460,16 @@ const IndexPage = ({ location }) => {
               </div>
             </div>
           </div>
-
+          
+          {<QuoteMobile className="container mx-auto py-4">
+            <h2 className="text-lg leading-tight text-white text-center">
+              “My Wireless Timberline Outdoor Cinemas take less time to set up
+              and start watching than it does to pop a bag of popcorn.”
+            </h2>
+            <div className="signature mt-4">
+              <img src={signature} alt="signature todd morton" />
+            </div>
+          </QuoteMobile> }
 
           <div className="container bg-white mx-auto pt-6 pb-8">
             <h1 className="text-2xl leading-tight font-500-small">
@@ -710,16 +719,6 @@ const IndexPage = ({ location }) => {
               </div>
             </div>
           </div>
-
-          {/* <QuoteMobile className="container mx-auto py-4">
-            <h2 className="text-lg leading-tight text-white text-center">
-              “My Wireless Timberline Outdoor Cinemas take less time to set up
-              and start watching than it does to pop a bag of popcorn.”
-            </h2>
-            <div className="signature mt-4">
-              <img src={signature} alt="signature todd morton" />
-            </div>
-          </QuoteMobile> */}
         </div>
         {/* ----------Desktop code----------------- */}
         <DesktopContainer className="">
