@@ -53,7 +53,7 @@ function About() {
             Welcome! Thank you for stopping by – I appreciate your interest in
             learning more about me and my Wireless Outdoor Cinema business.
           </p>
-          <p className="xl:text-2xl text-2xl font-bold mb-2 xl:ml-2">Growing up</p>
+          <p className="xl:text-2xl heading-outdoor-2 font-bold mb-2 xl:ml-2">Growing up</p>
           <p className="mb-4 xl:ml-2">
             I’m originally from Vermont, and growing up; I split my time between
             Vermont and Maine. My childhood memories are filled with
@@ -70,7 +70,7 @@ function About() {
             was a teen, I was building waterfront dock systems, decks and
             repairing things for neighbors and friends.
           </p>
-          <p className="xl:text-2xl text-2xl font-bold mb-2 xl:ml-2">
+          <p className="xl:text-2xl heading-outdoor-2 font-bold mb-2 xl:ml-2">
             Learning from the best
           </p>
           <p className="mb-4 xl:ml-2">
@@ -92,7 +92,7 @@ function About() {
               Bridgton, ME.
             </p>
           </div>
-          <p className="xl:text-2xl text-2xl xl:mt-0 -mt-1 font-bold mb-2 mt-6 xl:ml-2">
+          <p className="xl:text-2xl heading-outdoor-2 xl:mt-0 -mt-1 font-bold mb-2 mt-6 xl:ml-2">
             My professional career
           </p>
           <p className="mb-4 xl:ml-2">
