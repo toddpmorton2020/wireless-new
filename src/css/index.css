@@ -141,7 +141,7 @@
     padding-right: 7.5rem;
   }
   .comparison-details {
-    width: 362px;
+    max-width: 362px;
   }
   .comparison-detail-border {
     border: 1px solid #ff5400;

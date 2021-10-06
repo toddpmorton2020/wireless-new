@@ -68,7 +68,7 @@ const Comparison = () => {
                   </span>
                 </p>
               </div>
-              <div className="xl:flex xl:pt-16 hide pt-8 xl:space-x-4 text-center items-center px-10">
+              <div className="hidden xl:flex xl:pt-16 hide pt-8 xl:space-x-4 text-center items-center px-10">
                 <div>
                   <img
                     src={jediBobcat}
@@ -146,7 +146,7 @@ const Comparison = () => {
                   </button>
                 </div>
               </div>
-              <div className="mobile-hide text-center pt-6">
+              <div className="mobile-hide text-center pt-6 container max-w-4xl mx-auto px-0 sm:px-6">
                 <div>
                   <img
                     src="/mobile-jedi-bobcat-compare-396x356.png"
@@ -162,7 +162,7 @@ const Comparison = () => {
                   <hr className="mx-1 border-gray-500" />
                   <p className="text-3xl py-4">Just $2,499</p>
                   <button
-                    className="text-2xl text-white bg-orange-1000 rounded-md comparison-btn py-1"
+                    className="text-2xl text-white bg-orange-1000 rounded-md px-10 py-1"
                     onClick={() =>
                       navigate(
                         "/timberline-cinema-packages/96-jedi-bobcat-cinema"
@@ -174,15 +174,15 @@ const Comparison = () => {
                   <div className="py-1 included-btn mt-6 mb-4 comparison-details rounded-md comparison-detail-border text-left">
                     <div className="flex-1">
                       <div
-                        className="flex justify-around items-center"
+                        className="flex justify-between sm:justify-around items-center w-full sm:w-auto px-3 sm:px-0"
                         onClick={() => setOpen(!open)}
                       >
-                        <h2 className="text-2xl include-margin text-orange-1000">
+                        <h2 className="text-2xl text-orange-1000">
                           What's included?
                         </h2>
                         <img
                           src={open ? "/minus.png" : "/plus.png"}
-                          className="w-4 md:w-auto md:h-5 cursor-pointer sm:pl-4 ml-4 sm:ml-0"
+                          className="w-4 sm:w-8 md:w-auto md:h-5 cursor-pointer sm:pl-4 ml-4 sm:ml-0"
                         />
                       </div>
                     </div>
@@ -376,7 +376,7 @@ const Comparison = () => {
                   <hr className="mx-1 border-gray-500" />
                   <p className="text-3xl py-6">Starting at $2,399*</p>
                   <button
-                    className="text-2xl text-white bg-purple-1000 rounded-md comparison-btn py-1"
+                    className="text-2xl text-white bg-orange-1000 rounded-md px-10 py-1"
                     onClick={() =>
                       navigate(
                         "/timberline-cinema-packages/120-bella-bear-cinema"
@@ -388,15 +388,15 @@ const Comparison = () => {
                   <div className="py-1 included-btn mt-6 mb-4 comparison-details rounded-md comparison-detail-border-p text-left">
                     <div className="flex-1">
                       <div
-                        className="flex justify-around items-center"
+                        className="flex justify-between sm:justify-around items-center w-full sm:w-auto px-3 sm:px-0"
                         onClick={() => setOpen1(!open1)}
                       >
-                        <h2 className="text-2xl include-margin text-purple-1000">
+                        <h2 className="text-2xl text-purple-1000">
                           What's included?
                         </h2>
                         <img
                           src={open1 ? "/minus.png" : "/plus.png"}
-                          className="w-4 md:w-auto md:h-5 cursor-pointer sm:pl-4 ml-4 sm:ml-0"
+                          className="w-4 sm:w-8 md:w-auto md:h-5 cursor-pointer sm:pl-4 ml-4 sm:ml-0"
                         />
                       </div>
                     </div>
@@ -592,7 +592,7 @@ const Comparison = () => {
                   <hr className="mx-1 border-gray-500" />
                   <p className="text-3xl py-6">Starting at $2,899*</p>
                   <button
-                    className="text-2xl text-white bg-orange-1000 rounded-md comparison-btn py-1"
+                    className="text-2xl text-white bg-orange-1000 rounded-md px-10 py-1"
                     onClick={() =>
                       navigate(
                         "/timberline-cinema-packages/150-big-moose-cinema"
@@ -604,15 +604,15 @@ const Comparison = () => {
                   <div className="py-1 included-btn mt-6 mb-4 comparison-details rounded-md comparison-detail-border text-left">
                     <div className="flex-1">
                       <div
-                        className="flex justify-around items-center"
+                        className="flex justify-between sm:justify-around items-center w-full sm:w-auto px-3 sm:px-0"
                         onClick={() => setOpen2(!open2)}
                       >
-                        <h2 className="text-2xl include-margin text-orange-1000">
+                        <h2 className="text-2xl text-orange-1000">
                           What's included?
                         </h2>
                         <img
                           src={open2 ? "/minus.png" : "/plus.png"}
-                          className="w-4 md:w-auto md:h-5 cursor-pointer sm:pl-4 ml-4 sm:ml-0"
+                          className="w-4 sm:w-8 md:w-auto md:h-5 cursor-pointer sm:pl-4 ml-4 sm:ml-0"
                         />
                       </div>
                     </div>
@@ -800,7 +800,7 @@ const Comparison = () => {
                   </p>
                 </div>
               </div>
-              <div className="pt-20 pb-10 px-24 hide">
+              <div className="pt-20 pb-10 px-10 container mx-auto max-w-4xl xl:max-w-full hide">
                 <div className="">
                   <h1 className="text-31 pb-5">Wooden Frame size</h1>
                   <hr />
