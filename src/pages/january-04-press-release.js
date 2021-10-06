@@ -15,8 +15,8 @@ function Jan04PressRelease() {
       />
 
       <div className="xl:bg-white bg-grey-10 pb-12">
-        <div className="container mx-auto">
-          <div className="xl:pt-4">
+        <div className="pt-2 xl:pt-4 overflow-hidden">
+          <div className="container mx-auto">
             <div className="flex items-center text-sm flex-wrap change xl:text-black text-white breadcrums-margin">
               <Link to="/" className="cursor-pointer">
                 Home
@@ -44,11 +44,11 @@ function Jan04PressRelease() {
               The Wireless Outdoor Cinema 150" Premium Big Moose package was
               installed at Justin's home in Lewiston, Maine, in May 2021.
             </p>
-            <div className="press-release-padding -mt-32 hide">
+            <div className="press-release-padding xl:-mt-32 xl:visible invisible">
               <p className="text-xl image-text-color">Press Release</p>
               <p className="text-xl image-text-color">January 04, 2021</p>
             </div>
-            <div>
+            <div className="hidden xl:block">
               <h1 className="main-heading font-semibold xl:pt-6 pt-8 press-release-padding press-line-height hide">
                 Wireless Outdoor Cinema Company Announces Winner to the 107.5
                 Frank FM Fantasy Football Challenge
@@ -60,7 +60,7 @@ function Jan04PressRelease() {
                 Fantasy Pro Football Challenge winner
               </h2>
               <img src="/4Jan-Full.png" alt="" className="pt-6" />
-              <p className="image-text-color image-text-press-1 text-sm pt-3">
+              <p className="image-text-color image-text-press-1 text-sm pt-3 text-grey-100 xl:text-gray-700">
                 The Wireless Outdoor Cinema 150" Premium Big Moose package was
                 installed at Justin's home in Lewiston, Maine, in May 2021.
               </p>

@@ -246,8 +246,8 @@ function Connect() {
         description="Call. Text. Email. Snail Mail. Take a moment to fill in the required fields and you will get a friendly response back within 24 hours or sooner. Looking forward to connecting."
       />
       <div className="gray-back">
-        <div className="container mx-auto">
-          <div className="xl:pt-4 change">
+        <div className="pt-2 xl:pt-4 change overflow-hidden">
+          <div className="container mx-auto">
             <div className="flex flex-wrap items-center text-sm breadcrums-margin">
               <Link
                 to="/"
@@ -259,10 +259,10 @@ function Connect() {
               <span to="#">Connect</span>
             </div>
             <div className="md:hidden h-64 w-full full-bleed-mobile max-h-screen relative mt-6 mb-6">
-              <img className="w-full h-full object-cover " src={connectImage} />
+              <img className="w-full h-full object-cover object-top" src={connectImage} />
             </div>
             <div className="mt-8 xl:px-6">
-              <h1 className="text-orange-500 privacy-heading xl:text-5xl leading-none relative">
+              <h1 className="text-orange-500 privacy-heading text-3xl xl:text-5xl leading-none relative">
                 Let&apos;s <span className="text-black">Connect</span>
               </h1>
             </div>

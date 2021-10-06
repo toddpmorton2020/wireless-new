@@ -90,6 +90,7 @@
 }
 
 .press-main-image {
+  width: 100%;
   height: 325px;
 }
 
@@ -207,7 +208,7 @@
 }
 
 .frame-width {
-  width: 540px;
+  max-width: 540px;
 }
 
 .btn {

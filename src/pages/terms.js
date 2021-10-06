@@ -12,8 +12,8 @@ function Terms() {
     <Layout>
       <SEO title="Terms of Use" />
       <div className="gray-back pb-6">
-        <div className="container mx-auto">
-          <div className="sm:py-6 xl:pt-4 change">
+        <div className="sm:py-6 xl:pt-4 change overflow-hidden">
+          <div className="container mx-auto">
             <div className="flex flex-wrap items-center text-sm breadcrums-margin">
               <Link
                 to="/"
@@ -28,20 +28,20 @@ function Terms() {
               <img className="w-full h-full object-cover " src={terms} />
             </div>
             <div className="mt-8 xl:px-6">
-              <h1 className="term-margin-heading text-black sm:text-orange-500 xl:text-5xl leading-none relative hide">
+              <h1 className="term-margin-heading text-black sm:text-orange-500 text-3xl xl:text-5xl leading-none relative hide">
                 Terms and{" "}
                 <span className="text-orange-500 sm:text-black block sm:inline">
                   Conditions
                 </span>
               </h1>
-              <h1 className="text-center terms-heading text-black sm:text-orange-500 xl:invisible visible">
+              <h1 className="text-center terms-heading text-black sm:text-orange-500 hidden">
                 Terms and{" "}
                 <span className="text-orange-500 sm:text-black">
                   Conditions
                 </span>
               </h1>
             </div>
-            <div className="sm:mt-8 xl:-mt-6 xl:px-6">
+            <div className="mt-3 xl:px-6">
               <div className="term-margin-subHeading text-base sm:text-2xl xl:text-3xl mt-1 sm:mt-0 news-subtitle hide">
                 <h3>
                   Agreement between user &

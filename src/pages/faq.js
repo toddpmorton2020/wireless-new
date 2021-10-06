@@ -85,8 +85,8 @@ function FAQ() {
     <Layout>
       <SEO title="FAQ" description="Search the knowledge base." />
       <div className="gray-back pb-8">
-        <div className="container mx-auto">
-          <div className="xl:pt-4 change">
+        <div className="pt-2 xl:pt-4 overflow-hidden change">
+          <div className="container mx-auto">
             <div className="flex flex-wrap items-center text-sm breadcrums-margin">
               <Link
                 to="/"
@@ -102,10 +102,10 @@ function FAQ() {
               style={{ backgroundImage: `url(${faqImage})` }}
             />
             <div className="text-center sm:text-left xl:px-32">
-              <h1 className="text-black sm:text-orange-500 privacy-heading xl:text-5xl leading-none uppercase relative xl:mt-8">
+              <h1 className="text-black sm:text-orange-500 privacy-heading text-3xl xl:text-5xl leading-none uppercase relative mt-8">
                 FAQ
               </h1>
-              <h2 className="xl:text-3xl xl:mt-3 font-thin sitemap-sub">
+              <h2 className="text-2xl xl:text-3xl xl:mt-3 font-thin sitemap-sub">
                 Search the knowledge base
               </h2>
             </div>

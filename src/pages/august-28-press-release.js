@@ -15,8 +15,8 @@ function Aug28PressRelease() {
       />
 
       <div className="xl:bg-white bg-grey-10 xl:pb-12 pb-12">
-        <div className="container mx-auto">
-          <div className="xl:pt-4">
+        <div className="pt-2 xl:pt-4 overflow-hidden">
+          <div className="container mx-auto">
             <div className="flex text-sm flex-wrap items-center change xl:text-black text-white breadcrums-margin">
               <Link to="/" className="cursor-pointer">
                 Home
@@ -45,11 +45,11 @@ function Aug28PressRelease() {
               additional base support and durable weather-resistant post and
               beam hardware.
             </p>
-            <div className="press-release-padding -mt-32 xl:visible invisible">
+            <div className="press-release-padding xl:-mt-32 xl:visible invisible">
               <p className="text-xl image-text-color">Press Release</p>
               <p className="text-xl image-text-color">August 28, 2021</p>
             </div>
-            <div>
+            <div className="hidden xl:block">
               <h1 className="main-heading font-semibold xl:pt-6 press-release-padding press-line-height hide">
               Wireless Outdoor Cinema Company Introduces its New Timberline Series Frame System Built to Withstand Fall and Winter Weather
               </h1>
@@ -60,7 +60,7 @@ function Aug28PressRelease() {
                 the base and weather-resistance post and beam hardware
               </h2>
               <img src="/28Aug-Full.png" alt="" className="pt-6" />
-              <p className="image-text-color image-text-press-1 text-sm pt-3">
+              <p className="image-text-color image-text-press-1 text-sm pt-3 text-grey-100 xl:text-gray-700">
                 The new Timberline Outdoor Cinema Series frame system provides
                 additional base support and durable weather-resistant post and
                 beam hardware.

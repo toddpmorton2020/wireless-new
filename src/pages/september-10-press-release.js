@@ -15,8 +15,8 @@ function Sept10PressRelease() {
       />
 
       <div className="xl:bg-white bg-grey-10 pb-12">
-        <div className="container mx-auto">
-          <div className="xl:pt-4">
+        <div className="pt-2 xl:pt-4 overflow-hidden">
+          <div className="container mx-auto">
             <div className="flex items-center text-sm flex-wrap change xl:text-black text-white breadcrums-margin">
               <Link to="/" className="cursor-pointer">
                 Home
@@ -46,11 +46,11 @@ function Sept10PressRelease() {
               the winner will be announced over the radio and contacted through
               phone on January 4, 2021.
             </p>
-            <div className="press-release-padding -mt-40 hide">
+            <div className="press-release-padding xl:-mt-32 xl:visible invisible">
               <p className="text-xl image-text-color">Press Release</p>
               <p className="text-xl image-text-color">September 10, 2020</p>
             </div>
-            <div>
+            <div className="hidden xl:block">
               <h1 className="main-heading font-semibold xl:pt-6 pt-8 press-release-padding press-line-height hide">
                 Wireless Outdoor Cinema Company Partners with Binnie Media on
                 Pro Football Challenge
@@ -63,7 +63,7 @@ function Sept10PressRelease() {
                 Cinema package with installation
               </h2>
               <img src="/10Sep-Full.png" alt="" className="pt-6" />
-              <p className="image-text-color image-text-press-1 text-sm pt-3">
+              <p className="image-text-color image-text-press-1 text-sm pt-3 text-grey-100 xl:text-gray-700">
                 The Fantasy Pro Football Challenge begins September 10, 2020,
                 and the winner will be announced over the radio and contacted
                 through phone on January 4, 2021.

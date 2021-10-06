@@ -15,8 +15,8 @@ function June08PressRelease() {
       />
 
       <div className="xl:bg-white bg-grey-10 pb-12">
-        <div className="container mx-auto">
-          <div className="xl:pt-4">
+        <div className="pt-2 xl:pt-4 overflow-hidden">
+          <div className="container mx-auto">
             <div className="flex items-center text-sm flex-wrap change xl:text-black text-white breadcrums-margin">
               <Link to="/" className="cursor-pointer">
                 Home
@@ -44,11 +44,11 @@ function June08PressRelease() {
               Property of the Wireless Outdoor Cinema Company located in
               Bridgton, Maine.
             </p>
-            <div className="press-release-padding -mt-32 hide">
+            <div className="press-release-padding xl:-mt-32 xl:visible invisible">
               <p className="text-xl image-text-color">Press Release</p>
               <p className="text-xl image-text-color">June 8, 2020</p>
             </div>
-            <div>
+            <div className="hidden xl:block">
               <h1 className="main-heading font-semibold xl:pt-6 pt-8 press-release-padding press-line-height hide">
                 Introducing the Wireless Outdoor Cinema Company
               </h1>
@@ -59,7 +59,7 @@ function June08PressRelease() {
                 outdoor movie experience
               </h2>
               <img src="/8June-Full.png" alt="" className="pt-6" />
-              <p className="image-text-color image-text-press-1 text-sm pt-3">
+              <p className="image-text-color image-text-press-1 text-sm pt-3 text-grey-100 xl:text-gray-700">
                 Property of the Wireless Outdoor Cinema Company located in
                 Bridgton, Maine.
               </p>

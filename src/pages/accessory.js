@@ -20,7 +20,7 @@ const Accessory = () => {
       <SEO title="Accessory" />
       <Layout>
         <div className="accessory">
-          <div>
+          <div class="overflow-hidden">
             <div className="container mx-auto">
               <div className="pt-2 xl:pt-4 change">
                 <div className="flex items-center text-xs sm:text-sm text-sm breadcrums-margin">
@@ -49,7 +49,7 @@ const Accessory = () => {
               </h2>
             </div>
           </div>
-          <div className="text-center mt-2 hide">
+          <div className="text-center mt-2 hide container mx-auto">
             <img src={bannerAccessory} alt="" className="mx-auto" />
           </div>
           <div>

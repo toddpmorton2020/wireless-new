@@ -12,8 +12,8 @@ function Privacy() {
     <Layout>
       <SEO title="Privacy Policy" />
       <div className="gray-back pb-8">
-        <div className="container mx-auto">
-          <div className="change sm:py-6 xl:pt-4">
+        <div className="change sm:py-6 xl:pt-4 overflow-hidden">
+          <div className="container mx-auto">
             <div className="flex flex-wrap items-center text-sm breadcrums-margin">
               <Link
                 to="/"
@@ -28,13 +28,13 @@ function Privacy() {
               <img className="w-full h-full object-cover " src={privacy} />
             </div>
             <div className="mt-8 xl:px-6">
-              <h1 className="privacy-margin-heading privacy-mob sm:text-black sm:text-orange-500 privacy-heading xl:text-5xl leading-none relative">
+              <h1 className="privacy-margin-heading privacy-mob sm:text-black sm:text-orange-500 privacy-heading text-3xl xl:text-5xl leading-none relative">
                 Privacy{" "}
                 <span className="text-orange-500 sm:text-black">Policy</span>
               </h1>
             </div>
             <div className="sm:mt-8 xl:px-6">
-              <div className="xl:text-3xl text-base sm:text-2xl xl:-mt-6 mt-1 sm:mt-0 news-subtitle hide">
+              <div className="xl:text-3xl text-base text-2xl xl:-mt-6 mt-1 sm:mt-0 news-subtitle hide">
                 <h3 className="privacy-margin-subHeading">Protecting your private information is our priority</h3>
               </div>
               <div className="mt-6 privacy-padding">

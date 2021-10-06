@@ -16,7 +16,7 @@ function InTheNews() {
       />
       <div className="gray-back pb-20">
         <div className="container mx-auto">
-          <div className="xl:pt-4">
+          <div className="pt-2 xl:pt-4">
             <div className="flex flex-wrap items-center text-sm change breadcrums-margin">
               <Link
                 to="/"
@@ -38,7 +38,7 @@ function InTheNews() {
             <div className="mt-8 hidden md:flex xl:px-6">
               <div className="w-7/12 pr-12 block">
                 <div
-                  className="cursor-pointer"
+                  className="cursor-pointer frame-width"
                   onClick={() => navigate("/august-28-press-release")}
                   aria-hidden="true"
                 >
@@ -47,7 +47,7 @@ function InTheNews() {
                     alt=""
                     width="540px"
                   />
-                  <div className="bg-white pt-5 px-5 frame-width cursor-pointer rounded-b-lg">
+                  <div className="bg-white pt-5 px-5 cursor-pointer rounded-b-lg">
                     <p className="text-gray-600">Press Release</p>
                     <p className="text-xl leading-tight pt-5 font-bold">
                       Wireless Outdoor Cinema Company unveils new Timberline
@@ -57,7 +57,7 @@ function InTheNews() {
                   </div>
                 </div>
                 <div
-                  className="pt-10 cursor-pointer"
+                  className="pt-10 cursor-pointer frame-width"
                   onClick={() => navigate("/june-30-press-release")}
                   aria-hidden="true"
                 >
@@ -66,7 +66,7 @@ function InTheNews() {
                     alt=""
                     width="540px"
                   />
-                  <div className="bg-white pt-5 px-5 frame-width cursor-pointer rounded-b-lg">
+                  <div className="bg-white pt-5 px-5 cursor-pointer rounded-b-lg">
                     <p className="text-gray-600">Press Release</p>
                     <p className="text-xl leading-tight pt-5 font-bold">
                       Wireless Outdoor Cinema Company brings to market the first

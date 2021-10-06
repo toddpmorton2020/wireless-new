@@ -125,7 +125,7 @@ function JediBobcat() {
               <span>96” Jedi Bobcat</span>
             </div>
             <div className="mt-12 flex flex-col-reverse md:flex-row mx-6">
-              <div className="flex-1 mt-6 md:mt-0 pr-0 md:pr-12">
+              <div className="flex-1 mt-6 md:mt-0 pr-0 md:pr-6 lg:pr-12">
                 <h1 className="text-orange-500 text-3xl xl:text-5xl leading-none relative">
                   96” Jedi Bobcat
                 </h1>
@@ -145,7 +145,7 @@ function JediBobcat() {
                   Great for the adult gamer too.
                 </h2>
               </div>
-              <div className="flex-1 pl-0 md:pl-12 text-center md:text-left rightContainer">
+              <div className="flex-1 pl-0 md:pl-6 lg:pl-12 text-center md:text-left rightContainer">
                 <Gallery
                   picturesArray={picturesArray}
                   color="#FF6600"
@@ -160,13 +160,13 @@ function JediBobcat() {
               color="#FF6600"
             />
             <div className="flex flex-col-reverse md:flex-row secondContainer">
-              <div className="flex-1 pl-0 md:pl-12 text-center md:text-left firstWrap leftContainer">
+              <div className="flex-1 pl-0 md:pr-6 lg:pr-12 text-center md:text-left firstWrap leftContainer">
                 <Gallery
                   picturesArray={includedPicturesArray}
                   color="#FF6600"
                 />
               </div>
-              <div className="flex-1 mt-6 md:mt-0 rightContainer md:pl-12 description-container">
+              <div className="flex-1 mt-6 md:mt-0 rightContainer md:pl-6 lg:pl-12 description-container">
                 <h2 className="xl:text-3xl text-lg product-title mb-4 font-medium">
                   The first Outdoor Gaming Cinema
                 </h2>
@@ -204,7 +204,7 @@ function JediBobcat() {
                   <div className="flex mt-2 getButton btn-orange call-today">
                     <Link to="/connect">Call Today</Link>
                   </div>
-                  <div className="flex flex-col items-center priceContainer">
+                  <div className="flex flex-col items-center priceContainer pl-4">
                     <span className="text-xl uppercase leading-tight sm:leading-normal line-normal">
                       <span className="hidden sm:inline">Sale Price</span>
                       <span className="inline sm:hidden">
@@ -452,10 +452,10 @@ function JediBobcat() {
               color="#FF6600"
             />
             <div className="mt-12 flex flex-col-reverse md:flex-row mb-16">
-              <div className="flex-1 mt-6 md:mt-0 pr-0 md:pr-12">
+              <div className="flex-1 mt-6 md:mt-0 pr-0 md:pr-6 lg:pr-12">
                 <img src={screenSetup} />
               </div>
-              <div className="flex-1 pl-0 md:pl-12 text-center md:text-left rightContainer">
+              <div className="flex-1 pl-0 md:pl-6 lg:pl-12 text-center md:text-left rightContainer">
                 <h3 className="xl:text-3xl text-xl mb-2 attaching-gaming">
                   Attaching the Gaming Screen
                 </h3>
@@ -487,7 +487,7 @@ function JediBobcat() {
               </div>
             </div>
             <div className="mt-12 flex flex-col-reverse md:flex-row">
-              <div className="flex-1 mt-6 md:mt-0 pr-0 md:pr-12">
+              <div className="flex-1 mt-6 md:mt-0 pr-0 md:pr-6 lg:pr-12">
                 <h3 className="text-xl xl:text-3xl mb-2">
                   Using the Cinema Equipment
                 </h3>
@@ -518,7 +518,7 @@ function JediBobcat() {
                   off-grid battery station.
                 </p>
               </div>
-              <div className="flex-1 pl-0 md:pl-12 text-center md:text-left rightContainer">
+              <div className="flex-1 pl-0 md:pl-6 lg:pl-12 text-center md:text-left rightContainer">
                 <img src={projectorStand} />
               </div>
             </div>

@@ -15,8 +15,8 @@ function June30PressRelease() {
       />
 
       <div className="xl:bg-white bg-grey-10 pb-12">
-        <div className="container mx-auto">
-          <div className="xl:pt-4">
+        <div className="pt-2 xl:pt-4 overflow-hidden">
+          <div className="container mx-auto">
             <div className="flex items-center text-sm flex-wrap change xl:text-black text-white breadcrums-margin">
               <Link to="/" className="cursor-pointer">
                 Home
@@ -45,11 +45,11 @@ function June30PressRelease() {
               The new Outdoor Projector Stand organizes all cinema electronics
               on a lightweight, easy-to-carry cedar wood stand.
             </p>
-            <div className="press-release-padding -mt-40 hide">
+            <div className="press-release-padding xl:-mt-32 xl:visible invisible">
               <p className="text-xl image-text-color">Press Release</p>
               <p className="text-xl image-text-color">June 30, 2021</p>
             </div>
-            <div>
+            <div className="hidden xl:block">
               <h1 className="main-heading font-semibold xl:pt-6 pt-8 press-release-padding press-line-height hide">
                 Wireless Outdoor Cinema Company Brings to Market the 1st Outdoor
                 Cinema Projector Stand
@@ -62,7 +62,7 @@ function June30PressRelease() {
                 stand to the retail market
               </h2>
               <img src="/30June-Full.png" alt="" className="pt-6" />
-              <p className="image-text-color image-text-press-1 text-sm pt-3">
+              <p className="image-text-color image-text-press-1 text-sm pt-3 text-grey-100 xl:text-gray-700">
                 The new Outdoor Projector Stand organizes all cinema electronics
                 on a lightweight, easy-to-carry cedar wood stand.
               </p>
