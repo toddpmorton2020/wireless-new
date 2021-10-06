@@ -131,15 +131,7 @@ function June08PressRelease() {
               </p>
               <p className="xl:text-23 text-base press-text font-extralight pb-5">
                 <strong>About The Wireless Outdoor Cinema Company</strong>{" "}
-                <br /> The Wireless Outdoor Cinema Company provides homeowners
-                and businesses with a complete outdoor movie theater solution to
-                enjoy big-screen entertainment year-round. The cinema packages
-                are designed to help achieve a fast and easy setup every time
-                you want to go outside and enjoy your favorite entertainment.
-                Cinema packages include a Pressure-treated Frame to attach the
-                screen to, a Cinematic Screen, 1080p LED Projector, Sound
-                System, Roku 4k Media Player, and a light-weight custom cedar
-                wood Projector and Equipment Stand.
+                <br />Located in Bridgton, a resort area in Maine’s scenic Lakes Region, The Wireless Outdoor Cinema Company brings the finest quality craftsmanship of traditional Maine woodworking to the outdoor movie theater experience. Since 2020, Founder Todd Morton has been constructing outdoor movie theater solutions that bring big-screen Hollywood entertainment to homeowners and businesses – year-round. Designed to be intuitive with fast and easy set-up, the cinema packages vary by screen size, and all include a pressure-treated frame, a cinematic screen, 1080p LED projector, sound system, Roku 4k media player, and a light-weight custom cedar wood projector and equipment stand.
               </p>
             </div>
             <div className="press-release-padding pt-8 xl:text-black text-white">

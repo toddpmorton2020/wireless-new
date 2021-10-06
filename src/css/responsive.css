@@ -189,6 +189,11 @@
     margin-top: 22px;
     margin-bottom: 9px;
   }
+  .heading-outdoor-2 {
+    font-weight: 500 !important;
+    font-size: 30px !important;
+    text-transform: none !important;
+  }
   .solution-orange {
     font-weight: 500 !important;
     font-size: 30px !important;

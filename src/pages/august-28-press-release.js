@@ -75,11 +75,11 @@ function Aug28PressRelease() {
                 a premier provider of complete outdoor movie theater solutions for homeowners and businesses, today announced the availability of the new Timberline Outdoor Cinema Series. The new reinforced frame system is included with the purchase of each of the three Timberline option packages: the 96” Jedi Bobcat Outdoor Gaming Cinema ($2,499); the 120” Bella Bear Backyard Outdoor Cinema (starting at $2,399); and the 150”  Big Moose Premium Outdoor Cinema (starting at $2,899).
               </p>
               <p className="xl:text-23 text-base font-extralight pb-5 press-text">
-              The more stable new frame system, that supports the cinematic screen, can withstand strong wind gusts, rain storms and snow. There’s no need to break it down, deflate or shove back into a box since it can remain outdoors year-round. The new frames feature newly added front bottom 45-degree angle supports and new heavy-duty post and beam weather-resistant hardware. Customers who previously purchased an outdoor cinema package will receive the new frame system.
+              The more stable new frame system, that supports the cinematic screen, can withstand strong wind gusts, rain storms and snow. There’s no need to break it down, deflate or shove back into a box since it is designed to remain outdoors year-round. The new frame features newly added front bottom 45-degree angle supports and new heavy-duty post and beam weather-resistant hardware. Customers who previously purchased an outdoor cinema package will receive the new frame system.
               </p>
               <div className="xl:bg-transparent bg-green-100 xl:mx-0 -mx-6 pt-5 xl:pt-0 xl:text-left text-center xl:mb-0 mb-5">
                 <p className="xl:text-23 text-base font-extralight pb-2 xl:px-0 px-5 press-text">
-                “Timberline’s new reinforced wood frame system can handle any weather Mother Nature throws at it, making it the ideal outdoor backyard cinema no matter where you live,” said Todd Morton, owner of the Wireless Outdoor Cinema Company. “I’m thrilled to bring this quality woodworking craftsmanship that Maine is known for, to customers. This new frame design will last as long as your outside deck attached to your home will.”
+                “The Timberline Outdoor Cinema’s new reinforced wood frame system can handle any weather Mother Nature throws at it, making it the ideal outdoor backyard cinema no matter where you live,” said Todd Morton, owner of the Wireless Outdoor Cinema Company. “I’m thrilled to bring this quality woodworking craftsmanship that Maine is known for, to customers. This new frame design will last as long as your outside deck attached to your home will.”
                 </p>
                 <img
                   src="/todd-sign.png"
@@ -109,7 +109,7 @@ function Aug28PressRelease() {
               </p>
               <p className="xl:text-23 text-base font-extralight pb-5 press-text">
                 <strong>About The Wireless Outdoor Cinema Company</strong>{" "}
-                <br /> Located in Bridgton, a resort area in Maine’s scenic Lakes Region, The Wire Outdoor Cinema Company brings the finest quality craftsmanship of traditional Maine woodworking to the outdoor theater experience. Since 2020, Founder Todd Morton has been constructing outdoor movie theater solution packages that bring big-screen Hollywood entertainment to homeowners and businesses – year-round. Designed to be intuitive with fast and easy set-up, the cinema packages vary by screen size, and all include a pressure-treated frame, a cinematic screen, 1080p LED projector, sound system, Roku 4k media player, and a light-weight custom cedar wood projector and equipment stand. 
+                <br /> Located in Bridgton, a resort area in Maine’s scenic Lakes Region, The Wireless Outdoor Cinema Company brings the finest quality craftsmanship of traditional Maine woodworking to the outdoor movie theater experience. Since 2020, Founder Todd Morton has been constructing outdoor movie theater solutions that bring big-screen Hollywood entertainment to homeowners and businesses – year-round. Designed to be intuitive with fast and easy set-up, the cinema packages vary by screen size, and all include a pressure-treated frame, a cinematic screen, 1080p LED projector, sound system, Roku 4k media player, and a light-weight custom cedar wood projector and equipment stand. 
               </p>
             </div>
             <div className="press-release-padding pt-8 xl:text-black text-white">

@@ -134,7 +134,7 @@ function About() {
         />
       </div>
       <div className="container max-w-4xl mx-auto mobile-padding">
-        <div className="sm:pt-16 xl:pt-5 sm:pt-8 xl:ml-2">
+        <div className="sm:pt-16 xl:pt-5 xl:ml-2">
           <h2 className="sm:mb-4 xl:mb-3 text-xl sm:text-2xl font-bold product-title heading-outdoor">
             The Outdoor Movie Theater{" "}
             <span className="solution-orange">idea</span>
