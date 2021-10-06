@@ -38,7 +38,7 @@ function About() {
       </div>
       {/* </div> */}
       <div className="container max-w-4xl mx-auto xl:pt-4 desktop">
-        <img src="/first.png" alt="" />
+        <img src="/first.png" alt="" className="w-full" />
         <p className="image-text-color image-text-press-1 text-sm pt-3 ml-2">
           Todd Morton, founder of the Wireless Outdoor Cinema Company fishing on
           Woods Pond in Bridgton, ME.
@@ -83,7 +83,7 @@ function About() {
             full-time in beautiful Bridgton, Maine.
           </p>
           <div className="xl:pt-4 desktop">
-            <img src="/second.png" alt="" />
+            <img src="/second.png" alt="" className="w-full" />
             <p className="image-text-color image-text-press-1 text-sm pt-3 xl:ml-2">
               Todd Morton preparing cuts on a table saw at his property in
               Bridgton, ME.
@@ -171,7 +171,7 @@ function About() {
         />
       </div>
       <div className="container max-w-4xl mx-auto xl:pt-8 desktop">
-        <img src="/third.png" alt="" />
+        <img src="/third.png" alt="" className="w-full" />
         <p className="image-text-color image-text-press-1 text-sm pt-3 ml-2">
           New Timberline Outdoor Cinema 150” Big Moose wired option package
           located on site of the Wireless Outdoor Cinema Company property in
@@ -210,7 +210,7 @@ function About() {
         />
       </div>
       <div className="container max-w-4xl mx-auto xl:pt-4 desktop">
-        <img src="/fourth.png" alt="" />
+        <img src="/fourth.png" alt="" className="w-full" />
         <p className="image-text-color image-text-press-1 text-sm pt-3 ml-2">
           New Outdoor Projector Stand located on site of the Wireless Outdoor
           Cinema Company property in Bridgton, ME.
