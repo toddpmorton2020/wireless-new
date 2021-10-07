@@ -53,7 +53,6 @@ function About() {
             Welcome! Thank you for stopping by – I appreciate your interest in
             learning more about me and my Wireless Outdoor Cinema business.
           </p>
-          <p className="xl:text-2xl heading-outdoor-2 font-bold mb-2 xl:ml-2">Growing up</p>
           <p className="mb-4 xl:ml-2">
             I’m originally from Vermont, and growing up; I split my time between
             Vermont and Maine. My childhood memories are filled with
@@ -144,7 +143,7 @@ function About() {
           </h2>
           <p className="mb-4">
             My entrepreneurial wheels started to turn. I wanted to set up an
-            outdoor movie in my backyard for years and started researching
+            outdoor movie theater in my backyard for years and started researching
             online companies that provided outdoor cinemas. Unfortunately, the
             companies I found online only sold inflatable air screen cinemas and
             wanted a better solution that was easy to set up and start watching
