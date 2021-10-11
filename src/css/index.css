@@ -137,12 +137,22 @@
   .home-padding {
     padding-bottom: 20px !important;
   }
+  .text-font {
+    font-size: 30px !important;
+  }
+  .include-margin {
+    margin-left: 70px;
+  }
+  .outdoor-subfont {
+    font-size: 23px;
+    line-height: 27px;
+  }
+}
+@media (max-width: 1023px) {
+  
   .comparison-btn {
     padding-left: 7.5rem;
     padding-right: 7.5rem;
-  }
-  .comparison-details {
-    max-width: 362px;
   }
   .comparison-detail-border {
     border: 1px solid #ff5400;
@@ -153,16 +163,6 @@
   .included-btn {
     padding-right: 10px;
     padding-left: 10px;
-  }
-  .text-font {
-    font-size: 30px !important;
-  }
-  .include-margin {
-    margin-left: 70px;
-  }
-  .outdoor-subfont {
-    font-size: 23px;
-    line-height: 27px;
   }
 }
 

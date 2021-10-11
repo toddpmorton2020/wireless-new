@@ -231,19 +231,19 @@ const Header = ({ siteTitle }) => {
                       </Link>
                       <Link
                         to="/timberline-cinema-packages/96-jedi-bobcat-cinema"
-                        className="py-2 px-6 text-xs hover:text-orange-500"
+                        className="py-2 px-6 hover:text-orange-500"
                       >
                         96" Jedi Bobcat
                       </Link>
                       <Link
                         to="/timberline-cinema-packages/120-bella-bear-cinema"
-                        className="py-2 px-6 text-xs hover:text-orange-500"
+                        className="py-2 px-6 hover:text-orange-500"
                       >
                         120" Bella Bear
                       </Link>
                       <Link
                         to="/timberline-cinema-packages/150-big-moose-cinema"
-                        className="py-2 px-6 text-xs hover:text-orange-500"
+                        className="py-2 px-6 hover:text-orange-500"
                       >
                         150" Big Moose
                       </Link>

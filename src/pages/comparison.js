@@ -42,7 +42,7 @@ const Comparison = () => {
           <div>
             <div className="container mx-auto">
               <div className="sm:pt-6 xl:pt-4 change">
-                <div className="flex items-center sm:text-sm text-sm breadcrums-margin">
+                <div className="flex items-center sm:text-sm text-sm md:px-6 lg:px-10">
                   <Link
                     to="/"
                     className="text-blue-600 sm:text-black cursor-pointer"
@@ -53,12 +53,12 @@ const Comparison = () => {
                   <span to="#">Cinema Comparison</span>
                 </div>
               </div>
-              <div>
-                <h1 className="xl:text-5xl privacy-heading text-center mt-4 xl:leading-none leading-10 xl:mt-6">
+              <div className="md:px-6 lg:px-10">
+                <h1 className="text-5xl privacy-heading text-center leading-none mt-6">
                   <span className="text-orange-500">Compare</span> Timberline
                   Outdoor Cinemas
                 </h1>
-                <p className="xl:text-3xl hide text-center">
+                <p className="text-3xl hide text-center">
                   Get help choosing which cinema is best for you.{" "}
                   <span
                     className="text-blu-100 cursor-pointer"
@@ -68,7 +68,7 @@ const Comparison = () => {
                   </span>
                 </p>
               </div>
-              <div className="hidden xl:flex xl:pt-16 hide pt-8 xl:space-x-4 text-center items-center px-10">
+              <div className="hidden lg:flex lg:pt-16 hide pt-8 lg:space-x-4 text-center items-center md:px-6 lg:px-10">
                 <div>
                   <img
                     src={jediBobcat}
@@ -94,7 +94,7 @@ const Comparison = () => {
                     Learn more
                   </button>
                 </div>
-                <div className="xl:pt-0 pt-8">
+                <div className="lg:pt-0 pt-8">
                   <img
                     src={bellaBear}
                     alt=""
@@ -120,7 +120,7 @@ const Comparison = () => {
                     Learn more
                   </button>
                 </div>
-                <div className="xl:pt-0 pt-8">
+                <div className="lg:pt-0 pt-8">
                   <img
                     src={bigMoose}
                     alt=""
@@ -146,7 +146,7 @@ const Comparison = () => {
                   </button>
                 </div>
               </div>
-              <div className="mobile-hide text-center pt-6 container max-w-4xl mx-auto px-0 sm:px-6">
+              <div className="lg:hidden text-center pt-6 md:px-6 lg:px-10">
                 <div>
                   <img
                     src="/mobile-jedi-bobcat-compare-396x356.png"
@@ -171,10 +171,10 @@ const Comparison = () => {
                   >
                     Learn more
                   </button>
-                  <div className="py-1 included-btn mt-6 mb-4 comparison-details rounded-md comparison-detail-border text-left">
-                    <div className="flex-1">
+                  <div className="py-1 included-btn mt-6 mb-4 comparison-details mx-auto rounded-md comparison-detail-border text-left">
+                    <div className="flex-1 px-3">
                       <div
-                        className="flex justify-between sm:justify-around items-center w-full sm:w-auto px-3 sm:px-0"
+                        className="flex justify-between lg:justify-around items-center w-full sm:w-auto px-3 sm:px-0"
                         onClick={() => setOpen(!open)}
                       >
                         <h2 className="text-2xl text-orange-1000">
@@ -385,10 +385,10 @@ const Comparison = () => {
                   >
                     Learn more
                   </button>
-                  <div className="py-1 included-btn mt-6 mb-4 comparison-details rounded-md comparison-detail-border-p text-left">
-                    <div className="flex-1">
+                  <div className="py-1 included-btn mt-6 mb-4 comparison-details mx-auto rounded-md comparison-detail-border-p text-left">
+                    <div className="flex-1 px-3">
                       <div
-                        className="flex justify-between sm:justify-around items-center w-full sm:w-auto px-3 sm:px-0"
+                        className="flex justify-between lg:justify-around items-center w-full sm:w-auto px-3 sm:px-0"
                         onClick={() => setOpen1(!open1)}
                       >
                         <h2 className="text-2xl text-purple-1000">
@@ -601,10 +601,10 @@ const Comparison = () => {
                   >
                     Learn more
                   </button>
-                  <div className="py-1 included-btn mt-6 mb-4 comparison-details rounded-md comparison-detail-border text-left">
-                    <div className="flex-1">
+                  <div className="py-1 included-btn mt-6 mb-4 comparison-details mx-auto rounded-md comparison-detail-border text-left">
+                    <div className="flex-1 px-3">
                       <div
-                        className="flex justify-between sm:justify-around items-center w-full sm:w-auto px-3 sm:px-0"
+                        className="flex justify-between lg:justify-around items-center w-full sm:w-auto px-3 sm:px-0"
                         onClick={() => setOpen2(!open2)}
                       >
                         <h2 className="text-2xl text-orange-1000">
@@ -800,11 +800,11 @@ const Comparison = () => {
                   </p>
                 </div>
               </div>
-              <div className="pt-20 pb-10 px-10 container mx-auto max-w-4xl xl:max-w-full hide">
+              <div className="pt-20 pb-10 md:px-6 lg:px-10 hidden lg:block">
                 <div className="">
                   <h1 className="text-31 pb-5">Wooden Frame size</h1>
                   <hr />
-                  <div className="xl:flex xl:space-x-32 pt-5">
+                  <div className="lg:flex lg:space-x-16 xl:space-x-32 pt-5">
                     <div className="font-extralight text-23">
                       <p>8’ ft. Wide Frame</p>
                       <br />
@@ -825,7 +825,7 @@ const Comparison = () => {
                 <div className="pt-16">
                   <h1 className="text-31 pb-5">Cinematic Screen size</h1>
                   <hr />
-                  <div className="xl:flex xl:space-x-32 pt-5">
+                  <div className="lg:flex lg:space-x-16 xl:space-x-32 pt-5">
                     <div className="font-extralight text-23">
                       <p>
                         96” Diagonal Screen
@@ -867,7 +867,7 @@ const Comparison = () => {
                 <div className="pt-16">
                   <h1 className="text-31 pb-5">Wireless or Wired Option</h1>
                   <hr />
-                  <div className="xl:flex xl:space-x-32 pt-5">
+                  <div className="lg:flex lg:space-x-16 xl:space-x-32 pt-5">
                     <div className="font-extralight text-23">
                       <p>
                         Wired option is only available for the Jedi Bobcat
@@ -909,7 +909,7 @@ const Comparison = () => {
                 <div className="pt-16">
                   <h1 className="text-31 pb-5">Projector</h1>
                   <hr />
-                  <div className="xl:flex xl:space-x-32 pt-5">
+                  <div className="lg:flex lg:space-x-16 xl:space-x-32 pt-5">
                     <div className="font-extralight text-23">
                       <p>HD 1080p LED Projector with 4,000 Lumens Brightness</p>
                     </div>
@@ -924,7 +924,7 @@ const Comparison = () => {
                 <div className="pt-16">
                   <h1 className="text-31 pb-5">Speakers</h1>
                   <hr />
-                  <div className="xl:flex xl:space-x-32 pt-5">
+                  <div className="lg:flex lg:space-x-16 xl:space-x-32 pt-5">
                     <div className="font-extralight text-23">
                       <p>
                         Wired option only: Rockville 8” Dual Powered PA System
@@ -950,7 +950,7 @@ const Comparison = () => {
                 <div className="pt-16">
                   <h1 className="text-31 pb-5">Digital FM Transmitter</h1>
                   <hr />
-                  <div className="xl:flex xl:space-x-32 pt-5">
+                  <div className="lg:flex lg:space-x-16 xl:space-x-32 pt-5">
                     <div className="font-extralight text-23">
                       <p>Wired option only: Rolls Digital FM Transmitter</p>
                     </div>
@@ -965,7 +965,7 @@ const Comparison = () => {
                 <div className="pt-16">
                   <h1 className="text-31 pb-5">Digital FM Tuner</h1>
                   <hr />
-                  <div className="xl:flex xl:space-x-32 pt-5">
+                  <div className="lg:flex lg:space-x-16 xl:space-x-32 pt-5">
                     <div className="font-extralight text-23">
                       <p>Wired option only: Rolls Digital FM Tuner</p>
                     </div>
@@ -980,7 +980,7 @@ const Comparison = () => {
                 <div className="pt-16">
                   <h1 className="text-31 pb-5">Roku Express 4k Player</h1>
                   <hr />
-                  <div className="xl:flex xl:space-x-32 pt-5">
+                  <div className="lg:flex lg:space-x-16 xl:space-x-32 pt-5">
                     <div className="font-extralight text-23">
                       <p>
                         Roku Express 4k player with voice control to access
@@ -1004,7 +1004,7 @@ const Comparison = () => {
                 <div className="pt-16">
                   <h1 className="text-31 pb-5">Battery Station</h1>
                   <hr />
-                  <div className="xl:flex xl:space-x-32 pt-5">
+                  <div className="lg:flex lg:space-x-16 xl:space-x-32 pt-5">
                     <div className="font-extralight text-23">
                       <p>
                         Wireless option only: chargeable off-grid battery
@@ -1028,7 +1028,7 @@ const Comparison = () => {
                 <div className="pt-16">
                   <h1 className="text-31 pb-5">Projector Stand</h1>
                   <hr />
-                  <div className="xl:flex xl:space-x-32 pt-5">
+                  <div className="lg:flex lg:space-x-16 xl:space-x-32 pt-5">
                     <div className="font-extralight text-23">
                       <p>
                         Comes with wireless and wired options: Custom,
@@ -1052,7 +1052,7 @@ const Comparison = () => {
                 <div className="pt-16">
                   <h1 className="text-31 pb-5">Miscellaneous</h1>
                   <hr />
-                  <div className="xl:flex xl:space-x-32 pt-5">
+                  <div className="lg:flex lg:space-x-16 xl:space-x-32 pt-5">
                     <div className="font-extralight text-23">
                       <p>
                         Wired Option Only: 25’ ft. green extension cord and
@@ -1076,7 +1076,7 @@ const Comparison = () => {
                 <div className="pt-16">
                   <h1 className="text-31 pb-5">Professional Installation</h1>
                   <hr />
-                  <div className="xl:flex xl:space-x-32 pt-5">
+                  <div className="lg:flex lg:space-x-16 xl:space-x-32 pt-5">
                     <div className="font-extralight text-23">
                       <p>
                         Comes with wireless and wired options: professional and
