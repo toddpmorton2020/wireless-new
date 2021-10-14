@@ -121,8 +121,8 @@ function BigMoose() {
       />
       <div className="wrapper desktop">
         <div className="container mx-auto">
-          <div className="py-6 xl:pt-4">
-            <div className="flex flex-wrap items-center text-sm breadcrums-margin">
+          <div className="py-5 xl:pt-5">
+            <div className="flex flex-wrap items-center text-sm">
               <Link
                 to="/"
                 className="text-blue-600 sm:text-black cursor-pointer"
@@ -134,12 +134,12 @@ function BigMoose() {
               <span className="mx-2">&gt;</span>
               <span>150" Big Moose</span>
             </div>
-            <div className="mt-12 flex flex-col-reverse md:flex-row mx-6">
-              <div className="flex-1 mt-6 md:mt-0 pr-0 md:pr-6 lg:pr-12">
-                <h1 className="text-orange-500 text-3xl xl:text-5xl leading-none relative">
+            <div className="mt-12 flex flex-col-reverse xl:flex-row">
+              <div className="flex-1 mt-6 xl:mt-0 pr-0 xl:pr-12">
+                <h1 className="text-orange-500 text-3xl sm:text-5xl leading-none relative">
                   150” Big Moose
                 </h1>
-                <h1 className="text-black text-3xl xl:text-5xl leading-none relative">
+                <h1 className="text-black text-3xl sm:text-5xl leading-none relative">
                   Outdoor Cinema
                 </h1>
                 <h2 className="text-2xl sm:text-3xl mt-3 font-thin leading-tight medium-text mb-8">
@@ -155,7 +155,7 @@ function BigMoose() {
                   lightning-fast compared to the competition.
                 </h2>
               </div>
-              <div className="flex-1 pl-0 md:pl-6 lg:pl-12 text-center md:text-left rightContainer">
+              <div className="flex-1 pl-0 xl:pl-12 text-center xl:text-left rightContainer">
                 <Gallery picturesArray={picturesArray} color="#FF6600" />
               </div>
             </div>
@@ -165,15 +165,15 @@ function BigMoose() {
               text="Go Wireless"
               color="#FF6600"
             />
-            <div className="flex flex-col-reverse md:flex-row secondContainer ">
-              <div className="flex-1 pl-0 md:pr-6 lg:pr-12 text-center md:text-left firstWrap leftContainer">
+            <div className="flex flex-col xl:flex-row secondContainer">
+              <div className="flex-1 pl-0 xl:pr-12 text-center md:text-left firstWrap leftContainer">
                 <Gallery
                   picturesArray={includedPicturesArray}
                   color="#FF6600"
                 />
               </div>
-              <div className="flex-1 mt-6 md:mt-0 rightContainer md:pl-6 lg:pl-12 description-container">
-                <h2 className="text-md xl:text-3xl sm:text-xl product-title mb-2">
+              <div className="flex-1 mt-6 xl:mt-0 rightContainer xl:pl-12 description-container">
+                <h2 className="sm:text-3xl text-xl product-title mb-4 font-medium">
                   Get the only Wireless Outdoor Cinema
                 </h2>
                 <p className="mb-2 text-md">
@@ -186,7 +186,7 @@ function BigMoose() {
                   you to connect the speakers with stands or the Digital FM
                   Transmitter, as shown below.
                 </p>
-                <h3 className="xl:text-3xl sm:text-xl">
+                <h3 className="sm:text-3xl text-xl mb-2 font-medium">
                   Wireless Cinema Package Includes
                 </h3>
                 <ul className="list mt-1">
@@ -449,9 +449,9 @@ function BigMoose() {
               text="Go Wired"
               color="#FF6600"
             />
-            <div className="mt-12 flex flex-col-reverse md:flex-row secondContainer">
-              <div className="flex-1 mt-6 md:mt-0 pr-0 md:pr-6 lg:pr-12 description-container">
-                <h2 className="text-md sm:text-xl xl:text-3xl product-title mb-3">
+            <div className="mt-12 flex flex-col-reverse xl:flex-row secondContainer">
+              <div className="flex-1 mt-6 xl:mt-0 pr-0 xl:pr-12 description-container">
+                <h2 className="sm:text-3xl text-xl product-title mb-3">
                   Get a year-round Backyard Outdoor Cinema
                 </h2>
                 <p className="mb-2 text-md">
@@ -465,7 +465,7 @@ function BigMoose() {
                   outdoor speakers with tripod stands and a Digital FM
                   Transmitter.
                 </p>
-                <h3 className="xl:text-3xl sm:text-xl mb-2">
+                <h3 className="sm:text-3xl text-xl mb-2">
                   Wired Cinema Package Includes
                 </h3>
                 <ul className="list">
@@ -738,12 +738,12 @@ function BigMoose() {
               text="Outdoor Cinema"
               color="#FF6600"
             />
-            <div className="mt-12 flex flex-col-reverse md:flex-row mb-16">
-              <div className="flex-1 mt-6 md:mt-0 pr-0 md:pr-6 lg:pr-12">
-                <img src={screenSetup} />
+            <div className="mt-12 flex flex-col xl:flex-row mb-16">
+              <div className="flex-1 mb-6 xl:mb-0 pr-0 xl:pr-12">
+                <img src={screenSetup} className="w-full xl:w-auto" />
               </div>
-              <div className="flex-1 pl-0 md:pl-6 lg:pl-12 text-center md:text-left rightContainer">
-                <h3 className="text-xl xl:text-3xl mb-2">
+              <div className="flex-1 pl-0 xl:pl-12 text-center md:text-left rightContainer">
+                <h3 className="sm:text-3xl text-xl mb-2 attaching-gaming">
                   Attaching the Cinematic Screen
                 </h3>
                 <p className="mb-4">
@@ -772,9 +772,9 @@ function BigMoose() {
                 </p>
               </div>
             </div>
-            <div className="mt-12 flex flex-col-reverse md:flex-row">
-              <div className="flex-1 mt-6 md:mt-0 pr-0 md:pr-6 lg:pr-12">
-                <h3 className="text-xl xl:text-3xl mb-2">
+            <div className="mt-12 flex flex-col-reverse xl:flex-row">
+              <div className="flex-1 mt-6 xl:mt-0 pr-0 xl:pr-12">
+                <h3 className="text-xl sm:text-3xl mb-2">
                   Using the Cinema Components
                 </h3>
                 <p className="mb-4">
@@ -803,7 +803,7 @@ function BigMoose() {
                   on your projector stand.
                 </p>
               </div>
-              <div className="flex-1 pl-0 md:pl-6 lg:pl-12 text-center md:text-left rightContainer">
+              <div className="flex-1 pl-0 xl:pl-12 text-center md:text-left rightContainer">
                 <img src={projectorStand} />
               </div>
             </div>

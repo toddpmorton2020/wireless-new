@@ -12,9 +12,9 @@ function Terms() {
     <Layout>
       <SEO title="Terms of Use" />
       <div className="gray-back pb-6">
-        <div className="sm:py-6 xl:pt-4 change overflow-hidden">
+        <div className="py-5 overflow-hidden">
           <div className="container mx-auto">
-            <div className="flex flex-wrap items-center text-sm breadcrums-margin">
+            <div className="flex flex-wrap items-center text-sm">
               <Link
                 to="/"
                 className="text-blue-600 sm:text-black cursor-pointer"
@@ -27,8 +27,8 @@ function Terms() {
             <div className="md:hidden h-64 w-full full-bleed-mobile max-h-screen relative mt-6 mb-6">
               <img className="w-full h-full object-cover " src={terms} />
             </div>
-            <div className="mt-8 xl:px-6">
-              <h1 className="term-margin-heading text-black sm:text-orange-500 text-3xl xl:text-5xl leading-none relative hide">
+            <div className="mt-8">
+              <h1 className="term-margin-heading text-orange-500 text-4xl md:text-5xl leading-none relative hide">
                 Terms and{" "}
                 <span className="text-orange-500 sm:text-black block sm:inline">
                   Conditions
@@ -41,11 +41,11 @@ function Terms() {
                 </span>
               </h1>
             </div>
-            <div className="mt-3 xl:px-6">
-              <div className="term-margin-subHeading text-base sm:text-2xl xl:text-3xl mt-1 sm:mt-0 news-subtitle hide">
+            <div className="mt-3">
+              <div className="term-margin-subHeading text-2xl xl:text-3xl mt-1 sm:mt-0 hide">
                 <h3>
                   Agreement between user &
-                  <span className="text-3xl">
+                  <span>
                     {" "}
                     www.wirelessoutdoorcinema.com
                   </span>

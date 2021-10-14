@@ -17,8 +17,8 @@ function About() {
     <Layout>
       <SEO title="About" />
       {/* <div> */}
-      <div className="container max-w-4xl mx-auto">
-        <div className="pt-4 px-2">
+      <div className="container mx-auto">
+        <div className="pt-5">
           <div className="flex items-center text-sm">
             <Link to="/" className="text-blue-600 sm:text-black cursor-pointer">
               Home

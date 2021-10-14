@@ -16,8 +16,8 @@ function InTheNews() {
       />
       <div className="gray-back pb-20">
         <div className="container mx-auto">
-          <div className="pt-2 xl:pt-4">
-            <div className="flex flex-wrap items-center text-sm change breadcrums-margin">
+          <div className="pt-5">
+            <div className="flex flex-wrap items-center text-sm">
               <Link
                 to="/"
                 className="text-blue-600 sm:text-black cursor-pointer"
@@ -27,15 +27,12 @@ function InTheNews() {
               <span className="mx-2">&gt;</span>
               <span to="#">In the News</span>
             </div>
-            <div className="xl:mt-8 md:text-left xl:px-6">
-              <h1 className="text-orange-500 text-3xl xl:text-5xl leading-none font-medium relative xl:visible invisible">
+            <div className="mt-8 md:text-left">
+              <h1 className="text-orange-500 text-4xl sm:text-5xl leading-none font-medium relative">
                 <span className="text-black">Latest</span> News
               </h1>
-              <h2 className="text-orange-500 md:hidden privacy-heading heading-outdoor-news leading-tight news-subtitle">
-                <span className="text-black">In the</span> News
-              </h2>
             </div>
-            <div className="mt-8 hidden md:flex xl:px-6">
+            <div className="mt-8 hidden md:flex">
               <div className="w-7/12 pr-12 block">
                 <div
                   className="cursor-pointer frame-width"
@@ -221,9 +218,9 @@ function InTheNews() {
             <div className="mt-8 flex flex-col items-center md:hidden">
               <Link
                 to="/august-28-press-release"
-                className="cursor-pointer w-35"
+                className="cursor-pointer sm:w-35 w-full"
               >
-                <img src="/28-aug" alt="" />
+                <img src="/28-aug" alt="" className="w-full" />
                 <div className="bg-white pt-5 px-3 cursor-pointer rounded-b-lg">
                   <p className="text-gray-600 text-sm font-semibold">
                     PRESS RELEASE
@@ -236,9 +233,9 @@ function InTheNews() {
               </Link>
               <Link
                 to="/june-30-press-release"
-                className="pt-10 cursor-pointer w-35"
+                className="pt-10 cursor-pointer sm:w-35 w-full"
               >
-                <img src="/30-june" alt="" />
+                <img src="/30-june" alt="" className="w-full" />
                 <div className="bg-white pt-5 px-3 cursor-pointer rounded-b-lg">
                   <p className="text-gray-600 text-sm font-semibold">
                     PRESS RELEASE
@@ -251,9 +248,9 @@ function InTheNews() {
               </Link>
               <Link
                 to="/january-04-press-release"
-                className="pt-10 cursor-pointer w-35"
+                className="pt-10 cursor-pointer sm:w-35 w-full"
               >
-                <img src="/04-jan" alt="" />
+                <img src="/04-jan" alt="" className="w-full" />
                 <div className="bg-white pt-5 px-3 cursor-pointer rounded-b-lg">
                   <p className="text-gray-600 text-sm font-semibold">
                     PRESS RELEASE
@@ -266,9 +263,9 @@ function InTheNews() {
               </Link>
               <Link
                 to="/september-10-press-release"
-                className="pt-10 cursor-pointer w-35"
+                className="pt-10 cursor-pointer sm:w-35 w-full"
               >
-                <img src="/10-sept.png" alt="" className="news-image-link" />
+                <img src="/10-sept.png" alt="" className="news-image-link w-full" />
                 <div className="bg-white pt-5 px-3 cursor-pointer rounded-b-lg">
                   <p className="text-gray-600 text-sm font-semibold">
                     PRESS RELEASE
@@ -281,9 +278,9 @@ function InTheNews() {
               </Link>
               <Link
                 to="/june-25-bridgton-news-article"
-                className="pt-10 cursor-pointer w-35"
+                className="pt-10 cursor-pointer sm:w-35 w-full"
               >
-                <img src="/25-june" alt="" />
+                <img src="/25-june" alt="" className="w-full" />
                 <div className="bg-white pt-5 px-3 cursor-pointer rounded-b-lg">
                   <p className="text-gray-600 text-sm font-semibold">
                     BRIDGTON NEWS
@@ -296,9 +293,9 @@ function InTheNews() {
               </Link>
               <Link
                 to="/june-08-press-release"
-                className="pt-10 cursor-pointer w-35"
+                className="pt-10 cursor-pointer sm:w-35 w-full"
               >
-                <img src="/08-june" alt="" />
+                <img src="/08-june" alt="" className="w-full" />
                 <div className="bg-white pt-5 px-3 cursor-pointer rounded-b-lg">
                   <p className="text-gray-600 text-sm font-semibold">
                     PRESS RELEASE

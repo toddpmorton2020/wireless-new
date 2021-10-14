@@ -2,17 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-@media (min-width: 1280px) {
+@media (min-width: 640px) {
   .press-release-padding {
-    margin-left: 376px;
-    margin-right: 376px;
-  }
-  .press-release-padding-1 {
-    margin-left: 400px;
-    margin-right: 400px;
-  }
-  .mobile-hide {
-    display: none;
+    max-width: 528px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .main-heading {
     font-size: 38px;
@@ -36,6 +30,9 @@
   .image-text-press-1 {
     line-height: 18px;
   }
+}
+@media (min-width: 1280px) {
+  
   .breadcrums-margin {
     padding-left: 28px !important;
   }

@@ -7,6 +7,7 @@ export const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   width: 100vw;
   position: relative;
   left: calc(-50vw + 50%);
