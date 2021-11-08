@@ -140,7 +140,7 @@ function About() {
           </h2>
           <p className="mb-4">
             My entrepreneurial wheels started to turn. I wanted to set up an
-            outdoor movie in my backyard for years and started researching
+            outdoor movie theater in my backyard for years and started researching
             online companies that provided outdoor cinemas. Unfortunately, the
             companies I found online only sold inflatable air screen cinemas and
             wanted a better solution that was easy to set up and start watching
