@@ -347,10 +347,10 @@ const Comparison = () => {
                   <div className="block sm:hidden py-1 included-btn mt-6 mb-4 comparison-details mx-auto rounded-md comparison-detail-border text-left">
                     <div className="flex-1">
                       <div
-                        className="flex justify-between lg:justify-around items-center w-full sm:w-auto px-3 sm:px-0"
+                        className="flex lg:justify-around items-center w-full sm:w-auto px-3 sm:px-0"
                         onClick={() => setOpen(!open)}
                       >
-                        <h2 className="text-2xl text-orange-1000">
+                        <h2 className="text-2xl text-orange-1000 flex-grow text-center">
                           What's included?
                         </h2>
                         <img
@@ -549,7 +549,7 @@ const Comparison = () => {
                   <hr className="mx-1 border-gray-500" />
                   <p className="text-3xl py-6">Starting at $2,399*</p>
                   <button
-                    className="text-2xl text-white bg-orange-1000 rounded-md px-10 py-1"
+                    className="text-2xl text-white bg-purple-1000 rounded-md px-10 py-1"
                     onClick={() =>
                       navigate(
                         "/timberline-cinema-packages/120-bella-bear-cinema"
@@ -736,10 +736,10 @@ const Comparison = () => {
                   <div className="block sm:hidden py-1 included-btn mt-6 mb-4 comparison-details mx-auto rounded-md comparison-detail-border-p text-left">
                     <div className="flex-1">
                       <div
-                        className="flex justify-between lg:justify-around items-center w-full sm:w-auto px-3 sm:px-0"
+                        className="flex lg:justify-around items-center w-full sm:w-auto px-3 sm:px-0"
                         onClick={() => setOpen1(!open1)}
                       >
-                        <h2 className="text-2xl text-purple-1000">
+                        <h2 className="text-2xl text-purple-1000 flex-grow text-center">
                           What's included?
                         </h2>
                         <img
@@ -1127,10 +1127,10 @@ const Comparison = () => {
                   <div className="block sm:hidden py-1 included-btn mt-6 mb-4 comparison-details mx-auto rounded-md comparison-detail-border text-left">
                     <div className="flex-1">
                       <div
-                        className="flex justify-between lg:justify-around items-center w-full sm:w-auto px-3 sm:px-0"
+                        className="flex lg:justify-around items-center w-full sm:w-auto px-3 sm:px-0"
                         onClick={() => setOpen2(!open2)}
                       >
-                        <h2 className="text-2xl text-orange-1000">
+                        <h2 className="text-2xl text-orange-1000 flex-grow text-center">
                           What's included?
                         </h2>
                         <img
@@ -1327,7 +1327,7 @@ const Comparison = () => {
                 <div className="">
                   <h1 className="text-31 pb-5">Wooden Frame size</h1>
                   <hr class="border-gray-500" />
-                  <div className="lg:flex lg:space-x-16 xl:space-x-32 pt-5">
+                  <div className="comparison-col lg:flex lg:space-x-16 xl:space-x-32 pt-5">
                     <div className="font-extralight text-23">
                       <p>8’ ft. Wide Frame</p>
                       <br />
@@ -1348,7 +1348,7 @@ const Comparison = () => {
                 <div className="pt-16">
                   <h1 className="text-31 pb-5">Cinematic Screen size</h1>
                   <hr class="border-gray-500" />
-                  <div className="lg:flex lg:space-x-16 xl:space-x-32 pt-5">
+                  <div className="comparison-col lg:flex lg:space-x-16 xl:space-x-32 pt-5">
                     <div className="font-extralight text-23">
                       <p>
                         96” Diagonal Screen
@@ -1390,7 +1390,7 @@ const Comparison = () => {
                 <div className="pt-16">
                   <h1 className="text-31 pb-5">Wireless or Wired Option</h1>
                   <hr class="border-gray-500" />
-                  <div className="lg:flex lg:space-x-16 xl:space-x-32 pt-5">
+                  <div className="comparison-col lg:flex lg:space-x-16 xl:space-x-32 pt-5">
                     <div className="font-extralight text-23">
                       <p>
                         Wired option is only available for the Jedi Bobcat
@@ -1432,7 +1432,7 @@ const Comparison = () => {
                 <div className="pt-16">
                   <h1 className="text-31 pb-5">Projector</h1>
                   <hr class="border-gray-500" />
-                  <div className="lg:flex lg:space-x-16 xl:space-x-32 pt-5">
+                  <div className="comparison-col lg:flex lg:space-x-16 xl:space-x-32 pt-5">
                     <div className="font-extralight text-23">
                       <p>HD 1080p LED Projector with 4,000 Lumens Brightness</p>
                     </div>
@@ -1447,7 +1447,7 @@ const Comparison = () => {
                 <div className="pt-16">
                   <h1 className="text-31 pb-5">Speakers</h1>
                   <hr class="border-gray-500" />
-                  <div className="lg:flex lg:space-x-16 xl:space-x-32 pt-5">
+                  <div className="comparison-col lg:flex lg:space-x-16 xl:space-x-32 pt-5">
                     <div className="font-extralight text-23">
                       <p>
                         Wired option only: Rockville 8” Dual Powered PA System
@@ -1473,7 +1473,7 @@ const Comparison = () => {
                 <div className="pt-16">
                   <h1 className="text-31 pb-5">Digital FM Transmitter</h1>
                   <hr class="border-gray-500" />
-                  <div className="lg:flex lg:space-x-16 xl:space-x-32 pt-5">
+                  <div className="comparison-col lg:flex lg:space-x-16 xl:space-x-32 pt-5">
                     <div className="font-extralight text-23">
                       <p>Wired option only: Rolls Digital FM Transmitter</p>
                     </div>
@@ -1488,7 +1488,7 @@ const Comparison = () => {
                 <div className="pt-16">
                   <h1 className="text-31 pb-5">Digital FM Tuner</h1>
                   <hr class="border-gray-500" />
-                  <div className="lg:flex lg:space-x-16 xl:space-x-32 pt-5">
+                  <div className="comparison-col lg:flex lg:space-x-16 xl:space-x-32 pt-5">
                     <div className="font-extralight text-23">
                       <p>Wired option only: Rolls Digital FM Tuner</p>
                     </div>
@@ -1503,7 +1503,7 @@ const Comparison = () => {
                 <div className="pt-16">
                   <h1 className="text-31 pb-5">Roku Express 4k Player</h1>
                   <hr class="border-gray-500" />
-                  <div className="lg:flex lg:space-x-16 xl:space-x-32 pt-5">
+                  <div className="comparison-col lg:flex lg:space-x-16 xl:space-x-32 pt-5">
                     <div className="font-extralight text-23">
                       <p>
                         Roku Express 4k player with voice control to access
@@ -1527,7 +1527,7 @@ const Comparison = () => {
                 <div className="pt-16">
                   <h1 className="text-31 pb-5">Battery Station</h1>
                   <hr class="border-gray-500" />
-                  <div className="lg:flex lg:space-x-16 xl:space-x-32 pt-5">
+                  <div className="comparison-col lg:flex lg:space-x-16 xl:space-x-32 pt-5">
                     <div className="font-extralight text-23">
                       <p>
                         Wireless option only: chargeable off-grid battery
@@ -1551,7 +1551,7 @@ const Comparison = () => {
                 <div className="pt-16">
                   <h1 className="text-31 pb-5">Projector Stand</h1>
                   <hr class="border-gray-500" />
-                  <div className="lg:flex lg:space-x-16 xl:space-x-32 pt-5">
+                  <div className="comparison-col lg:flex lg:space-x-16 xl:space-x-32 pt-5">
                     <div className="font-extralight text-23">
                       <p>
                         Comes with wireless and wired options: Custom,
@@ -1575,7 +1575,7 @@ const Comparison = () => {
                 <div className="pt-16">
                   <h1 className="text-31 pb-5">Miscellaneous</h1>
                   <hr class="border-gray-500" />
-                  <div className="lg:flex lg:space-x-16 xl:space-x-32 pt-5">
+                  <div className="comparison-col lg:flex lg:space-x-16 xl:space-x-32 pt-5">
                     <div className="font-extralight text-23">
                       <p>
                         Wired Option Only: 25’ ft. green extension cord and
@@ -1599,7 +1599,7 @@ const Comparison = () => {
                 <div className="pt-16">
                   <h1 className="text-31 pb-5">Professional Installation</h1>
                   <hr class="border-gray-500" />
-                  <div className="lg:flex lg:space-x-16 xl:space-x-32 pt-5">
+                  <div className="comparison-col lg:flex lg:space-x-16 xl:space-x-32 pt-5">
                     <div className="font-extralight text-23">
                       <p>
                         Comes with wireless and wired options: professional and

@@ -28,16 +28,16 @@ function About() {
           </div>
         </div>
       </div>
-      <div className="mt-4 md:hidden">
+      {/*<div className="mt-4 md:hidden">
         <img src={bannerMobile} className="w-full" />
-      </div>
+      </div>*/}
       <div className="container max-w-4xl mx-auto top-heading">
         <h1 className="text-orange-500 text-5xl ml-2 mt-6">
           <span className="about">About</span>
         </h1>
       </div>
       {/* </div> */}
-      <div className="container max-w-4xl mx-auto xl:pt-4 desktop">
+      <div className="container max-w-4xl mx-auto xl:pt-4">
         <img src="/first.png" alt="" className="w-full" />
         <p className="image-text-color image-text-press-1 text-sm pt-3 ml-2">
           Todd Morton, founder of the Wireless Outdoor Cinema Company fishing on
@@ -50,7 +50,6 @@ function About() {
             Welcome! Thank you for stopping by – I appreciate your interest in
             learning more about me and my Wireless Outdoor Cinema business.
           </p>
-          <p className="text-2xl font-bold mb-2 ml-2">Growing up</p>
           <p className="mb-4 ml-2">
             I’m originally from Vermont, and growing up; I split my time between
             Vermont and Maine. My childhood memories are filled with
@@ -82,7 +81,7 @@ function About() {
             log homes, one of which I built with my family and now live in it
             full-time in beautiful Bridgton, Maine.
           </p>
-          <div className="xl:pt-4 desktop">
+          <div className="xl:pt-4">
             <img src="/second.png" alt="" className="w-full" />
             <p className="image-text-color image-text-press-1 text-sm pt-3 ml-2">
               Todd Morton preparing cuts on a table saw at his property in

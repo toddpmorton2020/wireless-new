@@ -728,6 +728,7 @@ const IndexPage = ({ location }) => {
             showStatus={false}
             showIndicators={false}
             showThumbs={false}
+            interval={10000000}
             renderArrowNext={(onClickHandler, hasNext, label) =>
               playFlag && (
                 <div
@@ -758,10 +759,10 @@ const IndexPage = ({ location }) => {
               <video
                 playsInline={true}
                 id="desktop_vid"
-                onEnded={onDesktopVideoEnded}
-                onPlay={onDesktopVideoPlay}
                 ref={videoRef}
                 onClick={handleVideoClick}
+                onPlay={onDesktopVideoPlay}
+                onEnded={onDesktopVideoEnded}
                 // autoPlay
                 className="w-full h-full"
               >
