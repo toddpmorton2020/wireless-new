@@ -246,9 +246,9 @@ function Connect() {
         description="Call. Text. Email. Snail Mail. Take a moment to fill in the required fields and you will get a friendly response back within 24 hours or sooner. Looking forward to connecting."
       />
       <div className="gray-back">
-        <div className="container mx-auto">
-          <div className="xl:pt-4 change">
-            <div className="flex flex-wrap items-center text-sm breadcrums-margin">
+        <div className="pt-5 overflow-hidden">
+          <div className="container mx-auto">
+            <div className="flex flex-wrap items-center text-sm">
               <Link
                 to="/"
                 className="text-blue-600 sm:text-black cursor-pointer"
@@ -259,10 +259,10 @@ function Connect() {
               <span to="#">Connect</span>
             </div>
             <div className="md:hidden h-64 w-full full-bleed-mobile max-h-screen relative mt-6 mb-6">
-              <img className="w-full h-full object-cover " src={connectImage} />
+              <img className="w-full h-full object-cover object-top" src={connectImage} />
             </div>
             <div className="mt-8 xl:px-6">
-              <h1 className="text-orange-500 privacy-heading xl:text-5xl leading-none relative">
+              <h1 className="text-orange-500 privacy-heading text-5xl leading-none relative">
                 Let&apos;s <span className="text-black">Connect</span>
               </h1>
             </div>
@@ -318,7 +318,7 @@ function Connect() {
                       </p>
                     </div>
                   </div>
-                  <h2 className="text-3xl mt-4 what-interested font-thin leading-tight news-subtitle-3">
+                  <h2 className="text-2xl sm:text-3xl mt-4 what-interested font-thin leading-tight news-subtitle-3">
                     What are you interested in learning more about?
                   </h2>
                   <p className="mt-4 what-interested">

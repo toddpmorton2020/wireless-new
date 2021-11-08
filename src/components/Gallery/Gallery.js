@@ -16,7 +16,7 @@ const Gallery = ({ picturesArray, color, isFullBleed, first }) => {
 
   return (
     <Container>
-      <MainPicture isFullBleed={isFullBleed}>
+      <MainPicture isFullBleed={isFullBleed} className="justify-center">
         <img
           src={picturesArray[activePicture].src}
           alt={picturesArray[activePicture].alt}

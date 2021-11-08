@@ -15,7 +15,6 @@ export const MainPicture = styled.div`
   display: flex;
   align-items: center;
   @media screen and (max-width: 767px) {
-    max-height: 278px;
     width: ${props => (props.isFullBleed ? "100vw" : "100%")};
     left: ${props => (props.isFullBleed ? 'calc(-50vw + 50%)' : 'auto')};
   }

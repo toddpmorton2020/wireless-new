@@ -18,8 +18,8 @@ function About() {
       <SEO title="About" />
       {/* <div> */}
       <div className="container mx-auto">
-        <div className="pt-4">
-          <div className="flex items-center text-xs sm:text-sm breadcrums-margin">
+        <div className="pt-5">
+          <div className="flex items-center text-sm">
             <Link to="/" className="text-blue-600 sm:text-black cursor-pointer">
               Home
             </Link>
@@ -28,39 +28,36 @@ function About() {
           </div>
         </div>
       </div>
-      <div className="container mx-auto images-banner">
-        <div
-          className="about-image w-full relative bg-cover bg-bottom mobile bg-center first-image"
-          style={{ backgroundImage: `url(${bannerMobile})` }}
-        />
-      </div>
-      <div className="top-heading press-release-padding-1">
-        <h1 className="text-orange-500 xl:text-5xl xl:ml-0 ml-6 mt-6">
+      {/*<div className="mt-4 md:hidden">
+        <img src={bannerMobile} className="w-full" />
+      </div>*/}
+      <div className="container max-w-4xl mx-auto top-heading">
+        <h1 className="text-orange-500 text-5xl ml-2 mt-6">
           <span className="about">About</span>
         </h1>
       </div>
       {/* </div> */}
-      <div className="press-release-padding-1 xl:pt-4 desktop">
-        <img src="/first.png" alt="" />
+      <div className="container max-w-4xl mx-auto xl:pt-4">
+        <img src="/first.png" alt="" className="w-full" />
         <p className="image-text-color image-text-press-1 text-sm pt-3 ml-2">
           Todd Morton, founder of the Wireless Outdoor Cinema Company fishing on
           Woods Pond in Bridgton, ME.
         </p>
       </div>
-      <div className="press-release-padding-1 mobile-padding">
-        <div className="sm:pt-16 xl:pt-1 sm:mt-6">
-          <p className="mb-4 xl:ml-2">
+      <div className="container max-w-4xl mx-auto mobile-padding">
+        <div className="pt-1 mt-6">
+          <p className="mb-4 ml-2">
             Welcome! Thank you for stopping by – I appreciate your interest in
             learning more about me and my Wireless Outdoor Cinema business.
           </p>
-          <p className="mb-4 xl:ml-2">
+          <p className="mb-4 ml-2">
             I’m originally from Vermont, and growing up; I split my time between
             Vermont and Maine. My childhood memories are filled with
             unforgettable times spent with my family and friends outdoors –
             exploring in the woods, observing wildlife, swimming, fishing,
             hiking, and camping outside.
           </p>
-          <p className="mb-4 xl:ml-2">
+          <p className="mb-4 ml-2">
             When I was young, I started learning about the construction trade
             watching my grandfather and father do miscellaneous projects and
             repairs around our house and at the summer camp in Bridgton, Maine.
@@ -69,10 +66,10 @@ function About() {
             was a teen, I was building waterfront dock systems, decks and
             repairing things for neighbors and friends.
           </p>
-          <p className="xl:text-2xl heading-outdoor-2 font-bold mb-2 xl:ml-2">
+          <p className="text-2xl font-bold mb-2 ml-2">
             Learning from the best
           </p>
-          <p className="mb-4 xl:ml-2">
+          <p className="mb-4 ml-2">
             In high school, I had a great Woodshop Teacher named David Tieff – a
             master woodcarver and woodworker. I was inspired by his work and
             took every available woodshop class he offered. Mr. Tieff taught me
@@ -84,17 +81,17 @@ function About() {
             log homes, one of which I built with my family and now live in it
             full-time in beautiful Bridgton, Maine.
           </p>
-          <div className="xl:pt-4 desktop">
-            <img src="/second.png" alt="" />
-            <p className="image-text-color image-text-press-1 text-sm pt-3 xl:ml-2">
+          <div className="xl:pt-4">
+            <img src="/second.png" alt="" className="w-full" />
+            <p className="image-text-color image-text-press-1 text-sm pt-3 ml-2">
               Todd Morton preparing cuts on a table saw at his property in
               Bridgton, ME.
             </p>
           </div>
-          <p className="xl:text-2xl heading-outdoor-2 xl:mt-0 -mt-1 font-bold mb-2 mt-6 xl:ml-2">
+          <p className="text-2xl font-bold mb-2 mt-6 ml-2">
             My professional career
           </p>
-          <p className="mb-4 xl:ml-2">
+          <p className="mb-4 ml-2">
             At age 23, I took business and marketing courses at Champlain
             College in Burlington, Vermont, to help expand my business knowledge.
             After college, I self-taught myself all about the emerging internet
@@ -105,8 +102,8 @@ function About() {
             Software (the voice-to-text software), a division of Nuance
             Communications – now owned by Microsoft.
           </p>
-          {/* <p className="xl:text-2xl font-bold mb-2 xl:ml-2">The Outdoor Movie Theater idea</p> */}
-          <p className="xl:ml-2">
+          {/* <p className="xl:text-2xl font-bold mb-2 ml-2">The Outdoor Movie Theater idea</p> */}
+          <p className="ml-2">
             After 25 years of working in the Internet Marketing field, my desire
             to return to my roots frequently occupied my thoughts. I decided to
             take time off from the corporate world and strategized on my next
@@ -135,9 +132,9 @@ function About() {
           className="h-10 mt-3 mx-auto signature-black"
         />
       </div>
-      <div className="press-release-padding-1 mobile-padding">
-        <div className="sm:pt-16 xl:pt-5 sm:pt-8 xl:ml-2">
-          <h2 className="sm:mb-4 xl:mb-3 text-xl sm:text-2xl font-bold product-title heading-outdoor">
+      <div className="container max-w-4xl mx-auto mobile-padding">
+        <div className="mt-6 ml-2">
+          <h2 className="sm:mb-4 xl:mb-3 text-2xl font-bold product-title">
             The Outdoor Movie Theater{" "}
             <span className="solution-orange">idea</span>
           </h2>
@@ -166,22 +163,22 @@ function About() {
           </p>
         </div>
       </div>
-      <div className="no-padding container mx-auto">
+      <div className="">
         <div
           className="about-image w-full relative bg-cover bg-bottom mt-8 mobile mobile-tree"
           style={{ backgroundImage: `url(${frameMobile})` }}
         />
       </div>
-      <div className="press-release-padding-1 xl:pt-8 desktop">
-        <img src="/third.png" alt="" />
+      <div className="container max-w-4xl mx-auto xl:pt-8 desktop">
+        <img src="/third.png" alt="" className="w-full" />
         <p className="image-text-color image-text-press-1 text-sm pt-3 ml-2">
           New Timberline Outdoor Cinema 150” Big Moose wired option package
           located on site of the Wireless Outdoor Cinema Company property in
           Bridgton, ME.
         </p>
       </div>
-      <div className="press-release-padding-1 mobile-padding">
-        <div className="pt-8 xl:ml-2">
+      <div className="container max-w-4xl mx-auto mobile-padding">
+        <div className="pt-8 ml-2">
           <p className="mb-4">
             After developing a solid frame system, the next challenge was
             figuring out how to organize all of my cinema equipment, such as the
@@ -205,21 +202,21 @@ function About() {
           </p>
         </div>
       </div>
-      <div className="no-padding container mx-auto">
+      <div className="">
         <div
           className="about-image w-full relative bg-cover bg-bottom mt-8 mobile standMobile"
           style={{ backgroundImage: `url(${standMobile})` }}
         />
       </div>
-      <div className="press-release-padding-1 xl:pt-4 desktop">
-        <img src="/fourth.png" alt="" />
+      <div className="container max-w-4xl mx-auto xl:pt-4 desktop">
+        <img src="/fourth.png" alt="" className="w-full" />
         <p className="image-text-color image-text-press-1 text-sm pt-3 ml-2">
           New Outdoor Projector Stand located on site of the Wireless Outdoor
           Cinema Company property in Bridgton, ME.
         </p>
       </div>
-      <div className="press-release-padding-1 mobile-padding thankyou">
-        <div className="pt-8 xl:pt-8 sm:pt-16 xl:ml-2">
+      <div className="container max-w-4xl mx-auto mobile-padding thankyou">
+        <div className="mt-6 ml-2">
           <p className="mb-4">
             The cinema equipment stays on the projector stand and never needs to
             be removed - similar to an entertainment center inside your home.

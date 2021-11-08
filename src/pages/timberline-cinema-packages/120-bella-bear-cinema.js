@@ -118,8 +118,8 @@ function BellaBear() {
       />
       <div className="wrapper desktop">
         <div className="container mx-auto">
-          <div className="py-6 xl:pt-4">
-            <div className="flex flex-wrap items-center text-sm breadcrums-margin">
+          <div className="py-5 xl:pt-5">
+            <div className="flex flex-wrap items-center text-sm">
               <Link
                 to="/"
                 className="text-blue-600 sm:text-black cursor-pointer"
@@ -131,12 +131,12 @@ function BellaBear() {
               <span className="mx-2">&gt;</span>
               <span>120" Bella Bear</span>
             </div>
-            <div className="mt-12 flex flex-col-reverse md:flex-row mx-6">
-              <div className="flex-1 mt-6 md:mt-0 pr-0 md:pr-12">
-                <h1 className="text-purple-500 text-3xl xl:text-5xl leading-none relative">
+            <div className="mt-12 flex flex-col-reverse xl:flex-row">
+              <div className="flex-1 mt-6 xl:mt-0 pr-0 xl:pr-12">
+                <h1 className="text-purple-500 text-3xl sm:text-5xl leading-none relative">
                   120" Bella Bear
                 </h1>
-                <h1 className="text-black text-3xl xl:text-5xl leading-none relative">
+                <h1 className="text-black text-3xl sm:text-5xl leading-none relative">
                   Cinema Package
                 </h1>
                 <h2 className="text-2xl sm:text-3xl mt-3 font-thin leading-tight medium-text mb-8">
@@ -153,7 +153,7 @@ function BellaBear() {
                   to start watching in under 5 minutes. Now that’s fast.
                 </h2>
               </div>
-              <div className="flex-1 pl-0 md:pl-12 text-center md:text-left rightContainer">
+              <div className="flex-1 pl-0 xl:pl-12 text-center xl:text-left rightContainer">
                 <Gallery picturesArray={picturesArray} color="#8036F7" />
               </div>
             </div>
@@ -163,15 +163,15 @@ function BellaBear() {
               text="Go Wireless"
               color="#8036F7"
             />
-            <div className="flex flex-col-reverse md:flex-row secondContainer">
-              <div className="flex-1 pl-0 md:pl-12 text-center md:text-left firstWrap leftContainer">
+            <div className="flex flex-col xl:flex-row secondContainer">
+              <div className="flex-1 pl-0 xl:pr-12 text-center md:text-left firstWrap leftContainer">
                 <Gallery
                   picturesArray={includedPicturesArray}
                   color="#8036F7"
                 />
               </div>
-              <div className="flex-1 mt-6 md:mt-0 rightContainer md:pl-12 description-container">
-                <h2 className="xl:text-3xl product-title mb-2">
+              <div className="flex-1 mt-6 xl:mt-0 rightContainer xl:pl-12 description-container">
+                <h2 className="sm:text-3xl text-xl product-title mb-4 font-medium">
                   Get the only Wireless Outdoor Cinema
                 </h2>
                 <p className="mb-2 text-md">
@@ -184,7 +184,7 @@ function BellaBear() {
                   Digital FM Transmitter, as shown below, due to the extra power
                   consumption.
                 </p>
-                <h3 className="xl:text-3xl sm:text-xl mb-1">
+                <h3 className="sm:text-3xl text-xl mb-2 font-medium">
                   Wireless Cinema Package Includes
                 </h3>
                 <ul className="list">
@@ -201,7 +201,7 @@ function BellaBear() {
                   <div className="flex mt-2 getButton btn-purple">
                     <Link to="/connect">Call Today</Link>
                   </div>
-                  <div className="flex flex-col items-center priceContainer">
+                  <div className="flex flex-col items-center priceContainer pl-4">
                     <span className="text-xl uppercase leading-tight sm:leading-normal line-normal">
                       <span className="hidden sm:inline">Sale Price</span>
                       <span className="inline sm:hidden">
@@ -447,9 +447,9 @@ function BellaBear() {
               text="Go Wired"
               color="#8036F7"
             />
-            <div className="mt-12 flex flex-col-reverse md:flex-row secondContainer ">
-              <div className="flex-1 mt-6 md:mt-0 pr-0 md:pr-12 description-container">
-                <h2 className="xl:text-3xl sm:text-xl product-title mb-3">
+            <div className="mt-12 flex flex-col-reverse xl:flex-row secondContainer ">
+              <div className="flex-1 mt-6 xl:mt-0 pr-0 xl:pr-12 description-container">
+                <h2 className="sm:text-3xl text-xl product-title mb-3">
                   Get a year-round Backyard Outdoor Cinema
                 </h2>
                 <p className="mb-2 text-md">
@@ -462,7 +462,7 @@ function BellaBear() {
                   version above because it includes two powerful 8” outdoor
                   speakers with tripod stands and a Digital FM Transmitter.
                 </p>
-                <h3 className="xl:text-3xl sm:text-xl mb-2">
+                <h3 className="sm:text-3xl text-xl mb-2">
                   Wired Cinema Package Includes
                 </h3>
                 <ul className="list">
@@ -486,7 +486,7 @@ function BellaBear() {
                   <div className="flex mt-2 getButton btn-purple">
                     <Link to="/connect">Call Today</Link>
                   </div>
-                  <div className="flex flex-col items-center priceContainer">
+                  <div className="flex flex-col items-center priceContainer pl-4">
                     <span className="text-xl uppercase leading-tight sm:leading-normal line-normal">
                       <span className="hidden sm:inline">Sale Price</span>
                       <span className="inline sm:hidden">
@@ -735,12 +735,12 @@ function BellaBear() {
               text="Outdoor Cinema"
               color="#8036F7"
             />
-            <div className="mt-12 flex flex-col-reverse md:flex-row mb-16">
-              <div className="flex-1 mt-6 md:mt-0 pr-0 md:pr-12">
-                <img src={screenSetup} />
+            <div className="mt-12 flex flex-col xl:flex-row mb-16">
+              <div className="flex-1 mb-6 xl:mb-0 pr-0 xl:pr-12">
+                <img src={screenSetup} className="w-full xl:w-auto" />
               </div>
-              <div className="flex-1 pl-0 md:pl-12 text-center md:text-left rightContainer">
-                <h3 className="xl:text-3xl mb-2">Attaching the Screen</h3>
+              <div className="flex-1 pl-0 xl:pl-12 text-center md:text-left rightContainer">
+                <h3 className="sm:text-3xl text-xl mb-2 attaching-gaming">Attaching the Screen</h3>
                 <p className="mb-4">
                   After the outdoor cinema is professionally installed and
                   calibrated in your backyard, using it is almost as easy as
@@ -768,9 +768,9 @@ function BellaBear() {
                 </p>
               </div>
             </div>
-            <div className="mt-12 flex flex-col-reverse md:flex-row">
-              <div className="flex-1 mt-6 md:mt-0 pr-0 md:pr-12">
-                <h3 className="xl:text-3xl mb-2">Using the Cinema Equipment</h3>
+            <div className="mt-12 flex flex-col-reverse xl:flex-row">
+              <div className="flex-1 mt-6 xl:mt-0 pr-0 xl:pr-12">
+                <h3 className="text-xl sm:text-3xl mb-2">Using the Cinema Equipment</h3>
                 <p className="mb-4">
                   After your cinema package is professionally installed, all the
                   electronic equipment stays organized on the custom (patent
@@ -796,7 +796,7 @@ function BellaBear() {
                   on your projector stand.
                 </p>
               </div>
-              <div className="flex-1 pl-0 md:pl-12 text-center md:text-left rightContainer">
+              <div className="flex-1 pl-0 xl:pl-12 text-center md:text-left rightContainer">
                 <img src={projectorStand} />
               </div>
             </div>

@@ -12,8 +12,8 @@ function Sitemap() {
       <SEO title="Sitemap" />
       <div className="gray-back pb-24">
         <div className="container mx-auto">
-          <div className="sm:py-6 xl:pt-4 change">
-            <div className="flex flex-wrap items-center text-sm breadcrums-margin">
+          <div className="py-5">
+            <div className="flex flex-wrap items-center text-sm">
               <Link
                 to="/"
                 className="text-blue-600 sm:text-black cursor-pointer"
@@ -26,13 +26,13 @@ function Sitemap() {
             <div className="md:hidden h-64 w-full full-bleed-mobile max-h-screen relative mt-6 mb-6">
               <img className="w-full h-full object-cover " src={sitemap} />
             </div>
-            <div className="mt-8 xl:px-6">
-              <h1 className="text-center sm:text-left text-black sm:text-orange-500 privacy-heading xl:text-5xl leading-none relative">
+            <div className="mt-8">
+              <h1 className="text-center md:text-left text-black sm:text-orange-500 privacy-heading text-4xl md:text-5xl leading-none relative">
                 Site <span className="text-orange-500 sm:text-black">Map</span>
               </h1>
             </div>
-            <div className="sm:mt-8 xl:px-6">
-              <div className="xl:text-3xl text-base sitemap-sub xl:-mt-6 sm:mt-0 news-subtitle site-map-sub">
+            <div className="mt-2">
+              <div className="text-2xl xl:text-3xl sitemap-sub site-map-sub">
                 <h3>Search Engines Crawl Away</h3>
               </div>
               <div className="mt-6">

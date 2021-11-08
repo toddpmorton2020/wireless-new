@@ -20,10 +20,10 @@ const Accessory = () => {
       <SEO title="Accessory" />
       <Layout>
         <div className="accessory">
-          <div>
+          <div class="overflow-hidden">
             <div className="container mx-auto">
-              <div className="pt-2 xl:pt-4 change">
-                <div className="flex items-center text-xs sm:text-sm text-sm breadcrums-margin">
+              <div className="pt-5">
+                <div className="flex items-center text-sm">
                   <Link
                     to="/"
                     className="text-blue-600 sm:text-black cursor-pointer"
@@ -40,29 +40,29 @@ const Accessory = () => {
                   src="/cinema-accessories"
                 />
               </div>
-              <h1 className="xl:text-5xl privacy-heading leading-10 xl:mt-8 acc-margin">
+              <h1 className="text-5xl privacy-heading leading-none lg:leading-tight mt-8 acc-margin">
                 Outdoor Cinema{" "}
                 <span className="text-orange-500">Accessories</span>
               </h1>
-              <h2 className="acc-margin hide news-subtitle mt-2 sm:text-3xl leading-tight pb-4">
+              <h2 className="acc-margin hide text-3xl leading-tight pb-4">
                 Get the most out of your outdoor movie theater
               </h2>
             </div>
           </div>
-          <div className="text-center mt-2 hide">
+          <div className="text-center mt-2 hide container mx-auto">
             <img src={bannerAccessory} alt="" className="mx-auto" />
           </div>
           <div>
-            <div className="xl:pt-0 sm:pt-12 container mx-auto accessory-padding">
+            <div className="container mx-auto accessory-padding">
               {/* <h2 className="xl:text-3xl sm:text-2xl mb-4 news-subtitle hide">
                 Get the most out of your outdoor movie theater
               </h2> */}
-              <p className="image-text-color image-text-press-1 text-sm pt-2 hide">
+              <p className="text-gray-700 text-sm pt-2 hide">
                 My family sitting around a bonfire watching The Hitman's Wife's
                 Bodyguard movie on the Timberline Outdoor Cinema 150" Big Moose
                 model in Bridgton, Maine.
               </p>
-              <p className="xl:pt-6 pt-4">
+              <p className="pt-6">
                 I’ve gathered a list of great outdoor accessories to help you
                 enjoy your outdoor movie experience. My movie theaters are
                 designed for year-round use and have included items to keep you
@@ -73,19 +73,16 @@ const Accessory = () => {
                 on amazon reviews.
               </p>
             </div>
-            <div className="mt-12 sm:mt-0 sm:py-12 flex flex-col-reverse md:flex-row container mx-auto accessory-padding">
-              <div className="desktop flex-1 pl-0 md:pr-12 text-center md:text-left rightContainer image-accessory">
+            <div className="py-12 flex flex-col lg:flex-row container mx-auto accessory-padding">
+              <div className="flex-1 pl-0 lg:pr-12 text-center md:text-left image-accessory">
                 <img src={firePit} />
               </div>
-              <div className="flex-1 mt-6 md:mt-0 pr-0 mb-6 sm:mb-0">
-                <h3 className="outdoor-subfont xl:text-3xl mb-6 sm:mb-8 acc-line-height">
+              <div className="flex-1 mt-6 lg:mt-0 pr-0">
+                <h3 className="outdoor-subfont text-3xl mb-6 leading-tight">
                   Outland Living 883 Mega Outdoor Propane Gas 24-Inch diameter
                   Fire Pit with 58,000 BTU
                 </h3>
-                <div className="mobile pl-0 mb-6 md:pr-12 text-center md:text-left flex items-center image-accessory">
-                  <img src={firePit} />
-                </div>
-                <p className="mb-4 xl:-mt-5">
+                <p className="mb-4">
                   What I like about this portable outdoor propane fire pit is
                   that it’s simple and fast to get direct heat for movie night
                   without worrying about getting a wood fire started and
@@ -110,15 +107,12 @@ const Accessory = () => {
               </div>
             </div>
             <div className="gray-back">
-              <div className="mt-12 sm:mt-0 sm:py-12 flex flex-col-reverse md:flex-row container mx-auto accessory-padding">
-                <div className="flex-1 mt-6 md:mt-0 pr-0 md:pr-12 mb-6 sm:mb-0">
-                  <h3 className="outdoor-subfont mb-6 sm:mb-8 news-subtitle-2 xl:text-3xl acc-line-height">
+              <div className="py-12 flex flex-col-reverse lg:flex-row container mx-auto accessory-padding">
+                <div className="flex-1 pr-0 lg:pr-12">
+                  <h3 className="outdoor-subfont mb-6 text-3xl leading-tight">
                     Outdoor Propane Patio Heater with wheels - 46,000 BTU
                   </h3>
-                  <div className="mb-6 pl-0 text-center md:text-left mobile">
-                    <img src={heatLamp} />
-                  </div>
-                  <p className="mb-4 xl:-mt-5">
+                  <p className="mb-4">
                     As we start getting closer to the colder months, compliment
                     your firepit with this great propane heat lamp. During fall
                     and winter, I use a heat lamp to keep my head and back warm
@@ -139,25 +133,22 @@ const Accessory = () => {
                     for just $176.
                   </p>
                 </div>
-                <div className="flex-1 pl-0 text-center md:text-left rightContainer desktop image-accessory">
+                <div className="flex-1 mb-6 lg:mb-0 pl-0 text-center md:text-left image-accessory">
                   <img src={heatLamp} />
                 </div>
               </div>
             </div>
 
-            <div className="mt-12 sm:mt-0 sm:py-12 flex flex-col-reverse md:flex-row container mx-auto accessory-padding">
-              <div className="desktop flex-1 pl-0 md:pr-12 text-center md:text-left rightContainer image-accessory">
+            <div className="py-12 flex flex-col lg:flex-row container mx-auto accessory-padding">
+              <div className="flex-1 pl-0 lg:pr-12 text-center md:text-left image-accessory">
                 <img src={thermail} />
               </div>
-              <div className="flex-1 mt-6 md:mt-0 pr-0 mb-6 sm:mb-0">
-                <h3 className="outdoor-subfont mb-6 sm:mb-8 xl:text-3xl acc-line-height">
+              <div className="flex-1 mt-6 lg:mt-0 pr-0">
+                <h3 className="outdoor-subfont mb-6 text-3xl leading-tight">
                   Wool Blankets 4 lbs., warm, heavy, washable, large - great for
                   movies outside
                 </h3>
-                <div className="mobile pl-0 mb-6 md:pr-12 text-center md:text-left flex items-center image-accessory">
-                  <img src={thermail} />
-                </div>
-                <p className="mb-4 xl:-mt-5">
+                <p className="mb-4">
                   Get one of the heaviest and warmest outdoor blankets available
                   to keep you warm while enjoying a movie outside when
                   temperatures start falling at night.
@@ -181,16 +172,13 @@ const Accessory = () => {
               </div>
             </div>
             <div className="gray-back">
-              <div className="mt-12 sm:mt-0 sm:py-12 flex flex-col-reverse md:flex-row container mx-auto accessory-padding">
-                <div className="flex-1 mt-6 md:mt-0 pr-0 md:pr-12 mb-6 sm:mb-0">
-                  <h3 className="outdoor-subfont mb-6 sm:mb-8 xl:text-3xl acc-line-height">
+              <div className="py-12 flex flex-col-reverse lg:flex-row container mx-auto accessory-padding">
+                <div className="flex-1 pr-0 lg:pr-12">
+                  <h3 className="outdoor-subfont mb-6 text-3xl leading-tight">
                     Better Homes & Gardens Azalea Ridge Outdoor Conversation Set
                     with orange cushions
                   </h3>
-                  <div className="mobile pl-0 mb-6 md:pr-12 text-center md:text-left flex items-center image-accessory">
-                    <img src={wicker} />
-                  </div>
-                  <p className="mb-4 xl:-mt-5">
+                  <p className="mb-4">
                     Let’s talk about comfort while watching movies outside
                     around the fire. I personally own this 4-piece set, and it
                     has lasted over four years and still looks brand new. I love
@@ -214,24 +202,21 @@ const Accessory = () => {
                     .
                   </p>
                 </div>
-                <div className="flex-1 pl-0 text-center md:text-left rightContainer desktop image-accessory">
+                <div className="flex-1 mb-6 lg:mb-0 pl-0 text-center md:text-left image-accessory">
                   <img src={wicker} />
                 </div>
               </div>
             </div>
 
-            <div className="mt-12 sm:mt-0 sm:py-12 flex flex-col-reverse md:flex-row container mx-auto accessory-padding">
-              <div className="desktop flex-1 pl-0 md:pr-12 text-center md:text-left rightContainer image-accessory">
+            <div className="py-12 flex flex-col lg:flex-row container mx-auto accessory-padding">
+              <div className="flex-1 pl-0 lg:pr-12 text-center md:text-left image-accessory">
                 <img src={popcorn} />
               </div>
-              <div className="flex-1 mt-6 md:mt-0 pr-0 mb-6 sm:mb-0">
-                <h3 className="outdoor-subfont mb-6 sm:mb-8 xl:text-3xl acc-line-height">
+              <div className="flex-1 mt-6 lg:mt-0 pr-0">
+                <h3 className="outdoor-subfont mb-6 text-3xl leading-tight">
                   Coleman Handheld Popcorn Popper with long handle
                 </h3>
-                <div className="mobile pl-0 mb-6 md:pr-12 text-center md:text-left flex items-center image-accessory">
-                  <img src={popcorn} />
-                </div>
-                <p className="mb-4 xl:-mt-5">
+                <p className="mb-4">
                   Who doesn’t love popcorn with a movie? Coleman has done it
                   again and came out with this great little handheld popcorn
                   popper to use while sitting around the fire and watching a
@@ -257,23 +242,20 @@ const Accessory = () => {
               </div>
             </div>
             <div className="gray-back">
-              <div className="mt-12 sm:mt-0 sm:pt-12 xl:pb-20 flex flex-col-reverse md:flex-row container mx-auto accessory-padding">
-                <div className="flex-1 mt-6 md:mt-0 pr-0 md:pr-12 mb-16 sm:mb-0">
-                  <h3 className="outdoor-subfont mb-6 sm:mb-8 xl:text-3xl acc-line-height">
+              <div className="py-12 flex flex-col-reverse lg:flex-row container mx-auto accessory-padding">
+                <div className="flex-1 mt-6 lg:mt-0 pr-0 lg:pr-12">
+                  <h3 className="outdoor-subfont mb-6 text-3xl leading-tight">
                     OneOdio A70 Bluetooth Over Ear Headphones, foldable, wired
                     and wireless
                   </h3>
-                  <div className="mobile pl-0 mb-6 md:pr-12 text-center md:text-left flex items-center image-accessory">
-                    <img src={headphones} />
-                  </div>
-                  <p className="mb-4 xl:-mt-5">
+                  <p className="mb-4">
                     Use these great wireless headphones if you have neighbors
                     that are close by to ensure they don’t hear your movie
                     outside late at night. These will only work with the ‘wired’
                     Timberline Series Outdoor Cinema packages I offer on my
                     website.
                   </p>
-                  <p className="mb-4">
+                  <p className="">
                     With over 6,000 great 4-1/2-star reviews on{" "}
                     <a
                       href="https://www.amazon.com/OneOdio-Bluetooth-Headphones-Share-Port-Professional/dp/B07MQQS88Q/ref=sr_1_19?dchild=1&keywords=Wireless+Movie+headphones&qid=1628967354&s=electronics&sr=1-19"
@@ -285,7 +267,7 @@ const Accessory = () => {
                     , you can’t go wrong at $46 price point.
                   </p>
                 </div>
-                <div className="flex-1 pl-0 text-center md:text-left desktop image-accessory">
+                <div className="flex-1 pl-0 text-center md:text-left image-accessory">
                   <img src={headphones} />
                 </div>
               </div>

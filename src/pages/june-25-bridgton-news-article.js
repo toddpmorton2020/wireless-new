@@ -13,19 +13,19 @@ function June25PressRelease() {
         title="June 25 Bridgton News Article"
         description="Bring Movies and Gaming Outdoors By Wayne E. Rivet – Staff Writer for the Bridgton News"
       />
-      <div className="xl:bg-white bg-grey-10 pb-12">
-        <div className="container mx-auto">
-          <div className="xl:pt-4">
-            <div className="flex items-center text-sm flex-wrap change xl:text-black text-white breadcrums-margin">
+      <div className="sm:bg-white bg-grey-10 pb-12">
+        <div className="pt-5 overflow-hidden">
+          <div className="container mx-auto">
+            <div className="flex items-center text-sm flex-wrap sm:text-black text-white mb-10 sm:mb-20">
               <Link to="/" className="cursor-pointer">
                 Home
               </Link>
-              <span className="xl:mx-2 mx-1">&gt;</span>
+              <span className="sm:mx-2 mx-1">&gt;</span>
               <Link to="/in-the-news">In the News</Link>
-              <span className="xl:mx-2 mx-1">&gt;</span>
+              <span className="sm:mx-2 mx-1">&gt;</span>
               <span to="#">June 25, 2020 News Article</span>
             </div>
-            <div className="xl:invisible visible text-center">
+            <div className="sm:hidden block text-center">
               <h3 className="text-grey-100 pt-6 grey-text-spacing">
                 BRIDGTON NEWS | June 25, 2020
               </h3>
@@ -36,52 +36,52 @@ function June25PressRelease() {
                 Bring Movies and Gaming Outdoors
               </h1>
             </div>
-            <div className="md:hidden full-bleed-mobile relative mb-6 mt-6 bg-center">
+            <div className="sm:hidden full-bleed-mobile relative mb-6 mt-6 bg-center">
               <img
                 className="press-main-image absolute object-cover "
                 src="/25-june-full.png"
               />
             </div>
-            <p className="text-grey-100 image-text-press text-sm xl:invisible visible pt-10">
+            <p className="text-grey-100 image-text-press text-sm sm:hidden block pt-10">
               Interview with Wayne Rivet from the Bridgton News and Todd Morton,
               owner of the Wireless Outdoor Cinema Company
             </p>
-            <div className="press-release-padding -mt-40 hide">
+            <div className="press-release-padding sm:block hidden">
               <p className="text-xl image-text-color">BRIDGTON NEWS</p>
               <p className="text-xl image-text-color">June 25, 2020</p>
               <p className="text-xl pt-5 image-text-color">
                 By Wayne E. Rivet – Staff Writer for the Bridgton News
               </p>
             </div>
-            <div>
-              <h1 className="main-heading font-semibold xl:pt-6 pt-8 press-release-padding press-line-height hide">
+            <div className="hidden sm:block">
+              <h1 className="main-heading font-semibold sm:pt-6 pt-8 press-release-padding press-line-height hide">
                 Bring Movies and Gaming Outdoors
               </h1>
             </div>
-            <div className="hide press-release-padding">
-              <h2 className="xl:pt-4 main-image-upper-text-1">
+            <div className="hidden sm:block press-release-padding">
+              <h2 className="sm:pt-4 main-image-upper-text-1">
                 Interview with Wayne Rivet from the Bridgton News and Todd
                 Morton, owner of the Wireless Outdoor Cinema Company
               </h2>
               <img src="/25June-Full.png" alt="" className="pt-6" />
-              <p className="image-text-color image-text-press-1 text-sm pt-3">
+              <p className="image-text-color image-text-press-1 text-sm pt-3 text-grey-100 sm:text-gray-700">
                 Todd Morton, the Wireless Outdoor Cinema Company owner, was
                 interviewed at his home in Bridgton, Maine, on June 20, 2020.
               </p>
             </div>
-            <div className="press-release-padding xl:pt-10 pt-6 xl:text-black text-white">
-              <p className="xl:text-23 text-base press-text font-extralight pb-5">
+            <div className="press-release-padding sm:pt-10 pt-6 sm:text-black text-white">
+              <p className="sm:text-23 text-base press-text font-extralight pb-5">
                 Todd Morton has had a diverse working career. He has done
                 construction, finish carpentry and built a couple of log homes.
                 And he worked 25 years as an Internet marketer and website
                 designer. Now he hopes to add the Wireless Outdoor Cinema
                 Company to his professional accomplishments.
               </p>
-              <p className="xl:text-23 text-base press-text font-extralight pb-5">
+              <p className="sm:text-23 text-base press-text font-extralight pb-5">
                 “I want to create an outdoor experience that the entire family
                 will enjoy,” he said.
               </p>
-              <p className="xl:text-23 text-base press-text font-extralight pb-5">
+              <p className="sm:text-23 text-base press-text font-extralight pb-5">
                 Todd has always had a great appreciation for the outdoors and
                 grew up in northern Vermont. His true passions have always been
                 working outdoors and nature. For years, Todd thought about
@@ -89,7 +89,7 @@ function June25PressRelease() {
                 various outdoor set ups that turned out to be flimsy or too
                 cumbersome to setup and watch.
               </p>
-              <p className="xl:text-23 text-base press-text font-extralight pb-5">
+              <p className="sm:text-23 text-base press-text font-extralight pb-5">
                 During the winter, Todd continued researching outdoor cinema
                 setups but found most failed to hold up due to uneven ground
                 conditions and wind. “I brainstormed for months how I could set
@@ -97,7 +97,7 @@ function June25PressRelease() {
                 wouldn’t have to inflate or deflate at the end of the movie and
                 make it look aesthetically clean on my property,” he said.
               </p>
-              <p className="xl:text-23 text-base press-text font-extralight pb-5">
+              <p className="sm:text-23 text-base press-text font-extralight pb-5">
                 Todd built a pressure-treated movie screen frame, which can
                 easily be moved by two people. All hardware used on the outdoor
                 wooden frame is weather-resistant galvanized and stainless
@@ -107,8 +107,8 @@ function June25PressRelease() {
                 hooks. To put the screen on the frame takes less time than it
                 does to pop a bag of popcorn in the microwave, Todd said.
               </p>
-              <div className="xl:bg-transparent bg-orange-1000 xl:mx-0 -mx-6 pt-5 xl:pt-0 xl:text-left text-center">
-                <p className="xl:text-23 text-base press-text font-extralight pb-2 xl:px-0 px-5">
+              <div className="sm:bg-transparent bg-orange-1000 sm:mx-0 -mx-6 pt-5 sm:pt-0 sm:text-left text-center">
+                <p className="sm:text-23 text-base press-text font-extralight pb-2 sm:px-0 px-5">
                   “You can set up the wireless outdoor cinema anywhere on your
                   property. After watching my first movie outside, I knew other
                   homeowners would love this experience. Being outside in the
@@ -124,10 +124,10 @@ function June25PressRelease() {
                 <img
                   src="/todd-sign.png"
                   alt=""
-                  className="xl:invisible visible items-center inline-block pb-2"
+                  className="sm:hidden inline-block items-center pb-2"
                 />
               </div>
-              <p className="xl:text-23 text-base press-text font-extralight pb-5 xl:pt-4 xl:-mt-12 mt-5">
+              <p className="sm:text-23 text-base press-text font-extralight pb-5 sm:pt-4 sm:mt-12 mt-5">
                 The HD Wi-Fi projector (which is positioned six to seven feet
                 away from the screen) sets on either a projector stand or a
                 custom-build cedar projector stand with shelves. The off-grid
@@ -136,7 +136,7 @@ function June25PressRelease() {
                 the off-grid battery comes with a built-in flashlight to help
                 with finding your way back inside.
               </p>
-              <p className="xl:text-23 text-base press-text font-extralight pb-5">
+              <p className="sm:text-23 text-base press-text font-extralight pb-5">
                 He offers three packages: 96” Jedi Bobcat, perfect for the
                 ultimate gaming experience, $2,499; the 120” Bella Bear, best
                 for watching movies and streaming your favorite shows, $2,399;
@@ -145,25 +145,25 @@ function June25PressRelease() {
                 camps, $2,899.
               </p>
             </div>
-            <div className="press-release-padding pt-8 xl:text-black text-white">
+            <div className="press-release-padding pt-8 sm:text-black text-white">
               <div className="border-b border-gray-400" />
-              <h2 className="xl:text-31 text-2xl xl:pb-5 pb-4 xl:pt-5 pt-8 press-contact">
+              <h2 className="sm:text-31 text-2xl sm:pb-5 pb-4 sm:pt-5 pt-8 press-contact">
                 Press Contact
               </h2>
-              <p className="xl:text-23 text-base contact-det">
+              <p className="sm:text-23 text-base contact-det">
                 Wireless Outdoor Cinema Company
                 <br />
                 Todd Morton – owner
               </p>
               <a
-                className="text-blue-600 xl:text-23 text-base contact-det"
+                className="text-blue-600 sm:text-23 text-base contact-det"
                 href="mailto:todd@wirelessoutdoorcinema.com"
               >
                 todd@wirelessoutdoorcinema.com
               </a>
               <br />
               <a
-                className="xl:text-23 phone-color text-base contact-det"
+                className="sm:text-23 phone-color text-base contact-det"
                 href="tel:207-647-8759"
               >
                 (207) 647-8759

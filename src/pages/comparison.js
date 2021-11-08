@@ -41,8 +41,8 @@ const Comparison = () => {
         <div>
           <div>
             <div className="container mx-auto">
-              <div className="sm:pt-6 xl:pt-4 change">
-                <div className="flex items-center sm:text-sm text-sm breadcrums-margin">
+              <div className="pt-5">
+                <div className="flex items-center text-sm">
                   <Link
                     to="/"
                     className="text-blue-600 sm:text-black cursor-pointer"
@@ -53,12 +53,12 @@ const Comparison = () => {
                   <span to="#">Cinema Comparison</span>
                 </div>
               </div>
-              <div>
-                <h1 className="xl:text-5xl privacy-heading text-center mt-4 xl:leading-none leading-10 xl:mt-6">
+              <div className="md:px-6 lg:px-10">
+                <h1 className="text-5xl privacy-heading text-center leading-none mt-6">
                   <span className="text-orange-500">Compare</span> Timberline
                   Outdoor Cinemas
                 </h1>
-                <p className="xl:text-3xl hide text-center">
+                <p className="text-3xl hide text-center">
                   Get help choosing which cinema is best for you.{" "}
                   <span
                     className="text-blu-100 cursor-pointer"
@@ -68,7 +68,7 @@ const Comparison = () => {
                   </span>
                 </p>
               </div>
-              <div className="xl:flex xl:pt-16 hide pt-8 xl:space-x-4 text-center items-center px-10">
+              <div className="hidden lg:flex lg:pt-16 hide pt-8 lg:space-x-4 text-center items-center md:px-6 lg:px-10">
                 <div>
                   <img
                     src={jediBobcat}
@@ -94,7 +94,7 @@ const Comparison = () => {
                     Learn more
                   </button>
                 </div>
-                <div className="xl:pt-0 pt-8">
+                <div className="lg:pt-0 pt-8">
                   <img
                     src={bellaBear}
                     alt=""
@@ -120,7 +120,7 @@ const Comparison = () => {
                     Learn more
                   </button>
                 </div>
-                <div className="xl:pt-0 pt-8">
+                <div className="lg:pt-0 pt-8">
                   <img
                     src={bigMoose}
                     alt=""
@@ -146,7 +146,7 @@ const Comparison = () => {
                   </button>
                 </div>
               </div>
-              <div className="mobile-hide text-center pt-6">
+              <div className="lg:hidden text-center pt-6 md:px-6 lg:px-10">
                 <div>
                   <img
                     src="/mobile-jedi-bobcat-compare-396x356.png"
@@ -162,7 +162,7 @@ const Comparison = () => {
                   <hr className="mx-1 border-gray-500" />
                   <p className="text-3xl py-4">Just $2,499</p>
                   <button
-                    className="text-2xl text-white bg-orange-1000 rounded-md comparison-btn py-1"
+                    className="text-2xl text-white bg-orange-1000 rounded-md px-10 py-1"
                     onClick={() =>
                       navigate(
                         "/timberline-cinema-packages/96-jedi-bobcat-cinema"
@@ -171,18 +171,191 @@ const Comparison = () => {
                   >
                     Learn more
                   </button>
-                  <div className="py-1 included-btn mt-6 mb-4 comparison-details rounded-md comparison-detail-border text-left">
+                  
+                  <div className="hidden sm:block mt-4">
+                    <div className="pt-6 text-left">
+                      <h1 className="text-31 text-font pb-5">Wooden Frame</h1>
+                      <hr className="border-gray-500" />
+                      <div className="pt-5">
+                        <div className="font-extralight text-23">
+                          <p>8’ ft. Wide Frame</p>
+                          <br />
+                          <p>Actual size: 87.5” High x 96” Wide</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="pt-8 text-left">
+                      <h1 className="text-31 text-font pb-5">
+                        Cinematic Screen
+                      </h1>
+                      <hr className="border-gray-500" />
+                      <div className="pt-5">
+                        <div className="font-extralight text-23">
+                          <p>
+                            96” Diagonal Screen
+                            <br />
+                            <br />
+                            Actual size: 47” High x 84” Wide
+                            <br />
+                            <br />
+                            Wrinkle-free, double layer cinematic screen with
+                            black backing to prevent light transmission
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="pt-8 text-left">
+                      <h1 className="text-31 text-font pb-5">Wired Option</h1>
+                      <hr className="border-gray-500" />
+                      <div className="pt-5">
+                        <div className="font-extralight text-23">
+                          <p>
+                            Wired option is only available for the Jedi Bobcat
+                            Outdoor Gaming Cinema
+                            <br />
+                            <br />
+                            With the wired gaming cinema, your options below
+                            will be identified as wired, and you won’t be able
+                            to use any of the wireless options below due to
+                            power consumption limitations on the Battery
+                            Station
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="pt-8 text-left">
+                      <h1 className="text-31 text-font pb-5">Projector</h1>
+                      <hr className="border-gray-500" />
+                      <div className="pt-5">
+                        <div className="font-extralight text-23">
+                          <p>
+                            HD 1080p LED Projector with 4,000 Lumens
+                            Brightness
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="pt-8 text-left">
+                      <h1 className="text-31 text-font pb-5">Speakers</h1>
+                      <hr className="border-gray-500" />
+                      <div className="pt-5">
+                        <div className="font-extralight text-23">
+                          <p>
+                            Wired option only: Rockville 8” Dual Powered PA
+                            System Speakers with Tripod Stands
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="pt-8 text-left">
+                      <h1 className="text-31 text-font pb-5">
+                        Digital FM Transmitter
+                      </h1>
+                      <hr className="border-gray-500" />
+                      <div className="pt-5">
+                        <div className="font-extralight text-23">
+                          <p>
+                            Wired option only: Rolls Digital FM Transmitter
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="pt-8 text-left">
+                      <h1 className="text-31 text-font pb-5">
+                        Digital FM Tuner
+                      </h1>
+                      <hr className="border-gray-500" />
+                      <div className="pt-5">
+                        <div className="font-extralight text-23">
+                          <p>Wired option only: Rolls Digital FM Tuner</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="pt-8 text-left">
+                      <h1 className="text-31 text-font pb-5">
+                        Roku 4k Player
+                      </h1>
+                      <hr className="border-gray-500" />
+                      <div className="pt-5">
+                        <div className="font-extralight text-23">
+                          <p>
+                            Roku Express 4k player with voice control to
+                            access movies and apps
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="pt-8 text-left">
+                      <h1 className="text-31 text-font pb-5">
+                        Battery Station
+                      </h1>
+                      <hr className="border-gray-500" />
+                      <div className="pt-5">
+                        <div className="font-extralight text-23">
+                          <p>
+                            Wireless option only: chargeable off-grid battery
+                            station
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="pt-8 text-left">
+                      <h1 className="text-31 text-font pb-5">
+                        Projector Stand
+                      </h1>
+                      <hr className="border-gray-500" />
+                      <div className="pt-5">
+                        <div className="font-extralight text-23">
+                          <p>
+                            Comes with wireless and wired options: Custom,
+                            light-weight cedar wood projector and equipment
+                            stand
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="pt-8 text-left">
+                      <h1 className="text-31 text-font pb-5">
+                        Miscellaneous
+                      </h1>
+                      <hr className="border-gray-500" />
+                      <div className="pt-5">
+                        <div className="font-extralight text-23">
+                          <p>
+                            Wired Option Only: 25’ ft. green extension cord
+                            and waterproof surge protector power strip
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="pt-8 pb-6 text-left">
+                      <h1 className="text-31 text-font pb-5">Installation</h1>
+                      <hr className="border-gray-500" />
+                      <div className="pt-5">
+                        <div className="font-extralight text-23">
+                          <p>
+                            Comes with wireless and wired options:
+                            professional and friendly installation of frame,
+                            projector stand, equipment setup, review on how to
+                            use, and testing to ensure everything works
+                            properly{" "}
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="block sm:hidden py-1 included-btn mt-6 mb-4 comparison-details mx-auto rounded-md comparison-detail-border text-left">
                     <div className="flex-1">
                       <div
-                        className="flex justify-around items-center"
+                        className="flex lg:justify-around items-center w-full sm:w-auto px-3 sm:px-0"
                         onClick={() => setOpen(!open)}
                       >
-                        <h2 className="text-2xl include-margin text-orange-1000">
+                        <h2 className="text-2xl text-orange-1000 flex-grow text-center">
                           What's included?
                         </h2>
                         <img
                           src={open ? "/minus.png" : "/plus.png"}
-                          className="w-4 md:w-auto md:h-5 cursor-pointer sm:pl-4 ml-4 sm:ml-0"
+                          className="w-4 sm:w-8 md:w-auto md:h-5 cursor-pointer sm:pl-4 ml-4 sm:ml-0"
                         />
                       </div>
                     </div>
@@ -376,7 +549,7 @@ const Comparison = () => {
                   <hr className="mx-1 border-gray-500" />
                   <p className="text-3xl py-6">Starting at $2,399*</p>
                   <button
-                    className="text-2xl text-white bg-purple-1000 rounded-md comparison-btn py-1"
+                    className="text-2xl text-white bg-purple-1000 rounded-md px-10 py-1"
                     onClick={() =>
                       navigate(
                         "/timberline-cinema-packages/120-bella-bear-cinema"
@@ -385,18 +558,193 @@ const Comparison = () => {
                   >
                     Learn more
                   </button>
-                  <div className="py-1 included-btn mt-6 mb-4 comparison-details rounded-md comparison-detail-border-p text-left">
+                  <div className="hidden sm:block mt-4">
+                    <div className="px-3 pt-6 text-left">
+                      <h1 className="text-31 text-font pb-5">Wooden Frame</h1>
+                      <hr className="border-gray-500" />
+                      <div className="pt-5">
+                        <div className="font-extralight text-23">
+                          <p>10’ ft. Wide Frame</p>
+                          <br />
+                          <p>Actual size: 87.5” High x 120” Wide</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="pt-8 px-3 text-left">
+                      <h1 className="text-31 text-font pb-5">
+                        Cinematic Screen
+                      </h1>
+                      <hr className="border-gray-500" />
+                      <div className="pt-5">
+                        <div className="font-extralight text-23">
+                          <p>
+                            120” Diagonal Screen
+                            <br />
+                            <br />
+                            Actual size: 72” High x 105” Wide
+                            <br />
+                            <br />
+                            Wrinkle-free, double layer cinematic screen with
+                            black backing to prevent light transmission
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="pt-8 px-3 text-left">
+                      <h1 className="text-31 text-font pb-5">
+                        Wireless or Wired Option
+                      </h1>
+                      <hr className="border-gray-500" />
+                      <div className="pt-5">
+                        <div className="font-extralight text-23">
+                          <p>
+                            This cinema allows you to choose from either
+                            Wireless or Wired packages
+                            <br />
+                            <br />
+                            If you select a wireless cinema, your options
+                            below will be identified as wireless, and you
+                            won’t be able to use any of the wired options due
+                            to power consumption limitations on the Battery
+                            Station
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="pt-8 px-3 text-left">
+                      <h1 className="text-31 text-font pb-5">Projector</h1>
+                      <hr className="border-gray-500" />
+                      <div className="pt-5">
+                        <div className="font-extralight text-23">
+                          <p>
+                            HD 1080p LED Projector with 4,000 Lumens
+                            Brightness
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="pt-8 px-3 text-left">
+                      <h1 className="text-31 text-font pb-5">Speakers</h1>
+                      <hr className="border-gray-500" />
+                      <div className="pt-5">
+                        <p className="font-extralight text-23">
+                          Wireless option: Avantree Bluetooth Soundbar Speaker
+                          <br />
+                          <br />
+                          Wired option: Rockville 8” Dual Powered PA System
+                          Speakers with Tripod Stands
+                        </p>
+                      </div>
+                    </div>
+                    <div className="pt-8 px-3 text-left">
+                      <h1 className="text-31 text-font pb-5">
+                        Digital FM Transmitter
+                      </h1>
+                      <hr className="border-gray-500" />
+                      <div className="pt-5">
+                        <div className="font-extralight text-23">
+                          <p>
+                            Wired option only: Rolls Digital FM Transmitter
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="pt-8 px-3 text-left">
+                      <h1 className="text-31 text-font pb-5">
+                        Digital FM Tuner
+                      </h1>
+                      <hr className="border-gray-500" />
+                      <div className="pt-5">
+                        <div className="font-extralight text-23">
+                          <p>Wired option only: Rolls Digital FM Tuner</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="pt-8 px-3 text-left">
+                      <h1 className="text-31 text-font pb-5">
+                        Roku 4k Player
+                      </h1>
+                      <hr className="border-gray-500" />
+                      <div className="pt-5">
+                        <div className="font-extralight text-23">
+                          <p>
+                            Roku Express 4k player with voice control to
+                            access movies and apps
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="pt-8 px-3 text-left">
+                      <h1 className="text-31 text-font pb-5">
+                        Battery Station
+                      </h1>
+                      <hr className="border-gray-500" />
+                      <div className="pt-5">
+                        <div className="font-extralight text-23">
+                          <p>
+                            Wireless option only: chargeable off-grid battery
+                            station
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="pt-8 px-3 text-left">
+                      <h1 className="text-31 text-font pb-5">
+                        Projector Stand
+                      </h1>
+                      <hr className="border-gray-500" />
+                      <div className="pt-5">
+                        <div className="font-extralight text-23">
+                          <p>
+                            Comes with wireless and wired options: Custom,
+                            light-weight cedar wood projector and equipment
+                            stand
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="pt-8 px-3 text-left">
+                      <h1 className="text-31 text-font pb-5">
+                        Miscellaneous
+                      </h1>
+                      <hr className="border-gray-500" />
+                      <div className="pt-5">
+                        <div className="font-extralight text-23">
+                          <p>
+                            Wired Option Only: 25’ ft. green extension cord
+                            and waterproof surge protector power strip
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="pt-8 pb-6 px-3 text-left">
+                      <h1 className="text-31 text-font pb-5">Installation</h1>
+                      <hr className="border-gray-500" />
+                      <div className="pt-5">
+                        <div className="font-extralight text-23">
+                          <p>
+                            Comes with wireless and wired options:
+                            professional and friendly installation of frame,
+                            projector stand, equipment setup, review on how to
+                            use, and testing to ensure everything works
+                            properly{" "}
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="block sm:hidden py-1 included-btn mt-6 mb-4 comparison-details mx-auto rounded-md comparison-detail-border-p text-left">
                     <div className="flex-1">
                       <div
-                        className="flex justify-around items-center"
+                        className="flex lg:justify-around items-center w-full sm:w-auto px-3 sm:px-0"
                         onClick={() => setOpen1(!open1)}
                       >
-                        <h2 className="text-2xl include-margin text-purple-1000">
+                        <h2 className="text-2xl text-purple-1000 flex-grow text-center">
                           What's included?
                         </h2>
                         <img
                           src={open1 ? "/minus.png" : "/plus.png"}
-                          className="w-4 md:w-auto md:h-5 cursor-pointer sm:pl-4 ml-4 sm:ml-0"
+                          className="w-4 sm:w-8 md:w-auto md:h-5 cursor-pointer sm:pl-4 ml-4 sm:ml-0"
                         />
                       </div>
                     </div>
@@ -592,7 +940,7 @@ const Comparison = () => {
                   <hr className="mx-1 border-gray-500" />
                   <p className="text-3xl py-6">Starting at $2,899*</p>
                   <button
-                    className="text-2xl text-white bg-orange-1000 rounded-md comparison-btn py-1"
+                    className="text-2xl text-white bg-orange-1000 rounded-md px-10 py-1"
                     onClick={() =>
                       navigate(
                         "/timberline-cinema-packages/150-big-moose-cinema"
@@ -601,18 +949,193 @@ const Comparison = () => {
                   >
                     Learn more
                   </button>
-                  <div className="py-1 included-btn mt-6 mb-4 comparison-details rounded-md comparison-detail-border text-left">
+                  <div className="hidden sm:block mt-4">
+                    <div className="px-3 pt-6 text-left">
+                      <h1 className="text-31 text-font pb-5">Wooden Frame</h1>
+                      <hr className="border-gray-500" />
+                      <div className="pt-5">
+                        <div className="font-extralight text-23">
+                          <p>12’ ft. Wide Frame</p>
+                          <br />
+                          <p>Actual size: 120” High x 150” Wide</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="pt-8 px-3 text-left">
+                      <h1 className="text-31 text-font pb-5">
+                        Cinematic Screen
+                      </h1>
+                      <hr className="border-gray-500" />
+                      <div className="pt-5">
+                        <div className="font-extralight text-23">
+                          <p>
+                            150” Diagonal Screen
+                            <br />
+                            <br />
+                            Actual size: 74” High x 131” Wide
+                            <br />
+                            <br />
+                            Wrinkle-free, double layer cinematic screen with
+                            black backing to prevent light transmission
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="pt-8 px-3 text-left">
+                      <h1 className="text-31 text-font pb-5">
+                        Wireless or Wired Option
+                      </h1>
+                      <hr className="border-gray-500" />
+                      <div className="pt-5">
+                        <div className="font-extralight text-23">
+                          <p>
+                            This cinema allows you to choose from either
+                            Wireless or Wired packages
+                            <br />
+                            <br />
+                            If you select a wireless cinema, your options
+                            below will be identified as wireless, and you
+                            won’t be able to use any of the wired options due
+                            to power consumption limitations on the Battery
+                            Station
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="pt-8 px-3 text-left">
+                      <h1 className="text-31 text-font pb-5">Projector</h1>
+                      <hr className="border-gray-500" />
+                      <div className="pt-5">
+                        <div className="font-extralight text-23">
+                          <p>
+                            HD 1080p LED Projector with 4,000 Lumens
+                            Brightness
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="pt-8 px-3 text-left">
+                      <h1 className="text-31 text-font pb-5">Speakers</h1>
+                      <hr class="border-gray-500" />
+                      <div className="pt-5">
+                        <p className="font-extralight text-23">
+                          Wireless option: Avantree Bluetooth Soundbar Speaker
+                          <br />
+                          <br />
+                          Wired option: Rockville 8” Dual Powered PA System
+                          Speakers with Tripod Stands
+                        </p>
+                      </div>
+                    </div>
+                    <div className="pt-8 px-3 text-left">
+                      <h1 className="text-31 text-font pb-5">
+                        Digital FM Transmitter
+                      </h1>
+                      <hr className="border-gray-500" />
+                      <div className="pt-5">
+                        <div className="font-extralight text-23">
+                          <p>
+                            Wired option only: Rolls Digital FM Transmitter
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="pt-8 px-3 text-left">
+                      <h1 className="text-31 text-font pb-5">
+                        Digital FM Tuner
+                      </h1>
+                      <hr className="border-gray-500" />
+                      <div className="pt-5">
+                        <div className="font-extralight text-23">
+                          <p>Wired option only: Rolls Digital FM Tuner</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="pt-8 px-3 text-left">
+                      <h1 className="text-31 text-font pb-5">
+                        Roku 4k Player
+                      </h1>
+                      <hr className="border-gray-500" />
+                      <div className="pt-5">
+                        <div className="font-extralight text-23">
+                          <p>
+                            Roku Express 4k player with voice control to
+                            access movies and apps
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="pt-8 px-3 text-left">
+                      <h1 className="text-31 text-font pb-5">
+                        Battery Station
+                      </h1>
+                      <hr className="border-gray-500" />
+                      <div className="pt-5">
+                        <div className="font-extralight text-23">
+                          <p>
+                            Wireless option only: chargeable off-grid battery
+                            station
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="pt-8 px-3 text-left">
+                      <h1 className="text-31 text-font pb-5">
+                        Projector Stand
+                      </h1>
+                      <hr className="border-gray-500" />
+                      <div className="pt-5">
+                        <div className="font-extralight text-23">
+                          <p>
+                            Comes with wireless and wired options: Custom,
+                            light-weight cedar wood projector and equipment
+                            stand
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="pt-8 px-3 text-left">
+                      <h1 className="text-31 text-font pb-5">
+                        Miscellaneous
+                      </h1>
+                      <hr className="border-gray-500" />
+                      <div className="pt-5">
+                        <div className="font-extralight text-23">
+                          <p>
+                            Wired Option Only: 25’ ft. green extension cord
+                            and waterproof surge protector power strip
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="pt-8 px-3 pb-6 text-left">
+                      <h1 className="text-31 text-font pb-5">Installation</h1>
+                      <hr className="border-gray-500" />
+                      <div className="pt-5">
+                        <div className="font-extralight text-23">
+                          <p>
+                            Comes with wireless and wired options:
+                            professional and friendly installation of frame,
+                            projector stand, equipment setup, review on how to
+                            use, and testing to ensure everything works
+                            properly{" "}
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="block sm:hidden py-1 included-btn mt-6 mb-4 comparison-details mx-auto rounded-md comparison-detail-border text-left">
                     <div className="flex-1">
                       <div
-                        className="flex justify-around items-center"
+                        className="flex lg:justify-around items-center w-full sm:w-auto px-3 sm:px-0"
                         onClick={() => setOpen2(!open2)}
                       >
-                        <h2 className="text-2xl include-margin text-orange-1000">
+                        <h2 className="text-2xl text-orange-1000 flex-grow text-center">
                           What's included?
                         </h2>
                         <img
                           src={open2 ? "/minus.png" : "/plus.png"}
-                          className="w-4 md:w-auto md:h-5 cursor-pointer sm:pl-4 ml-4 sm:ml-0"
+                          className="w-4 sm:w-8 md:w-auto md:h-5 cursor-pointer sm:pl-4 ml-4 sm:ml-0"
                         />
                       </div>
                     </div>
@@ -683,7 +1206,7 @@ const Comparison = () => {
                       </div>
                       <div className="pt-8 px-3 text-left">
                         <h1 className="text-31 text-font pb-5">Speakers</h1>
-                        <hr />
+                        <hr class="border-gray-500" />
                         <div className="pt-5">
                           <p className="font-extralight text-23">
                             Wireless option: Avantree Bluetooth Soundbar Speaker
@@ -800,11 +1323,11 @@ const Comparison = () => {
                   </p>
                 </div>
               </div>
-              <div className="pt-20 pb-10 px-24 hide">
+              <div className="pt-20 pb-10 md:px-6 lg:px-10 hidden lg:block">
                 <div className="">
                   <h1 className="text-31 pb-5">Wooden Frame size</h1>
-                  <hr />
-                  <div className="xl:flex xl:space-x-32 pt-5">
+                  <hr class="border-gray-500" />
+                  <div className="comparison-col lg:flex lg:space-x-16 xl:space-x-32 pt-5">
                     <div className="font-extralight text-23">
                       <p>8’ ft. Wide Frame</p>
                       <br />
@@ -824,8 +1347,8 @@ const Comparison = () => {
                 </div>
                 <div className="pt-16">
                   <h1 className="text-31 pb-5">Cinematic Screen size</h1>
-                  <hr />
-                  <div className="xl:flex xl:space-x-32 pt-5">
+                  <hr class="border-gray-500" />
+                  <div className="comparison-col lg:flex lg:space-x-16 xl:space-x-32 pt-5">
                     <div className="font-extralight text-23">
                       <p>
                         96” Diagonal Screen
@@ -866,8 +1389,8 @@ const Comparison = () => {
                 </div>
                 <div className="pt-16">
                   <h1 className="text-31 pb-5">Wireless or Wired Option</h1>
-                  <hr />
-                  <div className="xl:flex xl:space-x-32 pt-5">
+                  <hr class="border-gray-500" />
+                  <div className="comparison-col lg:flex lg:space-x-16 xl:space-x-32 pt-5">
                     <div className="font-extralight text-23">
                       <p>
                         Wired option is only available for the Jedi Bobcat
@@ -908,8 +1431,8 @@ const Comparison = () => {
                 </div>
                 <div className="pt-16">
                   <h1 className="text-31 pb-5">Projector</h1>
-                  <hr />
-                  <div className="xl:flex xl:space-x-32 pt-5">
+                  <hr class="border-gray-500" />
+                  <div className="comparison-col lg:flex lg:space-x-16 xl:space-x-32 pt-5">
                     <div className="font-extralight text-23">
                       <p>HD 1080p LED Projector with 4,000 Lumens Brightness</p>
                     </div>
@@ -923,8 +1446,8 @@ const Comparison = () => {
                 </div>
                 <div className="pt-16">
                   <h1 className="text-31 pb-5">Speakers</h1>
-                  <hr />
-                  <div className="xl:flex xl:space-x-32 pt-5">
+                  <hr class="border-gray-500" />
+                  <div className="comparison-col lg:flex lg:space-x-16 xl:space-x-32 pt-5">
                     <div className="font-extralight text-23">
                       <p>
                         Wired option only: Rockville 8” Dual Powered PA System
@@ -949,8 +1472,8 @@ const Comparison = () => {
                 </div>
                 <div className="pt-16">
                   <h1 className="text-31 pb-5">Digital FM Transmitter</h1>
-                  <hr />
-                  <div className="xl:flex xl:space-x-32 pt-5">
+                  <hr class="border-gray-500" />
+                  <div className="comparison-col lg:flex lg:space-x-16 xl:space-x-32 pt-5">
                     <div className="font-extralight text-23">
                       <p>Wired option only: Rolls Digital FM Transmitter</p>
                     </div>
@@ -964,8 +1487,8 @@ const Comparison = () => {
                 </div>
                 <div className="pt-16">
                   <h1 className="text-31 pb-5">Digital FM Tuner</h1>
-                  <hr />
-                  <div className="xl:flex xl:space-x-32 pt-5">
+                  <hr class="border-gray-500" />
+                  <div className="comparison-col lg:flex lg:space-x-16 xl:space-x-32 pt-5">
                     <div className="font-extralight text-23">
                       <p>Wired option only: Rolls Digital FM Tuner</p>
                     </div>
@@ -979,8 +1502,8 @@ const Comparison = () => {
                 </div>
                 <div className="pt-16">
                   <h1 className="text-31 pb-5">Roku Express 4k Player</h1>
-                  <hr />
-                  <div className="xl:flex xl:space-x-32 pt-5">
+                  <hr class="border-gray-500" />
+                  <div className="comparison-col lg:flex lg:space-x-16 xl:space-x-32 pt-5">
                     <div className="font-extralight text-23">
                       <p>
                         Roku Express 4k player with voice control to access
@@ -1003,8 +1526,8 @@ const Comparison = () => {
                 </div>
                 <div className="pt-16">
                   <h1 className="text-31 pb-5">Battery Station</h1>
-                  <hr />
-                  <div className="xl:flex xl:space-x-32 pt-5">
+                  <hr class="border-gray-500" />
+                  <div className="comparison-col lg:flex lg:space-x-16 xl:space-x-32 pt-5">
                     <div className="font-extralight text-23">
                       <p>
                         Wireless option only: chargeable off-grid battery
@@ -1027,8 +1550,8 @@ const Comparison = () => {
                 </div>
                 <div className="pt-16">
                   <h1 className="text-31 pb-5">Projector Stand</h1>
-                  <hr />
-                  <div className="xl:flex xl:space-x-32 pt-5">
+                  <hr class="border-gray-500" />
+                  <div className="comparison-col lg:flex lg:space-x-16 xl:space-x-32 pt-5">
                     <div className="font-extralight text-23">
                       <p>
                         Comes with wireless and wired options: Custom,
@@ -1051,8 +1574,8 @@ const Comparison = () => {
                 </div>
                 <div className="pt-16">
                   <h1 className="text-31 pb-5">Miscellaneous</h1>
-                  <hr />
-                  <div className="xl:flex xl:space-x-32 pt-5">
+                  <hr class="border-gray-500" />
+                  <div className="comparison-col lg:flex lg:space-x-16 xl:space-x-32 pt-5">
                     <div className="font-extralight text-23">
                       <p>
                         Wired Option Only: 25’ ft. green extension cord and
@@ -1075,8 +1598,8 @@ const Comparison = () => {
                 </div>
                 <div className="pt-16">
                   <h1 className="text-31 pb-5">Professional Installation</h1>
-                  <hr />
-                  <div className="xl:flex xl:space-x-32 pt-5">
+                  <hr class="border-gray-500" />
+                  <div className="comparison-col lg:flex lg:space-x-16 xl:space-x-32 pt-5">
                     <div className="font-extralight text-23">
                       <p>
                         Comes with wireless and wired options: professional and
