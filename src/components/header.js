@@ -267,6 +267,12 @@ const Header = ({ siteTitle }) => {
                       className="ml-2 h-2 transition-transform transform group-hover:rotate-180 duration-300"
                     />
                     <div className="bg-black absolute left-1/2 bottom-0 transform -translate-x-1/2 translate-y-full z-10 flex-col pt-6 pb-2 hidden group-hover:flex whitespace-no-wrap">
+                    <Link
+                        to="/october-10-sun-journal-news-article"
+                        className="py-2 px-4 hover:text-orange-500"
+                      >
+                        Oct 11 2021 News Article
+                      </Link>
                       <Link
                         to="/august-28-press-release"
                         className="py-2 px-4 hover:text-orange-500"

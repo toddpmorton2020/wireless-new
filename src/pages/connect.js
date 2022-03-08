@@ -259,7 +259,10 @@ function Connect() {
               <span to="#">Connect</span>
             </div>
             <div className="md:hidden h-64 w-full full-bleed-mobile max-h-screen relative mt-6 mb-6">
-              <img className="w-full h-full object-cover object-top" src={connectImage} />
+              <img
+                className="w-full h-full object-cover object-top"
+                src={connectImage}
+              />
             </div>
             <div className="mt-8 xl:px-6">
               <h1 className="text-orange-500 privacy-heading text-5xl leading-none relative">
@@ -479,7 +482,7 @@ function Connect() {
         </div>
         <div className="mt-12">
           <MyMapComponent
-            googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyDKtd3gOKI5PKRIuKxuBLt7lIEepZKoP6s&v=3.exp&libraries=geometry,drawing,places"
+            googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyC3JtmXYkylvqwlYq43BFLXVRxds3fyFHM&v=3.exp&libraries=geometry,drawing,places"
             loadingElement={<div style={{ height: `100%` }} />}
             containerElement={<div style={{ height: `400px` }} />}
             mapElement={<div style={{ height: `100%` }} />}

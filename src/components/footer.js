@@ -392,7 +392,7 @@ function Footer() {
 
         <div className="text-left lg:text-center text-sm mt-2 lg:mt-6 py-3 px-6 lg:px-0 lg:py-0 border-t border-gray-800 lg:border-none">
           <div className="flex items-center lg:justify-center lg:mb-2">
-            &copy;2021 The Wireless Outdoor Cinema Company. All Rights Reserved.{" "}
+            &copy;2020-{new Date().getFullYear()} The Wireless Outdoor Cinema Company. All Rights Reserved.{" "}
             <span className="hidden lg:inline">
               <Link className="ml-1" to="/terms">
                 Terms of Use

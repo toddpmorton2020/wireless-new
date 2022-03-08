@@ -9,7 +9,7 @@ import frameMobile from "../images/outdoor-movie-theater-frame.jpg"
 import standMobile from "../images/outdoor-movie-projector-stand.jpg"
 import signatureWhite from "../images/signature_white.png"
 import signatureBlack from "../images/signature_black.png"
-
+import founderImage from "../images/todd-morton-founder.png"
 import "../css/about.css"
 
 function About() {
@@ -38,10 +38,9 @@ function About() {
       </div>
       {/* </div> */}
       <div className="container max-w-4xl mx-auto xl:pt-4">
-        <img src="/first.png" alt="" className="w-full" />
+        <img src={founderImage} alt="" className="w-full" />
         <p className="image-text-color image-text-press-1 text-sm pt-3 ml-2">
-          Todd Morton, founder of the Wireless Outdoor Cinema Company fishing on
-          Woods Pond in Bridgton, ME.
+        Todd Morton, founder of the Wireless Outdoor Cinema Company.
         </p>
       </div>
       <div className="container max-w-4xl mx-auto mobile-padding">
@@ -50,67 +49,31 @@ function About() {
             Welcome! Thank you for stopping by – I appreciate your interest in
             learning more about me and my Wireless Outdoor Cinema business.
           </p>
+
+          <h2 className="sm:mb-4 xl:mb-3 text-2xl font-bold product-title">
+          My background
+          </h2>
           <p className="mb-4 ml-2">
-            I’m originally from Vermont, and growing up; I split my time between
-            Vermont and Maine. My childhood memories are filled with
-            unforgettable times spent with my family and friends outdoors –
-            exploring in the woods, observing wildlife, swimming, fishing,
-            hiking, and camping outside.
+          I’m originally from Vermont, and growing up; I split my time between Vermont and Maine.
           </p>
           <p className="mb-4 ml-2">
-            When I was young, I started learning about the construction trade
-            watching my grandfather and father do miscellaneous projects and
-            repairs around our house and at the summer camp in Bridgton, Maine.
-            Watching my Dad and Grandfather build and fix things piqued my
-            interest, and my Dad started to teach me the basics. By the time I
-            was a teen, I was building waterfront dock systems, decks and
-            repairing things for neighbors and friends.
-          </p>
-          <p className="text-2xl font-bold mb-2 ml-2">
-            Learning from the best
+          When I was young and going through school, I learned all about the construction trade working for my neighbors who were home builders.
           </p>
           <p className="mb-4 ml-2">
-            In high school, I had a great Woodshop Teacher named David Tieff – a
-            master woodcarver and woodworker. I was inspired by his work and
-            took every available woodshop class he offered. Mr. Tieff taught me
-            how to build furniture, wood carve, and use every type of
-            woodworking power tool and machine available in a state-of-art
-            woodshop. I remember always dreaming of having my own woodshop
-            someday. After high school, I worked for various home builders and
-            quickly learned the building trade. I even helped build a couple of
-            log homes, one of which I built with my family and now live in it
-            full-time in beautiful Bridgton, Maine.
+          I took business and marketing courses at Champlain College in Burlington, Vermont, to help expand my business knowledge. After college, I self-taught myself all about the emerging internet in the mid-90s and built my first website, while starting to learn about search engine optimization and how to get websites found online. 
+          </p>
+          <p className="mb-4 ml-2">
+          Then I moved into the Internet Marketing field and had the opportunity to work for some well-known high technology companies such as Lycos – the internet search company (remember the Black Lab?) and Dragon Software (the voice-to-text software), a division of Nuance Communications – now owned by Microsoft.
+          </p>
+          <p className="mb-4 ml-2">
+          After 25 years of working in the Internet Marketing field, my desire to build and create things frequently occupied my thoughts. I decided to take time off from the corporate world and strategized on my next career move. I knew I wanted to work for myself and be outside in nature versus being tethered to a desk in an unhealthy corporate environment.
           </p>
           <div className="xl:pt-4">
             <img src="/second.png" alt="" className="w-full" />
             <p className="image-text-color image-text-press-1 text-sm pt-3 ml-2">
-              Todd Morton preparing cuts on a table saw at his property in
-              Bridgton, ME.
+            Todd Morton, owner of the Wireless Outdoor Cinema Company preparing cuts on table saw at his property in Bridgton, ME.
             </p>
           </div>
-          <p className="text-2xl font-bold mb-2 mt-6 ml-2">
-            My professional career
-          </p>
-          <p className="mb-4 ml-2">
-            At age 23, I took business and marketing courses at Champlain
-            College in Burlington, Vermont, to help expand my business knowledge.
-            After college, I self-taught myself all about the emerging internet
-            and built my first website, while starting to learn about search engine optimization and how to get websites found online. I then moved into
-            the Internet Marketing field and had the opportunity to work for
-            some well-known high technology companies such as Lycos – the
-            internet search company (remember the Black Lab?) and Dragon
-            Software (the voice-to-text software), a division of Nuance
-            Communications – now owned by Microsoft.
-          </p>
-          {/* <p className="xl:text-2xl font-bold mb-2 ml-2">The Outdoor Movie Theater idea</p> */}
-          <p className="ml-2">
-            After 25 years of working in the Internet Marketing field, my desire
-            to return to my roots frequently occupied my thoughts. I decided to
-            take time off from the corporate world and strategized on my next
-            career move. I knew I wanted to work for myself and be outside in
-            nature versus being tethered to a desk in an unhealthy corporate
-            environment.
-          </p>
         </div>
       </div>
       <div className="quote-box mt-8 sm:mt-16 quote-background mobile">
@@ -135,8 +98,7 @@ function About() {
       <div className="container max-w-4xl mx-auto mobile-padding">
         <div className="mt-6 ml-2">
           <h2 className="sm:mb-4 xl:mb-3 text-2xl font-bold product-title">
-            The Outdoor Movie Theater{" "}
-            <span className="solution-orange">idea</span>
+          The Outdoor Cinema Solution
           </h2>
           <p className="mb-4">
             My entrepreneurial wheels started to turn. I wanted to set up an

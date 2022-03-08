@@ -25,11 +25,13 @@ import jediDesktop from "../images/jedidesktop.png"
 import bearDesktop from "../images/beardesktop.png"
 import mooseDesktop from "../images/moosedesktop.png"
 import newBanner from "../images/new-banner-desktop.png"
+import winterBanner from "../images/winter-banner.jpg"
+import mobileWinterBanner from "../images/mobile-winter-banner.png"
 import originalStamp from "../images/Original-Stamp.png"
 import Feature1 from "../images/Feature 1.png"
 import Feature2 from "../images/Feature 2.png"
 import Feature3 from "../images/Feature 3.png"
-import Feature4 from "../images/Feature 4.png"
+import Feature4 from "../images/winter-outdoor-cinema-350px-x-275px.jpg"
 import signature from "../images/Signature.png"
 import CinemaFrame from "../images/Cinema Frame.png"
 import ProjectorStand from "../images/Projector Stand.png"
@@ -43,6 +45,8 @@ import Frame from "../images/completefeatures/Frame.png"
 import Projectornew from "../images/completefeatures/Projector.png"
 import ProjectorStandnew from "../images/completefeatures/Projector Stand.png"
 import Roku2 from "../images/completefeatures/Roku2.png"
+import BehringerMixer from "../images/behringer-3-ch-mixer-290px-x-220px.jpg"
+import CandleLantern from "../images/black-latern-290px-x-220px.jpg"
 import ScreenandFrame from "../images/completefeatures/Screen and Frame.png"
 import SoundbarSpeakers from "../images/completefeatures/Soundbar Speaker.png"
 import WiredSpeakers from "../images/completefeatures/Wired Speakers.png"
@@ -263,6 +267,9 @@ const IndexPage = ({ location }) => {
                 )
               }
             >
+              <div className="banner">
+                <img src={mobileWinterBanner} />
+              </div>
               <div className="responsive-video">
                 <video
                   playsInline={true}
@@ -293,8 +300,8 @@ const IndexPage = ({ location }) => {
 
           <div className="container mx-auto pb-6">
             <h1 className="text-2xl leading-tight text-white font-500">
-              Get an Outdoor <br />
-              <span className=" text-orange-500">Movie Theater</span>
+              Turn your Backyard <br />
+              <span className=" text-orange-500">into a Movie Theater</span>
             </h1>
             <h2 className="text-white text-lg mt-2 leading-tight">
               Who doesn’t enjoy a great movie? This year turn your backyard into
@@ -460,16 +467,18 @@ const IndexPage = ({ location }) => {
               </div>
             </div>
           </div>
-          
-          {<QuoteMobile className="container mx-auto py-4">
-            <h2 className="text-lg leading-tight text-white text-center">
-              “My Wireless Timberline Outdoor Cinemas take less time to set up
-              and start watching than it does to pop a bag of popcorn.”
-            </h2>
-            <div className="signature mt-4">
-              <img src={signature} alt="signature todd morton" />
-            </div>
-          </QuoteMobile> }
+
+          {
+            <QuoteMobile className="container mx-auto py-4">
+              <h2 className="text-lg leading-tight text-white text-center">
+                “My Wireless Timberline Outdoor Cinemas take less time to set up
+                and start watching than it does to pop a bag of popcorn.”
+              </h2>
+              <div className="signature mt-4">
+                <img src={signature} alt="signature todd morton" />
+              </div>
+            </QuoteMobile>
+          }
 
           <div className="container bg-white mx-auto pt-6 pb-8">
             <h1 className="text-2xl leading-tight font-500-small">
@@ -737,7 +746,11 @@ const IndexPage = ({ location }) => {
                   style={{ ...arrowStyles, right: 15, top: "50%" }}
                   className="focus:outline-none w-18 lg:w-auto"
                 >
-                  <AiOutlineRight color={"#ffffff"} size={ICON_SIZE} className="max-w-full" />
+                  <AiOutlineRight
+                    color={"#ffffff"}
+                    size={ICON_SIZE}
+                    className="max-w-full"
+                  />
                 </div>
               )
             }
@@ -750,11 +763,39 @@ const IndexPage = ({ location }) => {
                   style={{ ...arrowStyles, left: 15, top: "50%" }}
                   className="focus:outline-none w-18 lg:w-auto"
                 >
-                  <AiOutlineLeft color={"#ffffff"} size={ICON_SIZE} className="max-w-full" />
+                  <AiOutlineLeft
+                    color={"#ffffff"}
+                    size={ICON_SIZE}
+                    className="max-w-full"
+                  />
                 </button>
               )
             }
           >
+            <div
+              className="w-full h-full relative bg-cover bg-bottom hidden sm:flex pt-32"
+              style={{
+                backgroundImage: `url("${winterBanner}")`,
+                backgroundPosition: "center",
+                backgroundSize: "cover",
+              }}
+            >
+              <div className=" ">
+                <div className="w-full relative block">
+                  <div className="absolute bg-black opacity-50 w-full h-full" />
+                  <div className="header-align-text ml-20 lg:ml-40">
+                    <div className="pr-16 py-6">
+                      <h1 className="text-white top-banner-heading leading-home font-normal  relative">
+                        Enjoy movies
+                      </h1>
+                      <h1 className="text-orange-500 top-banner-heading ml-2 leading-home font-normal  relative">
+                        even in winter
+                      </h1>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div className="responsive-video">
               <video
                 playsInline={true}
@@ -781,7 +822,11 @@ const IndexPage = ({ location }) => {
             </div>
             <div
               className="w-full h-full relative bg-cover bg-bottom hidden sm:flex pt-32"
-              style={{ backgroundImage: `url("${newBanner}")`, backgroundPosition: 'center', backgroundSize: 'cover' }}
+              style={{
+                backgroundImage: `url("${newBanner}")`,
+                backgroundPosition: "center",
+                backgroundSize: "cover",
+              }}
             >
               <div>
                 <div
@@ -790,19 +835,15 @@ const IndexPage = ({ location }) => {
                 ></div>
               </div>
               <div className=" ">
-                <div
-                  className="w-full relative block"
-                >
-                  <div
-                    className="absolute bg-black opacity-50 w-full h-full"
-                  />
+                <div className="w-full relative block">
+                  <div className="absolute bg-black opacity-50 w-full h-full" />
                   <div className="header-align-text ml-20 lg:ml-40">
-                    <div className="pr-16 lg:pr-40 py-6">
-                      <h1 className="text-white top-banner-heading leading-home ml-2 font-normal  relative">
-                        Get an Outdoor
+                    <div className="pr-16 py-6">
+                      <h1 className="text-white top-banner-heading mr-2 leading-home font-normal  relative">
+                        Turn your Backyard
                       </h1>
-                      <h1 className="text-orange-500 top-banner-heading mr-4 leading-home font-normal  relative">
-                        Movie Theater
+                      <h1 className="text-orange-500 top-banner-heading ml-6 leading-home font-normal  relative">
+                        into a Movie Theater
                       </h1>
                     </div>
                   </div>
@@ -861,9 +902,7 @@ const IndexPage = ({ location }) => {
           <div class="full-width">
             <div className="">
               <Gray className=" ">
-                <Introduction
-                  className="container mx-auto max-w-6xl"
-                >
+                <Introduction className="container mx-auto max-w-6xl">
                   <h2 className="font-normal">
                     <span className="font-normal">
                       Introducing the{" "}
@@ -1128,9 +1167,7 @@ const IndexPage = ({ location }) => {
                       <div className="px-6 mb-8 mx-auto text-center">
                         <img src={newBobcat} className="inline-block" />
                       </div>
-                      <div
-                        className="text flex flex-col items-center"
-                      >
+                      <div className="text flex flex-col items-center">
                         <div class="text-center leading-tight">
                           <h3 className="text-orange-500 text-4xl lg:text-3xl">
                             96” Jedi Bobcat
@@ -1138,10 +1175,7 @@ const IndexPage = ({ location }) => {
                           <h3 className="text-4xl lg:text-3xl">
                             Outdoor Gaming{" "}
                           </h3>
-                          <h3 className="text-4xl lg:text-3xl pb-2">
-                            {" "}
-                            Cinema
-                          </h3>
+                          <h3 className="text-4xl lg:text-3xl pb-2"> Cinema</h3>
                         </div>
                         <p className="text-center pt-7.5 lg:text-xl mt-5 px-4">
                           Get the only outdoor gaming cinema available on the
@@ -1159,7 +1193,10 @@ const IndexPage = ({ location }) => {
                           to="/timberline-cinema-packages/96-jedi-bobcat-cinema"
                         >
                           <p className="text-center text-orange-500 lg:text-lg max-w-sm lg:max-w-full">
-                            Learn more about the<br class="block lg:hidden" /> 96”<br class="hidden lg:block" /> Jedi Bobcat Outdoor<br class="hidden lg:block" /> Gaming Cinema.
+                            Learn more about the
+                            <br class="block lg:hidden" /> 96”
+                            <br class="hidden lg:block" /> Jedi Bobcat Outdoor
+                            <br class="hidden lg:block" /> Gaming Cinema.
                           </p>
                         </Link>
 
@@ -1176,9 +1213,7 @@ const IndexPage = ({ location }) => {
                       <div className="px-6 mb-8 mx-auto text-center">
                         <img src={BearBanner} className="inline-block" />
                       </div>
-                      <div
-                        className="text flex flex-col items-center"
-                      >
+                      <div className="text flex flex-col items-center">
                         <div className="text-center leading-tight">
                           <h3 className="text-purple-1000 text-4xl lg:text-3xl">
                             120” Bella Bear
@@ -1186,9 +1221,7 @@ const IndexPage = ({ location }) => {
                           <h3 className="text-4xl lg:text-3xl">
                             Backyard Outdoor
                           </h3>
-                          <h3 className="text-4xl lg:text-3xl pb-2">
-                            Cinema
-                          </h3>
+                          <h3 className="text-4xl lg:text-3xl pb-2">Cinema</h3>
                         </div>
                         <p className="text-center pt-7.5 lg:text-xl mt-5 px-4">
                           Get the most popular outdoor cinema package.Perfect
@@ -1208,7 +1241,10 @@ const IndexPage = ({ location }) => {
                             to="/timberline-cinema-packages/120-bella-bear-cinema/"
                           >
                             {" "}
-                            Learn more about the<br class="block lg:hidden" /> 120”<br class="hidden lg:block" /> Bella Bear Backyard<br class="hidden lg:block" /> Outdoor Cinema.
+                            Learn more about the
+                            <br class="block lg:hidden" /> 120”
+                            <br class="hidden lg:block" /> Bella Bear Backyard
+                            <br class="hidden lg:block" /> Outdoor Cinema.
                           </Link>
                         </p>
                         <hr className="bg-#E0E0E0 hr-grid max-w-full my-2 mx-auto"></hr>
@@ -1224,9 +1260,7 @@ const IndexPage = ({ location }) => {
                       <div className="px-6 mb-8 mx-auto text-center">
                         <img src={MooseBanner} className="inline-block" />
                       </div>
-                      <div
-                        className="text flex flex-col items-center"
-                      >
+                      <div className="text flex flex-col items-center">
                         <div className="text-center leading-tight">
                           <h3 className="text-orange-500 text-4xl lg:text-3xl">
                             150” Big Moose
@@ -1234,10 +1268,7 @@ const IndexPage = ({ location }) => {
                           <h3 className="text-4xl lg:text-3xl">
                             Premium Outdoor{" "}
                           </h3>
-                          <h3 className="text-4xl lg:text-3xl pb-2">
-                            {" "}
-                            Cinema
-                          </h3>
+                          <h3 className="text-4xl lg:text-3xl pb-2"> Cinema</h3>
                         </div>
                         <p className="text-center pt-7.5 lg:text-xl mt-5 px-4">
                           Get out of the way forest creatures and two-legged
@@ -1256,7 +1287,10 @@ const IndexPage = ({ location }) => {
                           to="/timberline-cinema-packages/150-big-moose-cinema"
                         >
                           <p className="text-center text-orange-500 lg:text-lg max-w-sm lg:max-w-full">
-                            Learn more about the<br class="block lg:hidden" /> 150”<br class="hidden lg:block" /> Big Moose Premium<br class="hidden lg:block" /> Outdoor Cinema.
+                            Learn more about the
+                            <br class="block lg:hidden" /> 150”
+                            <br class="hidden lg:block" /> Big Moose Premium
+                            <br class="hidden lg:block" /> Outdoor Cinema.
                           </p>
                         </Link>
 
@@ -1370,15 +1404,15 @@ const IndexPage = ({ location }) => {
                     </div>
                     <div className="w-1/3 lg:w-1/5 px-3 mb-5">
                       <div className="bg-image">
-                        <img src={Roku2} />
+                        <img src={BehringerMixer} />
                       </div>
                       <div className="text">
                         <h3 className="text-2xl leading-tight font-medium my-3 text-center ">
-                          Roku Express
+                          Behringer Mixer
                         </h3>
                         <p className="text-center lg:text-lg pd-grid-smaller">
-                          Roku Express 4k Player with voice control to access
-                          movies and shows
+                          Connects to the projector and powers the Dual PA
+                          Outdoor Speakers for wired cinema packages
                         </p>
                       </div>
                     </div>
@@ -1398,29 +1432,29 @@ const IndexPage = ({ location }) => {
                     </div>
                     <div className="w-1/3 lg:w-1/5 px-3 mb-5">
                       <div className="bg-image">
-                        <img src={DigitalTransmitter} />
+                        <img src={Roku2} />
                       </div>
                       <div className="text">
                         <h3 className="text-2xl leading-tight font-medium my-3 text-center ">
-                          FM Transmitter
+                          Roku Express
                         </h3>
                         <p className="text-center lg:text-lg pd-grid-smaller">
-                          Rolls FM Digital Transmitter to power speakers for
-                          wired cinema packages
+                          Roku Express 4k Player with voice control to access
+                          movies and shows
                         </p>
                       </div>
                     </div>
                     <div className="w-1/3 lg:w-1/5 px-3 mb-5">
                       <div className="bg-image">
-                        <img src={DigitalTuner} />
+                        <img src={CandleLantern} />
                       </div>
                       <div className="text">
                         <h3 className="text-2xl leading-tight font-medium my-3 text-center ">
-                          Digital Tuner
+                          Candle Lantern
                         </h3>
                         <p className="text-center lg:text-lg pd-grid-smaller">
-                          Rolls FM Digital Truner to power speakers for wired
-                          cinema packages
+                          Provides a soft amber glow while watching movies
+                          outside and adds charm to the cinema
                         </p>
                       </div>
                     </div>

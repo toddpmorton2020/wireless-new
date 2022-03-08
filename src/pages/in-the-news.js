@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import "../css/responsive.css"
 import "../css/index.css"
+import sunArticleThumbnail from "../images/in-the-news-main-lp-todd.png"
 
 function InTheNews() {
   return (
@@ -36,6 +37,22 @@ function InTheNews() {
               <div className="w-7/12 pr-12 block">
                 <div
                   className="cursor-pointer frame-width"
+                  onClick={() =>
+                    navigate("/october-10-sun-journal-news-article")
+                  }
+                  aria-hidden="true"
+                >
+                  <img src={sunArticleThumbnail} alt="" width="540px" />
+                  <div className="bg-white pt-5 px-5 cursor-pointer rounded-b-lg">
+                    <p className="text-gray-600">News Article</p>
+                    <p className="text-xl leading-tight pt-5 font-bold">
+                      Film buff's inspiration inspires backyard theater business
+                    </p>
+                    <p className="text-gray-600 pt-5 pb-5">October 10, 2021</p>
+                  </div>
+                </div>
+                <div
+                  className="pt-10 cursor-pointer frame-width"
                   onClick={() => navigate("/august-28-press-release")}
                   aria-hidden="true"
                 >
@@ -265,7 +282,11 @@ function InTheNews() {
                 to="/september-10-press-release"
                 className="pt-10 cursor-pointer sm:w-35 w-full"
               >
-                <img src="/10-sept.png" alt="" className="news-image-link w-full" />
+                <img
+                  src="/10-sept.png"
+                  alt=""
+                  className="news-image-link w-full"
+                />
                 <div className="bg-white pt-5 px-3 cursor-pointer rounded-b-lg">
                   <p className="text-gray-600 text-sm font-semibold">
                     PRESS RELEASE
