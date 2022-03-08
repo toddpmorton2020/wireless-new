@@ -241,7 +241,8 @@ const IndexPage = ({ location }) => {
               showThumbs={false}
               interval={10000000}
               renderArrowNext={(onClickHandler, hasNext, label) =>
-                playFlag2 && (
+                playFlag2 &&
+                hasNext && (
                   <button
                     type="button"
                     onClick={onClickHandler}
@@ -254,7 +255,8 @@ const IndexPage = ({ location }) => {
                 )
               }
               renderArrowPrev={(onClickHandler, hasPrev, label) =>
-                playFlag2 && (
+                playFlag2 &&
+                hasPrev && (
                   <button
                     type="button"
                     onClick={onClickHandler}
@@ -739,7 +741,8 @@ const IndexPage = ({ location }) => {
             showThumbs={false}
             interval={10000000}
             renderArrowNext={(onClickHandler, hasNext, label) =>
-              playFlag && (
+              playFlag &&
+              hasNext && (
                 <div
                   onClick={onClickHandler}
                   title={label}
@@ -755,7 +758,8 @@ const IndexPage = ({ location }) => {
               )
             }
             renderArrowPrev={(onClickHandler, hasPrev, label) =>
-              playFlag && (
+              playFlag &&
+              hasPrev && (
                 <button
                   type="button"
                   onClick={onClickHandler}
