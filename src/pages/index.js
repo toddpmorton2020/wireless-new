@@ -274,7 +274,7 @@ const IndexPage = ({ location }) => {
               <div className="banner">
                 <img src={mobileWinterBanner} />
               </div>
-              <div className="responsive-video">
+              <div className="responsive-video h-full">
                 <video
                   playsInline={true}
                   id="mobile_vid"
