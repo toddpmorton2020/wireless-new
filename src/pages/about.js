@@ -40,7 +40,7 @@ function About() {
       <div className="container max-w-4xl mx-auto xl:pt-4">
         <img src={founderImage} alt="" className="w-full" />
         <p className="image-text-color image-text-press-1 text-sm pt-3 ml-2">
-        Todd Morton, founder of the Wireless Outdoor Cinema Company.
+          Todd Morton, founder of the Wireless Outdoor Cinema Company.
         </p>
       </div>
       <div className="container max-w-4xl mx-auto mobile-padding">
@@ -50,28 +50,42 @@ function About() {
             learning more about me and my Wireless Outdoor Cinema business.
           </p>
 
-          <h2 className="sm:mb-4 xl:mb-3 text-2xl font-bold product-title">
-          My background
-          </h2>
+          <h2 className="text-2xl font-bold mb-2 ml-2">My background</h2>
           <p className="mb-4 ml-2">
-          I’m originally from Vermont, and growing up; I split my time between Vermont and Maine.
+            I’m originally from Vermont, and growing up; I split my time between
+            Vermont and Maine.
           </p>
           <p className="mb-4 ml-2">
-          When I was young and going through school, I learned all about the construction trade working for my neighbors who were home builders.
+            When I was young and going through school, I learned all about the
+            construction trade working for my neighbors who were home builders.
           </p>
           <p className="mb-4 ml-2">
-          I took business and marketing courses at Champlain College in Burlington, Vermont, to help expand my business knowledge. After college, I self-taught myself all about the emerging internet in the mid-90s and built my first website, while starting to learn about search engine optimization and how to get websites found online. 
+            I took business and marketing courses at Champlain College in
+            Burlington, Vermont, to help expand my business knowledge. After
+            college, I self-taught myself all about the emerging internet in the
+            mid-90s and built my first website, while starting to learn about
+            search engine optimization and how to get websites found online.
           </p>
           <p className="mb-4 ml-2">
-          Then I moved into the Internet Marketing field and had the opportunity to work for some well-known high technology companies such as Lycos – the internet search company (remember the Black Lab?) and Dragon Software (the voice-to-text software), a division of Nuance Communications – now owned by Microsoft.
+            Then I moved into the Internet Marketing field and had the
+            opportunity to work for some well-known high technology companies
+            such as Lycos – the internet search company (remember the Black
+            Lab?) and Dragon Software (the voice-to-text software), a division
+            of Nuance Communications – now owned by Microsoft.
           </p>
           <p className="mb-4 ml-2">
-          After 25 years of working in the Internet Marketing field, my desire to build and create things frequently occupied my thoughts. I decided to take time off from the corporate world and strategized on my next career move. I knew I wanted to work for myself and be outside in nature versus being tethered to a desk in an unhealthy corporate environment.
+            After 25 years of working in the Internet Marketing field, my desire
+            to build and create things frequently occupied my thoughts. I
+            decided to take time off from the corporate world and strategized on
+            my next career move. I knew I wanted to work for myself and be
+            outside in nature versus being tethered to a desk in an unhealthy
+            corporate environment.
           </p>
           <div className="xl:pt-4">
             <img src="/second.png" alt="" className="w-full" />
             <p className="image-text-color image-text-press-1 text-sm pt-3 ml-2">
-            Todd Morton, owner of the Wireless Outdoor Cinema Company preparing cuts on table saw at his property in Bridgton, ME.
+              Todd Morton, owner of the Wireless Outdoor Cinema Company
+              preparing cuts on table saw at his property in Bridgton, ME.
             </p>
           </div>
         </div>
@@ -97,20 +111,20 @@ function About() {
       </div>
       <div className="container max-w-4xl mx-auto mobile-padding">
         <div className="mt-6 ml-2">
-          <h2 className="sm:mb-4 xl:mb-3 text-2xl font-bold product-title">
-          The Outdoor Cinema Solution
+          <h2 className="text-2xl font-bold mb-2">
+            The Outdoor Cinema Solution
           </h2>
           <p className="mb-4">
             My entrepreneurial wheels started to turn. I wanted to set up an
-            outdoor movie theater in my backyard for years and started researching
-            online companies that provided outdoor cinemas. Unfortunately, the
-            companies I found online only sold inflatable air screen cinemas and
-            wanted a better solution that was easy to set up and start watching
-            without a lengthy setup. I spent two years researching and testing
-            different outdoor cinema equipment and fine-tuning my outdoor movie
-            theater solution. Finally, I developed a simple to use, high-quality
-            outdoor movie theater that could be used year-round – even in the
-            cold winter months.
+            outdoor movie theater in my backyard for years and started
+            researching online companies that provided outdoor cinemas.
+            Unfortunately, the companies I found online only sold inflatable air
+            screen cinemas and wanted a better solution that was easy to set up
+            and start watching without a lengthy setup. I spent two years
+            researching and testing different outdoor cinema equipment and
+            fine-tuning my outdoor movie theater solution. Finally, I developed
+            a simple to use, high-quality outdoor movie theater that could be
+            used year-round – even in the cold winter months.
           </p>
           <p className="mb-4">
             I created a weather-resistant movie screen frame built from
