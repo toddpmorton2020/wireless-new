@@ -804,7 +804,7 @@ const IndexPage = ({ location }) => {
                 </div>
               </div>
             </div>
-            <div className="responsive-video">
+            <div className="responsive-video relative">
               <video
                 playsInline={true}
                 id="desktop_vid"
@@ -817,7 +817,19 @@ const IndexPage = ({ location }) => {
               >
                 <source src="/homePageVideo.mp4#t=0.1" type="video/mp4" />
               </video>
-
+              <div className="absolute right-0 vid-overlay-position">
+                <div className="absolute bg-black opacity-50 w-full h-full" />
+                <div className="header-align-text ml-10 mr-5">
+                  <div className="pr-16 py-6">
+                    <h1 className="text-white top-banner-heading leading-home font-normal ml-4 relative">
+                      Premium Wireless
+                    </h1>
+                    <h1 className="text-orange-500 top-banner-heading leading-home font-normal  relative">
+                      Outdoor Cinemas
+                    </h1>
+                  </div>
+                </div>
+              </div>
               {playFlag && (
                 <div style={{ ...startBtn, top: "50%" }}>
                   <AiFillPlayCircle

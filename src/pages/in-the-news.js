@@ -70,25 +70,6 @@ function InTheNews() {
                     <p className="text-gray-600 pt-5 pb-5">August 28, 2021</p>
                   </div>
                 </div>
-                <div
-                  className="pt-10 cursor-pointer frame-width"
-                  onClick={() => navigate("/june-30-press-release")}
-                  aria-hidden="true"
-                >
-                  <img
-                    src="/in-the-news-projector-stand-main.png"
-                    alt=""
-                    width="540px"
-                  />
-                  <div className="bg-white pt-5 px-5 cursor-pointer rounded-b-lg">
-                    <p className="text-gray-600">Press Release</p>
-                    <p className="text-xl leading-tight pt-5 font-bold">
-                      Wireless Outdoor Cinema Company brings to market the first
-                      Outdoor Cinema Projector Stand
-                    </p>
-                    <p className="text-gray-600 pt-5 pb-5">June 30, 2021</p>
-                  </div>
-                </div>
               </div>
               <div className="flex-1 md:pl-12 md:border-l border-gray-400">
                 <h1 className="news-archive-heading leading-none font-medium">

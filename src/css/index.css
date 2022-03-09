@@ -8,6 +8,9 @@
 .comparison-col > * {
   width: 33.333%;
 }
+.vid-overlay-position {
+  top: 7%;
+}
 @media (min-width: 640px) {
   .press-release-padding {
     max-width: 600px;
@@ -35,7 +38,6 @@
   }
 }
 @media (min-width: 1280px) {
-  
   .breadcrums-margin {
     padding-left: 28px !important;
   }
@@ -70,7 +72,7 @@
   }
   .privacy-margin-subHeading {
     margin-left: 215px;
-  }  
+  }
 }
 
 .orange-input::-webkit-input-placeholder {
@@ -149,7 +151,6 @@
   }
 }
 @media (max-width: 1023px) {
-  
   .comparison-btn {
     padding-left: 7.5rem;
     padding-right: 7.5rem;
@@ -330,6 +331,9 @@ b {
 @media (min-width: 1024px) {
   .h-img-height {
     height: 20rem;
+  }
+  .vid-overlay-position {
+    top: 25%;
   }
 }
 
