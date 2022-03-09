@@ -235,6 +235,8 @@ const IndexPage = ({ location }) => {
           </div>
           <div className="text-center py-3 bg-cover bg-center title-container mobile">
             <Carousel
+              preventMovementUntilSwipeScrollTolerance
+              swipeScrollTolerance={150}
               showArrows={true}
               showStatus={false}
               showIndicators={false}
@@ -734,6 +736,8 @@ const IndexPage = ({ location }) => {
         {/* ----------Desktop code----------------- */}
         <DesktopContainer className="">
           <Carousel
+            preventMovementUntilSwipeScrollTolerance
+            swipeScrollTolerance={150}
             className="homepage-carousel full-width"
             showArrows={true}
             showStatus={false}
