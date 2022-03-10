@@ -6,6 +6,7 @@ import SEO from "../components/seo"
 import "../css/responsive.css"
 import "../css/index.css"
 import sunArticleThumbnail from "../images/in-the-news-main-lp-todd.png"
+import sunArticleMobileThumbnail from "../images/todd-morton-mobile-lp.png"
 
 function InTheNews() {
   return (
@@ -215,8 +216,27 @@ function InTheNews() {
             </div>
             <div className="mt-8 flex flex-col items-center md:hidden">
               <Link
-                to="/august-28-press-release"
+                to="/october-10-sun-journal-news-article"
                 className="cursor-pointer sm:w-35 w-full"
+              >
+                <img
+                  src={sunArticleMobileThumbnail}
+                  alt=""
+                  className="w-full"
+                />
+                <div className="bg-white pt-5 px-3 cursor-pointer rounded-b-lg">
+                  <p className="text-gray-600 text-sm font-semibold">
+                    NEWS ARTICLE
+                  </p>
+                  <p className="text-xl font-semibold leading-tight pt-1">
+                    Film buff's inspiration inspires backyard theater business
+                  </p>
+                  <p className="text-gray-600 pt-1 pb-3">October 10, 2021</p>
+                </div>
+              </Link>
+              <Link
+                to="/august-28-press-release"
+                className="pt-10 cursor-pointer sm:w-35 w-full"
               >
                 <img src="/28-aug" alt="" className="w-full" />
                 <div className="bg-white pt-5 px-3 cursor-pointer rounded-b-lg">

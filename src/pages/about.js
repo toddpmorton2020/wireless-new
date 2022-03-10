@@ -50,7 +50,7 @@ function About() {
             learning more about me and my Wireless Outdoor Cinema business.
           </p>
 
-          <h2 className="text-2xl font-bold mb-2 ml-2">My background</h2>
+          <h2 className="text-2xl font-bold mb-2 ml-2">My Background</h2>
           <p className="mb-4 ml-2">
             I’m originally from Vermont, and growing up; I split my time between
             Vermont and Maine.
@@ -111,7 +111,7 @@ function About() {
       </div>
       <div className="container max-w-4xl mx-auto mobile-padding">
         <div className="mt-6 ml-2">
-          <h2 className="text-2xl font-bold mb-2">
+          <h2 className="text-2xl font-bold mb-2 leading-7">
             The Outdoor Cinema Solution
           </h2>
           <p className="mb-4">

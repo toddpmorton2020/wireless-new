@@ -455,7 +455,7 @@ const IndexPage = ({ location }) => {
                 </div>
                 <div className="">
                   <div class="-mx-6">
-                    <img src={featureMobileView4} className="block w-full" />
+                    <img src={Feature4} className="block w-full" />
                   </div>
                   <div className="leading-tight">
                     <h2 className="text-2xl font-500-small my-3 leading-tight">
