@@ -2,6 +2,9 @@ import React, { useState, useEffect } from "react"
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import { globalHistory } from "@reach/router"
+import facebookOrange from "../images/facebookorange.png"
+import linkedinOrange from "../images/linkedinorange.png"
+import cellOrange from "../images/cellorange.png"
 
 const Header = ({ siteTitle }) => {
   const [open, setOpen] = useState(false)
@@ -152,10 +155,7 @@ const Header = ({ siteTitle }) => {
         <div className="">
           <div className="">
             <div className=" mx-auto lg:container flex items-center justify-between uppercase text-sm text-white relative">
-              <Link
-                to="/"
-                className="cursor-pointer"
-              >
+              <Link to="/" className="cursor-pointer">
                 <img src={`/cinemalogo.png`} className="h-8 lg:h-12" />
               </Link>
               <div
@@ -267,7 +267,7 @@ const Header = ({ siteTitle }) => {
                       className="ml-2 h-2 transition-transform transform group-hover:rotate-180 duration-300"
                     />
                     <div className="bg-black absolute left-1/2 bottom-0 transform -translate-x-1/2 translate-y-full z-10 flex-col pt-6 pb-2 hidden group-hover:flex whitespace-no-wrap">
-                    <Link
+                      <Link
                         to="/october-10-sun-journal-news-article"
                         className="py-2 px-4 hover:text-orange-500"
                       >
@@ -341,10 +341,7 @@ const Header = ({ siteTitle }) => {
                 <span className="block py-3 px-6">About</span>
               </Link>
               <div class="w-full border border-b border-gray-600"></div>
-              <span
-                onClick={() => setOpenW(!openW)}
-                className="cursor-pointer"
-              >
+              <span onClick={() => setOpenW(!openW)} className="cursor-pointer">
                 <span className="block py-3 px-6 flex items-center justify-between">
                   <span>Outdoor Cinemas</span>
                   <span>&#9660;</span>
@@ -413,7 +410,7 @@ const Header = ({ siteTitle }) => {
                   href="tel:2075952960"
                   className="cursor-pointer flex items-center w-8/12"
                 >
-                  <img src={`/cellOrange.png`} className="h-6" />
+                  <img src={cellOrange} className="h-6" />
                   <span className="ml-2">(207) 595-2960</span>
                 </a>
                 <div className="flex items-center">
@@ -422,14 +419,14 @@ const Header = ({ siteTitle }) => {
                     target="_blank"
                     className="cursor-pointer hover:text-orange-500"
                   >
-                    <img src={`/facebookOrange.png`} className="h-4 sm:h-6" />
+                    <img src={facebookOrange} className="h-4 sm:h-6" />
                   </a>
                   <a
                     href="https://www.linkedin.com/in/todd-morton-7851b1b"
                     target="_blank"
                     className="cursor-pointer hover:text-orange-500"
                   >
-                    <img src={`/linkedinOrange.png`} className="h-4 sm:h-6 ml-6" />
+                    <img src={linkedinOrange} className="h-4 sm:h-6 ml-6" />
                   </a>
                 </div>
               </div>
