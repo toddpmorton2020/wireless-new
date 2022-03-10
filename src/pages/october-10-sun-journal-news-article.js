@@ -6,6 +6,7 @@ import SEO from "../components/seo"
 import "../css/responsive.css"
 import "../css/index.css"
 import toddMortonSunJournal from "../images/todd-morton-sun-journal.png"
+import mobileToddMortonSunJournal from "../images/mobile-in-the-news-todd-414px-x-327px.png"
 
 function October10PressRelease() {
   return (
@@ -40,7 +41,7 @@ function October10PressRelease() {
             <div className="sm:hidden full-bleed-mobile relative mb-6 mt-6 bg-center">
               <img
                 className="press-main-image absolute object-cover "
-                src={toddMortonSunJournal}
+                src={mobileToddMortonSunJournal}
               />
             </div>
             <p className="text-grey-100 image-text-press text-sm sm:hidden block pt-10">
@@ -72,9 +73,9 @@ function October10PressRelease() {
             </div>
             <div className="press-release-padding sm:pt-10 pt-6 sm:text-black text-white">
               <p className="sm:text-23 text-base press-text font-extralight pb-5">
-                October 10, 2021 — BRIDGTON — Todd Morton wanted the perfect
-                outdoor screen to watch movies next to a bonfire and under the
-                stars with friends at his Woods Pond home.
+                <strong>October 10, 2021 — BRIDGTON — </strong>Todd Morton
+                wanted the perfect outdoor screen to watch movies next to a
+                bonfire and under the stars with friends at his Woods Pond home.
               </p>
               <p className="sm:text-23 text-base press-text font-extralight pb-5">
                 Inflatable offerings took 30 minutes to blow up with a
