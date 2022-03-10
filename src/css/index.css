@@ -32,6 +32,9 @@
   .mobile-carousel {
     background-color: #f5f3f3;
   }
+  .title-container {
+    background-color: #f5f3f3;
+  }
 }
 @media (min-width: 640px) {
   .press-release-padding {
