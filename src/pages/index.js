@@ -196,6 +196,11 @@ const IndexPage = ({ location }) => {
 
   const onMobileVideoPlay = () => {
     setMobilevideoEnd(false)
+    setPlayFlag2(false)
+  }
+
+  const onMobileVideoPause = () => {
+    setPlayFlag2(true)
   }
 
   return (
@@ -214,26 +219,79 @@ const IndexPage = ({ location }) => {
           </video>
         </div>
       )}
+      <div className="text-center py-3 md:py-0 bg-black bg-cover bg-center title-container">
+        <Carousel
+          className="mobile-carousel"
+          preventMovementUntilSwipeScrollTolerance
+          swipeScrollTolerance={100}
+          showArrows={true}
+          showStatus={false}
+          showIndicators={false}
+          showThumbs={false}
+          interval={10000000}
+          renderArrowNext={(onClickHandler, hasNext, label) =>
+            playFlag2 &&
+            hasNext && (
+              <button
+                type="button"
+                onClick={onClickHandler}
+                title={label}
+                style={{ ...arrowButtonSyle, right: 15 }}
+                className="focus:outline-none"
+              >
+                <AiOutlineRight color={"#ffffff"} size={MOBILE_ICON_SIZE} />
+              </button>
+            )
+          }
+          renderArrowPrev={(onClickHandler, hasPrev, label) =>
+            playFlag2 &&
+            hasPrev && (
+              <button
+                type="button"
+                onClick={onClickHandler}
+                title={label}
+                style={{ ...arrowButtonSyle, left: 15 }}
+                className="focus:outline-none"
+              >
+                <AiOutlineLeft color={"#ffffff"} size={MOBILE_ICON_SIZE} />
+              </button>
+            )
+          }
+        >
+          <div className="banner">
+            <img src={mobileWinterBanner} />
+          </div>
+          <div className="responsive-video h-full">
+            <video
+              controls
+              playsInline={false}
+              id="mobile_vid"
+              ref={videoRef2}
+              onPlay={onMobileVideoPlay}
+              onPause={onMobileVideoPause}
+              onEnded={onMobileVideoEnded}
+              className="w-full h-full"
+            >
+              <source src="/homePageVideo.mp4#t=0.1" type="video/mp4" />
+            </video>
+            {/* {playFlag2 && (
+                  <div style={{ ...startBtnMobile }}>
+                    <AiFillPlayCircle
+                      size={MOBILE_ICON_SIZE}
+                      color="#ffffff"
+                      onClick={e => videoActMobile(e)}
+                    />
+                  </div>
+                )} */}
+          </div>
+          <div className="banner">
+            <img src="/banner-home.png" />
+          </div>
+        </Carousel>
+      </div>
       <div className={showVid && "hidden"}>
         <div className="sm:hidden bg-black">
-          <div
-            className="text-center py-3 bg-cover bg-center default"
-            style={{ backgroundImage: `url("/mobtrees.jpg")` }}
-          >
-            <div className="container mx-auto">
-              <h1 className="text-2xl text-orange-500 leading-tight font-bold uppercase default">
-                Get a Backyard <br />
-                <span className="text-white default">
-                  Drive-In Movie Theater
-                </span>
-              </h1>
-              <h2 className="text-white text-lg mt-4 leading-tight default">
-                Enjoy movies, sporting events, video games, stream your favorite
-                shows and more with friends and family.
-              </h2>
-            </div>
-          </div>
-          <div className="text-center py-3 bg-cover bg-center title-container mobile">
+          {/* <div className="text-center py-3 bg-cover bg-center title-container">
             <Carousel
               preventMovementUntilSwipeScrollTolerance
               swipeScrollTolerance={100}
@@ -274,19 +332,20 @@ const IndexPage = ({ location }) => {
               <div className="banner">
                 <img src={mobileWinterBanner} />
               </div>
-              <div className="responsive-video h-full">
+              <div className="responsive-video">
                 <video
-                  playsInline={true}
+                  controls
+                  playsInline={false}
                   id="mobile_vid"
                   ref={videoRef2}
-                  onClick={handleMobileVideoClick}
-                  onEnded={onMobileVideoEnded}
                   onPlay={onMobileVideoPlay}
+                  onPause={onMobileVideoPause}
+                  onEnded={onMobileVideoEnded}
                   className="w-full h-full"
                 >
                   <source src="/homePageVideo.mp4#t=0.1" type="video/mp4" />
                 </video>
-                {playFlag2 && (
+                {/* {playFlag2 && (
                   <div style={{ ...startBtnMobile }}>
                     <AiFillPlayCircle
                       size={MOBILE_ICON_SIZE}
@@ -294,13 +353,13 @@ const IndexPage = ({ location }) => {
                       onClick={e => videoActMobile(e)}
                     />
                   </div>
-                )}
+                )} 
               </div>
               <div className="banner">
                 <img src="/banner-home.png" />
               </div>
             </Carousel>
-          </div>
+          </div> */}
 
           <div className="container mx-auto pb-6">
             <h1 className="text-2xl leading-tight text-white font-500">
@@ -455,7 +514,7 @@ const IndexPage = ({ location }) => {
                 </div>
                 <div className="">
                   <div class="-mx-6">
-                    <img src={Feature4} className="block w-full" />
+                    <img src={featureMobileView4} className="block w-full" />
                   </div>
                   <div className="leading-tight">
                     <h2 className="text-2xl font-500-small my-3 leading-tight">
@@ -734,143 +793,143 @@ const IndexPage = ({ location }) => {
           </div>
         </div>
         {/* ----------Desktop code----------------- */}
-        <DesktopContainer className="">
-          <Carousel
-            preventMovementUntilSwipeScrollTolerance
-            swipeScrollTolerance={100}
-            className="homepage-carousel full-width"
-            showArrows={true}
-            showStatus={false}
-            showIndicators={false}
-            showThumbs={false}
-            interval={10000000}
-            renderArrowNext={(onClickHandler, hasNext, label) =>
-              playFlag &&
-              hasNext && (
-                <div
-                  onClick={onClickHandler}
-                  title={label}
-                  style={{ ...arrowStyles, right: 15, top: "50%" }}
-                  className="focus:outline-none w-18 lg:w-auto"
-                >
-                  <AiOutlineRight
-                    color={"#ffffff"}
-                    size={ICON_SIZE}
-                    className="max-w-full"
-                  />
-                </div>
-              )
-            }
-            renderArrowPrev={(onClickHandler, hasPrev, label) =>
-              playFlag &&
-              hasPrev && (
-                <button
-                  type="button"
-                  onClick={onClickHandler}
-                  title={label}
-                  style={{ ...arrowStyles, left: 15, top: "50%" }}
-                  className="focus:outline-none w-18 lg:w-auto"
-                >
-                  <AiOutlineLeft
-                    color={"#ffffff"}
-                    size={ICON_SIZE}
-                    className="max-w-full"
-                  />
-                </button>
-              )
-            }
-          >
-            <div
-              className="w-full h-full relative bg-cover bg-bottom hidden sm:flex pt-32"
-              style={{
-                backgroundImage: `url("${winterBanner}")`,
-                backgroundPosition: "center",
-                backgroundSize: "cover",
-              }}
-            >
-              <div className=" ">
-                <div className="w-full relative block">
-                  <div className="absolute bg-black opacity-50 w-full h-full" />
-                  <div className="header-align-text ml-20 lg:ml-40">
-                    <div className="pr-16 py-6">
-                      <h1 className="text-white top-banner-heading leading-home font-normal  relative">
-                        Enjoy movies
-                      </h1>
-                      <h1 className="text-orange-500 top-banner-heading ml-2 leading-home font-normal  relative">
-                        even in winter
-                      </h1>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="responsive-video relative">
-              <video
-                playsInline={true}
-                id="desktop_vid"
-                ref={videoRef}
-                onClick={handleVideoClick}
-                onPlay={onDesktopVideoPlay}
-                onEnded={onDesktopVideoEnded}
-                // autoPlay
-                className="w-full h-full"
+        <Carousel
+          preventMovementUntilSwipeScrollTolerance
+          swipeScrollTolerance={100}
+          className="homepage-carousel full-width desktop-carousel"
+          showArrows={true}
+          showStatus={false}
+          showIndicators={false}
+          showThumbs={false}
+          interval={10000000}
+          renderArrowNext={(onClickHandler, hasNext, label) =>
+            playFlag &&
+            hasNext && (
+              <div
+                onClick={onClickHandler}
+                title={label}
+                style={{ ...arrowStyles, right: 15, top: "50%" }}
+                className="focus:outline-none w-18 lg:w-auto"
               >
-                <source src="/homePageVideo.mp4#t=0.1" type="video/mp4" />
-              </video>
-              <div className="absolute right-0 vid-overlay-position">
+                <AiOutlineRight
+                  color={"#ffffff"}
+                  size={ICON_SIZE}
+                  className="max-w-full"
+                />
+              </div>
+            )
+          }
+          renderArrowPrev={(onClickHandler, hasPrev, label) =>
+            playFlag &&
+            hasPrev && (
+              <button
+                type="button"
+                onClick={onClickHandler}
+                title={label}
+                style={{ ...arrowStyles, left: 15, top: "50%" }}
+                className="focus:outline-none w-18 lg:w-auto"
+              >
+                <AiOutlineLeft
+                  color={"#ffffff"}
+                  size={ICON_SIZE}
+                  className="max-w-full"
+                />
+              </button>
+            )
+          }
+        >
+          <div
+            className="w-full h-full relative bg-cover bg-bottom hidden sm:flex pt-32"
+            style={{
+              backgroundImage: `url("${winterBanner}")`,
+              backgroundPosition: "center",
+              backgroundSize: "cover",
+            }}
+          >
+            <div className=" ">
+              <div className="w-full relative block">
                 <div className="absolute bg-black opacity-50 w-full h-full" />
-                <div className="header-align-text ml-10 mr-5">
+                <div className="header-align-text ml-20 lg:ml-40">
                   <div className="pr-16 py-6">
-                    <h1 className="text-white top-banner-heading leading-home font-normal ml-4 relative">
-                      Premium Wireless
+                    <h1 className="text-white top-banner-heading leading-home font-normal  relative">
+                      Enjoy movies
                     </h1>
-                    <h1 className="text-orange-500 top-banner-heading leading-home font-normal  relative">
-                      Outdoor Cinemas
+                    <h1 className="text-orange-500 top-banner-heading ml-2 leading-home font-normal  relative">
+                      even in winter
                     </h1>
                   </div>
                 </div>
               </div>
-              {playFlag && (
-                <div style={{ ...startBtn, top: "50%" }}>
-                  <AiFillPlayCircle
-                    size={90}
-                    color="#ffffff"
-                    onClick={e => videoAct(e)}
-                  />
-                </div>
-              )}
             </div>
-            <div
-              className="w-full h-full relative bg-cover bg-bottom hidden sm:flex pt-32"
-              style={{
-                backgroundImage: `url("${newBanner}")`,
-                backgroundPosition: "center",
-                backgroundSize: "cover",
-              }}
+          </div>
+          <div className="responsive-video relative">
+            <video
+              playsInline={true}
+              id="desktop_vid"
+              ref={videoRef}
+              onClick={handleVideoClick}
+              onPlay={onDesktopVideoPlay}
+              onEnded={onDesktopVideoEnded}
+              // autoPlay
+              className="w-full h-full"
             >
-              <div>
-                <div
-                  className="absolute original-stamp"
-                  style={{ backgroundImage: `url("${originalStamp}")` }}
-                ></div>
+              <source src="/homePageVideo.mp4#t=0.1" type="video/mp4" />
+            </video>
+            <div className="absolute right-0 vid-overlay-position">
+              <div className="absolute bg-black opacity-50 w-full h-full" />
+              <div className="header-align-text ml-10 mr-5">
+                <div className="pr-16 py-6">
+                  <h1 className="text-white top-banner-heading leading-home font-normal ml-4 relative">
+                    Premium Wireless
+                  </h1>
+                  <h1 className="text-orange-500 top-banner-heading leading-home font-normal  relative">
+                    Outdoor Cinemas
+                  </h1>
+                </div>
               </div>
-              <div className=" ">
-                <div className="w-full relative block">
-                  <div className="absolute bg-black opacity-50 w-full h-full" />
-                  <div className="header-align-text ml-20 lg:ml-40">
-                    <div className="pr-16 py-6">
-                      <h1 className="text-white top-banner-heading mr-2 leading-home font-normal  relative">
-                        Turn your Backyard
-                      </h1>
-                      <h1 className="text-orange-500 top-banner-heading ml-6 leading-home font-normal  relative">
-                        into a Movie Theater
-                      </h1>
-                    </div>
+            </div>
+            {playFlag && (
+              <div style={{ ...startBtn, top: "50%" }}>
+                <AiFillPlayCircle
+                  size={90}
+                  color="#ffffff"
+                  onClick={e => videoAct(e)}
+                />
+              </div>
+            )}
+          </div>
+          <div
+            className="w-full h-full relative bg-cover bg-bottom hidden sm:flex pt-32"
+            style={{
+              backgroundImage: `url("${newBanner}")`,
+              backgroundPosition: "center",
+              backgroundSize: "cover",
+            }}
+          >
+            <div>
+              <div
+                className="absolute original-stamp"
+                style={{ backgroundImage: `url("${originalStamp}")` }}
+              ></div>
+            </div>
+            <div className=" ">
+              <div className="w-full relative block">
+                <div className="absolute bg-black opacity-50 w-full h-full" />
+                <div className="header-align-text ml-20 lg:ml-40">
+                  <div className="pr-16 py-6">
+                    <h1 className="text-white top-banner-heading mr-2 leading-home font-normal  relative">
+                      Turn your Backyard
+                    </h1>
+                    <h1 className="text-orange-500 top-banner-heading ml-6 leading-home font-normal  relative">
+                      into a Movie Theater
+                    </h1>
                   </div>
                 </div>
               </div>
             </div>
-          </Carousel>
+          </div>
+        </Carousel>
+        <DesktopContainer className="">
           {/* <Gray className="full-width ">
             <Introduction
               className="container mx-auto"

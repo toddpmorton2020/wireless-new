@@ -11,6 +11,28 @@
 .vid-overlay-position {
   top: 7%;
 }
+
+@media (min-width: 800px) {
+  .mobile-carousel {
+    display: none;
+  }
+  .desktop-carousel {
+    display: block;
+  }
+}
+@media (max-width: 800px) {
+  .mobile-carousel {
+    display: block;
+  }
+  .desktop-carousel {
+    display: none;
+  }
+}
+@media (min-width: 640px) {
+  .mobile-carousel {
+    background-color: #f5f3f3;
+  }
+}
 @media (min-width: 640px) {
   .press-release-padding {
     max-width: 600px;
