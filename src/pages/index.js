@@ -203,6 +203,8 @@ const IndexPage = ({ location }) => {
     setPlayFlag2(true)
   }
 
+  console.log('live')
+
   return (
     <Layout>
       <SEO title="Home" />
@@ -353,7 +355,7 @@ const IndexPage = ({ location }) => {
                       onClick={e => videoActMobile(e)}
                     />
                   </div>
-                )} 
+                )}
               </div>
               <div className="banner">
                 <img src="/banner-home.png" />
