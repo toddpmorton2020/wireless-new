@@ -5,9 +5,11 @@
 .image-text-color {
   color: #5e5e5e;
 }
-.comparison-col > * {
+
+.comparison-col>* {
   width: 33.333%;
 }
+
 .vid-overlay-position {
   top: 7%;
 }
@@ -16,85 +18,107 @@
   .mobile-carousel {
     display: none;
   }
+
   .desktop-carousel {
     display: block;
   }
 }
+
 @media (max-width: 800px) {
   .mobile-carousel {
     display: block;
   }
+
   .desktop-carousel {
     display: none;
   }
 }
+
 @media (min-width: 640px) {
   .mobile-carousel {
     background-color: #f5f3f3;
   }
+
   .title-container {
     background-color: #f5f3f3;
   }
 }
+
 @media (min-width: 640px) {
   .press-release-padding {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
   }
+
   .main-heading {
     font-size: 38px;
   }
+
   .main-image-upper-text {
     font-size: 22px;
     font-weight: 400;
     line-height: 25px;
   }
+
   .main-image-upper-text-1 {
     font-size: 22px;
     font-weight: 400;
     line-height: 26px;
   }
+
   .text-margin {
     margin-top: -230px;
   }
+
   .image-text-press-1 {
     line-height: 18px;
   }
 }
+
 @media (min-width: 1280px) {
   .breadcrums-margin {
     padding-left: 28px !important;
   }
+
   .accessory-padding {
     padding-left: 9rem;
     padding-right: 9rem;
   }
+
   .acc-margin {
     margin-left: 8.5rem;
   }
+
   .acc-line-height {
     line-height: 34px;
   }
+
   .connect-padding {
     padding-left: 1.5rem;
     padding-right: 7rem;
   }
+
   .terms-padding {
     padding-right: 83px;
   }
+
   .privacy-padding {
     padding-right: 78px;
   }
+
   .term-margin-heading {
     margin-left: 310px;
   }
+
   .term-margin-subHeading {
     margin-left: 145px;
   }
+
   .privacy-margin-heading {
     margin-left: 382px;
   }
+
   .privacy-margin-subHeading {
     margin-left: 215px;
   }
@@ -103,6 +127,7 @@
 .orange-input::-webkit-input-placeholder {
   color: #ff5400;
 }
+
 .orange-input::-moz-placeholder {
   color: #ff5400;
 }
@@ -129,63 +154,81 @@
   .hide {
     display: none;
   }
+
   .press-text {
     line-height: 21px;
   }
+
   .press-contact {
     font-size: 26px;
     font-weight: 500;
   }
+
   .contact-det {
     line-height: 22px;
   }
+
   .phone-color {
     color: #3182ce;
   }
+
   .news-image-link {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
   }
+
   .margin-top-mobile {
     margin-top: -310px;
   }
+
   .terms-heading {
     font-size: 36px !important;
   }
+
   .privacy-heading {
     font-size: 36px !important;
   }
+
   .sitemap-sub {
     font-size: 28px !important;
   }
+
   .input-div {
     text-align: center !important;
   }
+
   .home-padding {
     padding-bottom: 20px !important;
   }
+
   .text-font {
     font-size: 30px !important;
   }
+
   .include-margin {
     margin-left: 70px;
   }
+
   .outdoor-subfont {
     font-size: 23px;
     line-height: 27px;
   }
 }
+
 @media (max-width: 1023px) {
   .comparison-btn {
     padding-left: 7.5rem;
     padding-right: 7.5rem;
   }
+
   .comparison-detail-border {
     border: 1px solid #ff5400;
   }
+
   .comparison-detail-border-p {
     border: 1px solid #b121ce;
   }
+
   .included-btn {
     padding-right: 10px;
     padding-left: 10px;
@@ -329,6 +372,10 @@
   background-color: #efefee;
 }
 
+.black-back {
+  background-color: #000000;
+}
+
 .open-answer {
   max-height: 300px;
 }
@@ -339,8 +386,7 @@
   }
 }
 
-.open-ps {
-}
+.open-ps {}
 
 .closed-ps {
   max-height: 0;
@@ -353,10 +399,12 @@ b {
 .h-img-height {
   height: 14rem;
 }
+
 @media (min-width: 1024px) {
   .h-img-height {
     height: 20rem;
   }
+
   .vid-overlay-position {
     top: 25%;
   }
@@ -543,20 +591,25 @@ b {
   .title-container {
     padding-top: 0;
   }
+
   .title {
     margin-top: 1.8rem;
   }
+
   .default {
     display: none;
   }
+
   .mobile {
     display: block;
   }
+
   .mobile h1 {
     text-align: left;
     line-height: 1.2;
     font-size: 25px;
   }
+
   .mobile h2 {
     text-align: left;
     font-size: 18px;
@@ -601,16 +654,19 @@ b {
   .subtext {
     text-align: left;
   }
+
   .gallery-container {
     display: flex;
     justify-content: center;
     padding-left: 5px;
     padding-right: 5px;
   }
+
   .gallery-container img {
     width: 140px;
     height: auto;
   }
+
   .image-accessory {
     flex: 1;
   }
@@ -643,12 +699,14 @@ b {
     font-size: 36px !important;
     line-height: 1.06 !important;
   }
-  .accessory .gray-back {
-  }
+
+  .accessory .gray-back {}
+
   .font-500 {
     font-weight: 500;
     font-size: 36px !important;
   }
+
   .font-500-small {
     font-weight: 500;
     font-size: 28px !important;
