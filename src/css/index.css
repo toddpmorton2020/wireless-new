@@ -712,3 +712,23 @@ b {
     font-size: 28px !important;
   }
 }
+
+.mobile-subnav .accordion-header {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.mobile-subnav .accordion-content {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.3s ease-in-out;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.mobile-subnav .accordion-content-open {
+  max-height: 500px;
+}
+
+.desktop-subnav {
+  background-color: rgba(0, 0, 0, 0.8);
+}
