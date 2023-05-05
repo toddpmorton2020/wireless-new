@@ -715,14 +715,14 @@ b {
 
 .mobile-subnav .accordion-header {
   cursor: pointer;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .mobile-subnav .accordion-content {
   overflow: hidden;
   max-height: 0;
   transition: max-height 0.3s ease-in-out;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .mobile-subnav .accordion-content-open {
@@ -731,4 +731,14 @@ b {
 
 .desktop-subnav {
   background-color: rgba(0, 0, 0, 0.8);
+}
+
+.mobile-subnav a:hover,
+.desktop-subnav a:hover {
+  color: #ff5400;
+}
+
+.mobile-subnav a.button,
+.desktop-subnav a.button {
+  color: #ffffff;
 }
