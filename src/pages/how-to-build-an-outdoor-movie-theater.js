@@ -47,7 +47,7 @@ function HowToBuildAnOutdoorMovieTheater() {
 
   const SubNav = () => {
     return (
-      <div>
+      <>
         <Accordion
           title="How-to build a professional outdoor movie theater"
           className="mobile-subnav z-10 sticky top-0 block sm:hidden"
@@ -119,7 +119,7 @@ function HowToBuildAnOutdoorMovieTheater() {
             </div>
           </div>
         </div>
-      </div>
+      </>
     )
   }
 
