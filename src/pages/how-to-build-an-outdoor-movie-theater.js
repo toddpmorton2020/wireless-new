@@ -128,21 +128,22 @@ function HowToBuildAnOutdoorMovieTheater() {
       <div className="black-back relative text-white sm:top-0 sm:-mt-10">
         <img className="" src={Background} alt=""></img>
         <div className="container py-4 mx-auto">
-          <div className="xl:absolute sm:top-0 h-full">
-            <p className="font-semibold">
+          <div className="xl:absolute xl:mt-32 2xl:mt-64 sm:top-0 h-full xl:w-3/6">
+            <p className="font-semibold xl:text-3xl">
               Get the only <span className="text-orng">DIY</span> on
             </p>
-            <h1 className="text-4xl font-semibold leading-9 pb-3">
+            <h1 className="text-4xl xl:text-6xl font-semibold leading-9 xl:leading-none pb-3 xl:pb-5">
               <span className="text-orng">How-to build a</span> professional
-              outdoor movie theater<span className="text-sm">©</span>
+              outdoor movie theater
+              <sup className="pl-1 text-2xl xl:text-3xl">©</sup>
             </h1>
-            <p>How-to DIY bundle valued at $3,000</p>
-            <p>Regular price $199</p>
-            <p>
+            <p className="xl:text-3xl">How-to DIY bundle valued at $3,000</p>
+            <p className="xl:text-3xl">Regular price $199</p>
+            <p className="xl:text-3xl">
               On sale for $99* <span className="text-orng">(50% off)</span>
             </p>
-            <p className="my-4">
-              <a href="#" className="px-8 py-1 xl:px-4 button-orng">
+            <p className="my-4 xl:text-2xl xl:mt-8">
+              <a href="#" className="px-8 py-1 xl:px-16 xl:py-2 button-orng">
                 Get the DIY now
               </a>
             </p>

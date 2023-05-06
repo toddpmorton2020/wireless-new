@@ -1,6 +1,22 @@
 module.exports = {
   purge: ["./src/**/*.js", "./src/**/*.jsx", "./src/**/*.ts", "./src/**/*.tsx"],
   theme: {
+    screens: {
+      sm: "640px",
+      // => @media (min-width: 640px) { ... }
+
+      md: "768px",
+      // => @media (min-width: 768px) { ... }
+
+      lg: "1024px",
+      // => @media (min-width: 1024px) { ... }
+
+      xl: "1280px",
+      // => @media (min-width: 1280px) { ... }
+
+      "2xl": "1536px",
+      // => @media (min-width: 1536px) { ... }
+    },
     inset: {
       0: 0,
       auto: "auto",
@@ -11,18 +27,18 @@ module.exports = {
     },
     extend: {
       spacing: {
-        '18': '5rem',
-       },
+        18: "5rem",
+      },
       width: {
-        '35': '340px',
+        35: "340px",
       },
       fontSize: {
-        '11': '44px',
-        '12': '42px',
-        '13': '30px',
-        '14': '45px',
-        '23': ['20px','1.2'],
-        '31': ['31px','1.1'],
+        11: "44px",
+        12: "42px",
+        13: "30px",
+        14: "45px",
+        23: ["20px", "1.2"],
+        31: ["31px", "1.1"],
       },
       colors: {
         orange: {
@@ -69,10 +85,10 @@ module.exports = {
         lg: "1.5rem",
         xl: "0",
       },
-    }, 
+    },
     whitespace: {
-      nowrap: 'nowrap',
-    }   
+      nowrap: "nowrap",
+    },
   },
   variants: {
     display: ["responsive", "group-hover", "hover"],
