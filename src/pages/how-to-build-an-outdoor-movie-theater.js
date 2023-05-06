@@ -47,7 +47,7 @@ function HowToBuildAnOutdoorMovieTheater() {
 
   const SubNav = () => {
     return (
-      <>
+      <div>
         <Accordion
           title="How-to build a professional outdoor movie theater"
           className="mobile-subnav z-10 sticky top-0 block sm:hidden"
@@ -119,14 +119,14 @@ function HowToBuildAnOutdoorMovieTheater() {
             </div>
           </div>
         </div>
-      </>
+      </div>
     )
   }
 
   const Hero = () => {
     return (
       <div className="black-back relative text-white sm:top-0 sm:-mt-10">
-        <img className="" src={Background} alt=""></img>
+        <img className="mx-auto" src={Background} alt=""></img>
         <div className="container py-4 mx-auto">
           <div className="xl:absolute xl:mt-32 2xl:mt-64 sm:top-0 h-full xl:w-3/6">
             <p className="font-semibold xl:text-3xl">
