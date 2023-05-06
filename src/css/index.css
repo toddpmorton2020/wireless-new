@@ -715,18 +715,22 @@ b {
 
 .mobile-subnav .accordion-header {
   cursor: pointer;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 1);
 }
 
 .mobile-subnav .accordion-content {
   overflow: hidden;
   max-height: 0;
   transition: max-height 0.3s ease-in-out;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 1);
 }
 
 .mobile-subnav .accordion-content-open {
   max-height: 500px;
+}
+
+.mobile-subnav .border-grey-subnav {
+  border-color: rgba(255, 255, 255, 0.24);
 }
 
 .desktop-subnav {

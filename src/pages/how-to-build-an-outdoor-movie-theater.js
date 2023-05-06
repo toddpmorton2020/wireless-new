@@ -17,7 +17,7 @@ function HowToBuildAnOutdoorMovieTheater() {
     return (
       <div className={`accordion text-white ${className}`}>
         <div
-          className="accordion-header h-10 container flex items-center text-sm"
+          className="accordion-header h-16 container flex items-center text-sm"
           onClick={toggleAccordion}
         >
           <div className="w-full flex-1 flex justify-between pr-3">
@@ -26,14 +26,14 @@ function HowToBuildAnOutdoorMovieTheater() {
           </div>
           <a
             href="#"
-            className="px-2 py-1 xl:px-4 ml-1 xl:ml-4 flex-0 button-orng"
+            className="px-2 py-0 xl:px-4 ml-1 xl:ml-4 flex-0 button-orng"
           >
             Get Now
           </a>
         </div>
         <div
           className={`accordion-content container w-full absolute ${
-            isOpen ? "accordion-content-open border-b" : ""
+            isOpen ? "accordion-content-open border-b border-grey-subnav" : ""
           }`}
           style={{
             maxHeight: isOpen ? "500px" : "0",
@@ -49,26 +49,26 @@ function HowToBuildAnOutdoorMovieTheater() {
     return (
       <>
         <Accordion
-          title="How-to build a theater"
+          title="How-to build a professional outdoor movie theater"
           className="mobile-subnav z-10 sticky top-0 block sm:hidden"
         >
-          <ul className="flex flex-col justify-between w-full">
-            <li className="py-2 border-b text-sm">
+          <ul className="flex flex-col justify-between w-full py-3">
+            <li className="py-2 border-b border-grey-subnav text-sm">
               <a href="#">What You Get</a>
             </li>
-            <li className="py-2 border-b text-sm">
+            <li className="py-2 border-b border-grey-subnav text-sm">
               <a href="#">Frame Systems</a>
             </li>
-            <li className="py-2 border-b text-sm">
+            <li className="py-2 border-b border-grey-subnav text-sm">
               <a href="#">Cinema Uses</a>
             </li>
-            <li className="py-2 border-b text-sm">
+            <li className="py-2 border-b border-grey-subnav text-sm">
               <a href="#">Features</a>
             </li>
-            <li className="py-2 border-b text-sm">
+            <li className="py-2 border-b border-grey-subnav text-sm">
               <a href="#">Comparison</a>
             </li>
-            <li className="pt-2 pb-4 text-sm">
+            <li className="pt-2 pb-6 text-sm">
               <a href="#">FAQ</a>
             </li>
           </ul>
@@ -125,10 +125,10 @@ function HowToBuildAnOutdoorMovieTheater() {
 
   const Hero = () => {
     return (
-      <div className="black-back relative text-white top-0 -mt-10">
+      <div className="black-back relative text-white sm:top-0 sm:-mt-10">
         <img className="" src={Background} alt=""></img>
         <div className="container py-4 mx-auto">
-          <div className="xl:absolute top-0 h-full">
+          <div className="xl:absolute sm:top-0 h-full">
             <p className="font-semibold">
               Get the only <span className="text-orng">DIY</span> on
             </p>
