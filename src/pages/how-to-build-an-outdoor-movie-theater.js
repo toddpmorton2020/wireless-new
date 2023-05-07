@@ -22,7 +22,9 @@ function HowToBuildAnOutdoorMovieTheater() {
         >
           <div className="w-full flex-1 flex justify-between pr-3">
             <h3>{title}</h3>
-            <button>{isOpen ? "-" : "+"}</button>
+            <button>
+              <div className={`arrow ${isOpen ? "open" : ""}`}></div>
+            </button>
           </div>
           <a
             href="#"

@@ -733,6 +733,19 @@ b {
   border-color: rgba(255, 255, 255, 0.24);
 }
 
+.mobile-subnav .arrow {
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 7px solid #ffffff;
+  transition: transform 0.3s ease-in-out;
+}
+
+.mobile-subnav .arrow.open {
+  transform: rotate(180deg);
+}
+
 .desktop-subnav {
   background-color: rgba(0, 0, 0, 0.8);
 }
