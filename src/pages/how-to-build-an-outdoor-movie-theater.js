@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState, useRef } from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
@@ -155,6 +155,47 @@ function HowToBuildAnOutdoorMovieTheater() {
     )
   }
 
+  const Video = () => {
+    const videoRef = useRef(null)
+    const videoRef2 = useRef(null)
+
+    const onMobileVideoEnded = () => {
+      setMobilevideoEnd(true)
+      setPlayFlag2(true)
+      videoRef2.current.currentTime = 0
+    }
+
+    const onMobileVideoPlay = () => {
+      setMobilevideoEnd(false)
+      setPlayFlag2(false)
+    }
+
+    const onMobileVideoPause = () => {
+      setPlayFlag2(true)
+    }
+
+    return (
+      <div className="black-back">
+        <div className="container mx-auto py-16">
+          <div className="responsive-video h-full">
+            <video
+              controls
+              playsInline={false}
+              id="mobile_vid"
+              ref={videoRef2}
+              onPlay={onMobileVideoPlay}
+              onPause={onMobileVideoPause}
+              onEnded={onMobileVideoEnded}
+              className="w-full h-full"
+            >
+              <source src="/homePageVideo.mp4#t=0.1" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+      </div>
+    )
+  }
+
   return (
     <Layout>
       <SEO
@@ -163,6 +204,7 @@ function HowToBuildAnOutdoorMovieTheater() {
       />
       <SubNav />
       <Hero />
+      <Video />
     </Layout>
   )
 }
