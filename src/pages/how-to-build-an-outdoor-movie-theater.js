@@ -1,6 +1,8 @@
 import React, { useState, useRef } from "react"
 import { Link } from "gatsby"
 
+import { AiFillPlayCircle } from "react-icons/ai"
+
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -156,33 +158,54 @@ function HowToBuildAnOutdoorMovieTheater() {
   }
 
   const Video = () => {
+    const [playFlag, setPlayFlag] = useState(true)
     const videoRef = useRef(null)
-    const videoRef2 = useRef(null)
 
     const onMobileVideoEnded = () => {
-      setMobilevideoEnd(true)
-      setPlayFlag2(true)
-      videoRef2.current.currentTime = 0
+      setPlayFlag(true)
+      videoRef.current.currentTime = 0
     }
 
     const onMobileVideoPlay = () => {
-      setMobilevideoEnd(false)
-      setPlayFlag2(false)
+      setPlayFlag(false)
     }
 
     const onMobileVideoPause = () => {
-      setPlayFlag2(true)
+      setPlayFlag(true)
+    }
+    const videoAct = () => {
+      let videoElement = videoRef.current
+      videoElement.play()
+      setPlayFlag(false)
+    }
+
+    const startBtn = {
+      position: "absolute",
+      zIndex: 1,
+      top: "50%",
+      left: "50%",
+      transform: "translate(-50%, -50%)",
+      cursor: "pointer",
     }
 
     return (
       <div className="black-back">
         <div className="container mx-auto py-16">
           <div className="responsive-video h-full">
+            {playFlag && (
+              <div style={{ ...startBtn }}>
+                <AiFillPlayCircle
+                  size={90}
+                  color="#ffffff"
+                  onClick={e => videoAct(e)}
+                />
+              </div>
+            )}
             <video
               controls
               playsInline={false}
               id="mobile_vid"
-              ref={videoRef2}
+              ref={videoRef}
               onPlay={onMobileVideoPlay}
               onPause={onMobileVideoPause}
               onEnded={onMobileVideoEnded}
