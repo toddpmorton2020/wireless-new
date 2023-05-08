@@ -22,7 +22,7 @@ function HowToBuildAnOutdoorMovieTheater() {
           className="accordion-header h-16 container flex items-center text-sm"
           onClick={toggleAccordion}
         >
-          <button className="flex-1 flex justify-around mr-5">
+          <button className="flex-1 flex justify-around mr-8">
             <h3 className="text-left">{title}</h3>
             <div className={`ml-4 mt-4 arrow ${isOpen ? "open" : ""}`}></div>
           </button>
