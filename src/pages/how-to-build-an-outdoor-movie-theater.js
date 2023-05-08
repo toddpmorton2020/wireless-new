@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react"
 import { Link } from "gatsby"
 
-import { AiFillPlayCircle } from "react-icons/ai"
+import PlayButton from "../images/play-button-162px-x-182px.png"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -22,12 +22,10 @@ function HowToBuildAnOutdoorMovieTheater() {
           className="accordion-header h-16 container flex items-center text-sm"
           onClick={toggleAccordion}
         >
-          <div className="w-full flex-1 flex justify-between pr-3">
-            <h3>{title}</h3>
-            <button>
-              <div className={`arrow ${isOpen ? "open" : ""}`}></div>
-            </button>
-          </div>
+          <button className="flex-1 flex justify-around mr-5">
+            <h3 className="text-left">{title}</h3>
+            <div className={`ml-4 mt-4 arrow ${isOpen ? "open" : ""}`}></div>
+          </button>
           <a
             href="#"
             className="px-2 py-0 xl:px-4 ml-1 xl:ml-4 flex-0 button-orng"
@@ -179,30 +177,21 @@ function HowToBuildAnOutdoorMovieTheater() {
       setPlayFlag(false)
     }
 
-    const startBtn = {
-      position: "absolute",
-      zIndex: 1,
-      top: "50%",
-      left: "50%",
-      transform: "translate(-50%, -50%)",
-      cursor: "pointer",
-    }
-
     return (
       <div className="black-back">
-        <div className="container mx-auto py-16">
+        <div className="container mx-auto py-16 how-to">
           <div className="responsive-video h-full">
             {playFlag && (
-              <div style={{ ...startBtn }}>
-                <AiFillPlayCircle
-                  size={90}
-                  color="#ffffff"
+              <div class="play-button-wrapper">
+                <img
+                  src={PlayButton}
+                  class="play-button-png"
                   onClick={e => videoAct(e)}
                 />
               </div>
             )}
             <video
-              controls
+              controls={false}
               playsInline={false}
               id="mobile_vid"
               ref={videoRef}

@@ -736,9 +736,9 @@ b {
 .mobile-subnav .arrow {
   width: 0;
   height: 0;
-  border-left: 7px solid transparent;
-  border-right: 7px solid transparent;
-  border-top: 7px solid #ffffff;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid #ffffff;
   transition: transform 0.3s ease-in-out;
 }
 
@@ -767,4 +767,18 @@ b {
 
 .text-orng {
   color: #ff5400;
+}
+
+.play-button-wrapper {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.play-button-png {
+  width: 10vw;
+  max-width: 80px;
 }
