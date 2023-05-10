@@ -16,6 +16,7 @@ import BonusBanner from "../images/bonus-corner-banner-141px-x-121px.png"
 import SvgImage1 from "../images/svg/icon-year-round-402px-138px.png"
 import SvgImage2 from "../images/svg/icon-affordable-401px-138px.png"
 import SvgImage3 from "../images/svg/icon-moveable-frame-402px-138px.png"
+import { ExampleSvg } from "../components/svg/example"
 
 function HowToBuildAnOutdoorMovieTheater() {
   const Accordion = ({ title, className, children }) => {
@@ -492,12 +493,15 @@ function HowToBuildAnOutdoorMovieTheater() {
           </div>
           <div className="col-span-12 grid grid-cols-6 gap-5 xl:gap-20 mt-16">
             {gridItems.map(item => (
-              <div className="col-span-3 md:col-span-2" key={item.id}>
-                {item.bonus && (
-                  <img src={BonusBanner} className="bonus-banner-image" />
-                )}
+              <div
+                className="orng-overlay col-span-3 md:col-span-2"
+                key={item.id}
+              >
                 <div className="border rounded-md border-grey-theater p-4 md:p-8 text-center h-full">
-                  <img src={item.img} alt={item.title} className="my-3" />
+                  <ExampleSvg
+                    alt={item.title}
+                    className="grid-icon my-3 mx-auto"
+                  />
                   <p className="md:text-2xl">{item.text}</p>
                 </div>
               </div>

@@ -806,3 +806,15 @@ b {
     margin-top: -15px;
   }
 }
+
+.orng-overlay:hover {
+  color: #ff5400 !important;
+}
+
+.orng-overlay:hover .grid-icon {
+  fill: #ff5400;
+}
+
+.orng-overlay:hover .border-grey-theater {
+  border-color: #ff5400 !important;
+}
