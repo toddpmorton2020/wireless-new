@@ -293,7 +293,7 @@ function HowToBuildAnOutdoorMovieTheater() {
     ]
 
     return (
-      <div className="black-back relative text-white border-grey-subnav">
+      <div className="black-back relative text-white border-b xl:border-none border-grey-subnav">
         <div className="container mx-auto pb-8 xl:py-16 flex flex-col xl:grid xl:grid-cols-12 w-full">
           <div className="col-span-5">
             <img
@@ -354,7 +354,7 @@ function HowToBuildAnOutdoorMovieTheater() {
 
   const FrameSystemsThatWork = () => {
     return (
-      <div className="black-back relative text-white border-b border-grey-subnav">
+      <div className="black-back relative text-white border-b xl:border-none border-grey-subnav">
         <div className="container mx-auto py-8 xl:py-16 flex flex-col xl:grid xl:grid-cols-12 w-full">
           <div className="text-center xl:col-span-12 xl:text-left xl:text-xl pb-10">
             <h2 className="text-3xl xl:text-5xl font-semibold leading-9 xl:leading-none pb-3 xl:pb-3">
@@ -467,9 +467,9 @@ function HowToBuildAnOutdoorMovieTheater() {
     ]
 
     return (
-      <div className="black-back relative text-white border-grey-subnav pt-10">
+      <div className="black-back relative text-white border-b xl:border-none border-grey-subnav pt-10">
         <div className="container mx-auto pb-8 xl:py-16 flex flex-col xl:grid xl:grid-cols-12 w-full">
-          <div className="text-center xl:col-span-12 xl:text-left xl:text-xl">
+          <div className="text-center xl:col-span-12 xl:text-xl">
             <h2 className="text-3xl xl:text-5xl font-semibold leading-9 xl:leading-none pb-3 xl:pb-3">
               Outdoor movie theater perfect for
             </h2>
