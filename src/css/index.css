@@ -729,8 +729,12 @@ b {
   max-height: 500px;
 }
 
-.mobile-subnav .border-grey-subnav {
+.border-grey-subnav {
   border-color: rgba(255, 255, 255, 0.24);
+}
+
+.border-grey-theater {
+  border-color: #bdbabb;
 }
 
 .mobile-subnav .arrow {
@@ -781,4 +785,24 @@ b {
 .play-button-png {
   width: 10vw;
   max-width: 80px;
+}
+
+.bg-gray-990 {
+  background-color: #0e0e0e;
+}
+
+.bonus-banner-image {
+  max-width: 60px;
+  position: absolute;
+  margin-left: -13px;
+  margin-top: -8px;
+}
+
+@media (min-width: 768px) {
+  .bonus-banner-image {
+    max-width: 141px;
+    position: absolute;
+    margin-left: -29px;
+    margin-top: -15px;
+  }
 }
