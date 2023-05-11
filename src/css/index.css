@@ -818,3 +818,25 @@ b {
 .orng-overlay:hover .border-grey-theater {
   border-color: #ff5400 !important;
 }
+
+.max-w-2400 {
+  max-width: 2400px !important;
+}
+
+.bg-black-size-128 {
+  background: none;
+}
+
+@media (min-width: 1024px) {
+  .bg-black-size-128 {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 0.7959384437368697) 0%, rgba(0, 0, 0, 0.8015406846332283) 45%, rgba(255, 255, 255, 0) 45%, rgba(255, 255, 255, 0) 100%);
+  }
+}
+
+@media (min-width: 1280px) {
+  .bg-black-size-128 {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 0.7959384437368697) 0%, rgba(0, 0, 0, 0.8015406846332283) 35%, rgba(255, 255, 255, 0) 35%, rgba(255, 255, 255, 0) 100%);
+  }
+}

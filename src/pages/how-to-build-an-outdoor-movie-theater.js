@@ -13,6 +13,19 @@ import FrameSystemsTimberline from "../images/timberline-streamline-outdoor-movi
 
 import BonusBanner from "../images/bonus-corner-banner-141px-x-121px.png"
 
+import PowerfulBackground from "../images/outdoor-movie-projector-stand-1920px-x-1080px.jpg"
+
+import PowerfulBattery from "../images/icon-battery-white-75px-x-55px.png"
+import PowerfulCables from "../images/icon-cables-white-75px-x-55px.png"
+import PowerfulDVD from "../images/icon-dvd-white-75px-x-55px.png"
+import PowerfulGaming from "../images/icon-gaming-console-white-75px-x-55px.png"
+import PowerfulHeadphones from "../images/icon-headphones-white-75px-x-55px.png"
+import PowerfulLaptop from "../images/icon-laptop-white-75px-x-55px.png"
+import PowerfulReceiver from "../images/icon-receiver-white-75px-x-55px.png"
+import PowerfulSmartphone from "../images/icon-smartphone-white-75px-x-55px.png"
+import PowerfulSpeaker from "../images/icon-speaker-white-75px-x-55px.png"
+import PowerfulStreaming from "../images/icon-streaming-device-white-75px-x-55px.png"
+
 import SvgImage1 from "../images/svg/icon-year-round-402px-138px.png"
 import SvgImage2 from "../images/svg/icon-affordable-401px-138px.png"
 import SvgImage3 from "../images/svg/icon-moveable-frame-402px-138px.png"
@@ -138,7 +151,7 @@ function HowToBuildAnOutdoorMovieTheater() {
   const Hero = () => {
     return (
       <div className="black-back relative text-white sm:top-0 sm:-mt-10">
-        <img className="mx-auto" src={Background} alt="" />
+        <img className="mx-auto w-full max-w-2400" src={Background} alt="" />
         <div className="container py-4 mx-auto">
           <div className="xl:absolute xl:mt-32 2xl:mt-64 sm:top-0 h-full">
             <p className="font-semibold xl:text-3xl">
@@ -192,10 +205,10 @@ function HowToBuildAnOutdoorMovieTheater() {
         <div className="container mx-auto py-16 how-to">
           <div className="responsive-video h-full">
             {playFlag && (
-              <div class="play-button-wrapper">
+              <div className="play-button-wrapper">
                 <img
                   src={PlayButton}
-                  class="play-button-png"
+                  className="play-button-png"
                   onClick={e => videoAct(e)}
                 />
               </div>
@@ -439,31 +452,26 @@ function HowToBuildAnOutdoorMovieTheater() {
         id: 1,
         img: SvgImage2,
         text: "Regular use for outdoor entertainment",
-        bonus: false,
       },
       {
         id: 2,
         img: SvgImage3,
         text: "Family blockbuster movie night",
-        bonus: false,
       },
       {
         id: 3,
         img: SvgImage1,
         text: "Sporting event parties with friends and family",
-        bonus: false,
       },
       {
         id: 4,
         img: SvgImage2,
         text: "Special events and family reunions",
-        bonus: false,
       },
       {
         id: 5,
         img: SvgImage3,
         text: "Video game parties with friends and family",
-        bonus: false,
       },
     ]
 
@@ -499,7 +507,7 @@ function HowToBuildAnOutdoorMovieTheater() {
               >
                 <div className="md:border rounded-md border-grey-theater p-4 md:p-8 text-center h-full">
                   <ExampleSvg
-                    alt={item.title}
+                    alt={item.text}
                     className="grid-icon my-3 mx-auto"
                   />
                   <p className="md:text-2xl">{item.text}</p>
@@ -513,6 +521,59 @@ function HowToBuildAnOutdoorMovieTheater() {
   }
 
   const PowerfulCinema = () => {
+    const gridItems = [
+      {
+        id: 0,
+        img: PowerfulSpeaker,
+        text: "External Speakers",
+      },
+      {
+        id: 1,
+        img: PowerfulStreaming,
+        text: "Streaming Devices",
+      },
+      {
+        id: 2,
+        img: PowerfulGaming,
+        text: "Gaming Consoles",
+      },
+      {
+        id: 3,
+        img: PowerfulSmartphone,
+        text: "Smartphones (IOS & Andriod)",
+      },
+      {
+        id: 4,
+        img: PowerfulLaptop,
+        text: "PCs, Laptops & Tablets",
+      },
+      {
+        id: 5,
+        img: PowerfulDVD,
+        text: "DVD Players",
+      },
+      {
+        id: 6,
+        img: PowerfulReceiver,
+        text: "Receivers & FM Tuners",
+      },
+      {
+        id: 7,
+        img: PowerfulHeadphones,
+        text: "Bluetooth Headphones",
+      },
+      {
+        id: 8,
+        img: PowerfulBattery,
+        text: "Off-Grid Battery Stations",
+      },
+      {
+        id: 9,
+        img: PowerfulCables,
+        text: "HDMI, USB, VGA & Audio",
+      },
+    ]
+
     return (
       <div className="black-back relative text-white border-b xl:border-none border-grey-subnav">
         <div className="container mx-auto py-8 xl:py-16 flex flex-col xl:grid xl:grid-cols-12 w-full">
@@ -534,6 +595,55 @@ function HowToBuildAnOutdoorMovieTheater() {
               stars and moon, breathing in the fresh air - all in the privacy of
               your backyard.
             </p>
+          </div>
+          <div className="block lg:hidden col-span-12 pb-10 mb-10 text-center relative">
+            <img className="mx-auto w-full" src={PowerfulBackground} alt="" />
+
+            <p className="text-2xl mt-10 text-orng">Projector Connections:</p>
+            <div className="col-span-12 grid grid-cols-6 gap-5 xl:gap-20 mt-8">
+              {gridItems.map(item => (
+                <div
+                  className="orng-overlay col-span-3 md:col-span-2"
+                  key={item.id}
+                >
+                  <div className="md:border rounded-md border-grey-theater p-4 md:p-8 text-center h-full">
+                    <img
+                      src={item.img}
+                      alt={item.text}
+                      className="grid-icon my-3 mx-auto"
+                    />
+                    <p className="md:text-2xl">{item.text}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        <div
+          className="mx-auto w-full max-w-2400 text-center relative hidden lg:block"
+          style={{
+            backgroundImage: `url(${PowerfulBackground})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center center",
+          }}
+        >
+          <div className="relative w-full mx-auto">
+            <div className="block text-left py-20 p-10 bg-black-size-128">
+              <div className="container mx-auto">
+                <p className="text-3xl font-semibold text-orng">
+                  Projector Connections:
+                </p>
+                <ul className="text-2xl">
+                  {gridItems.map(item => (
+                    <li className="flex items-center my-8" key={item.id}>
+                      <img src={item.img} alt={item.text} className="" />
+                      {item.text}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
