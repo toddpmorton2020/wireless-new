@@ -357,7 +357,7 @@ function HowToBuildAnOutdoorMovieTheater() {
     return (
       <div className="black-back relative text-white border-b xl:border-none border-grey-subnav">
         <div className="container mx-auto py-8 xl:py-16 flex flex-col xl:grid xl:grid-cols-12 w-full">
-          <div className="text-center xl:col-span-12 xl:text-left xl:text-xl pb-10">
+          <div className="text-left xl:col-span-12 xl:text-xl pb-10">
             <h2 className="text-3xl xl:text-5xl font-semibold leading-9 xl:leading-none pb-3 xl:pb-3">
               Frame systems that work with your backyard
             </h2>
@@ -497,7 +497,7 @@ function HowToBuildAnOutdoorMovieTheater() {
                 className="orng-overlay col-span-3 md:col-span-2"
                 key={item.id}
               >
-                <div className="border rounded-md border-grey-theater p-4 md:p-8 text-center h-full">
+                <div className="md:border rounded-md border-grey-theater p-4 md:p-8 text-center h-full">
                   <ExampleSvg
                     alt={item.title}
                     className="grid-icon my-3 mx-auto"
@@ -506,6 +506,34 @@ function HowToBuildAnOutdoorMovieTheater() {
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      </div>
+    )
+  }
+
+  const PowerfulCinema = () => {
+    return (
+      <div className="black-back relative text-white border-b xl:border-none border-grey-subnav">
+        <div className="container mx-auto py-8 xl:py-16 flex flex-col xl:grid xl:grid-cols-12 w-full">
+          <div className="text-left xl:col-span-12 xl:text-xl pb-10">
+            <h2 className="text-3xl xl:text-5xl font-semibold leading-9 xl:leading-none pb-3 xl:pb-3">
+              Powerful cinema equipment capabilities
+            </h2>
+            <p className="text-lg xl:text-3xl pb-4 xl:pb-5 text-orng">
+              Tons of connections. Access everything. High-rated name-brand
+              products.
+            </p>
+            <p>
+              The outdoor movie theater cinema equipment allows you to connect
+              to almost any audio, gaming, streaming, and video device. The
+              cinema equipment delivers impressive entertainment no matter what
+              you're watching on the massive 150" diagonal screen. Experience
+              the new revolution of watching movies, sporting events, playing
+              video games, and streaming your favorite shows outside under the
+              stars and moon, breathing in the fresh air - all in the privacy of
+              your backyard.
+            </p>
           </div>
         </div>
       </div>
@@ -524,6 +552,7 @@ function HowToBuildAnOutdoorMovieTheater() {
       <HeresWhatYouGet />
       <FrameSystemsThatWork />
       <PerfectFor />
+      <PowerfulCinema />
     </Layout>
   )
 }
