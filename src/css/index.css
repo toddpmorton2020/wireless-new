@@ -840,3 +840,16 @@ b {
     background: linear-gradient(90deg, rgba(2, 0, 36, 0.7959384437368697) 0%, rgba(0, 0, 0, 0.8015406846332283) 35%, rgba(255, 255, 255, 0) 35%, rgba(255, 255, 255, 0) 100%);
   }
 }
+
+
+.white-svg path {
+  fill: #ffffff !important
+}
+
+.orgn-rollover-svg path {
+  fill: #ffffff !important
+}
+
+.orgn-rollover-svg:hover path {
+  fill: #ff5400 !important
+}

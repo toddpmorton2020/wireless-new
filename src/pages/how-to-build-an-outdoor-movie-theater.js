@@ -30,6 +30,16 @@ import SvgImage1 from "../images/svg/icon-year-round-402px-138px.png"
 import SvgImage2 from "../images/svg/icon-affordable-401px-138px.png"
 import SvgImage3 from "../images/svg/icon-moveable-frame-402px-138px.png"
 import { ExampleSvg } from "../components/svg/example"
+import { SpeakerIcon } from "../components/svg/CinemaCapabilities/speaker-icon"
+import { StreamingIcon } from "../components/svg/CinemaCapabilities/streaming-device-icon"
+import { ConsoleIcon } from "../components/svg/CinemaCapabilities/video-game-console-icon"
+import { SmartphoneIcon } from "../components/svg/CinemaCapabilities/smartphone-icon"
+import { LaptopIcon } from "../components/svg/CinemaCapabilities/laptop-icon"
+import { DvdIcon } from "../components/svg/CinemaCapabilities/dvd-icon"
+import { TunerIcon } from "../components/svg/CinemaCapabilities/tuner-icon"
+import { HeadphonesIcon } from "../components/svg/CinemaCapabilities/headphones-icon"
+import { BatteryIcon } from "../components/svg/CinemaCapabilities/battery-icon"
+import { CablesIcon } from "../components/svg/CinemaCapabilities/cables-icon"
 
 function HowToBuildAnOutdoorMovieTheater() {
   const Accordion = ({ title, className, children }) => {
@@ -524,52 +534,72 @@ function HowToBuildAnOutdoorMovieTheater() {
     const gridItems = [
       {
         id: 0,
-        img: PowerfulSpeaker,
+        img: (
+          <SpeakerIcon className="white-svg h-16 pb-3 lg:pb-0 lg:w-10 mx-auto lg:mx-3" />
+        ),
         text: "External Speakers",
       },
       {
         id: 1,
-        img: PowerfulStreaming,
+        img: (
+          <StreamingIcon className="white-svg h-16 pb-3 lg:pb-0 lg:w-10 mx-auto lg:mx-3" />
+        ),
         text: "Streaming Devices",
       },
       {
         id: 2,
-        img: PowerfulGaming,
+        img: (
+          <ConsoleIcon className="white-svg h-16 pb-3 lg:pb-0 lg:w-10 mx-auto lg:mx-3" />
+        ),
         text: "Gaming Consoles",
       },
       {
         id: 3,
-        img: PowerfulSmartphone,
+        img: (
+          <SmartphoneIcon className="white-svg h-16 pb-3 lg:pb-0 lg:w-10 mx-auto lg:mx-3" />
+        ),
         text: "Smartphones (IOS & Andriod)",
       },
       {
         id: 4,
-        img: PowerfulLaptop,
+        img: (
+          <LaptopIcon className="white-svg h-16 pb-3 lg:pb-0 lg:w-10 mx-auto lg:mx-3" />
+        ),
         text: "PCs, Laptops & Tablets",
       },
       {
         id: 5,
-        img: PowerfulDVD,
+        img: (
+          <DvdIcon className="white-svg h-16 pb-3 lg:pb-0 lg:w-10 mx-auto lg:mx-3" />
+        ),
         text: "DVD Players",
       },
       {
         id: 6,
-        img: PowerfulReceiver,
+        img: (
+          <TunerIcon className="white-svg h-16 pb-3 lg:pb-0 lg:w-10 mx-auto lg:mx-3" />
+        ),
         text: "Receivers & FM Tuners",
       },
       {
         id: 7,
-        img: PowerfulHeadphones,
+        img: (
+          <HeadphonesIcon className="white-svg h-16 pb-3 lg:pb-0 lg:w-10 mx-auto lg:mx-3" />
+        ),
         text: "Bluetooth Headphones",
       },
       {
         id: 8,
-        img: PowerfulBattery,
+        img: (
+          <BatteryIcon className="white-svg h-16 pb-3 lg:pb-0 lg:w-10 mx-auto lg:mx-3" />
+        ),
         text: "Off-Grid Battery Stations",
       },
       {
         id: 9,
-        img: PowerfulCables,
+        img: (
+          <CablesIcon className="white-svg h-16 pb-3 lg:pb-0 lg:w-10 mx-auto lg:mx-3" />
+        ),
         text: "HDMI, USB, VGA & Audio",
       },
     ]
@@ -603,15 +633,11 @@ function HowToBuildAnOutdoorMovieTheater() {
             <div className="col-span-12 grid grid-cols-6 gap-5 xl:gap-20 mt-8">
               {gridItems.map(item => (
                 <div
-                  className="orng-overlay col-span-3 md:col-span-2"
+                  className="orng-overlay col-span-3 md:col-span-2 self-center h-full"
                   key={item.id}
                 >
-                  <div className="md:border rounded-md border-grey-theater p-4 md:p-8 text-center h-full">
-                    <img
-                      src={item.img}
-                      alt={item.text}
-                      className="grid-icon my-3 mx-auto"
-                    />
+                  <div className="md:border rounded-md border-grey-theater p-4 md:p-8 text-center flex flex-col h-full justify-start">
+                    {item.img}
                     <p className="md:text-2xl">{item.text}</p>
                   </div>
                 </div>
@@ -637,13 +663,84 @@ function HowToBuildAnOutdoorMovieTheater() {
                 <ul className="text-2xl">
                   {gridItems.map(item => (
                     <li className="flex items-center my-8" key={item.id}>
-                      <img src={item.img} alt={item.text} className="" />
+                      {item.img}
                       {item.text}
                     </li>
                   ))}
                 </ul>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    )
+  }
+
+  const ImpressiveOutdoor = () => {
+    const gridItems = [
+      {
+        id: 0,
+        img: SvgImage1,
+        text: "Homeowners with a backyard",
+      },
+      {
+        id: 1,
+        img: SvgImage2,
+        text: "Regular use for outdoor entertainment",
+      },
+      {
+        id: 2,
+        img: SvgImage3,
+        text: "Family blockbuster movie night",
+      },
+      {
+        id: 3,
+        img: SvgImage1,
+        text: "Sporting event parties with friends and family",
+      },
+    ]
+
+    return (
+      <div className="black-back relative text-white border-b xl:border-none border-grey-subnav pt-10">
+        <div className="container mx-auto pb-8 xl:py-16 flex flex-col xl:grid xl:grid-cols-12 w-full">
+          <div className="text-center xl:col-span-12 xl:text-xl">
+            <h2 className="text-3xl xl:text-5xl font-semibold leading-9 xl:leading-none pb-3 xl:pb-3">
+              Impressive outdoor movie theater features
+            </h2>
+            <p className="text-lg xl:text-3xl pb-4 xl:pb-5 text-orng">
+              Fastest setup. Strongest frame system. Custom equipment stand.
+              Year-round use.
+            </p>
+            <p>
+              After researching and testing all of the outdoor movie theaters
+              you can buy online, I found four main areas for improvement. My
+              benchmark testing focused on setup time, durability of frame
+              systems, cinema equipment organization and storage, and the
+              ability to use year-round in cold climates states like Maine.
+            </p>
+            <br />
+            <p>
+              As a result, all of my Timberline Series Outdoor Movie Theaters
+              are the easiest and fastest to set up and start watching, have the
+              most robust frame system, comes with a custom cinema equipment
+              stand, and can be used year-round.
+            </p>
+          </div>
+          <div className="col-span-12 grid grid-cols-12 gap-5 xl:gap-20 mt-16">
+            {gridItems.map(item => (
+              <div
+                className="orng-overlay col-span-12 md:col-span-6"
+                key={item.id}
+              >
+                <div className="md:border rounded-md border-grey-theater p-4 md:p-8 text-center h-full">
+                  <ExampleSvg
+                    alt={item.text}
+                    className="grid-icon my-3 mx-auto"
+                  />
+                  <p className="md:text-2xl">{item.text}</p>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </div>
@@ -663,6 +760,7 @@ function HowToBuildAnOutdoorMovieTheater() {
       <FrameSystemsThatWork />
       <PerfectFor />
       <PowerfulCinema />
+      <ImpressiveOutdoor />
     </Layout>
   )
 }
