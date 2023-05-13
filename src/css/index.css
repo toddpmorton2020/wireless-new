@@ -854,23 +854,6 @@ b {
   fill: #ff5400 !important
 }
 
-/* .dynamic-svg path,
-.dynamic-svg line,
-.dynamic-svg rect,
-.dynamic-svg polyline,
-.dynamic-svg polygon {
-  stroke: #ffffff;
-  fill: #ffffff
-} */
-
-.design-plan-svg line {
-  stroke: #ffffff !important;
-}
-
-.design-plan-svg path {
-  stroke: #ffffff !important;
-}
-
 .rollover-svg-item:hover .border-grey-theater {
   border-color: #ff5400 !important;
 }
@@ -879,7 +862,15 @@ b {
   color: #ff5400 !important;
 }
 
-.rollover-svg-item:hover .design-plan-svg .color-svg path,
-.rollover-svg-item:hover .design-plan-svg .color-svg line {
+.rollover-svg-item:hover .design-plan-svg .color-svg-blue path,
+.rollover-svg-item:hover .design-plan-svg .color-svg-blue line {
   stroke: #49a9fb !important;
+}
+
+.rollover-svg-item:hover .material-list-svg .color-svg-yellow {
+  stroke: #fac55e !important;
+}
+
+.rollover-svg-item:hover .material-list-svg .color-svg-green {
+  stroke: #63bc46 !important;
 }
