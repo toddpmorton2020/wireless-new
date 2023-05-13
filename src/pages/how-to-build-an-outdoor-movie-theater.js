@@ -268,7 +268,7 @@ function HowToBuildAnOutdoorMovieTheater() {
       {
         id: 1,
         img: (
-          <MaterialListIcon className="my-3 h-16 pb-3 lg:pb-0 lg:w-64 mx-auto dynamic-svg" />
+          <MaterialListIcon className="my-3 h-16 pb-3 lg:pb-0 lg:w-64 mx-auto dynamic-svg material-list-svg" />
         ),
         title: "Material Lists",
         text: "Building material lists include hardware, fasteners, and wood.",
