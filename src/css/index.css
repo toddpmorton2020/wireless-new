@@ -863,11 +863,19 @@ b {
 }
 
 .rollover-svg-item:hover .color-svg-blue {
-  stroke: #49a9fb !important;
+  stroke: #2ea8df !important;
+}
+
+.rollover-svg-item:hover .color-svg-blue-fill {
+  fill: #2ea8df !important;
 }
 
 .rollover-svg-item:hover .color-svg-yellow {
   stroke: #fac55e !important;
+}
+
+.rollover-svg-item:hover .color-svg-yellow-fill {
+  fill: #fac55e !important;
 }
 
 .rollover-svg-item:hover .color-svg-green {
@@ -876,4 +884,20 @@ b {
 
 .rollover-svg-item:hover .color-svg-red {
   stroke: #e90505 !important;
+}
+
+.rollover-svg-item:hover .color-svg-orange-fill {
+  fill: #ff5400 !important;
+}
+
+.rollover-svg-item:hover .color-svg-brown-fill {
+  fill: #3c280d !important;
+}
+
+.rollover-svg-item:hover .color-svg-lightgreen {
+  stroke: #5cfb7d !important;
+}
+
+.rollover-svg-item:hover .color-svg-purple-fill {
+  fill: #6d4ee2 !important;
 }
