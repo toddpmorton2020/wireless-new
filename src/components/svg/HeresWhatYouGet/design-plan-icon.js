@@ -97,8 +97,9 @@ export const DesignPlanIcon = ({ className }) => (
         }}
       />
     </g>
-    <g className="color-svg-blue">
+    <g>
       <path
+        className="color-svg-blue"
         d="m5.1,272.5V99.9c0-16.1,13-29.1,29.1-29.1h28.4c3.9,0,7,3.1,7,7v158.6c0,3.9-3.1,7-7,7h-28.4c-16.1,0-29.1,13-29.1,29.1h0c0,16.1,13,29.1,29.1,29.1h260.1c16.1,0,29.1-13,29.1-29.1h0c0-16.1-13-29.1-29.1-29.1h-30.8c-3.9,0-7-3.1-7-7V77.8c0-3.9,3.1-7,7-7h30.8c16.1,0,29.1,13,29.1,29.1v172.6"
         style={{
           fill: "none",
@@ -110,6 +111,7 @@ export const DesignPlanIcon = ({ className }) => (
       />
       <g>
         <line
+          className="color-svg-blue"
           x1="69.6"
           y1="89.2"
           x2="115.5"
@@ -123,6 +125,7 @@ export const DesignPlanIcon = ({ className }) => (
           }}
         />
         <line
+          className="color-svg-blue"
           x1="256.5"
           y1="89.2"
           x2="210.5"

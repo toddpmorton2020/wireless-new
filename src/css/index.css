@@ -862,15 +862,18 @@ b {
   color: #ff5400 !important;
 }
 
-.rollover-svg-item:hover .design-plan-svg .color-svg-blue path,
-.rollover-svg-item:hover .design-plan-svg .color-svg-blue line {
+.rollover-svg-item:hover .color-svg-blue {
   stroke: #49a9fb !important;
 }
 
-.rollover-svg-item:hover .material-list-svg .color-svg-yellow {
+.rollover-svg-item:hover .color-svg-yellow {
   stroke: #fac55e !important;
 }
 
-.rollover-svg-item:hover .material-list-svg .color-svg-green {
+.rollover-svg-item:hover .color-svg-green {
   stroke: #63bc46 !important;
+}
+
+.rollover-svg-item:hover .color-svg-red {
+  stroke: #e90505 !important;
 }
