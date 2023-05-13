@@ -853,3 +853,33 @@ b {
 .orgn-rollover-svg:hover path {
   fill: #ff5400 !important
 }
+
+/* .dynamic-svg path,
+.dynamic-svg line,
+.dynamic-svg rect,
+.dynamic-svg polyline,
+.dynamic-svg polygon {
+  stroke: #ffffff;
+  fill: #ffffff
+} */
+
+.design-plan-svg line {
+  stroke: #ffffff !important;
+}
+
+.design-plan-svg path {
+  stroke: #ffffff !important;
+}
+
+.rollover-svg-item:hover .border-grey-theater {
+  border-color: #ff5400 !important;
+}
+
+.rollover-svg-item:hover .rollover-color-title {
+  color: #ff5400 !important;
+}
+
+.rollover-svg-item:hover .design-plan-svg .color-svg path,
+.rollover-svg-item:hover .design-plan-svg .color-svg line {
+  stroke: #49a9fb !important;
+}
