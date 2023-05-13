@@ -15,21 +15,15 @@ import BonusBanner from "../images/bonus-corner-banner-141px-x-121px.png"
 
 import PowerfulBackground from "../images/outdoor-movie-projector-stand-1920px-x-1080px.jpg"
 
-import PowerfulBattery from "../images/icon-battery-white-75px-x-55px.png"
-import PowerfulCables from "../images/icon-cables-white-75px-x-55px.png"
-import PowerfulDVD from "../images/icon-dvd-white-75px-x-55px.png"
-import PowerfulGaming from "../images/icon-gaming-console-white-75px-x-55px.png"
-import PowerfulHeadphones from "../images/icon-headphones-white-75px-x-55px.png"
-import PowerfulLaptop from "../images/icon-laptop-white-75px-x-55px.png"
-import PowerfulReceiver from "../images/icon-receiver-white-75px-x-55px.png"
-import PowerfulSmartphone from "../images/icon-smartphone-white-75px-x-55px.png"
-import PowerfulSpeaker from "../images/icon-speaker-white-75px-x-55px.png"
-import PowerfulStreaming from "../images/icon-streaming-device-white-75px-x-55px.png"
+import FlexingImage from "../images/icon-arm-flexing-130px-x-98px.png"
+import StampImage from "../images/icon-original-stamp-144px-x-98px.png"
+import WatchImage from "../images/icon-stop-watch-144px-x-98px.png"
+import YearImage from "../images/icon-year-round-130px-x-98px.png"
 
-import SvgImage1 from "../images/svg/icon-year-round-402px-138px.png"
-import SvgImage2 from "../images/svg/icon-affordable-401px-138px.png"
-import SvgImage3 from "../images/svg/icon-moveable-frame-402px-138px.png"
-import { ExampleSvg } from "../components/svg/example"
+import ImpressiveImage1 from "../images/setup-time-photo-805px-x-512px.jpg"
+import ImpressiveImage2 from "../images/strongest-frame-system-photo-805px-x-512px.jpg"
+import ImpressiveImage3 from "../images/equipment-stand-photo-805px-x-512px.jpg"
+import ImpressiveImage4 from "../images/theater-in-snow-photo-805px-x-512px.jpg"
 
 import YearroundImage from "../images/icon-year-round-402px-138px.png"
 import AffordableImage from "../images/icon-affordable-401px-138px.png"
@@ -42,7 +36,6 @@ import BudgetImage from "../images/icon-budget-friendly-401px-x-138px.png"
 import LastingImage from "../images/icon-built-to-last-402px-x-138px.png"
 
 import { ColdNightIcon } from "../components/svg/HeresWhatYouGet/cold-night-extras-icon"
-import { CornerBonusIcon } from "../components/svg/HeresWhatYouGet/corner-bonus-icon"
 import { DesignPlanIcon } from "../components/svg/HeresWhatYouGet/design-plan-icon"
 import { EquipmentListIcon } from "../components/svg/HeresWhatYouGet/equipment-list-icon"
 import { FirePitIcon } from "../components/svg/HeresWhatYouGet/fire-pit-ideas-icon"
@@ -764,23 +757,31 @@ function HowToBuildAnOutdoorMovieTheater() {
     const gridItems = [
       {
         id: 0,
-        img: SvgImage1,
-        text: "Homeowners with a backyard",
+        img: ImpressiveImage1,
+        icon: WatchImage,
+        text: "2-minute setup time",
+        align: "start",
       },
       {
         id: 1,
-        img: SvgImage2,
-        text: "Regular use for outdoor entertainment",
+        img: ImpressiveImage2,
+        icon: FlexingImage,
+        text: "Strongest frame system",
+        align: "end",
       },
       {
         id: 2,
-        img: SvgImage3,
-        text: "Family blockbuster movie night",
+        img: ImpressiveImage3,
+        icon: StampImage,
+        text: "Custom equipment stand",
+        align: "start",
       },
       {
         id: 3,
-        img: SvgImage1,
-        text: "Sporting event parties with friends and family",
+        img: ImpressiveImage4,
+        icon: YearImage,
+        text: "Year-round use",
+        align: "end",
       },
     ]
 
@@ -810,18 +811,36 @@ function HowToBuildAnOutdoorMovieTheater() {
               stand, and can be used year-round.
             </p>
           </div>
-          <div className="col-span-12 grid grid-cols-12 gap-5 xl:gap-20 mt-16">
+          <div className="col-span-12 grid grid-cols-12 lg:gap-2 mt-16">
             {gridItems.map(item => (
-              <div
-                className="orng-overlay col-span-12 md:col-span-6"
-                key={item.id}
-              >
-                <div className="md:border rounded-md border-grey-theater p-4 md:p-8 text-center h-full">
-                  <ExampleSvg
-                    alt={item.text}
-                    className="grid-icon my-3 mx-auto"
-                  />
-                  <p className="md:text-2xl">{item.text}</p>
+              <div className="col-span-12 lg:col-span-6" key={item.id}>
+                <div className="text-center h-full relative">
+                  <img src={item.img} alt={item.text} className="grid-image" />
+                  <div
+                    className={`lg:absolute w-full flex justify-center lg:justify-${item.align} my-8 lg:my-0`}
+                    style={{ top: "70%" }}
+                  >
+                    <div className="flex flex-col lg:flex-row bg-opacity-gray items-center relative">
+                      <img
+                        src={item.icon}
+                        alt=""
+                        className={`lg:absolute w-40 ${
+                          item.align === "start"
+                            ? "lg:order-1 lg:pl-4"
+                            : "lg:order-2 lg:right-0 lg:pr-4"
+                        }`}
+                      />
+                      <p
+                        className={`text-xl xl:text-3xl p-3 ${
+                          item.align === "start"
+                            ? "lg:order-2 lg:pl-40"
+                            : "lg:order-1 lg:pr-40"
+                        }`}
+                      >
+                        {item.text}
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
             ))}
