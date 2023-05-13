@@ -882,8 +882,16 @@ b {
   stroke: #63bc46 !important;
 }
 
+.rollover-svg-item:hover .color-svg-green-fill {
+  fill: #63bc46 !important;
+}
+
 .rollover-svg-item:hover .color-svg-red {
   stroke: #e90505 !important;
+}
+
+.rollover-svg-item:hover .color-svg-red-fill {
+  fill: #e90505 !important;
 }
 
 .rollover-svg-item:hover .color-svg-orange-fill {
@@ -896,6 +904,18 @@ b {
 
 .rollover-svg-item:hover .color-svg-lightgreen {
   stroke: #5cfb7d !important;
+}
+
+.rollover-svg-item:hover .color-svg-purple {
+  stroke: #6d4ee2 !important;
+}
+
+.rollover-svg-item:hover .color-svg-darkred-fill {
+  fill: #a41d23 !important;
+}
+
+.rollover-svg-item:hover .color-svg-lightbrown-fill {
+  fill: #b27f4c !important;
 }
 
 .rollover-svg-item:hover .color-svg-purple-fill {

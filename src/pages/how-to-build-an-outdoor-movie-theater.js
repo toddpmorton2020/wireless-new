@@ -31,6 +31,16 @@ import SvgImage2 from "../images/svg/icon-affordable-401px-138px.png"
 import SvgImage3 from "../images/svg/icon-moveable-frame-402px-138px.png"
 import { ExampleSvg } from "../components/svg/example"
 
+import YearroundImage from "../images/icon-year-round-402px-138px.png"
+import AffordableImage from "../images/icon-affordable-401px-138px.png"
+import MovableImage from "../images/icon-moveable-frame-402px-138px.png"
+import SturdyImage from "../images/icon-sturdy-402px-138px.png"
+
+import PermanentImage from "../images/icon-permanent-402px-x-138px.png"
+import AttractiveImage from "../images/icon-attractive-402px-x-138px.png"
+import BudgetImage from "../images/icon-budget-friendly-401px-x-138px.png"
+import LastingImage from "../images/icon-built-to-last-402px-x-138px.png"
+
 import { ColdNightIcon } from "../components/svg/HeresWhatYouGet/cold-night-extras-icon"
 import { CornerBonusIcon } from "../components/svg/HeresWhatYouGet/corner-bonus-icon"
 import { DesignPlanIcon } from "../components/svg/HeresWhatYouGet/design-plan-icon"
@@ -52,6 +62,12 @@ import { TunerIcon } from "../components/svg/CinemaCapabilities/tuner-icon"
 import { HeadphonesIcon } from "../components/svg/CinemaCapabilities/headphones-icon"
 import { BatteryIcon } from "../components/svg/CinemaCapabilities/battery-icon"
 import { CablesIcon } from "../components/svg/CinemaCapabilities/cables-icon"
+import { VideoGameConsoleIcon } from "../components/svg/PerfectFor/video-game-console"
+import { SportStadiumIcon } from "../components/svg/PerfectFor/sport-stadium-icon"
+import { RegularUseIcon } from "../components/svg/PerfectFor/regular-use-icon"
+import { GroupofPeopeIcon } from "../components/svg/PerfectFor/group-of-people-icon"
+import { FamilyMovieIcon } from "../components/svg/PerfectFor/family-movie-icon"
+import { BackyardIcon } from "../components/svg/PerfectFor/backyard-icon"
 
 function HowToBuildAnOutdoorMovieTheater() {
   const Accordion = ({ title, className, children }) => {
@@ -445,10 +461,22 @@ function HowToBuildAnOutdoorMovieTheater() {
             </div>
             <img className="mx-auto w-full" src={FrameSystemsMovable} alt="" />
             <div className="bg-gray-990 py-10 flex justify-between">
-              <img src={SvgImage1} alt="" className="w-full" />
-              <img src={SvgImage2} alt="" className="w-full" />
-              <img src={SvgImage3} alt="" className="w-full" />
-              <img src={SvgImage1} alt="" className="w-full" />
+              <div>
+                <img src={MovableImage} alt="" className="w-full" />
+                <p className="text-xs xl:text-2xl">Movable</p>
+              </div>
+              <div>
+                <img src={SturdyImage} alt="" className="w-full" />
+                <p className="text-xs xl:text-2xl">Sturdy</p>
+              </div>
+              <div>
+                <img src={YearroundImage} alt="" className="w-full" />
+                <p className="text-xs xl:text-2xl">Year-round use</p>
+              </div>
+              <div>
+                <img src={AffordableImage} alt="" className="w-full" />
+                <p className="text-xs xl:text-2xl">Affordable</p>
+              </div>
             </div>
             <div className="pt-2 block xl:hidden">
               <p className="text-orng text-xl">Movable Frame System</p>
@@ -471,10 +499,22 @@ function HowToBuildAnOutdoorMovieTheater() {
               alt=""
             />
             <div className="bg-gray-990 py-10 flex justify-between">
-              <img src={SvgImage1} alt="" className="w-full" />
-              <img src={SvgImage2} alt="" className="w-full" />
-              <img src={SvgImage3} alt="" className="w-full" />
-              <img src={SvgImage1} alt="" className="w-full" />
+              <div>
+                <img src={PermanentImage} alt="" className="w-full" />
+                <p className="text-xs xl:text-2xl">Permanent</p>
+              </div>
+              <div>
+                <img src={AttractiveImage} alt="" className="w-full" />
+                <p className="text-xs xl:text-2xl">Attractive</p>
+              </div>
+              <div>
+                <img src={LastingImage} alt="" className="w-full" />
+                <p className="text-xs xl:text-2xl">Built-to-last</p>
+              </div>
+              <div>
+                <img src={BudgetImage} alt="" className="w-full" />
+                <p className="text-xs xl:text-2xl">Budget-friendly</p>
+              </div>
             </div>
             <div className="pt-2 block xl:hidden">
               <p className="text-orng text-xl">Streamline Frame System</p>
@@ -490,32 +530,44 @@ function HowToBuildAnOutdoorMovieTheater() {
     const gridItems = [
       {
         id: 0,
-        img: SvgImage1,
+        img: (
+          <BackyardIcon className="grid-icon my-3 mx-auto w-full md:w-auto md:h-32 p-4" />
+        ),
         text: "Homeowners with a backyard",
       },
       {
         id: 1,
-        img: SvgImage2,
+        img: (
+          <RegularUseIcon className="grid-icon my-3 mx-auto w-full md:w-auto md:h-32 p-4" />
+        ),
         text: "Regular use for outdoor entertainment",
       },
       {
         id: 2,
-        img: SvgImage3,
+        img: (
+          <FamilyMovieIcon className="grid-icon my-3 mx-auto w-full md:w-auto md:h-32 p-4" />
+        ),
         text: "Family blockbuster movie night",
       },
       {
         id: 3,
-        img: SvgImage1,
+        img: (
+          <SportStadiumIcon className="grid-icon my-3 mx-auto w-full md:w-auto md:h-32 p-4" />
+        ),
         text: "Sporting event parties with friends and family",
       },
       {
         id: 4,
-        img: SvgImage2,
+        img: (
+          <GroupofPeopeIcon className="grid-icon my-3 mx-auto w-full md:w-auto md:h-32 p-4" />
+        ),
         text: "Special events and family reunions",
       },
       {
         id: 5,
-        img: SvgImage3,
+        img: (
+          <VideoGameConsoleIcon className="grid-icon my-3 mx-auto w-full md:w-auto md:h-32 p-4" />
+        ),
         text: "Video game parties with friends and family",
       },
     ]
@@ -550,12 +602,9 @@ function HowToBuildAnOutdoorMovieTheater() {
                 className="orng-overlay col-span-3 md:col-span-2"
                 key={item.id}
               >
-                <div className="md:border rounded-md border-grey-theater p-4 md:p-8 text-center h-full">
-                  <ExampleSvg
-                    alt={item.text}
-                    className="grid-icon my-3 mx-auto"
-                  />
-                  <p className="md:text-2xl">{item.text}</p>
+                <div className="md:border rounded-md border-grey-theater p-4 md:p-12 text-center h-full rollover-svg-item">
+                  {item.img}
+                  <p className="xl:text-3xl">{item.text}</p>
                 </div>
               </div>
             ))}
