@@ -30,6 +30,18 @@ import SvgImage1 from "../images/svg/icon-year-round-402px-138px.png"
 import SvgImage2 from "../images/svg/icon-affordable-401px-138px.png"
 import SvgImage3 from "../images/svg/icon-moveable-frame-402px-138px.png"
 import { ExampleSvg } from "../components/svg/example"
+
+import { ColdNightIcon } from "../components/svg/HeresWhatYouGet/cold-night-extras-icon"
+import { CornerBonusIcon } from "../components/svg/HeresWhatYouGet/corner-bonus-icon"
+import { DesignPlanIcon } from "../components/svg/HeresWhatYouGet/design-plan-icon"
+import { EquipmentListIcon } from "../components/svg/HeresWhatYouGet/equipment-list-icon"
+import { FirePitIcon } from "../components/svg/HeresWhatYouGet/fire-pit-ideas-icon"
+import { HowVideoIcon } from "../components/svg/HeresWhatYouGet/how-to-video-icon"
+import { MaterialListIcon } from "../components/svg/HeresWhatYouGet/material-list-icon"
+import { TheaterSeatingIcon } from "../components/svg/HeresWhatYouGet/theater-seating-icon"
+import { TipsTechniquesIcon } from "../components/svg/HeresWhatYouGet/tips-and-techniques-icon"
+import { ToolsNeededIcon } from "../components/svg/HeresWhatYouGet/tools-needed-icon"
+
 import { SpeakerIcon } from "../components/svg/CinemaCapabilities/speaker-icon"
 import { StreamingIcon } from "../components/svg/CinemaCapabilities/streaming-device-icon"
 import { ConsoleIcon } from "../components/svg/CinemaCapabilities/video-game-console-icon"
@@ -245,7 +257,9 @@ function HowToBuildAnOutdoorMovieTheater() {
     const gridItems = [
       {
         id: 0,
-        img: SvgImage1,
+        img: (
+          <DesignPlanIcon className="my-3 h-16 pb-3 lg:pb-0 lg:w-64 mx-auto dynamic-svg design-plan-svg" />
+        ),
         title: "Design Plans",
         text:
           "Design plans on how-to build the cinema frame and equipment stand.",
@@ -253,14 +267,18 @@ function HowToBuildAnOutdoorMovieTheater() {
       },
       {
         id: 1,
-        img: SvgImage2,
+        img: (
+          <MaterialListIcon className="my-3 h-16 pb-3 lg:pb-0 lg:w-64 mx-auto dynamic-svg" />
+        ),
         title: "Material Lists",
         text: "Building material lists include hardware, fasteners, and wood.",
         bonus: false,
       },
       {
         id: 2,
-        img: SvgImage3,
+        img: (
+          <ToolsNeededIcon className="my-3 h-16 pb-3 lg:pb-0 lg:w-64 mx-auto dynamic-svg" />
+        ),
         title: "Tools Needed",
         text:
           "Tools will be covered in depth, from essential handheld and power tools.",
@@ -268,7 +286,9 @@ function HowToBuildAnOutdoorMovieTheater() {
       },
       {
         id: 3,
-        img: SvgImage1,
+        img: (
+          <EquipmentListIcon className="my-3 h-16 pb-3 lg:pb-0 lg:w-64 mx-auto dynamic-svg" />
+        ),
         title: "Equipment Lists",
         text:
           "Recommended cinema equipment to use for wireless and wired cinema systems.",
@@ -276,7 +296,9 @@ function HowToBuildAnOutdoorMovieTheater() {
       },
       {
         id: 4,
-        img: SvgImage2,
+        img: (
+          <HowVideoIcon className="my-3 h-16 pb-3 lg:pb-0 lg:w-64 mx-auto dynamic-svg" />
+        ),
         title: "How-To Videos",
         text:
           "Video access on how to build, assemble and set up your outdoor movie theater.",
@@ -284,7 +306,9 @@ function HowToBuildAnOutdoorMovieTheater() {
       },
       {
         id: 5,
-        img: SvgImage3,
+        img: (
+          <TipsTechniquesIcon className="my-3 h-16 pb-3 lg:pb-0 lg:w-64 mx-auto dynamic-svg" />
+        ),
         title: "Tips & Techniques",
         text:
           "Get the most out of your outdoor movie theater with expert advice.",
@@ -292,7 +316,9 @@ function HowToBuildAnOutdoorMovieTheater() {
       },
       {
         id: 6,
-        img: SvgImage1,
+        img: (
+          <FirePitIcon className="my-3 h-16 pb-3 lg:pb-0 lg:w-64 mx-auto dynamic-svg" />
+        ),
         title: "Fire Pit Ideas",
         text:
           "Get recommendations on the best fire pits and the ones you should avoid.",
@@ -300,7 +326,9 @@ function HowToBuildAnOutdoorMovieTheater() {
       },
       {
         id: 7,
-        img: SvgImage2,
+        img: (
+          <TheaterSeatingIcon className="my-3 h-16 pb-3 lg:pb-0 lg:w-64 mx-auto dynamic-svg" />
+        ),
         title: "Theater Seating",
         text:
           "Ideas on how to make your outdoor movie theater seating area comfortable.",
@@ -308,7 +336,9 @@ function HowToBuildAnOutdoorMovieTheater() {
       },
       {
         id: 8,
-        img: SvgImage3,
+        img: (
+          <ColdNightIcon className="my-3 h-16 pb-3 lg:pb-0 lg:w-64 mx-auto dynamic-svg" />
+        ),
         title: "Cold Night Extras",
         text:
           "Great products to keep you extra warm outside at night while watching movies.",
@@ -359,13 +389,18 @@ function HowToBuildAnOutdoorMovieTheater() {
           </div>
           <div className="col-span-12 grid grid-cols-6 gap-5 xl:gap-20 mt-16">
             {gridItems.map(item => (
-              <div className="col-span-3 md:col-span-2" key={item.id}>
+              <div
+                className="col-span-3 md:col-span-2 rollover-svg-item"
+                key={item.id}
+              >
                 {item.bonus && (
                   <img src={BonusBanner} className="bonus-banner-image" />
                 )}
                 <div className="border rounded-md border-grey-theater p-4 md:p-8 text-center h-full">
-                  <img src={item.img} alt={item.title} className="my-3" />
-                  <p className="font-bold md:text-2xl mb-3">{item.title}</p>
+                  {item.img}
+                  <p className="font-bold md:text-2xl mb-3 rollover-color-title">
+                    {item.title}
+                  </p>
                   <p className="md:text-2xl">{item.text}</p>
                 </div>
               </div>
