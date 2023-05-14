@@ -947,3 +947,21 @@ b {
   font-size: 0.5rem;
   line-height: 0.75rem;
 }
+
+.quote-todd {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+.quote-todd:before {
+  content: open-quote;
+  font-weight: bold;
+  font-size: 24px;
+  padding-right: 5px;
+}
+
+.quote-todd:after {
+  content: close-quote;
+  font-weight: bold;
+  font-size: 24px;
+  padding-left: 5px;
+}

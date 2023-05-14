@@ -42,6 +42,7 @@ import TimberlineImage from "../images/timberline-frame-photo-423px-x-307px.png"
 import DownloadPDF from "../images/icon-pdf-download-play-button-107px-x-99px.png"
 
 import QuoteImage from "../images/quote-photo-1920px-x-1080px.jpg"
+import SignatureImage from "../images/todd-morton-founder-signature-743px-x-87px.png"
 
 import { ColdNightIcon } from "../components/svg/HeresWhatYouGet/cold-night-extras-icon"
 import { DesignPlanIcon } from "../components/svg/HeresWhatYouGet/design-plan-icon"
@@ -364,7 +365,7 @@ function HowToBuildAnOutdoorMovieTheater() {
     ]
 
     return (
-      <div className="black-back relative text-white border-b xl:border-none border-grey-subnav">
+      <div className="black-back relative text-white border-b md:border-none border-grey-subnav">
         <div className="container mx-auto pb-8 xl:py-16 flex flex-col xl:grid xl:grid-cols-12 w-full">
           <div className="col-span-5">
             <img
@@ -430,7 +431,7 @@ function HowToBuildAnOutdoorMovieTheater() {
 
   const FrameSystemsThatWork = () => {
     return (
-      <div className="black-back relative text-white border-b xl:border-none border-grey-subnav">
+      <div className="black-back relative text-white border-b md:border-none border-grey-subnav">
         <div className="container mx-auto py-8 xl:py-16 flex flex-col xl:grid xl:grid-cols-12 w-full">
           <div className="text-left xl:col-span-12 xl:text-xl pb-10">
             <h2 className="text-3xl xl:text-5xl font-semibold leading-9 xl:leading-none pb-3 xl:pb-3">
@@ -574,7 +575,7 @@ function HowToBuildAnOutdoorMovieTheater() {
     ]
 
     return (
-      <div className="black-back relative text-white border-b xl:border-none border-grey-subnav pt-10">
+      <div className="black-back relative text-white border-b md:border-none border-grey-subnav pt-10">
         <div className="container mx-auto pb-8 xl:py-16 flex flex-col xl:grid xl:grid-cols-12 w-full">
           <div className="text-center xl:col-span-12 xl:text-xl">
             <h2 className="text-3xl xl:text-5xl font-semibold leading-9 xl:leading-none pb-3 xl:pb-3">
@@ -690,7 +691,7 @@ function HowToBuildAnOutdoorMovieTheater() {
     ]
 
     return (
-      <div className="black-back relative text-white border-b xl:border-none border-grey-subnav">
+      <div className="black-back relative text-white border-b md:border-none border-grey-subnav">
         <div className="container mx-auto py-8 xl:py-16 flex flex-col xl:grid xl:grid-cols-12 w-full">
           <div className="text-left xl:col-span-12 xl:text-xl pb-10">
             <h2 className="text-3xl xl:text-5xl font-semibold leading-9 xl:leading-none pb-3 xl:pb-3">
@@ -794,7 +795,7 @@ function HowToBuildAnOutdoorMovieTheater() {
     ]
 
     return (
-      <div className="black-back relative text-white border-b xl:border-none border-grey-subnav pt-10">
+      <div className="black-back relative text-white border-b md:border-none border-grey-subnav pt-10">
         <div className="container mx-auto pb-8 xl:py-16 flex flex-col xl:grid xl:grid-cols-12 w-full">
           <div className="text-center xl:col-span-12 xl:text-xl">
             <h2 className="text-3xl xl:text-5xl font-semibold leading-9 xl:leading-none pb-3 xl:pb-3">
@@ -1508,7 +1509,7 @@ function HowToBuildAnOutdoorMovieTheater() {
   const BannerCallout = () => {
     return (
       <div className="bg-gray-990 relative text-white">
-        <div className="container mx-auto py-8 xl:py-12 flex grid grid-cols-12 w-full">
+        <div className="container mx-auto pt-8 pb-6 xl:pt-16 xl:pb-12 flex grid grid-cols-12 w-full">
           <div className="col-span-1">
             <img
               src={DownloadPDF}
@@ -1517,21 +1518,21 @@ function HowToBuildAnOutdoorMovieTheater() {
             />
           </div>
           <div className="col-span-7 flex flex-col">
-            <p className="text-xxs sm:text-xs md:text-md lg:text-2xl xl:text-3xl font-semibold">
+            <p className="text-xxs sm:text-xs md:text-base lg:text-2xl xl:text-3xl font-semibold">
               <span className="text-orng">Get the</span> only DIY{" "}
               <span className="text-orng">on how-to build a professional</span>
             </p>
-            <p className="text-md sm:text-2xl md:text-3xl lg:text-5xl xl:text-6xl font-semibold">
+            <p className="text-base sm:text-2xl md:text-3xl lg:text-5xl xl:text-6xl font-semibold">
               Outdoor Movie Theater
             </p>
           </div>
-          <div className="col-start-9 col-span-3 lg:col-start-10 lg:col-span-2 flex flex-col justify-center text-center">
-            <p className="text-xxs sm:text-xs md:text-md lg:text-2xl xl:text-3xl">
+          <div className="col-start-9 col-span-3 lg:col-start-10 lg:col-span-2 flex flex-col justify-around text-center">
+            <p className="text-xxs sm:text-xs md:text-base lg:text-2xl xl:text-3xl">
               Now only $99*
             </p>
             <a
               href="#"
-              className="px-1 md:px-2 py-1 md:py-2 xl:px-4 mt-2 flex-0 button-orng text-xxs sm:text-xs md:text-md lg:text-xl xl:text-2xl"
+              className="px-1 md:px-2 py-1 md:py-2 xl:py-5 xl:px-4 flex-0 button-orng text-xxs sm:text-xs md:text-base lg:text-xl xl:text-2xl"
             >
               Get the DIY now
             </a>
@@ -1543,31 +1544,103 @@ function HowToBuildAnOutdoorMovieTheater() {
 
   const Quote = () => {
     return (
-      <div className="black-back relative text-white border-b xl:border-none border-grey-subnav">
-        <div className="container mx-auto py-8 xl:py-16 flex flex-col xl:grid xl:grid-cols-12 w-full">
-          <div className="block lg:hidden col-span-12 pb-10 mb-10 text-center relative">
-            <img className="mx-auto w-full" src={QuoteImage} alt="" />
-
-            <p className="text-2xl mt-10 text-orng">Projector Connections:</p>
+      <div className="black-back relative text-white border-b md:border-none border-grey-subnav">
+        <img className="mx-auto w-full max-w-2400" src={QuoteImage} alt="" />
+        <div className="container mx-auto py-4 xl:py-16">
+          <div className="flex flex-col lg:hidden">
+            <div className="block col-span-12 mb-5 text-center relative">
+              <p className="text-xs sm:text-base quote-todd">
+                My wireless outdoor movie theaters take less time to set up and
+                start watching than it does to pop a bag of popcorn.
+              </p>
+              <img src={SignatureImage} alt="" className="w-64 mx-auto mt-5" />
+            </div>
           </div>
-
-          <div
-            className="mx-auto w-full max-w-2400 text-center relative hidden lg:block"
-            style={{
-              backgroundImage: `url(${QuoteImage})`,
-              backgroundSize: "cover",
-              backgroundPosition: "center center",
-            }}
-          >
-            <div className="relative w-full mx-auto">
-              <div className="block text-left py-20 p-10 bg-black-size-128">
-                <div className="container mx-auto">
-                  <p className="text-3xl font-semibold text-orng">
-                    Projector Connections:
-                  </p>
-                </div>
+          <div className="block h-full container">
+            <div className="absolute container mt-16 top-0 hidden lg:grid grid-cols-12">
+              <div className="flex flex-col col-start-7 col-span-6 text-center">
+                <p className="text-2xl xl:text-4xl quote-todd">
+                  My wireless outdoor movie theaters take less time to set up
+                  and start watching than it does to pop a bag of popcorn.
+                </p>
+                <img
+                  src={SignatureImage}
+                  alt=""
+                  className="w-full px-10 mx-auto mt-5"
+                />
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    )
+  }
+
+  const FAQ = () => {
+    const gridItems = [
+      {
+        id: 0,
+        img: ImpressiveImage1,
+        icon: WatchImage,
+        text: "2-minute setup time",
+        align: "start",
+      },
+      {
+        id: 1,
+        img: ImpressiveImage2,
+        icon: FlexingImage,
+        text: "Strongest frame system",
+        align: "end",
+      },
+      {
+        id: 2,
+        img: ImpressiveImage3,
+        icon: StampImage,
+        text: "Custom equipment stand",
+        align: "start",
+      },
+      {
+        id: 3,
+        img: ImpressiveImage4,
+        icon: YearImage,
+        text: "Year-round use",
+        align: "end",
+      },
+    ]
+
+    return (
+      <div className="black-back relative text-white border-b md:border-none border-grey-subnav pt-10">
+        <div className="container mx-auto pb-8 xl:py-16 flex flex-col xl:grid xl:grid-cols-12 w-full">
+          <div className="text-center xl:col-span-12 xl:text-xl">
+            <h2 className="text-3xl xl:text-5xl font-semibold leading-9 xl:leading-none pb-3 xl:pb-3">
+              Frequently asked questions
+            </h2>
+            <p className="text-lg xl:text-3xl pb-4 xl:pb-5 text-orng">
+              Common questions on how-to build a professional outdoor movie
+              theater
+            </p>
+            <p>
+              Below are the most frequently asked questions from customers over
+              the years to help you quickly find the answers you are searching
+              for broken down by category. Feel free to{" "}
+              <Link to="/connect" style={{ color: "#2ea8df" }}>
+                connect
+              </Link>{" "}
+              if you have a question that isn’t here.
+            </p>
+          </div>
+          <div className="col-span-12 grid grid-cols-12 gap-5 mt-16">
+            {gridItems.map(item => (
+              <div
+                className="col-span-12 lg:col-span-6 border rounded-md p-3"
+                key={item.id}
+              >
+                <div className="flex">
+                  <img src={item.icon} alt="" className="h-10" />
+                  <p className="text-md p-3 text-orng">{item.text}</p>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </div>
@@ -1591,6 +1664,7 @@ function HowToBuildAnOutdoorMovieTheater() {
       <Comparison />
       <BannerCallout />
       <Quote />
+      <FAQ />
     </Layout>
   )
 }
