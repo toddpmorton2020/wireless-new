@@ -1577,34 +1577,597 @@ function HowToBuildAnOutdoorMovieTheater() {
   }
 
   const FAQ = () => {
-    const gridItems = [
+    const faqList = [
       {
         id: 0,
-        img: ImpressiveImage1,
         icon: WatchImage,
-        text: "2-minute setup time",
-        align: "start",
+        text: "Outdoor Movie Theater Costs",
+        questions: [
+          {
+            id: "01",
+            question:
+              "What is the lumber cost for the frame systems and equipment stand?",
+            answer: (
+              <>
+                The recommended wood for the frame system is pressure-treated
+                4x4s. And the recommended timber to build the custom equipment
+                stand is Cedar, and you can also use pine wood. These two types
+                of wood keep the equipment stand's weight light, making it
+                easier to carry. However, when using hardwood like maple or oak,
+                the equipment stand's weight will stress your lower back and
+                neck when moving.
+                <br />
+                <br />
+                The cost will vary depending on your location, and lumber is
+                usually more cost- friendly at your local HomeDepot or Lowes
+                stores.
+                <br />
+                <br />
+                <strong>Streamline Frame System:</strong> Average cost is
+                between $150-175.
+                <br />
+                <br />
+                <strong>Movable Frame System:</strong> Average cost is between
+                $175-225.
+                <br />
+                <br />
+                <strong>Cedar Custom Equipment Stand:</strong> Average cost is
+                between $70-$90.
+                <br />
+                <br />
+                <strong>Pine Custom Equipment Stand:</strong> Average cost is
+                between $65-$85.
+              </>
+            ),
+          },
+          {
+            id: "02",
+            question: "How much does the frame system hardware cost?",
+            answer: (
+              <>
+                <strong>Streamline Frame System:</strong> The weather- resistant
+                hardware costs between $275-300.
+                <br />
+                <br />
+                <strong>Movable Frame System:</strong> The weather- resistant
+                hardware costs between $300–325.
+              </>
+            ),
+          },
+          {
+            id: "03",
+            question: "How much does the cinema equipment cost?",
+            answer: (
+              <>
+                The cinema equipment I offer with my Timberline Premium Wireless
+                150” Big Moose Package costs between $600 and $ 700.
+                <br />
+                <br />
+                You can also choose whatever electronic components and brand
+                names you want as long as they are compatible with the
+                recommended equipment setup.
+                <br />
+                <br />
+                For example, if you want to use a different projector or speaker
+                system, the cost will go up depending on your needs. And the
+                price will decrease if you already have some compatible
+                electronic components.
+                <br />
+                <br />
+                <strong>Wireless Cinema Cost:</strong> $600
+                <br />
+                <br />
+                <strong>Wired Cinema Equipment:</strong> $700
+              </>
+            ),
+          },
+          {
+            id: "04",
+            question:
+              "What is the price difference between wireless and wired cinemas?",
+            answer: (
+              <>
+                The wireless cinema package is less expensive than the wired
+                cinema by $100 and costs, on average, $600. And the wired cinema
+                equipment costs roughly $700.
+              </>
+            ),
+          },
+          {
+            id: "05",
+            question:
+              "What is the cost for a professional outdoor movie theater?",
+            answer: (
+              <>
+                The overall cost to build your own professional outdoor movie
+                theater is between $1,100 and $1,400.
+                <br />
+                <br />
+                The cost will be less if you already have lumber and some
+                compatible cinema equipment.
+              </>
+            ),
+          },
+        ],
       },
       {
         id: 1,
-        img: ImpressiveImage2,
         icon: FlexingImage,
-        text: "Strongest frame system",
-        align: "end",
+        text: "Frame System",
+        questions: [
+          {
+            id: "11",
+            question:
+              "How much space do I need to install the frame system on my property?",
+            answer:
+              "The recommended space needed for an outdoor movie theater setup is roughly 12 ft x 12 ft, which includes space for seating.",
+          },
+          {
+            id: "12",
+            question:
+              "How difficult is building the frame system, and what tools do I need?",
+            answer: (
+              <>
+                Anyone can easily build, assemble, and install the different
+                frame systems by following the instructions in the 'how-to'
+                manual. Essential tools include a hand saw, Skilsaw or compound
+                saw, drill, box level, and other standard household tools.
+                <br />
+                <br />
+                After purchasing the downloadable 'how-to' guide, the necessary
+                tools are covered in depth. If you don't have some of these
+                tools, you can rent them at your local hardware store or do what
+                most homeowners do - borrow them from your neighbors.
+              </>
+            ),
+          },
+          {
+            id: "13",
+            question:
+              "What are the dimensions for the different frame systems?",
+            answer: (
+              <>
+                <strong>Streamline Frame System:</strong> 12' ft wide x 10' ft
+                high x 4" depth.
+                <br />
+                <br />
+                <strong>Movable Frame System:</strong> 12' ft wide x 10' ft high
+                x 5' ft depth.
+              </>
+            ),
+          },
+          {
+            id: "14",
+            question:
+              "How much do the Movable and Streamline Frame Systems weigh?",
+            answer: (
+              <>
+                <strong>Streamline Frame System:</strong> weighs between 80-100
+                lbs.
+                <br />
+                <br />
+                <strong>Movable Frame System:</strong> weighs between 175-200
+                lbs.
+                <br />
+                <br />
+                The weight of the frame system will vary as most new
+                pressure-treated lumber is wet and heavy and eventually dries
+                out and becomes lighter over six months.
+              </>
+            ),
+          },
+          {
+            id: "15",
+            question: "How long will the frame system last after being built?",
+            answer: (
+              <>
+                The Timberline Frame Systems will last as long as your deck
+                outside and even longer if you apply a coat of stain every other
+                year.
+              </>
+            ),
+          },
+        ],
       },
       {
         id: 2,
-        img: ImpressiveImage3,
         icon: StampImage,
-        text: "Custom equipment stand",
-        align: "start",
+        text: "Cinematic Screen",
+        questions: [
+          {
+            id: "21",
+            question: "Can I use a bed sheet instead of a cinematic screen?",
+            answer: (
+              <>
+                You can if you’d like the worst viewing screen for your
+                professional outdoor movie theater. Bed sheets allow too much
+                light transmission White Eastern Cedar 5/4” thick x 6” wide, or
+                you can use 1” thick x 6” wide Pinewood. You can also build the
+                equipment stand using pressure-treated wood. through the
+                material, causing the screen to look dull.
+                <br />
+                <br />
+                Cinematic screens are made of unique materials to prevent light
+                transmission giving you a sharp and crisp viewing experience.
+                The more light transmission that goes through the screen, the
+                more visual quality you’ll lose through the projector.
+                <br />
+                <br />
+                Outdoor cinematic screens cost roughly $10 more than a bedsheet.
+              </>
+            ),
+          },
+          {
+            id: "22",
+            question:
+              "What are the overall dimensions of the cinematic screen?",
+            answer:
+              "150” diagonal. The dimensions are 9’ ft. 3” wide x 5’ ft. 10” high.",
+          },
+          {
+            id: "23",
+            question: "How do I attach the screen to the frame system?",
+            answer: (
+              <>
+                Most outdoor cinematic screens have grommet holes along the
+                edges of the screen that get attached to screw hooks on the
+                inside of the frame system.
+                <br />
+                <br />
+                There are two ways of hanging the screen; running a black nylon
+                cord through the grommet holes and tying it off at the ends of
+                the frame for a clean straight line appearance or hanging the
+                screen on the screw hooks inside the frame system, giving the
+                screen edges a slight spider web appearance that you won't see
+                while watching your favorite entertainment outside.
+              </>
+            ),
+          },
+          {
+            id: "24",
+            question: "Is the outdoor cinematic screen machine-washable?",
+            answer: (
+              <>
+                Most screen manufacturers do not recommend washing your screen
+                in your washing machine. Instead, it's recommended to
+                spot-cleaning your cinematic screen when it gets dirty with
+                Woolite and running through a dryer for 5-10 minutes.
+              </>
+            ),
+          },
+          {
+            id: "25",
+            question: "Can the cinematic screen stay outside year-round?",
+            answer: (
+              <>
+                No. It is recommended to take your screen down after each use
+                outside. Try to avoid getting the cinematic screen wet from the
+                rain.
+                <br />
+                <br />
+                <strong>Warning:</strong> If you leave your cinematic screen
+                attached to the Movable frame system with strong wind gusts, the
+                wind will fill up your screen like a sail on a sailboat and
+                topple the heavy frame system over, crushing anything in front
+                of it. The wind will also stress the grommets on the edges of
+                the screen and eventually rip them out.
+              </>
+            ),
+          },
+        ],
       },
       {
         id: 3,
-        img: ImpressiveImage4,
         icon: YearImage,
-        text: "Year-round use",
-        align: "end",
+        text: "Custom Equipment Stand",
+        questions: [
+          {
+            id: "31",
+            question:
+              "What type of wood is recommended for cinema equipment stand?",
+            answer: (
+              <>
+                White Eastern Cedar 5/4” thick x 6” wide, or you can use 1”
+                thick x 6” wide Pinewood. You can also build the equipment stand
+                using pressure-treated wood. Pressure-treated wood costs much
+                less but weighs significantly more than cedar and pine wood.
+                <br />
+                <br />
+                To protect your equipment stand, you should always apply a coat
+                of a semi-transparent stain.
+              </>
+            ),
+          },
+          {
+            id: "32",
+            question:
+              "What tools are necessary to build the cinema equipment stand?",
+            answer: (
+              <>
+                You will need a circular or compound saw, bar clamps, sanding
+                block, random orbital sander, and drill. If you don’t have these
+                tools, do what most homeowners do — borrow some tools from your
+                neighbors, or you can rent them at a low cost from most hardware
+                stores.
+              </>
+            ),
+          },
+          {
+            id: "33",
+            question: "What is the size of the equipment stand?",
+            answer: (
+              <>
+                The equipment stand's overall dimensions depend on the equipment
+                you want to use for your cinema setup. Over the years of
+                building outdoor movie theaters for customers, every cinema
+                equipment stand I've made is a different size.
+                <br />
+                <br />
+                There are exact calculations for you to follow in the DIY to
+                help you determine the proper size to build your custom cinema
+                equipment stand.
+              </>
+            ),
+          },
+          {
+            id: "34",
+            question:
+              "How difficult is it to build the custom cinema equipment stand?",
+            answer: (
+              <>
+                For the beginner with no furniture building experience, the
+                'how-to' DIY will show you how easy it is to build and assemble
+                the stand, where you can do it in a day.
+                <br />
+                <br />
+                If you have a full woodshop and have built furniture before, the
+                design plans are straightforward, and you'll easily conquer this
+                project.
+              </>
+            ),
+          },
+          {
+            id: "35",
+            question: "Can I use an aluminum tripod projector stand instead?",
+            answer: (
+              <>
+                No. There is not enough space on the tripod projector stand
+                shelf to hold all of the necessary electronic components, as it
+                only has enough space to hold a projector and nothing else. And
+                you want to avoid stacking your equipment on top of each.
+                <br />
+                <br />
+                The Timberline Series Custom Cinema Equipment Stand is a
+                portable entertainment center where all your equipment stays
+                neatly organized and never has to be disconnected or broken
+                down, just like the entertainment center inside your home.
+              </>
+            ),
+          },
+        ],
+      },
+      {
+        id: 4,
+        icon: YearImage,
+        text: "Cinema Equipment",
+        questions: [
+          {
+            id: "41",
+            question:
+              "Does the cinema equipment allow for daytime movies outside?",
+            answer: (
+              <>
+                The recommended projector I provide in the DIY does not support
+                daytime use due to the higher cost of a daytime projector.
+                However, you can customize your cinema equipment and get a
+                daytime projector to fit your needs.
+                <br />
+                <br />
+                Daytime projectors range in cost from $800 and up and can be
+                found online by searching for ‘outdoor daytime projectors.’ The
+                DIY covers outdoor daytime projectors and which ones are the
+                best based on online reviews if cost is not an issue.
+              </>
+            ),
+          },
+          {
+            id: "42",
+            question: "Is the recommended cinema equipment customizable?",
+            answer: (
+              <>
+                Absolutely. You can customize your cinema equipment to fit your
+                needs by choosing what you’d like for electronics and brands.
+                The how-to DIY provides the cinema equipment I use for my
+                customers in Maine and works as a framework to help you
+                understand how everything works and gets connected.
+              </>
+            ),
+          },
+          {
+            id: "43",
+            question:
+              "Can I play video games outside with the cinema equipment?",
+            answer: (
+              <>
+                Yes. With the wired cinema setup, you can play video games all
+                night under the stars and moon. Just plug your XboxTM,
+                PlayStation®, or WiiTM console into the projector and start
+                gaming away on a massive 150" diagonal screen. Unfortunately,
+                the wireless cinema is not powerful enough for gaming systems.
+              </>
+            ),
+          },
+          {
+            id: "44",
+            question:
+              "Does the DIY cover both wireless and wired cinema packages?",
+            answer: (
+              <>
+                Yes – the DIY covers the recommended cinema equipment for
+                wireless and wired packages.
+              </>
+            ),
+          },
+          {
+            id: "45",
+            question: "Will the wireless cinema package work with PA Speakers?",
+            answer: (
+              <>
+                No. You can only use the wired cinema setup to run powerful PA
+                Speakers through. The wireless cinema setup is not capable of
+                powering high-end sound systems. However, you can use great
+                Bluetooth speakers with the wireless cinema setup.
+              </>
+            ),
+          },
+          {
+            id: "46",
+            question:
+              "Can I use Bluetooth Wireless Headphones with the cinema equipment?",
+            answer: (
+              <>
+                Yes. With the wired cinema system, you can use Bluetooth
+                Wireless Headphones to listen to your entertainment, so it
+                doesn’t disrupt your neighbors. Not compatible with the wireless
+                cinema setup.
+              </>
+            ),
+          },
+          {
+            id: "47",
+            question: "Is the recommended cinema equipment waterproof?",
+            answer: (
+              <>
+                No. The cinema equipment is the same as the electronics inside
+                your home – avoid getting them wet by rain.
+              </>
+            ),
+          },
+        ],
+      },
+      {
+        id: 5,
+        icon: YearImage,
+        text: "Assembly and Installation",
+        questions: [
+          {
+            id: "51",
+            question:
+              "Do I need a building permit to install an outdoor movie theater?",
+            answer: (
+              <>
+                Each state and town have its own zoning codes. The Timberline
+                Movable Frame System is not considered a permanent structure and
+                falls under a similar category of an outdoor residential
+                playground and should not require any zoning permit.
+                <br />
+                <br />
+                The Timberline Streamline Frame System gets cemented into the
+                ground and is also similar to an outdoor residential playground
+                that may not require any zoning permit. However, it’s
+                recommended to call your local town office and speak to the
+                zoning commissioner to verify that installing the frame system
+                is permittable.
+                <br />
+                <br />
+                <strong>Important:</strong> always call Dig Safe before digging
+                into the ground.
+              </>
+            ),
+          },
+          {
+            id: "52",
+            question:
+              "What are my options if I don’t have a flat area to install the frame?",
+            answer: (
+              <>
+                Use the Timberline Streamline Frame System for uneven ground.
+                <br />
+                <br />
+                If you have ledge stone under your lawn or have other
+                obstructions, use 2’ ft wide x 2’ ft high x 2’ft deep plywood
+                form boxes. Place the frame posts in the boxes, then pour cement
+                into them. After the cement cures, remove the plywood frame, and
+                you can apply bricks or veneer stone around them to create a
+                beautiful decorative look.
+              </>
+            ),
+          },
+          {
+            id: "53",
+            question:
+              "What tools do I need to assemble and install the frame systems?",
+            answer: (
+              <>
+                <strong>Streamline Frame System:</strong> 1/4” or 1⁄2” drive
+                ratchet socket wrench and sockets, hammer, drill, 6’ ft box
+                level, and shovel.
+                <br />
+                <br />
+                <strong>Movable Frame System:</strong> 1/4” or 1⁄2” drive
+                ratchet socket wrench and sockets, hammer, drill, and 6’ ft box
+                level.
+              </>
+            ),
+          },
+          {
+            id: "54",
+            question:
+              "How difficult is it to install the different frame systems?",
+            answer: (
+              <>
+                I install all of my client's cinemas by myself and recommend you
+                have two people to help assemble and install your frame system
+                for the first time – it will go much easier and faster.
+              </>
+            ),
+          },
+          {
+            id: "55",
+            question:
+              "How long does it take to install the different frame systems?",
+            answer: (
+              <>
+                The overall time to assemble and install the frame system should
+                take you a day - even faster with two people. Both frame systems
+                take roughly the same amount of time to install.
+              </>
+            ),
+          },
+          {
+            id: "56",
+            question:
+              "What if the ground where the equipment stand goes is uneven?",
+            answer: (
+              <>
+                It's recommended to make the area as flat and level as possible
+                for the custom cinema equipment stand to rest on. Picking up
+                8-10 stone pavers at your local box store to place the equipment
+                stand on will make the setup faster as you know exactly where
+                the stand will go whenever you want to enjoy your favorite
+                entertainment outside on the big screen.
+                <br />
+                <br />
+                If you don't have a level area to place the cinema equipment
+                stand on due to ledge stone and rocks, use an angle grinder with
+                a diamond tip blade and grind down the stone until it's level.
+                Always use protective eye goggles when using an angle grinder.
+              </>
+            ),
+          },
+          {
+            id: "57",
+            question:
+              "How far away does the equipment stand need to be from the frame?",
+            answer: (
+              <>
+                The distance from the projector to the cinema screen is the
+                throw distance. Each projector has a recommended throw distance
+                and will be covered in the 'how-to' DIY.
+              </>
+            ),
+          },
+        ],
       },
     ]
 
@@ -1630,15 +2193,41 @@ function HowToBuildAnOutdoorMovieTheater() {
             </p>
           </div>
           <div className="col-span-12 grid grid-cols-12 gap-5 mt-16">
-            {gridItems.map(item => (
+            {faqList.map(item => (
               <div
-                className="col-span-12 lg:col-span-6 border rounded-md p-3"
+                className="col-span-12 lg:col-span-6 border rounded-md p-3 py-5 orng-rollover-overlay"
                 key={item.id}
               >
-                <div className="flex">
-                  <img src={item.icon} alt="" className="h-10" />
-                  <p className="text-md p-3 text-orng">{item.text}</p>
+                <div className="flex items-center pb-3">
+                  <img src={item.icon} alt="" className="w-12 h-fit" />
+                  <p className="text-md lg:text-xl px-3 text-orng">
+                    {item.text}
+                  </p>
                 </div>
+                {item.questions.map(qa => (
+                  <article className="faq-accordion" key={qa.id}>
+                    <input
+                      type="checkbox"
+                      className="tgg-title"
+                      id={`tgg-title-${qa.id}`}
+                    />
+                    <div className="faq-accordion-title">
+                      <label htmlFor={`tgg-title-${qa.id}`}>
+                        {/* <span className="arrow-icon">
+                          <img src="../../assets/img/down-arrow.svg" />
+                        </span> */}
+                        <p className="faq-accordion-header p1 text-sm lg:text-lg">
+                          {qa.question}
+                        </p>
+                      </label>
+                    </div>
+                    <div className="faq-accordion-content">
+                      <p className="py-2 px-4 text-sm lg:text-lg">
+                        {qa.answer}
+                      </p>
+                    </div>
+                  </article>
+                ))}
               </div>
             ))}
           </div>

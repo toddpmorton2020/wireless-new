@@ -965,3 +965,81 @@ b {
   font-size: 24px;
   padding-left: 5px;
 }
+
+
+input.tgg-title {
+  appearance: unset;
+  all: unset;
+}
+
+.faq-accordion-title label {
+  display: flex;
+  align-items: center;
+  padding: 8px 0;
+  cursor: pointer;
+}
+
+.faq-accordion-title span {
+  margin-left: auto;
+  transition: transform 0.35s ease-in-out;
+  opacity: 0.7;
+}
+
+.faq-accordion-content {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.35s ease-in-out;
+}
+
+.faq-accordion .tgg-title:checked~.faq-accordion-content {
+  will-change: max-height;
+  max-height: 1000px;
+}
+
+.faq-accordion-header {
+  position: relative;
+  transition: color 0.2s linear;
+  cursor: pointer;
+  margin-left: 3.8rem;
+}
+
+.panel__label:focus {
+  outline: none;
+}
+
+.faq-accordion-header:after,
+.faq-accordion-header:before {
+  content: '';
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  width: 22px;
+  height: 2px;
+  margin-top: -2px;
+  background-color: #ffffff;
+  margin-left: -3rem;
+}
+
+.faq-accordion .faq-accordion-header:after {
+  transform: rotate(90deg);
+  transition: transform 0.35s cubic-bezier(0.65, 0.05, 0.36, 1);
+}
+
+.faq-accordion .tgg-title:checked~.faq-accordion-title .faq-accordion-header:before {
+  transition: transform 0.35s cubic-bezier(0.65, 0.05, 0.36, 1);
+  background-color: #ff5400;
+}
+
+.faq-accordion .tgg-title:checked~.faq-accordion-title .faq-accordion-header:after {
+  transform: rotate(0deg);
+  transition: transform 0.35s cubic-bezier(0.65, 0.05, 0.36, 1);
+  background-color: #ff5400;
+}
+
+.faq-accordion .tgg-title:checked~.faq-accordion-title .faq-accordion-header {
+  color: #ff5400;
+}
+
+.orng-rollover-overlay:hover {
+  border-color: #ff5400;
+}
