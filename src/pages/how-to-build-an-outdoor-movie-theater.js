@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react"
-import { Link, navigate } from "gatsby"
+import { Link } from "gatsby"
 
 import PlayButton from "../images/play-button-162px-x-182px.png"
 
@@ -39,6 +39,10 @@ import AirscreenImage from "../images/airscreen-frame-photo-423px-x-307px.png"
 import AluminumImage from "../images/aluminum-frame-photo-423px-x-307px.png"
 import TimberlineImage from "../images/timberline-frame-photo-423px-x-307px.png"
 
+import DownloadPDF from "../images/icon-pdf-download-play-button-107px-x-99px.png"
+
+import QuoteImage from "../images/quote-photo-1920px-x-1080px.jpg"
+
 import { ColdNightIcon } from "../components/svg/HeresWhatYouGet/cold-night-extras-icon"
 import { DesignPlanIcon } from "../components/svg/HeresWhatYouGet/design-plan-icon"
 import { EquipmentListIcon } from "../components/svg/HeresWhatYouGet/equipment-list-icon"
@@ -65,10 +69,6 @@ import { RegularUseIcon } from "../components/svg/PerfectFor/regular-use-icon"
 import { GroupofPeopeIcon } from "../components/svg/PerfectFor/group-of-people-icon"
 import { FamilyMovieIcon } from "../components/svg/PerfectFor/family-movie-icon"
 import { BackyardIcon } from "../components/svg/PerfectFor/backyard-icon"
-
-import bellaBear from "../images/bella-bear.png"
-import bigMoose from "../images/big-moose.png"
-import jediBobcat from "../images/jedi-bobcat.png"
 
 function HowToBuildAnOutdoorMovieTheater() {
   const Accordion = ({ title, className, children }) => {
@@ -859,32 +859,8 @@ function HowToBuildAnOutdoorMovieTheater() {
   }
 
   const Comparison = () => {
-    const [open, setOpen] = useState(false)
-    const [open1, setOpen1] = useState(false)
-    const [open2, setOpen2] = useState(false)
-    let arrowClassName = "w-4 transition-transform transform duration-300"
-    if (!open) arrowClassName += " -rotate-90"
-    else arrowClassName += " rotate-0"
-    let answerClassName = "transform duration-300 overflow-hidden"
-    if (open) answerClassName += " open-ps"
-    else answerClassName += " closed-ps pb-0"
-
-    let arrowClassName1 = "w-4 transition-transform transform duration-300"
-    if (!open1) arrowClassName1 += " -rotate-90"
-    else arrowClassName1 += " rotate-0"
-    let answerClassName1 = "transform duration-300 overflow-hidden"
-    if (open1) answerClassName1 += " open-ps"
-    else answerClassName1 += " closed-ps pb-0"
-
-    let arrowClassName2 = "w-4 transition-transform transform duration-300"
-    if (!open2) arrowClassName2 += " -rotate-90"
-    else arrowClassName2 += " rotate-0"
-    let answerClassName2 = "transform duration-300 overflow-hidden"
-    if (open2) answerClassName2 += " open-ps"
-    else answerClassName2 += " closed-ps pb-0"
-
     return (
-      <div className="black-back relative text-white border-b xl:border-none border-grey-subnav pt-10">
+      <div className="black-back relative text-white pt-10">
         <div className="container mx-auto">
           <div className="text-center xl:col-span-12 xl:text-xl">
             <h2 className="text-3xl xl:text-5xl font-semibold leading-9 xl:leading-none pb-3 xl:pb-3">
@@ -902,6 +878,371 @@ function HowToBuildAnOutdoorMovieTheater() {
               (designed and built in Maine by the Wireless Outdoor Cinema
               Company).
             </p>
+          </div>
+          <div className="block lg:hidden">
+            <div className="grid grid-cols-12 mt-16 text-center items-center">
+              <div className="col-span-6">
+                <img src={AluminumImage} alt="" className="w-80 mx-auto" />
+                <h1 className="md:py-3 text-sm md:text-31 font-medium">
+                  <p className="font-semibold">Aluminum System</p>
+                </h1>
+                <p className="text-xs md:text-xl text-grey-bdbbba">
+                  Cinema equipment included
+                </p>
+                <p className="text-sm md:text-xl md:pt-3 pb-6">
+                  $1,500 - 3,000
+                </p>
+                <hr className="mx-4 border-gray-500" />
+              </div>
+              <div className="col-span-6">
+                <img src={TimberlineImage} alt="" className="w-80 mx-auto" />
+                <h1 className="md:py-3 text-sm md:text-31 font-medium">
+                  <p className="text-orange-1000 font-semibold">
+                    Timberline Big Moose
+                  </p>
+                </h1>
+                <p className="text-xs md:text-xl text-grey-bdbbba">
+                  Cinema equipment included
+                </p>
+                <p className="text-sm md:text-xl md:pt-3 pb-6">
+                  $2,900 - 3,000
+                </p>
+                <hr className="mx-4 border-gray-500" />
+              </div>
+            </div>
+            <div className="py-5 border-b border-gray-500">
+              <div className="grid grid-cols-12 my-6 text-center items-center">
+                <div className="col-span-6 font-extralight">
+                  <h1 className="text-sm text-center">Frame System Size</h1>
+                  <p className="text-sm text-center text-grey-bdbbba">
+                    11 ft wide x 10' ft high
+                  </p>
+                </div>
+                <div className="col-span-6 font-extralight">
+                  <h1 className="text-sm text-center">Frame System Size</h1>
+                  <p className="text-sm text-center text-grey-bdbbba">
+                    12 ft wide x 10' ft high
+                  </p>
+                </div>
+              </div>
+
+              <div className="grid grid-cols-12 my-6 text-center items-center">
+                <div className="col-span-6 font-extralight">
+                  <h1 className="text-sm text-center">Cinematic Screen Size</h1>
+                  <p className="text-sm text-center text-grey-bdbbba">
+                    150" diagonal screen
+                  </p>
+                </div>
+                <div className="col-span-6 font-extralight">
+                  <h1 className="text-sm text-center">Cinematic Screen Size</h1>
+                  <p className="text-sm text-center text-grey-bdbbba">
+                    150" diagonal screen
+                  </p>
+                </div>
+              </div>
+
+              <div className="grid grid-cols-12 my-6 text-center items-center">
+                <div className="col-span-6 font-extralight">
+                  <h1 className="text-sm text-center">1080p Projector</h1>
+                  <p className="text-sm text-center text-grey-bdbbba">Yes</p>
+                </div>
+                <div className="col-span-6 font-extralight">
+                  <h1 className="text-sm text-center">1080p Projector</h1>
+                  <p className="text-sm text-center text-grey-bdbbba">Yes</p>
+                </div>
+              </div>
+
+              <div className="grid grid-cols-12 my-6 text-center items-center">
+                <div className="col-span-6 font-extralight">
+                  <h1 className="text-sm text-center">Sound System</h1>
+                  <p className="text-sm text-center text-grey-bdbbba">Yes</p>
+                </div>
+                <div className="col-span-6 font-extralight">
+                  <h1 className="text-sm text-center">Sound System</h1>
+                  <p className="text-sm text-center text-grey-bdbbba">Yes</p>
+                </div>
+              </div>
+
+              <div className="grid grid-cols-12 my-6 text-center items-center">
+                <div className="col-span-6 font-extralight">
+                  <h1 className="text-sm text-center">Cinema Packages</h1>
+                  <p className="text-sm text-center text-grey-bdbbba">
+                    Wired equipment only
+                  </p>
+                </div>
+                <div className="col-span-6 font-extralight">
+                  <h1 className="text-sm text-center">Cinema Packages</h1>
+                  <p className="text-sm text-center text-green-1f8f13">
+                    Wireless & Wired equipment
+                  </p>
+                </div>
+              </div>
+
+              <div className="grid grid-cols-12 my-6 text-center items-center">
+                <div className="col-span-6 font-extralight">
+                  <h1 className="text-sm text-center">Setup Time</h1>
+                  <p className="text-sm text-center text-red-b20000">
+                    10-15 minutes
+                  </p>
+                </div>
+                <div className="col-span-6 font-extralight">
+                  <h1 className="text-sm text-center">Setup Time</h1>
+                  <p className="text-sm text-center text-green-1f8f13">
+                    2-5 minutes
+                  </p>
+                </div>
+              </div>
+
+              <div className="grid grid-cols-12 my-6 text-center items-center">
+                <div className="col-span-6 font-extralight">
+                  <h1 className="text-sm text-center">
+                    Custom Equipment Stand
+                  </h1>
+                  <p className="text-sm text-center text-red-b20000">No</p>
+                </div>
+                <div className="col-span-6 font-extralight">
+                  <h1 className="text-sm text-center">
+                    Custom Equipment Stand
+                  </h1>
+                  <p className="text-sm text-center text-green-1f8f13">Yes</p>
+                </div>
+              </div>
+
+              <div className="grid grid-cols-12 my-6 text-center items-center">
+                <div className="col-span-6 font-extralight">
+                  <h1 className="text-sm text-center">Year-Round Use</h1>
+                  <p className="text-sm text-center text-red-b20000">
+                    Not in snow climates
+                  </p>
+                </div>
+                <div className="col-span-6 font-extralight">
+                  <h1 className="text-sm text-center">Year-Round Use</h1>
+                  <p className="text-sm text-center text-green-1f8f13">
+                    Yes - even in snow climates
+                  </p>
+                </div>
+              </div>
+
+              <div className="grid grid-cols-12 my-6 text-center items-center">
+                <div className="col-span-6 font-extralight">
+                  <h1 className="text-sm text-center">
+                    Frame System After Use
+                  </h1>
+                  <p className="text-sm text-center text-red-b20000">
+                    Needs to be broken down
+                  </p>
+                </div>
+                <div className="col-span-6 font-extralight">
+                  <h1 className="text-sm text-center">
+                    Frame System After Use
+                  </h1>
+                  <p className="text-sm text-center text-green-1f8f13">
+                    Stays up year-round
+                  </p>
+                </div>
+              </div>
+
+              <div className="grid grid-cols-12 my-6 text-center items-center">
+                <div className="col-span-6 font-extralight">
+                  <h1 className="text-sm text-center">
+                    Frame System Durability
+                  </h1>
+                  <p className="text-sm text-center text-red-b20000">
+                    Not sturdy
+                  </p>
+                </div>
+                <div className="col-span-6 font-extralight">
+                  <h1 className="text-sm text-center">
+                    Frame System Durability
+                  </h1>
+                  <p className="text-sm text-center text-green-1f8f13">
+                    Strongest frame system
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="grid grid-cols-12 mt-16 text-center items-center">
+              <div className="col-span-6">
+                <img src={AirscreenImage} alt="" className="w-80 mx-auto" />
+                <h1 className="text-sm md:py-3 md:text-31 font-medium">
+                  <p className="font-semibold">Inflatable Air Screen</p>
+                </h1>
+                <p className="text-xs md:text-xl text-grey-bdbbba">
+                  Cinema equipment included
+                </p>
+                <p className="text-sm md:text-xl md:pt-3 pb-6">
+                  $3,500 - 4,500
+                </p>
+                <hr className="mx-4 border-gray-500" />
+              </div>
+              <div className="col-span-6">
+                <img src={TimberlineImage} alt="" className="w-80 mx-auto" />
+                <h1 className="text-sm md:py-3 md:text-31 font-medium">
+                  <p className="text-orange-1000 font-semibold">
+                    Timberline Big Moose
+                  </p>
+                </h1>
+                <p className="text-xs md:text-xl text-grey-bdbbba">
+                  Cinema equipment included
+                </p>
+                <p className="text-sm md:text-xl md:pt-3 pb-6">
+                  $2,900 - 3,000
+                </p>
+                <hr className="mx-4 border-gray-500" />
+              </div>
+            </div>
+            <div className="py-5">
+              <div className="grid grid-cols-12 my-6 text-center items-center">
+                <div className="col-span-6 font-extralight">
+                  <h1 className="text-sm text-center">Frame System Size</h1>
+                  <p className="text-sm text-center text-grey-bdbbba">
+                    13 ft wide x 11' ft high
+                  </p>
+                </div>
+                <div className="col-span-6 font-extralight">
+                  <h1 className="text-sm text-center">Frame System Size</h1>
+                  <p className="text-sm text-center text-grey-bdbbba">
+                    12 ft wide x 10' ft high
+                  </p>
+                </div>
+              </div>
+
+              <div className="grid grid-cols-12 my-6 text-center items-center">
+                <div className="col-span-6 font-extralight">
+                  <h1 className="text-sm text-center">Cinematic Screen Size</h1>
+                  <p className="text-sm text-center text-grey-bdbbba">
+                    150" diagonal screen
+                  </p>
+                </div>
+                <div className="col-span-6 font-extralight">
+                  <h1 className="text-sm text-center">Cinematic Screen Size</h1>
+                  <p className="text-sm text-center text-grey-bdbbba">
+                    150" diagonal screen
+                  </p>
+                </div>
+              </div>
+
+              <div className="grid grid-cols-12 my-6 text-center items-center">
+                <div className="col-span-6 font-extralight">
+                  <h1 className="text-sm text-center">1080p Projector</h1>
+                  <p className="text-sm text-center text-grey-bdbbba">Yes</p>
+                </div>
+                <div className="col-span-6 font-extralight">
+                  <h1 className="text-sm text-center">1080p Projector</h1>
+                  <p className="text-sm text-center text-grey-bdbbba">Yes</p>
+                </div>
+              </div>
+
+              <div className="grid grid-cols-12 my-6 text-center items-center">
+                <div className="col-span-6 font-extralight">
+                  <h1 className="text-sm text-center">Sound System</h1>
+                  <p className="text-sm text-center text-grey-bdbbba">Yes</p>
+                </div>
+                <div className="col-span-6 font-extralight">
+                  <h1 className="text-sm text-center">Sound System</h1>
+                  <p className="text-sm text-center text-grey-bdbbba">Yes</p>
+                </div>
+              </div>
+
+              <div className="grid grid-cols-12 my-6 text-center items-center">
+                <div className="col-span-6 font-extralight">
+                  <h1 className="text-sm text-center">Cinema Packages</h1>
+                  <p className="text-sm text-center text-grey-bdbbba">
+                    Wired equipment only
+                  </p>
+                </div>
+                <div className="col-span-6 font-extralight">
+                  <h1 className="text-sm text-center">Cinema Packages</h1>
+                  <p className="text-sm text-center text-green-1f8f13">
+                    Wireless & Wired equipment
+                  </p>
+                </div>
+              </div>
+
+              <div className="grid grid-cols-12 my-6 text-center items-center">
+                <div className="col-span-6 font-extralight">
+                  <h1 className="text-sm text-center">Setup Time</h1>
+                  <p className="text-sm text-center text-red-b20000">
+                    25-30 minutes
+                  </p>
+                </div>
+                <div className="col-span-6 font-extralight">
+                  <h1 className="text-sm text-center">Setup Time</h1>
+                  <p className="text-sm text-center text-green-1f8f13">
+                    2-5 minutes
+                  </p>
+                </div>
+              </div>
+
+              <div className="grid grid-cols-12 my-6 text-center items-center">
+                <div className="col-span-6 font-extralight">
+                  <h1 className="text-sm text-center">
+                    Custom Equipment Stand
+                  </h1>
+                  <p className="text-sm text-center text-red-b20000">No</p>
+                </div>
+                <div className="col-span-6 font-extralight">
+                  <h1 className="text-sm text-center">
+                    Custom Equipment Stand
+                  </h1>
+                  <p className="text-sm text-center text-green-1f8f13">Yes</p>
+                </div>
+              </div>
+
+              <div className="grid grid-cols-12 my-6 text-center items-center">
+                <div className="col-span-6 font-extralight">
+                  <h1 className="text-sm text-center">Year-Round Use</h1>
+                  <p className="text-sm text-center text-red-b20000">
+                    Not in snow climates
+                  </p>
+                </div>
+                <div className="col-span-6 font-extralight">
+                  <h1 className="text-sm text-center">Year-Round Use</h1>
+                  <p className="text-sm text-center text-green-1f8f13">
+                    Yes - even in snow climates
+                  </p>
+                </div>
+              </div>
+
+              <div className="grid grid-cols-12 my-6 text-center items-center">
+                <div className="col-span-6 font-extralight">
+                  <h1 className="text-sm text-center">
+                    Frame System After Use
+                  </h1>
+                  <p className="text-sm text-center text-red-b20000">
+                    Needs to be broken down
+                  </p>
+                </div>
+                <div className="col-span-6 font-extralight">
+                  <h1 className="text-sm text-center">
+                    Frame System After Use
+                  </h1>
+                  <p className="text-sm text-center text-green-1f8f13">
+                    Stays up year-round
+                  </p>
+                </div>
+              </div>
+
+              <div className="grid grid-cols-12 my-6 text-center items-center">
+                <div className="col-span-6 font-extralight">
+                  <h1 className="text-sm text-center">
+                    Frame System Durability
+                  </h1>
+                  <p className="text-sm text-center text-red-b20000">
+                    Can potentially get air leaks
+                  </p>
+                </div>
+                <div className="col-span-6 font-extralight">
+                  <h1 className="text-sm text-center">
+                    Frame System Durability
+                  </h1>
+                  <p className="text-sm text-center text-green-1f8f13">
+                    Strongest frame system
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
           <div className="hidden lg:block">
             <div className="grid grid-cols-12 mt-16 text-center items-center">
@@ -1164,6 +1505,75 @@ function HowToBuildAnOutdoorMovieTheater() {
     )
   }
 
+  const BannerCallout = () => {
+    return (
+      <div className="bg-gray-990 relative text-white">
+        <div className="container mx-auto py-8 xl:py-12 flex grid grid-cols-12 w-full">
+          <div className="col-span-1">
+            <img
+              src={DownloadPDF}
+              alt=""
+              className="h-5 mt-2 xl:mt-0 xs:h-8 sm:h-10 md:h-12 lg:h-16 xl:h-20"
+            />
+          </div>
+          <div className="col-span-7 flex flex-col">
+            <p className="text-xxs sm:text-xs md:text-md lg:text-2xl xl:text-3xl font-semibold">
+              <span className="text-orng">Get the</span> only DIY{" "}
+              <span className="text-orng">on how-to build a professional</span>
+            </p>
+            <p className="text-md sm:text-2xl md:text-3xl lg:text-5xl xl:text-6xl font-semibold">
+              Outdoor Movie Theater
+            </p>
+          </div>
+          <div className="col-start-9 col-span-3 lg:col-start-10 lg:col-span-2 flex flex-col justify-center text-center">
+            <p className="text-xxs sm:text-xs md:text-md lg:text-2xl xl:text-3xl">
+              Now only $99*
+            </p>
+            <a
+              href="#"
+              className="px-1 md:px-2 py-1 md:py-2 xl:px-4 mt-2 flex-0 button-orng text-xxs sm:text-xs md:text-md lg:text-xl xl:text-2xl"
+            >
+              Get the DIY now
+            </a>
+          </div>
+        </div>
+      </div>
+    )
+  }
+
+  const Quote = () => {
+    return (
+      <div className="black-back relative text-white border-b xl:border-none border-grey-subnav">
+        <div className="container mx-auto py-8 xl:py-16 flex flex-col xl:grid xl:grid-cols-12 w-full">
+          <div className="block lg:hidden col-span-12 pb-10 mb-10 text-center relative">
+            <img className="mx-auto w-full" src={QuoteImage} alt="" />
+
+            <p className="text-2xl mt-10 text-orng">Projector Connections:</p>
+          </div>
+
+          <div
+            className="mx-auto w-full max-w-2400 text-center relative hidden lg:block"
+            style={{
+              backgroundImage: `url(${QuoteImage})`,
+              backgroundSize: "cover",
+              backgroundPosition: "center center",
+            }}
+          >
+            <div className="relative w-full mx-auto">
+              <div className="block text-left py-20 p-10 bg-black-size-128">
+                <div className="container mx-auto">
+                  <p className="text-3xl font-semibold text-orng">
+                    Projector Connections:
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    )
+  }
+
   return (
     <Layout>
       <SEO
@@ -1179,6 +1589,8 @@ function HowToBuildAnOutdoorMovieTheater() {
       <PowerfulCinema />
       <ImpressiveOutdoor />
       <Comparison />
+      <BannerCallout />
+      <Quote />
     </Layout>
   )
 }
