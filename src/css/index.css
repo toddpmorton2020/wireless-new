@@ -926,3 +926,19 @@ b {
   background-color: rgba(0, 0, 0, 0.4);
   background-size: contain;
 }
+
+.text-grey-bdbbba {
+  color: #bdbbba;
+}
+
+.text-green-1f8f13 {
+  color: #1f8f13;
+}
+
+.text-red-b20000 {
+  color: #b20000
+}
+
+.w-80 {
+  width: 20rem;
+}
