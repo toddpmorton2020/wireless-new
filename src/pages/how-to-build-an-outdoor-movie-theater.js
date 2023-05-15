@@ -709,7 +709,7 @@ function HowToBuildAnOutdoorMovieTheater() {
     return (
       <div
         className="black-back relative text-white border-b md:border-none border-grey-subnav"
-        id="#features"
+        id="features"
       >
         <div className="container mx-auto py-8 xl:py-16 flex flex-col xl:grid xl:grid-cols-12 w-full">
           <div className="text-left xl:col-span-12 xl:text-xl pb-10">
