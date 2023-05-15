@@ -71,6 +71,13 @@ import { GroupofPeopeIcon } from "../components/svg/PerfectFor/group-of-people-i
 import { FamilyMovieIcon } from "../components/svg/PerfectFor/family-movie-icon"
 import { BackyardIcon } from "../components/svg/PerfectFor/backyard-icon"
 
+import { AssemblyIcon } from "../components/svg/FAQ/assembly-icon"
+import { CinemaEquipmentIcon } from "../components/svg/FAQ/cinema-equipment-icon"
+import { EquipmentStandIcon } from "../components/svg/FAQ/equipment-stand-icon"
+import { FrameIcon } from "../components/svg/FAQ/frame-icon"
+import { PriceTagIcon } from "../components/svg/FAQ/price-tag-icon"
+import { ScreenIcon } from "../components/svg/FAQ/screen-icon"
+
 function HowToBuildAnOutdoorMovieTheater() {
   const Accordion = ({ title, className, children }) => {
     const [isOpen, setIsOpen] = useState(false)
@@ -1580,7 +1587,7 @@ function HowToBuildAnOutdoorMovieTheater() {
     const faqList = [
       {
         id: 0,
-        icon: WatchImage,
+        icon: <PriceTagIcon className="w-12 h-fit" />,
         text: "Outdoor Movie Theater Costs",
         questions: [
           {
@@ -1692,7 +1699,7 @@ function HowToBuildAnOutdoorMovieTheater() {
       },
       {
         id: 1,
-        icon: FlexingImage,
+        icon: <FrameIcon className="w-12 h-fit" />,
         text: "Frame System",
         questions: [
           {
@@ -1771,7 +1778,7 @@ function HowToBuildAnOutdoorMovieTheater() {
       },
       {
         id: 2,
-        icon: StampImage,
+        icon: <ScreenIcon className="w-12 h-fit" />,
         text: "Cinematic Screen",
         questions: [
           {
@@ -1858,7 +1865,7 @@ function HowToBuildAnOutdoorMovieTheater() {
       },
       {
         id: 3,
-        icon: YearImage,
+        icon: <EquipmentStandIcon className="w-12 h-fit" />,
         text: "Custom Equipment Stand",
         questions: [
           {
@@ -1948,7 +1955,7 @@ function HowToBuildAnOutdoorMovieTheater() {
       },
       {
         id: 4,
-        icon: YearImage,
+        icon: <EquipmentListIcon className="w-12 h-fit" />,
         text: "Cinema Equipment",
         questions: [
           {
@@ -2047,7 +2054,7 @@ function HowToBuildAnOutdoorMovieTheater() {
       },
       {
         id: 5,
-        icon: YearImage,
+        icon: <AssemblyIcon className="w-12 h-fit" />,
         text: "Assembly and Installation",
         questions: [
           {
@@ -2195,11 +2202,12 @@ function HowToBuildAnOutdoorMovieTheater() {
           <div className="col-span-12 grid grid-cols-12 gap-5 mt-16">
             {faqList.map(item => (
               <div
-                className="col-span-12 lg:col-span-6 border rounded-md p-3 py-5 orng-rollover-overlay"
+                className="col-span-12 lg:col-span-6 border rounded-md p-3 py-5 orng-rollover-overlay rollover-svg-item"
                 key={item.id}
               >
                 <div className="flex items-center pb-3">
-                  <img src={item.icon} alt="" className="w-12 h-fit" />
+                  {item.icon}
+                  {/* <img src={item.icon} alt="" className="w-12 h-fit" /> */}
                   <p className="text-md lg:text-xl px-3 text-orng">
                     {item.text}
                   </p>
@@ -2222,7 +2230,7 @@ function HowToBuildAnOutdoorMovieTheater() {
                       </label>
                     </div>
                     <div className="faq-accordion-content">
-                      <p className="py-2 px-4 text-sm lg:text-lg">
+                      <p className="py-2 px-4 text-sm lg:text-lg text-grey-bdbbba">
                         {qa.answer}
                       </p>
                     </div>

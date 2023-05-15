@@ -1007,6 +1007,16 @@ input.tgg-title {
   outline: none;
 }
 
+.faq-accordion-header:hover {
+  color: #ff5400;
+}
+
+.faq-accordion-header:hover:after,
+.faq-accordion-header:hover:before {
+  background-color: #ff5400;
+}
+
+
 .faq-accordion-header:after,
 .faq-accordion-header:before {
   content: '';
