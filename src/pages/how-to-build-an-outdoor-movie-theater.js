@@ -126,22 +126,22 @@ function HowToBuildAnOutdoorMovieTheater() {
         >
           <ul className="flex flex-col justify-between w-full py-3">
             <li className="py-2 border-b border-grey-subnav text-sm">
-              <a href="#">What You Get</a>
+              <a href="#whatyouget">What You Get</a>
             </li>
             <li className="py-2 border-b border-grey-subnav text-sm">
-              <a href="#">Frame Systems</a>
+              <a href="#framesystems">Frame Systems</a>
             </li>
             <li className="py-2 border-b border-grey-subnav text-sm">
-              <a href="#">Cinema Uses</a>
+              <a href="#cinemauses">Cinema Uses</a>
             </li>
             <li className="py-2 border-b border-grey-subnav text-sm">
-              <a href="#">Features</a>
+              <a href="#features">Features</a>
             </li>
             <li className="py-2 border-b border-grey-subnav text-sm">
-              <a href="#">Comparison</a>
+              <a href="#comparison">Comparison</a>
             </li>
             <li className="pt-2 pb-6 text-sm">
-              <a href="#">FAQ</a>
+              <a href="#faq">FAQ</a>
             </li>
           </ul>
         </Accordion>
@@ -153,34 +153,34 @@ function HowToBuildAnOutdoorMovieTheater() {
               </div>
               <ul className="flex justify-between xl:justify-end text-xs xl:text-sm h-full items-center w-full xl:w-auto">
                 <li className="mr-1 xl:mr-4">
-                  <a href="#">
+                  <a href="#whatyouget">
                     <span className="hidden lg:block">What You Get</span>
                     <span className="block lg:hidden">What You Get</span>
                   </a>
                 </li>
                 <li className="mx-1 xl:mx-4">
-                  <a href="#">
+                  <a href="#framesystems">
                     <span className="hidden lg:block">Frame Systems</span>
                     <span className="block lg:hidden">Frames</span>
                   </a>
                 </li>
                 <li className="mx-1 xl:mx-4">
-                  <a href="#">
+                  <a href="#cinemauses">
                     <span className="hidden lg:block">Cinema Uses</span>
                     <span className="block lg:hidden">Uses</span>
                   </a>
                 </li>
                 <li className="mx-1 xl:mx-4">
-                  <a href="#">Features</a>
+                  <a href="#features">Features</a>
                 </li>
                 <li className="mx-1 xl:mx-4">
-                  <a href="#">
+                  <a href="#comparison">
                     <span className="hidden lg:block">Comparison</span>
                     <span className="block lg:hidden">Compare</span>
                   </a>
                 </li>
                 <li className="mx-1 xl:mx-4">
-                  <a href="#">FAQ</a>
+                  <a href="#faq">FAQ</a>
                 </li>
                 <li className="ml-1 xl:ml-4">
                   <a href="#" className="px-2 py-1 xl:px-4 button-orng">
@@ -372,7 +372,10 @@ function HowToBuildAnOutdoorMovieTheater() {
     ]
 
     return (
-      <div className="black-back relative text-white border-b md:border-none border-grey-subnav">
+      <div
+        className="black-back relative text-white border-b md:border-none border-grey-subnav"
+        id="whatyouget"
+      >
         <div className="container mx-auto pb-8 xl:py-16 flex flex-col xl:grid xl:grid-cols-12 w-full">
           <div className="col-span-5">
             <img
@@ -438,7 +441,10 @@ function HowToBuildAnOutdoorMovieTheater() {
 
   const FrameSystemsThatWork = () => {
     return (
-      <div className="black-back relative text-white border-b md:border-none border-grey-subnav">
+      <div
+        className="black-back relative text-white border-b md:border-none border-grey-subnav"
+        id="framesystems"
+      >
         <div className="container mx-auto py-8 xl:py-16 flex flex-col xl:grid xl:grid-cols-12 w-full">
           <div className="text-left xl:col-span-12 xl:text-xl pb-10">
             <h2 className="text-3xl xl:text-5xl font-semibold leading-9 xl:leading-none pb-3 xl:pb-3">
@@ -582,7 +588,10 @@ function HowToBuildAnOutdoorMovieTheater() {
     ]
 
     return (
-      <div className="black-back relative text-white border-b md:border-none border-grey-subnav pt-10">
+      <div
+        className="black-back relative text-white border-b md:border-none border-grey-subnav pt-10"
+        id="cinemauses"
+      >
         <div className="container mx-auto pb-8 xl:py-16 flex flex-col xl:grid xl:grid-cols-12 w-full">
           <div className="text-center xl:col-span-12 xl:text-xl">
             <h2 className="text-3xl xl:text-5xl font-semibold leading-9 xl:leading-none pb-3 xl:pb-3">
@@ -698,7 +707,10 @@ function HowToBuildAnOutdoorMovieTheater() {
     ]
 
     return (
-      <div className="black-back relative text-white border-b md:border-none border-grey-subnav">
+      <div
+        className="black-back relative text-white border-b md:border-none border-grey-subnav"
+        id="#features"
+      >
         <div className="container mx-auto py-8 xl:py-16 flex flex-col xl:grid xl:grid-cols-12 w-full">
           <div className="text-left xl:col-span-12 xl:text-xl pb-10">
             <h2 className="text-3xl xl:text-5xl font-semibold leading-9 xl:leading-none pb-3 xl:pb-3">
@@ -868,7 +880,7 @@ function HowToBuildAnOutdoorMovieTheater() {
 
   const Comparison = () => {
     return (
-      <div className="black-back relative text-white pt-10">
+      <div className="black-back relative text-white pt-10" id="comparison">
         <div className="container mx-auto">
           <div className="text-center xl:col-span-12 xl:text-xl">
             <h2 className="text-3xl xl:text-5xl font-semibold leading-9 xl:leading-none pb-3 xl:pb-3">
@@ -2179,7 +2191,10 @@ function HowToBuildAnOutdoorMovieTheater() {
     ]
 
     return (
-      <div className="black-back relative text-white border-b md:border-none border-grey-subnav pt-10">
+      <div
+        className="black-back relative text-white border-b md:border-none border-grey-subnav pt-10"
+        id="faq"
+      >
         <div className="container mx-auto pb-8 xl:py-16 flex flex-col xl:grid xl:grid-cols-12 w-full">
           <div className="text-center xl:col-span-12 xl:text-xl">
             <h2 className="text-3xl xl:text-5xl font-semibold leading-9 xl:leading-none pb-3 xl:pb-3">
@@ -2221,9 +2236,6 @@ function HowToBuildAnOutdoorMovieTheater() {
                     />
                     <div className="faq-accordion-title">
                       <label htmlFor={`tgg-title-${qa.id}`}>
-                        {/* <span className="arrow-icon">
-                          <img src="../../assets/img/down-arrow.svg" />
-                        </span> */}
                         <p className="faq-accordion-header p1 text-sm lg:text-lg">
                           {qa.question}
                         </p>
@@ -2238,6 +2250,33 @@ function HowToBuildAnOutdoorMovieTheater() {
                 ))}
               </div>
             ))}
+          </div>
+        </div>
+      </div>
+    )
+  }
+
+  const Copy = () => {
+    return (
+      <div className="black-back relative text-white border-b md:border-none border-grey-subnav pt-10">
+        <div className="container mx-auto pb-8 xl:py-16">
+          <div className="text-left">
+            <p>
+              * The how-to build a professional outdoor movie theater DIY offer
+              expires on July 1, 2023.
+            </p>
+            <br />
+            <p>
+              XboxTM, PlayStation®, and WiiTM gaming consoles are registered
+              Trademarks of their respective owners.
+            </p>
+            <br />
+            <p>
+              The Wireless Outdoor Cinema’s Timberline DIY on how-to build a
+              professional outdoor movie theater is copyright protected and
+              punishable by federal law if you distribute the contents, resell,
+              or use it to start a business selling outdoor movie theaters.
+            </p>
           </div>
         </div>
       </div>
@@ -2262,6 +2301,7 @@ function HowToBuildAnOutdoorMovieTheater() {
       <BannerCallout />
       <Quote />
       <FAQ />
+      <Copy />
     </Layout>
   )
 }
