@@ -72,7 +72,6 @@ import { FamilyMovieIcon } from "../components/svg/PerfectFor/family-movie-icon"
 import { BackyardIcon } from "../components/svg/PerfectFor/backyard-icon"
 
 import { AssemblyIcon } from "../components/svg/FAQ/assembly-icon"
-import { CinemaEquipmentIcon } from "../components/svg/FAQ/cinema-equipment-icon"
 import { EquipmentStandIcon } from "../components/svg/FAQ/equipment-stand-icon"
 import { FrameIcon } from "../components/svg/FAQ/frame-icon"
 import { PriceTagIcon } from "../components/svg/FAQ/price-tag-icon"
