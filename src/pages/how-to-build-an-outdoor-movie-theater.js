@@ -6,7 +6,7 @@ import PlayButton from "../images/play-button-162px-x-182px.png"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import Background from "../images/timberline-outdoor-movie-theater-1920px-x-1080px.jpg"
+import Background from "../images/timberline-outdoor-movie-theater-1920px-x-900px.jpg"
 import Moose from "../images/timberline-big-moose-791px-x-755px.png"
 import FrameSystemsMovable from "../images/moveable-outdoor-movie-theater-frame-1617px-x-1000px.jpg"
 import FrameSystemsTimberline from "../images/timberline-streamline-outdoor-movie-theater-frame-1617px-x-1000px.jpg"
