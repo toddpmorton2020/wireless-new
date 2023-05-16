@@ -2276,7 +2276,7 @@ function HowToBuildAnOutdoorMovieTheater() {
                       </label>
                     </div>
                     <div className="faq-accordion-content">
-                      <p className="py-2 px-4 text-sm lg:text-lg text-grey-bdbbba">
+                      <p className="py-2 text-sm lg:text-lg text-grey-bdbbba">
                         {qa.answer}
                       </p>
                     </div>

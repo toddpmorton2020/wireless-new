@@ -1050,6 +1050,10 @@ input.tgg-title {
   color: #ff5400;
 }
 
+.faq-accordion-content {
+  margin-left: 3.8rem;
+}
+
 .orng-rollover-overlay:hover {
   border-color: #ff5400;
 }
