@@ -203,7 +203,7 @@ function HowToBuildAnOutdoorMovieTheater() {
             <p className="font-semibold text-xl md:text-3xl">
               Get the only <span className="text-orng">DIY</span> on
             </p>
-            <h1 className="text-4xl text-7xl font-semibold leading-9 md:leading-none pb-3 xl:pb-5 xl:w-4/6">
+            <h1 className="text-4xl text-7xl font-semibold leading-9 md:leading-none pb-3 xl:pb-5 xl:w-4/6 2xl:w-3/6">
               <span className="text-orng">How-to build a</span> professional
               outdoor movie theater
               <sup className="pl-1 text-2xl xl:text-3xl">©</sup>
