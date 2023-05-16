@@ -199,7 +199,7 @@ function HowToBuildAnOutdoorMovieTheater() {
       <div className="black-back relative text-white sm:top-0 sm:-mt-10">
         <img className="mx-auto w-full max-w-2400" src={Background} alt="" />
         <div className="container py-4 mx-auto">
-          <div className="xl:absolute xl:mt-32 2xl:mt-64 sm:top-0 h-full">
+          <div className="xl:absolute xl:mt-32 2xl:pt-5 sm:top-0 h-full">
             <p className="font-semibold xl:text-3xl">
               Get the only <span className="text-orng">DIY</span> on
             </p>
@@ -1599,7 +1599,7 @@ function HowToBuildAnOutdoorMovieTheater() {
     return (
       <div className="black-back relative text-white border-b md:border-none border-grey-subnav">
         <img className="mx-auto w-full max-w-2400" src={QuoteImage} alt="" />
-        <div className="container mx-auto py-4 xl:py-16">
+        <div className="container mx-auto w-full py-4 xl:py-16">
           <div className="flex flex-col lg:hidden">
             <div className="block col-span-12 mb-5 text-center relative">
               <p className="text-xs sm:text-base quote-todd">
@@ -1610,7 +1610,7 @@ function HowToBuildAnOutdoorMovieTheater() {
             </div>
           </div>
           <div className="block h-full container">
-            <div className="absolute container mt-16 top-0 hidden lg:grid grid-cols-12">
+            <div className="absolute container  mx-auto w-full  mt-16 top-0 hidden lg:grid grid-cols-12">
               <div className="flex flex-col col-start-7 col-span-6 text-center">
                 <p className="text-2xl xl:text-4xl quote-todd">
                   My wireless outdoor movie theaters take less time to set up
