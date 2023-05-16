@@ -872,7 +872,7 @@ function HowToBuildAnOutdoorMovieTheater() {
                     className="grid-image relative"
                   />
                   <div
-                    className={`relative lg:absolute w-full flex justify-center large-justify-${item.align} lg:top-1/2 lg:pt-16 my-8 lg:my-0`}
+                    className={`relative lg:absolute w-full flex justify-center large-justify-${item.align} lg:top-1/2 lg:pt-16 xl:py-24 my-8 lg:my-0`}
                   >
                     <div className="flex flex-col lg:flex-row bg-opacity-gray items-center relative">
                       <img
