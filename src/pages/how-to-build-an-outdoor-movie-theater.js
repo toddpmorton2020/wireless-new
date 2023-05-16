@@ -199,27 +199,32 @@ function HowToBuildAnOutdoorMovieTheater() {
       <div className="black-back relative text-white sm:top-0 sm:-mt-10">
         <img className="mx-auto w-full max-w-2400" src={Background} alt="" />
         <div className="container py-4 mx-auto">
-          <div className="xl:absolute xl:mt-20 2xl:pt-5 sm:top-0 h-full">
-            <p className="font-semibold text-xl md:text-3xl">
-              Get the only <span className="text-orng">DIY</span> on
-            </p>
-            <h1 className="text-4xl text-7xl font-semibold leading-9 md:leading-none pb-3 xl:pb-5 xl:w-4/6 2xl:w-3/6">
-              <span className="text-orng">How-to build a</span> professional
-              outdoor movie theater
-              <sup className="pl-1 text-2xl xl:text-3xl">©</sup>
-            </h1>
-            <p className="text-xl md:text-3xl leading-9">
-              How-to DIY bundle valued at $3,000
-            </p>
-            <p className="text-xl md:text-3xl leading-9">Regular price $199</p>
-            <p className="text-xl md:text-3xl leading-9">
-              On sale for $99* <span className="text-orng">(50% off)</span>
-            </p>
-            <p className="my-4 text-lg md:text-2xl xl:mt-8">
-              <a href="#" className="px-8 py-1 xl:px-16 xl:py-2 button-orng">
-                Get the DIY now
-              </a>
-            </p>
+          <div className="xl:absolute xl:mt-20 2xl:pt-24 sm:top-0 h-full">
+            <div className="absolute bg-black opacity-50 z-10 hero-overlay"></div>
+            <div className="relative xl:w-4/6 2xl:w-3/6 z-20">
+              <p className="font-semibold text-xl md:text-3xl">
+                Get the only <span className="text-orng">DIY</span> on
+              </p>
+              <h1 className="text-4xl text-7xl font-semibold leading-9 md:leading-none pb-3 xl:pb-5">
+                <span className="text-orng">How-to build a</span> professional
+                outdoor movie theater
+                <sup className="pl-1 text-2xl xl:text-3xl">©</sup>
+              </h1>
+              <p className="text-xl md:text-2xl hero-line-height">
+                How-to DIY bundle valued at $3,000
+              </p>
+              <p className="text-xl md:text-2xl hero-line-height">
+                Regular price $199
+              </p>
+              <p className="text-xl md:text-2xl hero-line-height">
+                On sale for $99* <span className="text-orng">(50% off)</span>
+              </p>
+              <p className="my-4 text-lg md:text-xl xl:mt-8">
+                <a href="#" className="px-8 py-1 xl:px-16 xl:py-2 button-orng">
+                  Get the DIY now
+                </a>
+              </p>
+            </div>
           </div>
         </div>
       </div>

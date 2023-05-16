@@ -1075,3 +1075,22 @@ input.tgg-title {
 .text-7xl {
   font-size: 4.5rem;
 }
+
+.hero-overlay {
+  display: none;
+}
+
+@media (min-width:1280px) {
+  .hero-overlay {
+    display: block;
+    height: 500px;
+    width: 1220px;
+    margin-left: -450px;
+    margin-top: -30px;
+    overflow: hidden;
+  }
+}
+
+.hero-line-height {
+  line-height: 1.5rem;
+}
