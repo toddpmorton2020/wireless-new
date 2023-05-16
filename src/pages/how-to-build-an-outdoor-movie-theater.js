@@ -866,10 +866,13 @@ function HowToBuildAnOutdoorMovieTheater() {
             {gridItems.map(item => (
               <div className="col-span-12 lg:col-span-6" key={item.id}>
                 <div className="text-center h-full relative">
-                  <img src={item.img} alt={item.text} className="grid-image" />
+                  <img
+                    src={item.img}
+                    alt={item.text}
+                    className="grid-image relative"
+                  />
                   <div
-                    className={`lg:absolute w-full flex lg:justify-${item.align} justify-center my-8 lg:my-0`}
-                    style={{ top: "70%" }}
+                    className={`relative lg:absolute w-full flex justify-center lg:justify-${item.align} lg:top-1/2 lg:pt-16 my-8 lg:my-0`}
                   >
                     <div className="flex flex-col lg:flex-row bg-opacity-gray items-center relative">
                       <img
