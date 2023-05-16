@@ -200,20 +200,22 @@ function HowToBuildAnOutdoorMovieTheater() {
         <img className="mx-auto w-full max-w-2400" src={Background} alt="" />
         <div className="container py-4 mx-auto">
           <div className="xl:absolute xl:mt-32 2xl:pt-5 sm:top-0 h-full">
-            <p className="font-semibold xl:text-3xl">
+            <p className="font-semibold text-xl md:text-3xl">
               Get the only <span className="text-orng">DIY</span> on
             </p>
-            <h1 className="text-4xl xl:text-6xl font-semibold leading-9 xl:leading-none pb-3 xl:pb-5 xl:w-3/6">
+            <h1 className="text-4xl md:text-6xl font-semibold leading-9 md:leading-none pb-3 xl:pb-5 xl:w-3/6">
               <span className="text-orng">How-to build a</span> professional
               outdoor movie theater
               <sup className="pl-1 text-2xl xl:text-3xl">©</sup>
             </h1>
-            <p className="xl:text-3xl">How-to DIY bundle valued at $3,000</p>
-            <p className="xl:text-3xl">Regular price $199</p>
-            <p className="xl:text-3xl">
+            <p className="text-xl md:text-3xl  leading-9">
+              How-to DIY bundle valued at $3,000
+            </p>
+            <p className="text-xl md:text-3xl  leading-9">Regular price $199</p>
+            <p className="text-xl md:text-3xl  leading-9">
               On sale for $99* <span className="text-orng">(50% off)</span>
             </p>
-            <p className="my-4 xl:text-2xl xl:mt-8">
+            <p className="my-4 text-lg md:text-2xl xl:mt-8">
               <a href="#" className="px-8 py-1 xl:px-16 xl:py-2 button-orng">
                 Get the DIY now
               </a>
@@ -408,7 +410,7 @@ function HowToBuildAnOutdoorMovieTheater() {
             />
           </div>
           <div className="text-center xl:col-span-7 xl:text-left xl:text-xl">
-            <h2 className="text-4xl md:text-6xl font-semibold leading-9 xl:leading-none pb-3 xl:pb-3">
+            <h2 className="text-4xl md:text-6xl font-semibold leading-9 md:leading-none pb-3 xl:pb-3">
               Here's what you get
             </h2>
             <p className="text-2xl md:text-4xl pb-4 xl:pb-5">
@@ -470,14 +472,14 @@ function HowToBuildAnOutdoorMovieTheater() {
       >
         <div className="container mx-auto py-8 xl:py-16 flex flex-col xl:grid xl:grid-cols-12 w-full">
           <div className="text-left xl:col-span-12 xl:text-xl pb-10">
-            <h2 className="text-3xl xl:text-5xl font-semibold leading-9 xl:leading-none pb-3 xl:pb-3">
+            <h2 className="text-4xl md:text-6xl font-semibold leading-9 md:leading-none pb-3 xl:pb-3">
               Frame systems that work with your backyard
             </h2>
-            <p className="text-lg xl:text-3xl pb-4 xl:pb-5 text-orng">
+            <p className="text-2xl md:text-4xl pb-4 xl:pb-5 text-orng">
               Movable Frame System for flat lawns. Streamline Stationary Frame
               System.
             </p>
-            <p>
+            <p className="text-lg md:text-2xl">
               The Timberline Frame Systems allows you to choose the frame that
               works best with your property. If you have ledge stone or other
               obstructions in the area where you would like to install your
@@ -617,13 +619,13 @@ function HowToBuildAnOutdoorMovieTheater() {
       >
         <div className="container mx-auto pb-8 xl:py-16 flex flex-col xl:grid xl:grid-cols-12 w-full">
           <div className="text-center xl:col-span-12 xl:text-xl">
-            <h2 className="text-3xl xl:text-5xl font-semibold leading-9 xl:leading-none pb-3 xl:pb-3">
+            <h2 className="text-4xl md:text-6xl font-semibold leading-9 md:leading-none pb-3 xl:pb-3">
               Outdoor movie theater perfect for
             </h2>
-            <p className="text-lg xl:text-3xl pb-4 xl:pb-5 text-orng">
+            <p className="text-2xl md:text-4xl pb-4 xl:pb-5 text-orng">
               Homeowners who have a backyard. Regular use. Events and parties.
             </p>
-            <p>
+            <p className="text-lg md:text-2xl">
               The DIY on how-to build an outdoor movie theater was developed for
               homeowners by a homeowner. If you've been dreaming of owning an
               outdoor movie theater, you can get the only DIY on how-to build a
@@ -631,7 +633,7 @@ function HowToBuildAnOutdoorMovieTheater() {
               Regularly $199. A DIY bundle valued at $3,000).
             </p>
             <br />
-            <p>
+            <p className="text-lg md:text-2xl">
               My outdoor movie theaters were designed to be an extension of your
               living room where you can enjoy your favorite entertainment
               outside regularly with an easy setup every time.
@@ -733,14 +735,14 @@ function HowToBuildAnOutdoorMovieTheater() {
       >
         <div className="container mx-auto py-8 xl:py-16 flex flex-col xl:grid xl:grid-cols-12 w-full">
           <div className="text-left xl:col-span-12 xl:text-xl pb-10">
-            <h2 className="text-3xl xl:text-5xl font-semibold leading-9 xl:leading-none pb-3 xl:pb-3">
+            <h2 className="text-4xl md:text-6xl font-semibold leading-9 md:leading-none pb-3 xl:pb-3">
               Powerful cinema equipment capabilities
             </h2>
-            <p className="text-lg xl:text-3xl pb-4 xl:pb-5 text-orng">
+            <p className="text-2xl md:text-4xl pb-4 xl:pb-5 text-orng">
               Tons of connections. Access everything. High-rated name-brand
               products.
             </p>
-            <p>
+            <p className="text-lg md:text-2xl">
               The outdoor movie theater cinema equipment allows you to connect
               to almost any audio, gaming, streaming, and video device. The
               cinema equipment delivers impressive entertainment no matter what
@@ -837,14 +839,14 @@ function HowToBuildAnOutdoorMovieTheater() {
       <div className="black-back relative text-white border-b md:border-none border-grey-subnav pt-10">
         <div className="container mx-auto pb-8 xl:py-16 flex flex-col xl:grid xl:grid-cols-12 w-full">
           <div className="text-center xl:col-span-12 xl:text-xl">
-            <h2 className="text-3xl xl:text-5xl font-semibold leading-9 xl:leading-none pb-3 xl:pb-3">
+            <h2 className="text-4xl xl:text-6xl font-semibold leading-9 md:leading-none pb-3 xl:pb-3">
               Impressive outdoor movie theater features
             </h2>
-            <p className="text-lg xl:text-3xl pb-4 xl:pb-5 text-orng">
+            <p className="text-2xl md:text-4xl pb-4 xl:pb-5 text-orng">
               Fastest setup. Strongest frame system. Custom equipment stand.
               Year-round use.
             </p>
-            <p>
+            <p className="text-lg md:text-2xl">
               After researching and testing all of the outdoor movie theaters
               you can buy online, I found four main areas for improvement. My
               benchmark testing focused on setup time, durability of frame
@@ -852,7 +854,7 @@ function HowToBuildAnOutdoorMovieTheater() {
               ability to use year-round in cold climates states like Maine.
             </p>
             <br />
-            <p>
+            <p className="text-lg md:text-2xl">
               As a result, all of my Timberline Series Outdoor Movie Theaters
               are the easiest and fastest to set up and start watching, have the
               most robust frame system, comes with a custom cinema equipment
@@ -906,14 +908,14 @@ function HowToBuildAnOutdoorMovieTheater() {
       <div className="black-back relative text-white pt-10" id="comparison">
         <div className="container mx-auto">
           <div className="text-center xl:col-span-12 xl:text-xl">
-            <h2 className="text-3xl xl:text-5xl font-semibold leading-9 xl:leading-none pb-3 xl:pb-3">
+            <h2 className="text-4xl md:text-6xl font-semibold leading-9 md:leading-none pb-3 xl:pb-3">
               Outdoor movie theater comparison
             </h2>
-            <p className="text-lg xl:text-3xl pb-4 xl:pb-5 text-orng">
+            <p className="text-2xl md:text-4xl pb-4 xl:pb-5 text-orng">
               How does the competition stack up to the Timberline Series 150"
               Big Moose?
             </p>
-            <p>
+            <p className="text-lg md:text-2xl">
               There are only three types of outdoor movie theater systems
               available for homeowners to buy; the aluminum frame cinema systems
               (made in China), the inflatable air screens (made in China), and
@@ -2255,14 +2257,14 @@ function HowToBuildAnOutdoorMovieTheater() {
       >
         <div className="container mx-auto pb-8 xl:py-16 flex flex-col xl:grid xl:grid-cols-12 w-full">
           <div className="text-center xl:col-span-12 xl:text-xl">
-            <h2 className="text-3xl xl:text-5xl font-semibold leading-9 xl:leading-none pb-3 xl:pb-3">
+            <h2 className="text-4xl md:text-6xl font-semibold leading-9 md:leading-none pb-3 xl:pb-3">
               Frequently asked questions
             </h2>
-            <p className="text-lg xl:text-3xl pb-4 xl:pb-5 text-orng">
+            <p className="text-2xl md:text-4xl pb-4 xl:pb-5 text-orng">
               Common questions on how-to build a professional outdoor movie
               theater
             </p>
-            <p>
+            <p className="text-lg md:text-2xl">
               Below are the most frequently asked questions from customers over
               the years to help you quickly find the answers you are searching
               for broken down by category. Feel free to{" "}
@@ -2319,17 +2321,17 @@ function HowToBuildAnOutdoorMovieTheater() {
       <div className="black-back relative text-white border-b md:border-none border-grey-subnav pt-10">
         <div className="container mx-auto pb-8 xl:py-16">
           <div className="text-left">
-            <p>
+            <p className="text-lg">
               * The how-to build a professional outdoor movie theater DIY offer
               expires on July 1, 2023.
             </p>
             <br />
-            <p>
+            <p className="text-lg">
               XboxTM, PlayStation®, and WiiTM gaming consoles are registered
               Trademarks of their respective owners.
             </p>
             <br />
-            <p>
+            <p className="text-lg">
               The Wireless Outdoor Cinema’s Timberline DIY on how-to build a
               professional outdoor movie theater is copyright protected and
               punishable by federal law if you distribute the contents, resell,
