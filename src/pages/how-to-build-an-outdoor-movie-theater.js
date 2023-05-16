@@ -372,16 +372,16 @@ function HowToBuildAnOutdoorMovieTheater() {
           "Get recommendations on the best fire pits and the ones you should avoid.",
         bonus: true,
       },
-      {
-        id: 7,
-        img: (
-          <TheaterSeatingIcon className="my-3 h-16 pb-3 lg:pb-0 lg:w-64 mx-auto dynamic-svg" />
-        ),
-        title: "Theater Seating",
-        text:
-          "Ideas on how to make your outdoor movie theater seating area comfortable.",
-        bonus: true,
-      },
+      // {
+      //   id: 7,
+      //   img: (
+      //     <TheaterSeatingIcon className="my-3 h-16 pb-3 lg:pb-0 lg:w-64 mx-auto dynamic-svg" />
+      //   ),
+      //   title: "Theater Seating",
+      //   text:
+      //     "Ideas on how to make your outdoor movie theater seating area comfortable.",
+      //   bonus: true,
+      // },
       {
         id: 8,
         img: (
@@ -438,10 +438,10 @@ function HowToBuildAnOutdoorMovieTheater() {
               $3,000). This offer expires on July 1, 2023.
             </p>
           </div>
-          <div className="col-span-12 grid grid-cols-6 gap-5 xl:gap-20 mt-16">
+          <div className="col-span-12 grid grid-cols-12 gap-5 xl:gap-20 mt-16">
             {gridItems.map(item => (
               <div
-                className="col-span-3 md:col-span-2 rollover-svg-item"
+                className="col-span-6 xl:col-span-3 rollover-svg-item"
                 key={item.id}
               >
                 {item.bonus && (
