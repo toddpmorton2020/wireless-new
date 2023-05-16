@@ -1261,6 +1261,16 @@ function HowToBuildAnOutdoorMovieTheater() {
                   </p>
                 </div>
               </div>
+              <div className="grid grid-cols-12 my-6 text-center items-center">
+                <div className="col-span-6 font-extralight">
+                  <h1 className="text-sm text-center">DIY Available</h1>
+                  <p className="text-sm text-center text-red-b20000">No</p>
+                </div>
+                <div className="col-span-6 font-extralight">
+                  <h1 className="text-sm text-center">DIY Available</h1>
+                  <p className="text-sm text-center text-green-1f8f13">Yes</p>
+                </div>
+              </div>
             </div>
           </div>
           <div className="hidden lg:block">
@@ -1515,6 +1525,16 @@ function HowToBuildAnOutdoorMovieTheater() {
                   <p className="text2-xl text-center text-green-1f8f13">
                     Strongest frame system
                   </p>
+                </div>
+              </div>
+              <div className="grid grid-cols-12 my-6 text-center items-center">
+                <div className="col-span-6 font-extralight">
+                  <h1 className="text-sm text-center">DIY Available</h1>
+                  <p className="text-sm text-center text-red-b20000">No</p>
+                </div>
+                <div className="col-span-6 font-extralight">
+                  <h1 className="text-sm text-center">DIY Available</h1>
+                  <p className="text-sm text-center text-green-1f8f13">Yes</p>
                 </div>
               </div>
             </div>
