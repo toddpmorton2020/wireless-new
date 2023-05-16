@@ -199,7 +199,7 @@ function HowToBuildAnOutdoorMovieTheater() {
       <div className="black-back relative text-white sm:top-0 sm:-mt-10">
         <img className="mx-auto w-full max-w-2400" src={Background} alt="" />
         <div className="container py-4 mx-auto">
-          <div className="xl:absolute xl:mt-20 2xl:pt-24 sm:top-0 h-full">
+          <div className="xl:absolute xl:mt-32 2xl:pt-16 sm:top-0 h-full">
             <div className="absolute bg-black opacity-50 z-10 hero-overlay"></div>
             <div className="relative xl:w-4/6 2xl:w-3/6 z-20">
               <p className="font-semibold text-xl md:text-3xl">
