@@ -449,12 +449,12 @@ function HowToBuildAnOutdoorMovieTheater() {
                 {item.bonus && (
                   <img src={BonusBanner} className="bonus-banner-image" />
                 )}
-                <div className="border rounded-md border-grey-theater p-4 md:p-8 text-center h-full">
-                  {item.img}
-                  <p className="font-bold md:text-2xl mb-3 rollover-color-title">
+                <div className="border rounded-md border-grey-theater p-4 md:p-8 text-center h-full flex flex-col justify-start">
+                  <div className="flex justify-center">{item.img}</div>
+                  <p className="font-bold text-lg md:text-2xl mb-3 rollover-color-title">
                     {item.title}
                   </p>
-                  <p className="md:text-2xl">{item.text}</p>
+                  <p className="text-lg md:text-2xl">{item.text}</p>
                 </div>
               </div>
             ))}
