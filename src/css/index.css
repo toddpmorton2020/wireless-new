@@ -1056,3 +1056,18 @@ input.tgg-title {
 .orng-rollover-overlay:hover {
   border-color: #ff5400;
 }
+
+.large-justify-start,
+.large-justify-end {
+  justify-content: center;
+}
+
+@media (min-width: 1024px) {
+  .large-justify-start {
+    justify-content: flex-start !important;
+  }
+
+  .large-justify-end {
+    justify-content: flex-end !important;
+  }
+}
