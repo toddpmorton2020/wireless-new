@@ -844,7 +844,7 @@ function HowToBuildAnOutdoorMovieTheater() {
                 <div className="text-center h-full relative">
                   <img src={item.img} alt={item.text} className="grid-image" />
                   <div
-                    className={`lg:absolute w-full flex content-center lg:content-${item.align} my-8 lg:my-0`}
+                    className={`lg:absolute w-full flex lg:justify-${item.align} justify-center my-8 lg:my-0`}
                     style={{ top: "70%" }}
                   >
                     <div className="flex flex-col lg:flex-row bg-opacity-gray items-center relative">
