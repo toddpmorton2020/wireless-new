@@ -1071,3 +1071,7 @@ input.tgg-title {
     justify-content: flex-end !important;
   }
 }
+
+.text-7xl {
+  font-size: 4.5rem;
+}
