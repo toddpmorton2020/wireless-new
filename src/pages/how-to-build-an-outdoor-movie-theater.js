@@ -249,7 +249,7 @@ function HowToBuildAnOutdoorMovieTheater() {
     return (
       <div className="black-back">
         <div className="container mx-auto py-16 how-to">
-          <div className="responsive-video h-full">
+          <div className="responsive-video h-full lg:hidden">
             {playFlag && (
               <div className="play-button-wrapper">
                 <img
@@ -267,7 +267,31 @@ function HowToBuildAnOutdoorMovieTheater() {
               onPlay={onMobileVideoPlay}
               onPause={onMobileVideoPause}
               onEnded={onMobileVideoEnded}
-              className="w-full h-full"
+              className="w-full h-full mx-auto"
+              style={{
+                maxWidth: "1280px",
+                maxHeight: "720px",
+                objectFit: "cover",
+              }}
+            >
+              <source src="/homePageVideo.mp4#t=0.1" type="video/mp4" />
+            </video>
+          </div>
+          <div className="responsive-video h-full hidden lg:block">
+            <video
+              controls={true}
+              playsInline={false}
+              id="mobile_vid"
+              ref={videoRef}
+              onPlay={onMobileVideoPlay}
+              onPause={onMobileVideoPause}
+              onEnded={onMobileVideoEnded}
+              className="w-full h-full mx-auto"
+              style={{
+                maxWidth: "1280px",
+                maxHeight: "720px",
+                objectFit: "cover",
+              }}
             >
               <source src="/homePageVideo.mp4#t=0.1" type="video/mp4" />
             </video>
