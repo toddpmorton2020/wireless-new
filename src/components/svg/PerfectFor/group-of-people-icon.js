@@ -439,6 +439,7 @@ export const GroupofPeopeIcon = ({ className }) => (
         />
       </g>
       <path
+        className="color-svg-purple"
         d="m77.7,46.5c.7,0,1.5-.1,2.2-.1h25.3c.9,0,1.8,0,2.6.2"
         style={{
           fill: "none",
@@ -452,6 +453,7 @@ export const GroupofPeopeIcon = ({ className }) => (
     <g>
       <g>
         <path
+          className="color-svg-purple"
           d="m226.7,43.3c0,8.4,6.8,15.1,15.1,15.1,8.4,0,15.1-6.8,15.1-15.1,0-8.4-6.8-15.1-15.1-15.1-8.4,0-15.1,6.8-15.1,15.1Z"
           style={{
             fill: "none",
@@ -462,6 +464,7 @@ export const GroupofPeopeIcon = ({ className }) => (
           }}
         />
         <path
+          className="color-svg-purple"
           d="m241.8,58.4h10.8c2.2,0,4.4.5,6.3,1.5"
           style={{
             fill: "none",
@@ -472,6 +475,7 @@ export const GroupofPeopeIcon = ({ className }) => (
           }}
         />
         <path
+          className="color-svg-purple"
           d="m241.8,58.4h-10.8c-2.4,0-4.6.6-6.6,1.6"
           style={{
             fill: "none",
@@ -484,6 +488,7 @@ export const GroupofPeopeIcon = ({ className }) => (
       </g>
       <g>
         <path
+          className="color-svg-purple"
           d="m167.1,43.3c0,8.4,6.8,15.1,15.1,15.1,8.4,0,15.1-6.8,15.1-15.1,0-8.4-6.8-15.1-15.1-15.1-8.4,0-15.1,6.8-15.1,15.1Z"
           style={{
             fill: "none",
@@ -494,6 +499,7 @@ export const GroupofPeopeIcon = ({ className }) => (
           }}
         />
         <path
+          className="color-svg-purple"
           d="m199.3,59.9c-1.9-.9-4-1.5-6.3-1.5h-21.6c-2.4,0-4.6.6-6.6,1.6"
           style={{
             fill: "none",
@@ -505,6 +511,7 @@ export const GroupofPeopeIcon = ({ className }) => (
         />
       </g>
       <path
+        className="color-svg-purple"
         d="m167,71.6c.9-.1,1.7-.2,2.6-.2h25.3c.7,0,1.5,0,2.2.1"
         style={{
           fill: "none",
@@ -515,6 +522,7 @@ export const GroupofPeopeIcon = ({ className }) => (
         }}
       />
       <path
+        className="color-svg-purple"
         d="m226.6,71.6c.9-.1,1.7-.2,2.6-.2h25.3c.8,0,1.5,0,2.2.1"
         style={{
           fill: "none",
@@ -526,6 +534,7 @@ export const GroupofPeopeIcon = ({ className }) => (
       />
       <g>
         <path
+          className="color-svg-purple"
           d="m47.8,43.3c0,8.4,6.8,15.1,15.1,15.1,8.4,0,15.1-6.8,15.1-15.1s-6.8-15.1-15.1-15.1c-8.4,0-15.1,6.8-15.1,15.1Z"
           style={{
             fill: "none",
@@ -536,6 +545,7 @@ export const GroupofPeopeIcon = ({ className }) => (
           }}
         />
         <path
+          className="color-svg-purple"
           d="m63,58.4h10.8c2.2,0,4.4.5,6.3,1.5"
           style={{
             fill: "none",
@@ -546,6 +556,7 @@ export const GroupofPeopeIcon = ({ className }) => (
           }}
         />
         <path
+          className="color-svg-purple"
           d="m63,58.4h-10.8c-2.4,0-4.6.6-6.6,1.6"
           style={{
             fill: "none",
@@ -557,6 +568,7 @@ export const GroupofPeopeIcon = ({ className }) => (
         />
       </g>
       <path
+        className="color-svg-purple"
         d="m47.7,71.6c.8-.1,1.7-.2,2.6-.2h25.3c.8,0,1.5,0,2.2.1"
         style={{
           fill: "none",
@@ -568,6 +580,7 @@ export const GroupofPeopeIcon = ({ className }) => (
       />
       <g>
         <path
+          className="color-svg-purple"
           d="m107.5,43.3c0,8.4,6.8,15.1,15.1,15.1,8.4,0,15.1-6.8,15.1-15.1s-6.8-15.1-15.1-15.1c-8.4,0-15.1,6.8-15.1,15.1Z"
           style={{
             fill: "none",
@@ -578,6 +591,7 @@ export const GroupofPeopeIcon = ({ className }) => (
           }}
         />
         <path
+          className="color-svg-purple"
           d="m122.6,58.4h10.8c2.2,0,4.4.5,6.3,1.5"
           style={{
             fill: "none",
@@ -588,6 +602,7 @@ export const GroupofPeopeIcon = ({ className }) => (
           }}
         />
         <path
+          className="color-svg-purple"
           d="m122.6,58.4h-10.8c-2.4,0-4.6.6-6.6,1.6"
           style={{
             fill: "none",
@@ -599,6 +614,7 @@ export const GroupofPeopeIcon = ({ className }) => (
         />
       </g>
       <path
+        className="color-svg-purple"
         d="m107.3,71.6c.8-.1,1.7-.2,2.6-.2h25.3c.8,0,1.5,0,2.2.1"
         style={{
           fill: "none",
