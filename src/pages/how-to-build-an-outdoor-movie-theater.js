@@ -6,7 +6,7 @@ import PlayButton from "../images/play-button-162px-x-182px.png"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import Background from "../images/timberline-outdoor-movie-theater-1920px-x-900px.jpg"
+import Background from "../images/timberline-outdoor-movie-theater-1920px-x-800px.jpg"
 import Moose from "../images/timberline-big-moose-791px-x-755px.png"
 import FrameSystemsMovable from "../images/moveable-outdoor-movie-theater-frame-1617px-x-1000px.jpg"
 import FrameSystemsTimberline from "../images/timberline-streamline-outdoor-movie-theater-frame-1617px-x-1000px.jpg"
@@ -408,16 +408,16 @@ function HowToBuildAnOutdoorMovieTheater() {
             />
           </div>
           <div className="text-center xl:col-span-7 xl:text-left xl:text-xl">
-            <h2 className="text-3xl xl:text-5xl font-semibold leading-9 xl:leading-none pb-3 xl:pb-3">
+            <h2 className="text-4xl md:text-6xl font-semibold leading-9 xl:leading-none pb-3 xl:pb-3">
               Here's what you get
             </h2>
-            <p className="text-lg xl:text-3xl pb-4 xl:pb-5">
+            <p className="text-2xl md:text-4xl pb-4 xl:pb-5">
               <span className="text-orng">
                 Timberline Series 150" Big Moose
               </span>{" "}
               DIY
             </p>
-            <p>
+            <p className="text-lg md:text-2xl">
               Introducing the only professional how-to build an outdoor movie
               theater DIY for homeowners. This jammed-pack DIY is full of
               detailed diagrams, photographs, access to assembly and
@@ -426,13 +426,13 @@ function HowToBuildAnOutdoorMovieTheater() {
               styles, tips and techniques, and bonuses.
             </p>
             <br />
-            <p>
+            <p className="text-lg md:text-2xl">
               I have been building and installing wireless and wired outdoor
               movie theaters for three years and have implemented my knowledge
               into an easy-to-follow DIY that homeowners will love.
             </p>
             <br />
-            <p>
+            <p className="text-lg md:text-2xl">
               You will receive a professional DIY content and video bundle
               package for just $99* (50% Off. Regularly $199. A bundle valued at
               $3,000). This offer expires on July 1, 2023.
@@ -573,13 +573,13 @@ function HowToBuildAnOutdoorMovieTheater() {
         ),
         text: "Homeowners with a backyard",
       },
-      {
-        id: 1,
-        img: (
-          <RegularUseIcon className="grid-icon my-3 mx-auto w-full md:w-auto md:h-32 p-4" />
-        ),
-        text: "Regular use for outdoor entertainment",
-      },
+      // {
+      //   id: 1,
+      //   img: (
+      //     <RegularUseIcon className="grid-icon my-3 mx-auto w-full md:w-auto md:h-32 p-4" />
+      //   ),
+      //   text: "Regular use for outdoor entertainment",
+      // },
       {
         id: 2,
         img: (
@@ -594,13 +594,13 @@ function HowToBuildAnOutdoorMovieTheater() {
         ),
         text: "Sporting event parties with friends and family",
       },
-      {
-        id: 4,
-        img: (
-          <GroupofPeopeIcon className="grid-icon my-3 mx-auto w-full md:w-auto md:h-32 p-4" />
-        ),
-        text: "Special events and family reunions",
-      },
+      // {
+      //   id: 4,
+      //   img: (
+      //     <GroupofPeopeIcon className="grid-icon my-3 mx-auto w-full md:w-auto md:h-32 p-4" />
+      //   ),
+      //   text: "Special events and family reunions",
+      // },
       {
         id: 5,
         img: (
@@ -637,13 +637,10 @@ function HowToBuildAnOutdoorMovieTheater() {
               outside regularly with an easy setup every time.
             </p>
           </div>
-          <div className="col-span-12 grid grid-cols-6 gap-5 xl:gap-20 mt-16">
+          <div className="col-span-12 grid grid-cols-4 gap-5 xl:gap-20 mt-16">
             {gridItems.map(item => (
-              <div
-                className="orng-overlay col-span-3 md:col-span-2"
-                key={item.id}
-              >
-                <div className="md:border rounded-md border-grey-theater p-4 md:p-12 text-center h-full rollover-svg-item">
+              <div className="orng-overlay col-span-1" key={item.id}>
+                <div className="md:border rounded-md border-grey-theater p-4 text-center h-full rollover-svg-item">
                   {item.img}
                   <p className="xl:text-3xl">{item.text}</p>
                 </div>
@@ -2278,7 +2275,7 @@ function HowToBuildAnOutdoorMovieTheater() {
           <div className="col-span-12 grid grid-cols-12 gap-5 mt-16">
             {faqList.map(item => (
               <div
-                className="col-span-12 lg:col-span-6 border rounded-md p-3 py-5 orng-rollover-overlay rollover-svg-item"
+                className="col-span-12 lg:col-span-4 border rounded-md p-3 py-5 orng-rollover-overlay rollover-svg-item"
                 key={item.id}
               >
                 <div className="flex items-center pb-3">
