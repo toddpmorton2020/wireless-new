@@ -6,7 +6,7 @@ import PlayButton from "../images/play-button-162px-x-182px.png"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import Background from "../images/timberline-outdoor-movie-theater-1920px-x-1080px.jpg"
+import Background from "../images/timberline-outdoor-movie-theater-1920px-x-900px.jpg"
 import Moose from "../images/timberline-big-moose-791px-x-755px.png"
 import FrameSystemsMovable from "../images/moveable-outdoor-movie-theater-frame-1617px-x-1000px.jpg"
 import FrameSystemsTimberline from "../images/timberline-streamline-outdoor-movie-theater-frame-1617px-x-1000px.jpg"
@@ -199,7 +199,7 @@ function HowToBuildAnOutdoorMovieTheater() {
       <div className="black-back relative text-white sm:top-0 sm:-mt-10">
         <img className="mx-auto w-full max-w-2400" src={Background} alt="" />
         <div className="container py-4 mx-auto">
-          <div className="xl:absolute xl:mt-32 2xl:mt-64 sm:top-0 h-full">
+          <div className="xl:absolute xl:mt-32 2xl:pt-5 sm:top-0 h-full">
             <p className="font-semibold xl:text-3xl">
               Get the only <span className="text-orng">DIY</span> on
             </p>
@@ -249,7 +249,7 @@ function HowToBuildAnOutdoorMovieTheater() {
     return (
       <div className="black-back">
         <div className="container mx-auto py-16 how-to">
-          <div className="responsive-video h-full">
+          <div className="responsive-video h-full lg:hidden">
             {playFlag && (
               <div className="play-button-wrapper">
                 <img
@@ -267,7 +267,31 @@ function HowToBuildAnOutdoorMovieTheater() {
               onPlay={onMobileVideoPlay}
               onPause={onMobileVideoPause}
               onEnded={onMobileVideoEnded}
-              className="w-full h-full"
+              className="w-full h-full mx-auto"
+              style={{
+                maxWidth: "1280px",
+                maxHeight: "720px",
+                objectFit: "cover",
+              }}
+            >
+              <source src="/homePageVideo.mp4#t=0.1" type="video/mp4" />
+            </video>
+          </div>
+          <div className="responsive-video h-full hidden lg:block">
+            <video
+              controls={true}
+              playsInline={false}
+              id="mobile_vid"
+              ref={videoRef}
+              onPlay={onMobileVideoPlay}
+              onPause={onMobileVideoPause}
+              onEnded={onMobileVideoEnded}
+              className="w-full h-full mx-auto"
+              style={{
+                maxWidth: "1280px",
+                maxHeight: "720px",
+                objectFit: "cover",
+              }}
             >
               <source src="/homePageVideo.mp4#t=0.1" type="video/mp4" />
             </video>
@@ -348,16 +372,16 @@ function HowToBuildAnOutdoorMovieTheater() {
           "Get recommendations on the best fire pits and the ones you should avoid.",
         bonus: true,
       },
-      {
-        id: 7,
-        img: (
-          <TheaterSeatingIcon className="my-3 h-16 pb-3 lg:pb-0 lg:w-64 mx-auto dynamic-svg" />
-        ),
-        title: "Theater Seating",
-        text:
-          "Ideas on how to make your outdoor movie theater seating area comfortable.",
-        bonus: true,
-      },
+      // {
+      //   id: 7,
+      //   img: (
+      //     <TheaterSeatingIcon className="my-3 h-16 pb-3 lg:pb-0 lg:w-64 mx-auto dynamic-svg" />
+      //   ),
+      //   title: "Theater Seating",
+      //   text:
+      //     "Ideas on how to make your outdoor movie theater seating area comfortable.",
+      //   bonus: true,
+      // },
       {
         id: 8,
         img: (
@@ -414,10 +438,10 @@ function HowToBuildAnOutdoorMovieTheater() {
               $3,000). This offer expires on July 1, 2023.
             </p>
           </div>
-          <div className="col-span-12 grid grid-cols-6 gap-5 xl:gap-20 mt-16">
+          <div className="col-span-12 grid grid-cols-12 gap-5 xl:gap-20 mt-16">
             {gridItems.map(item => (
               <div
-                className="col-span-3 md:col-span-2 rollover-svg-item"
+                className="col-span-6 xl:col-span-3 rollover-svg-item"
                 key={item.id}
               >
                 {item.bonus && (
@@ -842,10 +866,13 @@ function HowToBuildAnOutdoorMovieTheater() {
             {gridItems.map(item => (
               <div className="col-span-12 lg:col-span-6" key={item.id}>
                 <div className="text-center h-full relative">
-                  <img src={item.img} alt={item.text} className="grid-image" />
+                  <img
+                    src={item.img}
+                    alt={item.text}
+                    className="grid-image relative"
+                  />
                   <div
-                    className={`lg:absolute w-full flex justify-center lg:justify-${item.align} my-8 lg:my-0`}
-                    style={{ top: "70%" }}
+                    className={`relative lg:absolute w-full flex justify-center large-justify-${item.align} lg:top-1/2 lg:pt-16 my-8 lg:my-0`}
                   >
                     <div className="flex flex-col lg:flex-row bg-opacity-gray items-center relative">
                       <img
@@ -1599,7 +1626,7 @@ function HowToBuildAnOutdoorMovieTheater() {
     return (
       <div className="black-back relative text-white border-b md:border-none border-grey-subnav">
         <img className="mx-auto w-full max-w-2400" src={QuoteImage} alt="" />
-        <div className="container mx-auto py-4 xl:py-16">
+        <div className="container mx-auto w-full py-4 xl:py-16">
           <div className="flex flex-col lg:hidden">
             <div className="block col-span-12 mb-5 text-center relative">
               <p className="text-xs sm:text-base quote-todd">
@@ -1610,7 +1637,7 @@ function HowToBuildAnOutdoorMovieTheater() {
             </div>
           </div>
           <div className="block h-full container">
-            <div className="absolute container mt-16 top-0 hidden lg:grid grid-cols-12">
+            <div className="absolute container  mx-auto w-full  mt-16 top-0 hidden lg:grid grid-cols-12">
               <div className="flex flex-col col-start-7 col-span-6 text-center">
                 <p className="text-2xl xl:text-4xl quote-todd">
                   My wireless outdoor movie theaters take less time to set up
