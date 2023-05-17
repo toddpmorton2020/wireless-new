@@ -1099,3 +1099,7 @@ input.tgg-title {
 .hero-line-height {
   line-height: 2rem;
 }
+
+.video-adjusted {
+  padding-top: 44% !important;
+}

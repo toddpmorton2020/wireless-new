@@ -256,7 +256,7 @@ function HowToBuildAnOutdoorMovieTheater() {
     return (
       <div className="black-back">
         <div className="container mx-auto py-8 xl:py-16 how-to">
-          <div className="responsive-video h-full lg:hidden">
+          <div className="responsive-video h-full lg:hidden video-adjusted">
             {playFlag && (
               <div className="play-button-wrapper">
                 <img
@@ -284,7 +284,7 @@ function HowToBuildAnOutdoorMovieTheater() {
               <source src="/homePageVideo.mp4#t=0.1" type="video/mp4" />
             </video>
           </div>
-          <div className="responsive-video h-full hidden lg:block">
+          <div className="responsive-video h-full hidden lg:block video-adjusted">
             <video
               controls={true}
               playsInline={false}
