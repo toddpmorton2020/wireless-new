@@ -502,19 +502,19 @@ function HowToBuildAnOutdoorMovieTheater() {
             <img className="mx-auto w-full" src={FrameSystemsMovable} alt="" />
             <div className="bg-gray-990 py-3 flex justify-around">
               <div>
-                <img src={MovableImage} alt="" className="w-full h-16" />
+                <img src={MovableImage} alt="" className="w-full h-18 p-1" />
                 <p className="text-xs xl:text-2xl">Movable</p>
               </div>
               <div>
-                <img src={SturdyImage} alt="" className="w-full h-16" />
+                <img src={SturdyImage} alt="" className="w-full h-18 p-1" />
                 <p className="text-xs xl:text-2xl">Sturdy</p>
               </div>
               <div>
-                <img src={YearroundImage} alt="" className="w-full h-16" />
+                <img src={YearroundImage} alt="" className="w-full h-18 p-1" />
                 <p className="text-xs xl:text-2xl">Year-round use</p>
               </div>
               <div>
-                <img src={AffordableImage} alt="" className="w-full h-16" />
+                <img src={AffordableImage} alt="" className="w-full h-18 p-1" />
                 <p className="text-xs xl:text-2xl">Affordable</p>
               </div>
             </div>
@@ -542,19 +542,19 @@ function HowToBuildAnOutdoorMovieTheater() {
             />
             <div className="bg-gray-990 py-3 flex justify-around">
               <div>
-                <img src={PermanentImage} alt="" className="w-full h-16" />
+                <img src={PermanentImage} alt="" className="w-full h-18 p-1" />
                 <p className="text-xs xl:text-2xl">Permanent</p>
               </div>
               <div>
-                <img src={AttractiveImage} alt="" className="w-full h-16" />
+                <img src={AttractiveImage} alt="" className="w-full h-18 p-1" />
                 <p className="text-xs xl:text-2xl">Attractive</p>
               </div>
               <div>
-                <img src={LastingImage} alt="" className="w-full h-16" />
+                <img src={LastingImage} alt="" className="w-full h-18 p-1" />
                 <p className="text-xs xl:text-2xl">Built-to-last</p>
               </div>
               <div>
-                <img src={BudgetImage} alt="" className="w-full h-16" />
+                <img src={BudgetImage} alt="" className="w-full h-18 p-1" />
                 <p className="text-xs xl:text-2xl">Budget-friendly</p>
               </div>
             </div>
