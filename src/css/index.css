@@ -954,14 +954,16 @@ b {
 .quote-todd:before {
   content: open-quote;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 64px;
+  line-height: 64px;
   padding-right: 5px;
 }
 
 .quote-todd:after {
   content: close-quote;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 64px;
+  line-height: 42px;
   padding-left: 5px;
 }
 
@@ -1070,4 +1072,28 @@ input.tgg-title {
   .large-justify-end {
     justify-content: flex-end !important;
   }
+}
+
+.text-7xl {
+  font-size: 4.5rem;
+}
+
+.hero-overlay {
+  display: none;
+}
+
+@media (min-width:1280px) {
+  .hero-overlay {
+    display: block;
+    height: 500px;
+    width: 1220px;
+    margin-left: -450px;
+    margin-top: -30px;
+    overflow: hidden;
+    opacity: 0.4;
+  }
+}
+
+.hero-line-height {
+  line-height: 2rem;
 }
