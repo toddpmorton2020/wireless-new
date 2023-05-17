@@ -1589,7 +1589,7 @@ function HowToBuildAnOutdoorMovieTheater() {
   const BannerCallout = () => {
     return (
       <div className="bg-gray-990 relative text-white">
-        <div className="container mx-auto pt-8 pb-6 xl:pt-16 xl:pb-12 flex grid grid-cols-12 w-full">
+        <div className="container mx-auto pt-8 pb-6 xl:pt-12 xl:pb-6 flex grid grid-cols-12 w-full">
           <div className="col-span-1">
             <img
               src={DownloadPDF}
@@ -1606,8 +1606,8 @@ function HowToBuildAnOutdoorMovieTheater() {
               Outdoor Movie Theater
             </p>
           </div>
-          <div className="col-start-9 col-span-3 lg:col-start-10 lg:col-span-2 flex flex-col justify-around text-center">
-            <p className="text-xxs sm:text-xs md:text-base lg:text-2xl xl:text-3xl">
+          <div className="col-start-9 col-span-3 lg:col-start-10 lg:col-span-2 flex flex-col justify-start text-center">
+            <p className="text-xxs sm:text-xs md:text-base lg:text-2xl xl:text-3xl md:mb-2 lg:mb-5">
               Now only $99*
             </p>
             <a
