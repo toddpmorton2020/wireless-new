@@ -1074,8 +1074,10 @@ input.tgg-title {
   }
 }
 
-.text-7xl {
-  font-size: 4.5rem;
+@media (min-width:992px) {
+  .text-7xl {
+    font-size: 4.5rem;
+  }
 }
 
 .hero-overlay {
