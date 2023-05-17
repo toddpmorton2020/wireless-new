@@ -255,7 +255,7 @@ function HowToBuildAnOutdoorMovieTheater() {
 
     return (
       <div className="black-back">
-        <div className="container mx-auto py-16 how-to">
+        <div className="container mx-auto py-8 xl:py-16 how-to">
           <div className="responsive-video h-full lg:hidden">
             {playFlag && (
               <div className="play-button-wrapper">
@@ -406,7 +406,7 @@ function HowToBuildAnOutdoorMovieTheater() {
         className="black-back relative text-white border-b md:border-none border-grey-subnav"
         id="whatyouget"
       >
-        <div className="container mx-auto pb-8 xl:py-16 flex flex-col xl:grid xl:grid-cols-12 w-full">
+        <div className="container mx-auto py-8 xl:py-16 flex flex-col xl:grid xl:grid-cols-12 w-full">
           <div className="col-span-5">
             <img
               className="mx-auto px-10 xl:px-0 pb-5 xl:pb-0 w-full"
@@ -623,7 +623,7 @@ function HowToBuildAnOutdoorMovieTheater() {
         className="black-back relative text-white border-b md:border-none border-grey-subnav"
         id="cinemauses"
       >
-        <div className="container mx-auto pb-8 xl:py-16 flex flex-col xl:grid xl:grid-cols-12 w-full">
+        <div className="container mx-auto py-8 xl:py-16 flex flex-col xl:grid xl:grid-cols-12 w-full">
           <div className="text-center xl:col-span-12 xl:text-xl">
             <h2 className="text-4xl md:text-6xl font-semibold leading-9 md:leading-none pb-3 xl:pb-3">
               Outdoor movie theater perfect for
@@ -647,7 +647,10 @@ function HowToBuildAnOutdoorMovieTheater() {
           </div>
           <div className="col-span-12 grid grid-cols-4 gap-5 xl:gap-20 mt-16">
             {gridItems.map(item => (
-              <div className="orng-overlay col-span-1" key={item.id}>
+              <div
+                className="orng-overlay col-span-2 sm:col-span-1"
+                key={item.id}
+              >
                 <div className="md:border rounded-md border-grey-theater p-4 text-center h-full rollover-svg-item">
                   {item.img}
                   <p className="xl:text-3xl">{item.text}</p>
@@ -839,7 +842,7 @@ function HowToBuildAnOutdoorMovieTheater() {
 
     return (
       <div className="black-back relative text-white border-b md:border-none border-grey-subnav">
-        <div className="container mx-auto pb-8 xl:py-16 flex flex-col xl:grid xl:grid-cols-12 w-full">
+        <div className="container mx-auto py-8 xl:py-16 flex flex-col xl:grid xl:grid-cols-12 w-full">
           <div className="text-center xl:col-span-12 xl:text-xl">
             <h2 className="text-4xl xl:text-6xl font-semibold leading-9 md:leading-none pb-3 xl:pb-3">
               Impressive outdoor movie theater features
@@ -908,7 +911,7 @@ function HowToBuildAnOutdoorMovieTheater() {
   const Comparison = () => {
     return (
       <div className="black-back relative text-white" id="comparison">
-        <div className="container mx-auto py-16">
+        <div className="container mx-auto py-8 xl:py-16">
           <div className="text-center xl:col-span-12 xl:text-xl">
             <h2 className="text-4xl md:text-6xl font-semibold leading-9 md:leading-none pb-3 xl:pb-3">
               Outdoor movie theater comparison
@@ -1625,7 +1628,7 @@ function HowToBuildAnOutdoorMovieTheater() {
 
   const Quote = () => {
     return (
-      <div className="black-back relative text-white border-b md:border-none border-grey-subnav xl:py-16">
+      <div className="black-back relative text-white border-b md:border-none border-grey-subnav py-8 xl:py-16">
         <img className="mx-auto w-full max-w-2400" src={QuoteImage} alt="" />
         <div className="container mx-auto w-full">
           <div className="flex flex-col lg:hidden">
@@ -2257,7 +2260,7 @@ function HowToBuildAnOutdoorMovieTheater() {
         className="black-back relative text-white border-b md:border-none border-grey-subnav"
         id="faq"
       >
-        <div className="container mx-auto pb-8 xl:py-16 flex flex-col xl:grid xl:grid-cols-12 w-full">
+        <div className="container mx-auto py-8 xl:py-16 flex flex-col xl:grid xl:grid-cols-12 w-full">
           <div className="text-center xl:col-span-12 xl:text-xl">
             <h2 className="text-4xl md:text-6xl font-semibold leading-9 md:leading-none pb-3 xl:pb-3">
               Frequently asked questions
@@ -2321,7 +2324,7 @@ function HowToBuildAnOutdoorMovieTheater() {
   const Copy = () => {
     return (
       <div className="black-back relative text-white border-b md:border-none border-grey-subnav">
-        <div className="container mx-auto pb-8 xl:py-16">
+        <div className="container mx-auto py-8 xl:py-16">
           <div className="text-left">
             <p className="text-lg">
               * The how-to build a professional outdoor movie theater DIY offer
