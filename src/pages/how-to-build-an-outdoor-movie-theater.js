@@ -335,8 +335,7 @@ function HowToBuildAnOutdoorMovieTheater() {
           <ToolsNeededIcon className="my-3 h-16 pb-3 lg:pb-0 md:w-auto md:h-32 p-4 mx-auto dynamic-svg" />
         ),
         title: "Tools Needed",
-        text:
-          "Tools will be covered in depth, from essential handheld and power tools.",
+        text: "Tools will be covered in depth, from handheld and power tools.",
         bonus: false,
       },
       {
@@ -345,8 +344,7 @@ function HowToBuildAnOutdoorMovieTheater() {
           <EquipmentListIcon className="my-3 h-16 pb-3 lg:pb-0 md:w-auto md:h-32 p-4 mx-auto dynamic-svg" />
         ),
         title: "Equipment Lists",
-        text:
-          "Recommended cinema equipment to use for wireless and wired cinema systems.",
+        text: "Recommended equipment for wireless and wired systems.",
         bonus: false,
       },
       {
@@ -355,8 +353,7 @@ function HowToBuildAnOutdoorMovieTheater() {
           <HowVideoIcon className="my-3 h-16 pb-3 lg:pb-0 md:w-auto md:h-32 p-4 mx-auto dynamic-svg" />
         ),
         title: "How-To Videos",
-        text:
-          "Video access on how to build, assemble and set up your outdoor movie theater.",
+        text: "Videos on how to build, assemble and set up your movie theater.",
         bonus: false,
       },
       {
@@ -375,8 +372,7 @@ function HowToBuildAnOutdoorMovieTheater() {
           <FirePitIcon className="my-3 h-16 pb-3 lg:pb-0 md:w-auto md:h-32 p-4 mx-auto dynamic-svg" />
         ),
         title: "Fire Pit Ideas",
-        text:
-          "Get recommendations on the best fire pits and the ones you should avoid.",
+        text: "Get recommendations on fire pits and the ones you should avoid.",
         bonus: true,
       },
       // {
@@ -396,7 +392,7 @@ function HowToBuildAnOutdoorMovieTheater() {
         ),
         title: "Cold Night Extras",
         text:
-          "Great products to keep you extra warm outside at night while watching movies.",
+          "Products to keep you extra warm outside at night while watching movies.",
         bonus: true,
       },
     ]
