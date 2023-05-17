@@ -1664,7 +1664,7 @@ function HowToBuildAnOutdoorMovieTheater() {
     const faqList = [
       {
         id: 0,
-        icon: <PriceTagIcon className="w-12 h-fit" />,
+        icon: <PriceTagIcon className="h-12 w-12" />,
         text: "Outdoor Movie Theater Costs",
         questions: [
           {
@@ -1776,7 +1776,7 @@ function HowToBuildAnOutdoorMovieTheater() {
       },
       {
         id: 1,
-        icon: <FrameIcon className="w-12 h-fit" />,
+        icon: <FrameIcon className="h-12 w-12" />,
         text: "Frame System",
         questions: [
           {
@@ -1855,7 +1855,7 @@ function HowToBuildAnOutdoorMovieTheater() {
       },
       {
         id: 2,
-        icon: <ScreenIcon className="w-12 h-fit" />,
+        icon: <ScreenIcon className="h-12 w-12" />,
         text: "Cinematic Screen",
         questions: [
           {
@@ -1942,7 +1942,7 @@ function HowToBuildAnOutdoorMovieTheater() {
       },
       {
         id: 3,
-        icon: <EquipmentStandIcon className="w-12 h-fit" />,
+        icon: <EquipmentStandIcon className="h-12 w-12" />,
         text: "Custom Equipment Stand",
         questions: [
           {
@@ -2032,7 +2032,7 @@ function HowToBuildAnOutdoorMovieTheater() {
       },
       {
         id: 4,
-        icon: <EquipmentListIcon className="w-12 h-fit" />,
+        icon: <EquipmentListIcon className="h-12 w-12" />,
         text: "Cinema Equipment",
         questions: [
           {
@@ -2131,7 +2131,7 @@ function HowToBuildAnOutdoorMovieTheater() {
       },
       {
         id: 5,
-        icon: <AssemblyIcon className="w-12 h-fit" />,
+        icon: <AssemblyIcon className="h-12 w-12" />,
         text: "Assembly and Installation",
         questions: [
           {
@@ -2282,13 +2282,13 @@ function HowToBuildAnOutdoorMovieTheater() {
           <div className="col-span-12 grid grid-cols-12 gap-5 mt-16">
             {faqList.map(item => (
               <div
-                className="col-span-12 lg:col-span-4 border rounded-md p-3 py-5 orng-rollover-overlay rollover-svg-item"
+                className="col-span-12 lg:col-span-6 border rounded-md p-3 py-5 orng-rollover-overlay rollover-svg-item"
                 key={item.id}
               >
                 <div className="flex items-center pb-3">
                   {item.icon}
                   {/* <img src={item.icon} alt="" className="w-12 h-fit" /> */}
-                  <p className="text-md lg:text-xl px-3 text-orng">
+                  <p className="text-lg md:text-2xl px-3 text-orng">
                     {item.text}
                   </p>
                 </div>
@@ -2301,13 +2301,13 @@ function HowToBuildAnOutdoorMovieTheater() {
                     />
                     <div className="faq-accordion-title">
                       <label htmlFor={`tgg-title-${qa.id}`}>
-                        <p className="faq-accordion-header p1 text-sm lg:text-lg">
+                        <p className="faq-accordion-header p1 text-lg md:text-2xl">
                           {qa.question}
                         </p>
                       </label>
                     </div>
                     <div className="faq-accordion-content">
-                      <p className="py-2 text-sm lg:text-lg text-grey-bdbbba">
+                      <p className="py-2 text-lg md:text-2xl text-grey-bdbbba">
                         {qa.answer}
                       </p>
                     </div>
