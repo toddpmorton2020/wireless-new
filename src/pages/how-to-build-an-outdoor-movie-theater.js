@@ -2346,10 +2346,7 @@ function HowToBuildAnOutdoorMovieTheater() {
 
   return (
     <Layout>
-      <SEO
-        title="HowToBuildAnOutdoorMovieTheater"
-        description="HowToBuildAnOutdoorMovieTheater"
-      />
+      <SEO title="How To Build An Outdoor Movie Theater" />
       <SubNav />
       <Hero />
       <Video />
