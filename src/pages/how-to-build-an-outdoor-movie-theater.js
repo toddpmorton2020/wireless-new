@@ -313,7 +313,7 @@ function HowToBuildAnOutdoorMovieTheater() {
       {
         id: 0,
         img: (
-          <DesignPlanIcon className="my-3 h-16 pb-3 lg:pb-0 md:w-auto md:h-32 p-4 mx-auto dynamic-svg design-plan-svg" />
+          <DesignPlanIcon className="my-3 h-16 pb-3 lg:pb-0 md:w-auto md:h-32 p-5 mx-auto dynamic-svg design-plan-svg" />
         ),
         title: "Design Plans",
         text:
@@ -323,7 +323,7 @@ function HowToBuildAnOutdoorMovieTheater() {
       {
         id: 1,
         img: (
-          <MaterialListIcon className="my-3 h-16 pb-3 lg:pb-0 md:w-auto md:h-32 p-4 mx-auto dynamic-svg material-list-svg" />
+          <MaterialListIcon className="my-3 h-16 pb-3 lg:pb-0 md:w-auto md:h-32 p-5 mx-auto dynamic-svg material-list-svg" />
         ),
         title: "Material Lists",
         text: "Building material lists include hardware, fasteners, and wood.",
@@ -332,7 +332,7 @@ function HowToBuildAnOutdoorMovieTheater() {
       {
         id: 2,
         img: (
-          <ToolsNeededIcon className="my-3 h-16 pb-3 lg:pb-0 md:w-auto md:h-32 p-4 mx-auto dynamic-svg" />
+          <ToolsNeededIcon className="my-3 h-16 pb-3 lg:pb-0 md:w-auto md:h-32 p-5 mx-auto dynamic-svg" />
         ),
         title: "Tools Needed",
         text: "Tools will be covered in depth, from handheld and power tools.",
@@ -341,7 +341,7 @@ function HowToBuildAnOutdoorMovieTheater() {
       {
         id: 3,
         img: (
-          <EquipmentListIcon className="my-3 h-16 pb-3 lg:pb-0 md:w-auto md:h-32 p-4 mx-auto dynamic-svg" />
+          <EquipmentListIcon className="my-3 h-16 pb-3 lg:pb-0 md:w-auto md:h-32 p-5 mx-auto dynamic-svg" />
         ),
         title: "Equipment Lists",
         text: "Recommended equipment for wireless and wired systems.",
@@ -350,7 +350,7 @@ function HowToBuildAnOutdoorMovieTheater() {
       {
         id: 4,
         img: (
-          <HowVideoIcon className="my-3 h-16 pb-3 lg:pb-0 md:w-auto md:h-32 p-4 mx-auto dynamic-svg" />
+          <HowVideoIcon className="my-3 h-16 pb-3 lg:pb-0 md:w-auto md:h-32 p-5 mx-auto dynamic-svg" />
         ),
         title: "How-To Videos",
         text: "Videos on how to build, assemble and set up your movie theater.",
@@ -369,7 +369,7 @@ function HowToBuildAnOutdoorMovieTheater() {
       {
         id: 6,
         img: (
-          <FirePitIcon className="my-3 h-16 pb-3 lg:pb-0 md:w-auto md:h-32 p-4 mx-auto dynamic-svg" />
+          <FirePitIcon className="my-3 h-16 pb-3 lg:pb-0 md:w-auto md:h-32 p-5 mx-auto dynamic-svg" />
         ),
         title: "Fire Pit Ideas",
         text: "Get recommendations on fire pits and the ones you should avoid.",
@@ -388,7 +388,7 @@ function HowToBuildAnOutdoorMovieTheater() {
       {
         id: 8,
         img: (
-          <ColdNightIcon className="my-3 h-16 pb-3 lg:pb-0 md:w-auto md:h-32 p-4 mx-auto dynamic-svg" />
+          <ColdNightIcon className="my-3 h-16 pb-3 lg:pb-0 md:w-auto md:h-32 p-5 mx-auto dynamic-svg" />
         ),
         title: "Cold Night Extras",
         text:
