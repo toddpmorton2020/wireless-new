@@ -2107,7 +2107,7 @@ function HowToBuildAnOutdoorMovieTheater() {
           {
             id: "46",
             question:
-              "Can I use Bluetooth Wireless Headphones with the cinema equipment?",
+              "Can I use Bluetooth Wireless Head- phones with the cinema equipment?",
             answer: (
               <>
                 Yes. With the wired cinema system, you can use Bluetooth
@@ -2279,10 +2279,10 @@ function HowToBuildAnOutdoorMovieTheater() {
               if you have a question that isn’t here.
             </p>
           </div>
-          <div className="col-span-12 grid grid-cols-12 gap-5 mt-16">
+          <div className="col-span-12 xl:col-span-10 xl:col-start-2 grid grid-cols-12 gap-5 mt-16">
             {faqList.map(item => (
               <div
-                className="col-span-12 lg:col-span-6 border rounded-md p-3 py-5 orng-rollover-overlay rollover-svg-item"
+                className="col-span-12 lg:col-span-6 border rounded-md p-3 lg:p-16 py-5 lg:py-15 orng-rollover-overlay rollover-svg-item"
                 key={item.id}
               >
                 <div className="flex items-center pb-3">
@@ -2301,7 +2301,7 @@ function HowToBuildAnOutdoorMovieTheater() {
                     />
                     <div className="faq-accordion-title">
                       <label htmlFor={`tgg-title-${qa.id}`}>
-                        <p className="faq-accordion-header p1 text-lg md:text-2xl">
+                        <p className="faq-accordion-header p1 text-lg md:text-2xl font-semibold">
                           {qa.question}
                         </p>
                       </label>
