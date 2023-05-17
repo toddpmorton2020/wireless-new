@@ -494,8 +494,10 @@ function HowToBuildAnOutdoorMovieTheater() {
           </div>
           <div className="col-span-12 pb-10 mb-10 text-center relative">
             <div className="pt-2 hidden xl:block absolute text-right w-full pr-12 pt-6">
-              <p className="text-5xl font-semibold">Movable Frame</p>
-              <p className="text-4xl w-5/12 float-right">
+              <p className="text-5xl font-semibold leading-12 pt-5">
+                Movable Frame
+              </p>
+              <p className="text-4xl w-5/12 float-right leading-9">
                 Perfect for flat lawns
               </p>
             </div>
@@ -528,8 +530,10 @@ function HowToBuildAnOutdoorMovieTheater() {
           </div>
           <div className="col-span-12 text-center relative">
             <div className="pt-2 hidden xl:block absolute text-left w-full pl-12 pt-6">
-              <p className="text-5xl font-semibold">Streamline Frame</p>
-              <p className="text-4xl w-7/12">
+              <p className="text-5xl font-semibold leading-12 pt-5">
+                Streamline Frame
+              </p>
+              <p className="text-4xl w-7/12 leading-9">
                 Ideal for flat, uneven and
                 <br />
                 rocky backyards.

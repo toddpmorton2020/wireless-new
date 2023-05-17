@@ -1103,3 +1103,7 @@ input.tgg-title {
 .video-adjusted {
   padding-top: 44% !important;
 }
+
+.leading-12 {
+  line-height: 3.25rem;
+}
