@@ -528,7 +528,7 @@ function HowToBuildAnOutdoorMovieTheater() {
           </div>
           <div className="col-span-12 text-center relative">
             <div className="pt-2 hidden xl:block absolute text-left w-full pl-12 pt-6">
-              <p className="text-6xl font-semibold">Streamline Frame</p>
+              <p className="text-5xl font-semibold">Streamline Frame</p>
               <p className="text-4xl w-7/12">
                 Ideal for flat, uneven and
                 <br />
