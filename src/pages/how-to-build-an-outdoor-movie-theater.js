@@ -8,12 +8,12 @@ import SEO from "../components/seo"
 
 import Background from "../images/timberline-outdoor-movie-theater-1920px-x-800px.jpg"
 import Moose from "../images/timberline-big-moose-791px-x-755px.png"
-import FrameSystemsMovable from "../images/moveable-outdoor-movie-theater-frame-1617px-x-1000px.jpg"
-import FrameSystemsTimberline from "../images/timberline-streamline-outdoor-movie-theater-frame-1617px-x-1000px.jpg"
+import FrameSystemsMovable from "../images/timberline-movable-frame-1617px-x-750px.jpg"
+import FrameSystemsTimberline from "../images/timberline-streamline-frame-1617px-x-750px.jpg"
 
 import BonusBanner from "../images/bonus-corner-banner-141px-x-121px.png"
 
-import PowerfulBackground from "../images/outdoor-movie-projector-stand-1920px-x-1080px.jpg"
+import PowerfulBackground from "../images/timberline-cinema-stand-1617px-x-750px.jpg"
 
 import FlexingImage from "../images/icon-arm-flexing-130px-x-98px.png"
 import StampImage from "../images/icon-original-stamp-144px-x-98px.png"
@@ -200,7 +200,7 @@ function HowToBuildAnOutdoorMovieTheater() {
         <img className="mx-auto w-full max-w-2400" src={Background} alt="" />
         <div className="container py-4 mx-auto">
           <div className="xl:absolute xl:mt-32 2xl:pt-16 sm:top-0 h-full">
-            <div className="absolute bg-black opacity-50 z-10 hero-overlay"></div>
+            <div className="absolute bg-black z-10 hero-overlay"></div>
             <div className="relative xl:w-4/6 2xl:w-3/6 z-20">
               <p className="font-semibold text-xl md:text-3xl">
                 Get the only <span className="text-orng">DIY</span> on
@@ -505,7 +505,7 @@ function HowToBuildAnOutdoorMovieTheater() {
               </p>
             </div>
             <img className="mx-auto w-full" src={FrameSystemsMovable} alt="" />
-            <div className="bg-gray-990 py-10 flex justify-between">
+            <div className="bg-gray-990 py-3 flex justify-between">
               <div>
                 <img src={MovableImage} alt="" className="w-full" />
                 <p className="text-xs xl:text-2xl">Movable</p>
@@ -543,7 +543,7 @@ function HowToBuildAnOutdoorMovieTheater() {
               src={FrameSystemsTimberline}
               alt=""
             />
-            <div className="bg-gray-990 py-10 flex justify-between">
+            <div className="bg-gray-990 py-3 flex justify-between">
               <div>
                 <img src={PermanentImage} alt="" className="w-full" />
                 <p className="text-xs xl:text-2xl">Permanent</p>
@@ -687,7 +687,7 @@ function HowToBuildAnOutdoorMovieTheater() {
         img: (
           <SmartphoneIcon className="white-svg h-16 pb-3 lg:pb-0 lg:w-10 mx-auto lg:mx-3" />
         ),
-        text: "Smartphones (IOS & Andriod)",
+        text: "IOS & Andriod Phones",
       },
       {
         id: 4,
@@ -699,17 +699,17 @@ function HowToBuildAnOutdoorMovieTheater() {
       {
         id: 5,
         img: (
-          <DvdIcon className="white-svg h-16 pb-3 lg:pb-0 lg:w-10 mx-auto lg:mx-3" />
-        ),
-        text: "DVD Players",
-      },
-      {
-        id: 6,
-        img: (
           <TunerIcon className="white-svg h-16 pb-3 lg:pb-0 lg:w-10 mx-auto lg:mx-3" />
         ),
-        text: "Receivers & FM Tuners",
+        text: "DVD Players and Receivers",
       },
+      // {
+      //   id: 6,
+      //   img: (
+      //     <TunerIcon className="white-svg h-16 pb-3 lg:pb-0 lg:w-10 mx-auto lg:mx-3" />
+      //   ),
+      //   text: "Receivers & FM Tuners",
+      // },
       {
         id: 7,
         img: (
@@ -789,9 +789,6 @@ function HowToBuildAnOutdoorMovieTheater() {
           <div className="relative w-full mx-auto">
             <div className="block text-left py-20 p-10 bg-black-size-128">
               <div className="container mx-auto">
-                <p className="text-3xl font-semibold text-orng">
-                  Projector Connections:
-                </p>
                 <ul className="text-2xl">
                   {gridItems.map(item => (
                     <li className="flex items-center my-8" key={item.id}>
