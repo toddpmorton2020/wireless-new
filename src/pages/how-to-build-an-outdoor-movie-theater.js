@@ -392,7 +392,7 @@ function HowToBuildAnOutdoorMovieTheater() {
         ),
         title: "Cold Night Extras",
         text:
-          "Products to keep you extra warm outside at night while watching movies.",
+          "Products to keep you warm outside at night while watching movies.",
         bonus: true,
       },
     ]
@@ -410,7 +410,7 @@ function HowToBuildAnOutdoorMovieTheater() {
               alt=""
             />
           </div>
-          <div className="text-center xl:col-span-7 xl:text-left xl:text-xl">
+          <div className="text-center xl:col-span-7 xl:text-left xl:text-xl pb-10 mb-10">
             <h2 className="text-4xl md:text-6xl font-semibold leading-9 md:leading-none pb-3 xl:pb-3">
               Here's what you get
             </h2>
@@ -441,7 +441,7 @@ function HowToBuildAnOutdoorMovieTheater() {
               $3,000). This offer expires on July 1, 2023.
             </p>
           </div>
-          <div className="col-span-12 grid grid-cols-12 gap-5 xl:gap-20 mt-16">
+          <div className="col-span-12 grid grid-cols-12 gap-5 xl:gap-20">
             {gridItems.map(item => (
               <div
                 className="col-span-6 xl:col-span-3 rollover-svg-item"
@@ -472,7 +472,7 @@ function HowToBuildAnOutdoorMovieTheater() {
         id="framesystems"
       >
         <div className="container mx-auto py-8 xl:py-16 flex flex-col xl:grid xl:grid-cols-12 w-full">
-          <div className="text-left xl:col-span-12 xl:text-xl pb-10">
+          <div className="text-left xl:col-span-12 xl:text-xl pb-10 mb-10">
             <h2 className="text-4xl md:text-6xl font-semibold leading-9 md:leading-none pb-3 xl:pb-3">
               Frame systems that work with your backyard
             </h2>
@@ -600,7 +600,7 @@ function HowToBuildAnOutdoorMovieTheater() {
         img: (
           <SportStadiumIcon className="grid-icon my-3 mx-auto w-full md:w-auto md:h-32 p-4" />
         ),
-        text: "Sporting event parties with friends and family",
+        text: "Sporting event parties with friends",
       },
       // {
       //   id: 4,
@@ -614,7 +614,7 @@ function HowToBuildAnOutdoorMovieTheater() {
         img: (
           <VideoGameConsoleIcon className="grid-icon my-3 mx-auto w-full md:w-auto md:h-32 p-4" />
         ),
-        text: "Video game parties with friends and family",
+        text: "Video game parties with friends",
       },
     ]
 
@@ -651,9 +651,9 @@ function HowToBuildAnOutdoorMovieTheater() {
                 className="orng-overlay col-span-2 sm:col-span-1"
                 key={item.id}
               >
-                <div className="md:border rounded-md border-grey-theater p-4 text-center h-full rollover-svg-item">
+                <div className="md:border rounded-md border-grey-theater p-5 text-center h-full rollover-svg-item">
                   {item.img}
-                  <p className="xl:text-3xl">{item.text}</p>
+                  <p className="text-lg md:text-2xl">{item.text}</p>
                 </div>
               </div>
             ))}
@@ -743,7 +743,7 @@ function HowToBuildAnOutdoorMovieTheater() {
         id="features"
       >
         <div className="container mx-auto py-8 xl:py-16 flex flex-col xl:grid xl:grid-cols-12 w-full">
-          <div className="text-left xl:col-span-12 xl:text-xl pb-10">
+          <div className="text-left xl:col-span-12 xl:text-xl pb-10 mb-10">
             <h2 className="text-4xl md:text-6xl font-semibold leading-9 md:leading-none pb-3 xl:pb-3">
               Powerful cinema equipment capabilities
             </h2>
@@ -843,7 +843,7 @@ function HowToBuildAnOutdoorMovieTheater() {
     return (
       <div className="black-back relative text-white border-b md:border-none border-grey-subnav">
         <div className="container mx-auto py-8 xl:py-16 flex flex-col xl:grid xl:grid-cols-12 w-full">
-          <div className="text-center xl:col-span-12 xl:text-xl">
+          <div className="text-center xl:col-span-12 xl:text-xl pb-10 mb-10">
             <h2 className="text-4xl xl:text-6xl font-semibold leading-9 md:leading-none pb-3 xl:pb-3">
               Impressive outdoor movie theater features
             </h2>
@@ -866,7 +866,7 @@ function HowToBuildAnOutdoorMovieTheater() {
               stand, and can be used year-round.
             </p>
           </div>
-          <div className="col-span-12 grid grid-cols-12 lg:gap-2 mt-16">
+          <div className="col-span-12 grid grid-cols-12 lg:gap-2">
             {gridItems.map(item => (
               <div className="col-span-12 lg:col-span-6" key={item.id}>
                 <div className="text-center h-full relative">
@@ -1664,7 +1664,7 @@ function HowToBuildAnOutdoorMovieTheater() {
     const faqList = [
       {
         id: 0,
-        icon: <PriceTagIcon className="h-12 w-12" />,
+        icon: <PriceTagIcon className="h-13 w-13" />,
         text: "Outdoor Movie Theater Costs",
         questions: [
           {
@@ -1776,7 +1776,7 @@ function HowToBuildAnOutdoorMovieTheater() {
       },
       {
         id: 1,
-        icon: <FrameIcon className="h-12 w-12" />,
+        icon: <FrameIcon className="h-13 w-13" />,
         text: "Frame System",
         questions: [
           {
@@ -1855,7 +1855,7 @@ function HowToBuildAnOutdoorMovieTheater() {
       },
       {
         id: 2,
-        icon: <ScreenIcon className="h-12 w-12" />,
+        icon: <ScreenIcon className="h-13 w-13" />,
         text: "Cinematic Screen",
         questions: [
           {
@@ -1942,7 +1942,7 @@ function HowToBuildAnOutdoorMovieTheater() {
       },
       {
         id: 3,
-        icon: <EquipmentStandIcon className="h-12 w-12" />,
+        icon: <EquipmentStandIcon className="h-13 w-13" />,
         text: "Custom Equipment Stand",
         questions: [
           {
@@ -2032,7 +2032,7 @@ function HowToBuildAnOutdoorMovieTheater() {
       },
       {
         id: 4,
-        icon: <EquipmentListIcon className="h-12 w-12" />,
+        icon: <EquipmentListIcon className="h-13 w-13" />,
         text: "Cinema Equipment",
         questions: [
           {
@@ -2131,7 +2131,7 @@ function HowToBuildAnOutdoorMovieTheater() {
       },
       {
         id: 5,
-        icon: <AssemblyIcon className="h-12 w-12" />,
+        icon: <AssemblyIcon className="h-13 w-13" />,
         text: "Assembly and Installation",
         questions: [
           {
@@ -2273,7 +2273,7 @@ function HowToBuildAnOutdoorMovieTheater() {
               Below are the most frequently asked questions from customers over
               the years to help you quickly find the answers you are searching
               for broken down by category. Feel free to{" "}
-              <Link to="/connect" style={{ color: "#2ea8df" }}>
+              <Link to="/connect" style={{ color: "#9647f7" }}>
                 connect
               </Link>{" "}
               if you have a question that isn’t here.
@@ -2307,9 +2307,7 @@ function HowToBuildAnOutdoorMovieTheater() {
                       </label>
                     </div>
                     <div className="faq-accordion-content">
-                      <p className="py-2 text-lg md:text-2xl text-grey-bdbbba">
-                        {qa.answer}
-                      </p>
+                      <p className="py-2 text-lg md:text-2xl">{qa.answer}</p>
                     </div>
                   </article>
                 ))}
@@ -2324,11 +2322,11 @@ function HowToBuildAnOutdoorMovieTheater() {
   const Copy = () => {
     return (
       <div className="black-back relative text-white border-b md:border-none border-grey-subnav">
-        <div className="container mx-auto py-8 xl:py-16">
-          <div className="text-left">
+        <div className="container mx-auto py-8 xl:py-16 xl:px-32">
+          <div className="text-center">
             <p className="text-lg">
               * The how-to build a professional outdoor movie theater DIY offer
-              expires on July 1, 2023.
+              expires on September 1, 2023.
             </p>
             <br />
             <p className="text-lg">
