@@ -717,7 +717,12 @@ function HowToBuildAnOutdoorMovieTheater() {
         img: (
           <CablesIcon className="white-svg h-18 pb-3 lg:pb-0 lg:w-10 mx-auto lg:mx-3" />
         ),
-        text: "HDMI, USB, VGA & Audio",
+        text: (
+          <>
+            HDMI, USB, VGA
+            <br /> & Audio
+          </>
+        ),
       },
     ]
 
@@ -757,7 +762,9 @@ function HowToBuildAnOutdoorMovieTheater() {
             <div className="col-span-12 grid grid-cols-6 gap-5 xl:gap-20">
               {gridItems.map(item => (
                 <div
-                  className="orng-overlay col-span-3 md:col-span-2 self-center h-full"
+                  className={`orng-overlay ${
+                    item.id === 9 ? "col-span-6" : "col-span-3"
+                  } md:col-span-2 self-center h-full`}
                   key={item.id}
                 >
                   <div className="md:border rounded-md border-grey-theater p-4 md:p-8 text-center flex flex-col h-full justify-start">
