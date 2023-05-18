@@ -1084,6 +1084,14 @@ input.tgg-title {
   display: none;
 }
 
+.hero-line-height {
+  line-height: 1.7rem;
+}
+
+.video-adjusted {
+  padding-top: 56.25% !important;
+}
+
 @media (min-width:1280px) {
   .hero-overlay {
     display: block;
@@ -1094,14 +1102,18 @@ input.tgg-title {
     overflow: hidden;
     opacity: 0.4;
   }
+
+  .hero-line-height {
+    line-height: 2rem;
+  }
+
+  .video-adjusted {
+    padding-top: 44% !important;
+  }
 }
 
-.hero-line-height {
-  line-height: 2rem;
-}
-
-.video-adjusted {
-  padding-top: 44% !important;
+.leading-10 {
+  line-height: 2.75rem;
 }
 
 .leading-12 {
