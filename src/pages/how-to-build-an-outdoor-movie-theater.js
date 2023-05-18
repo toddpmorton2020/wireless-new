@@ -14,6 +14,7 @@ import FrameSystemsTimberline from "../images/timberline-streamline-frame-1617px
 import BonusBanner from "../images/bonus-corner-banner-141px-x-121px.png"
 
 import PowerfulBackground from "../images/timberline-cinema-stand-1617px-x-750px.jpg"
+import PowerfulBackgroundMobile from "../images/mobile-timberline-projector-stand-429px-x-266px.jpg"
 
 import FlexingImage from "../images/icon-arm-flexing-130px-x-98px.png"
 import StampImage from "../images/icon-original-stamp-144px-x-98px.png"
@@ -24,6 +25,10 @@ import ImpressiveImage1 from "../images/setup-time-photo-805px-x-512px.jpg"
 import ImpressiveImage2 from "../images/strongest-frame-system-photo-805px-x-512px.jpg"
 import ImpressiveImage3 from "../images/equipment-stand-photo-805px-x-512px.jpg"
 import ImpressiveImage4 from "../images/theater-in-snow-photo-805px-x-512px.jpg"
+import ImpressiveImage1M from "../images/mobile-setup-time-photo-429px-x-266px.jpg"
+import ImpressiveImage2M from "../images/mobile-strongest-frame-system-429px-x-266px.jpg"
+import ImpressiveImage3M from "../images/mobile-equipment-stand-photo-429px-x-266px.jpg"
+import ImpressiveImage4M from "../images/mobile-winter-outdoor-movie-theater-429px-x-266px.jpg"
 
 import YearroundImage from "../images/icon-year-round-402px-138px.png"
 import AffordableImage from "../images/icon-affordable-401px-138px.png"
@@ -388,7 +393,7 @@ function HowToBuildAnOutdoorMovieTheater() {
               $3,000). This offer expires on July 1, 2023.
             </p>
           </div>
-          <div className="col-span-12 grid grid-cols-12 gap-5 xl:gap-20">
+          <div className="col-span-12 grid grid-cols-12 gap-5 xl:gap-20 px-8 md:px-0">
             {gridItems.map(item => (
               <div
                 className="col-span-12 md:col-span-6 xl:col-span-3 rollover-svg-item"
@@ -602,8 +607,8 @@ function HowToBuildAnOutdoorMovieTheater() {
         className="black-back relative text-white border-b md:border-none border-grey-subnav"
         id="cinemauses"
       >
-        <div className="container mx-auto py-8 xl:py-16 flex flex-col xl:grid xl:grid-cols-12 w-full">
-          <div className="text-center xl:col-span-12 xl:text-xl">
+        <div className="container mx-auto py-6 xl:py-16 flex flex-col xl:grid xl:grid-cols-12 w-full">
+          <div className="text-center xl:col-span-12 xl:text-xl pb-3">
             <h2 className="text-4xl md:text-6xl font-semibold leading-9 md:leading-none pb-3 xl:pb-3">
               Outdoor movie theater perfect for
             </h2>
@@ -630,7 +635,7 @@ function HowToBuildAnOutdoorMovieTheater() {
                 className="orng-overlay col-span-2 sm:col-span-1"
                 key={item.id}
               >
-                <div className="md:border rounded-md border-grey-theater p-5 text-center h-full rollover-svg-item">
+                <div className="md:border rounded-md border-grey-theater py-0 px-5 md:p-5 text-center h-full rollover-svg-item">
                   {item.img}
                   <p className="text-lg md:text-2xl leading-6">{item.text}</p>
                 </div>
@@ -675,14 +680,14 @@ function HowToBuildAnOutdoorMovieTheater() {
       {
         id: 4,
         img: (
-          <LaptopIcon className="white-svg h-16 pb-3 lg:pb-0 lg:w-10 mx-auto lg:mx-3" />
+          <LaptopIcon className="white-svg h-16 py-2 pb-3 lg:pb-0 lg:w-10 mx-auto lg:mx-3" />
         ),
         text: "PCs, Laptops & Tablets",
       },
       {
         id: 5,
         img: (
-          <TunerIcon className="white-svg h-16 pb-3 lg:pb-0 lg:w-10 mx-auto lg:mx-3" />
+          <TunerIcon className="white-svg h-16 py-2 pb-3 lg:pb-0 lg:w-10 mx-auto lg:mx-3" />
         ),
         text: "DVD Players and Receivers",
       },
@@ -703,14 +708,14 @@ function HowToBuildAnOutdoorMovieTheater() {
       {
         id: 8,
         img: (
-          <BatteryIcon className="white-svg h-16 pb-3 lg:pb-0 lg:w-10 mx-auto lg:mx-3" />
+          <BatteryIcon className="white-svg h-16 py-2 pb-3 lg:pb-0 lg:w-10 mx-auto lg:mx-3" />
         ),
         text: "Off-Grid Battery Stations",
       },
       {
         id: 9,
         img: (
-          <CablesIcon className="white-svg h-16 pb-3 lg:pb-0 lg:w-10 mx-auto lg:mx-3" />
+          <CablesIcon className="white-svg h-18 pb-3 lg:pb-0 lg:w-10 mx-auto lg:mx-3" />
         ),
         text: "HDMI, USB, VGA & Audio",
       },
@@ -721,12 +726,12 @@ function HowToBuildAnOutdoorMovieTheater() {
         className="black-back relative text-white border-b md:border-none border-grey-subnav"
         id="features"
       >
-        <div className="container mx-auto py-8 xl:py-16 flex flex-col xl:grid xl:grid-cols-12 w-full">
-          <div className="text-left xl:col-span-12 xl:text-xl pb-10 mb-10">
+        <div className="container mx-auto py-6 xl:py-16 flex flex-col xl:grid xl:grid-cols-12 w-full">
+          <div className="text-left xl:col-span-12 xl:text-xl pb-12 xl:pb-10 xl:mb-10">
             <h2 className="text-4xl md:text-6xl font-semibold leading-9 md:leading-none pb-3 xl:pb-3">
               Powerful cinema equipment capabilities
             </h2>
-            <p className="text-2xl md:text-4xl pb-4 xl:pb-5 text-orng">
+            <p className="text-2xl md:text-4xl pb-4 xl:pb-5 text-orng leading-8">
               Tons of connections. Access everything. High-rated name-brand
               products.
             </p>
@@ -742,10 +747,14 @@ function HowToBuildAnOutdoorMovieTheater() {
             </p>
           </div>
           <div className="block lg:hidden col-span-12 pb-10 mb-10 text-center relative">
-            <img className="mx-auto w-full" src={PowerfulBackground} alt="" />
+            <img
+              className="mx-auto w-full"
+              src={PowerfulBackgroundMobile}
+              alt=""
+            />
 
-            <p className="text-2xl mt-10 text-orng">Projector Connections:</p>
-            <div className="col-span-12 grid grid-cols-6 gap-5 xl:gap-20 mt-8">
+            <p className="text-2xl py-3 text-orng">Projector Connections:</p>
+            <div className="col-span-12 grid grid-cols-6 gap-5 xl:gap-20">
               {gridItems.map(item => (
                 <div
                   className="orng-overlay col-span-3 md:col-span-2 self-center h-full"
@@ -792,6 +801,7 @@ function HowToBuildAnOutdoorMovieTheater() {
       {
         id: 0,
         img: ImpressiveImage1,
+        imgM: ImpressiveImage1M,
         icon: WatchImage,
         text: "2-minute setup time",
         align: "start",
@@ -799,6 +809,7 @@ function HowToBuildAnOutdoorMovieTheater() {
       {
         id: 1,
         img: ImpressiveImage2,
+        imgM: ImpressiveImage2M,
         icon: FlexingImage,
         text: "Strongest frame system",
         align: "end",
@@ -806,6 +817,7 @@ function HowToBuildAnOutdoorMovieTheater() {
       {
         id: 2,
         img: ImpressiveImage3,
+        imgM: ImpressiveImage3M,
         icon: StampImage,
         text: "Custom equipment stand",
         align: "start",
@@ -813,6 +825,7 @@ function HowToBuildAnOutdoorMovieTheater() {
       {
         id: 3,
         img: ImpressiveImage4,
+        imgM: ImpressiveImage4M,
         icon: YearImage,
         text: "Year-round use",
         align: "end",
@@ -822,11 +835,11 @@ function HowToBuildAnOutdoorMovieTheater() {
     return (
       <div className="black-back relative text-white border-b md:border-none border-grey-subnav">
         <div className="container mx-auto py-8 xl:py-16 flex flex-col xl:grid xl:grid-cols-12 w-full">
-          <div className="text-center xl:col-span-12 xl:text-xl pb-10 mb-10">
+          <div className="text-center xl:col-span-12 xl:text-xl pb-12 xl:pb-10 xl:mb-10">
             <h2 className="text-4xl xl:text-6xl font-semibold leading-9 md:leading-none pb-3 xl:pb-3">
               Impressive outdoor movie theater features
             </h2>
-            <p className="text-2xl md:text-4xl pb-4 xl:pb-5 text-orng">
+            <p className="text-2xl md:text-4xl pb-4 xl:pb-5 text-orng leading-8">
               Fastest setup. Strongest frame system. Custom equipment stand.
               Year-round use.
             </p>
@@ -848,7 +861,7 @@ function HowToBuildAnOutdoorMovieTheater() {
           <div className="col-span-12 grid grid-cols-12 lg:gap-2">
             {gridItems.map(item => (
               <div className="col-span-12 lg:col-span-6" key={item.id}>
-                <div className="text-center h-full relative">
+                <div className="text-center h-full relative hidden lg:block">
                   <img
                     src={item.img}
                     alt={item.text}
@@ -879,6 +892,28 @@ function HowToBuildAnOutdoorMovieTheater() {
                     </div>
                   </div>
                 </div>
+                <div className="text-center h-full relative block lg:hidden">
+                  <img
+                    src={item.imgM}
+                    alt={item.text}
+                    className="grid-image relative"
+                  />
+                  <div
+                    className={`relative lg:absolute w-full flex justify-center large-justify-${item.align} lg:top-1/2 lg:pt-16 xl:py-24 my-3 lg:my-0`}
+                  >
+                    <div className="flex flex-col lg:flex-row bg-opacity-gray items-center relative">
+                      <p
+                        className={`text-xl xl:text-3xl p-3 ${
+                          item.align === "start"
+                            ? "lg:order-2 lg:pl-40"
+                            : "lg:order-1 lg:pr-40"
+                        }`}
+                      >
+                        {item.text}
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
             ))}
           </div>
@@ -895,7 +930,7 @@ function HowToBuildAnOutdoorMovieTheater() {
             <h2 className="text-4xl md:text-6xl font-semibold leading-9 md:leading-none pb-3 xl:pb-3">
               Outdoor movie theater comparison
             </h2>
-            <p className="text-2xl md:text-4xl pb-4 xl:pb-5 text-orng">
+            <p className="text-2xl md:text-4xl pb-4 xl:pb-5 text-orng leading-8">
               How does the competition stack up to the Timberline Series 150"
               Big Moose?
             </p>
