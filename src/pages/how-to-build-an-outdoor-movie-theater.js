@@ -358,7 +358,7 @@ function HowToBuildAnOutdoorMovieTheater() {
             />
           </div>
           <div className="text-center xl:col-span-7 xl:text-left xl:text-xl pb-12 xl:pb-10 xl:mb-10">
-            <h2 className="text-4xl md:text-6xl font-semibold leading-10 md:leading-none pb-3 xl:pb-3">
+            <h2 className="text-4xl md:text-6xl font-semibold leading-9 md:leading-none pb-3 xl:pb-3">
               Here's what you get
             </h2>
             <p className="text-2xl md:text-4xl pb-4 xl:pb-5 leading-8">
@@ -420,7 +420,7 @@ function HowToBuildAnOutdoorMovieTheater() {
       >
         <div className="container mx-auto py-6 xl:py-16 flex flex-col xl:grid xl:grid-cols-12 w-full">
           <div className="text-left xl:col-span-12 xl:text-xl pb-12 xl:pb-10 xl:mb-10">
-            <h2 className="text-4xl md:text-6xl font-semibold leading-10 md:leading-none pb-3 xl:pb-3">
+            <h2 className="text-4xl md:text-6xl font-semibold leading-9 md:leading-none pb-3 xl:pb-3">
               Frame systems that work with your backyard
             </h2>
             <p className="text-2xl md:text-4xl pb-4 xl:pb-5 text-orng leading-8">
@@ -604,7 +604,7 @@ function HowToBuildAnOutdoorMovieTheater() {
       >
         <div className="container mx-auto py-8 xl:py-16 flex flex-col xl:grid xl:grid-cols-12 w-full">
           <div className="text-center xl:col-span-12 xl:text-xl">
-            <h2 className="text-4xl md:text-6xl font-semibold leading-10 md:leading-none pb-3 xl:pb-3">
+            <h2 className="text-4xl md:text-6xl font-semibold leading-9 md:leading-none pb-3 xl:pb-3">
               Outdoor movie theater perfect for
             </h2>
             <p className="text-2xl md:text-4xl pb-4 xl:pb-5 text-orng leading-8">
