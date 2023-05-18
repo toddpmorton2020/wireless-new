@@ -14,6 +14,7 @@ import FrameSystemsTimberline from "../images/timberline-streamline-frame-1617px
 import BonusBanner from "../images/bonus-corner-banner-141px-x-121px.png"
 
 import PowerfulBackground from "../images/timberline-cinema-stand-1617px-x-750px.jpg"
+import PowerfulBackgroundMobile from "../images/mobile-timberline-projector-stand-429px-x-266px.jpg"
 
 import FlexingImage from "../images/icon-arm-flexing-130px-x-98px.png"
 import StampImage from "../images/icon-original-stamp-144px-x-98px.png"
@@ -24,6 +25,10 @@ import ImpressiveImage1 from "../images/setup-time-photo-805px-x-512px.jpg"
 import ImpressiveImage2 from "../images/strongest-frame-system-photo-805px-x-512px.jpg"
 import ImpressiveImage3 from "../images/equipment-stand-photo-805px-x-512px.jpg"
 import ImpressiveImage4 from "../images/theater-in-snow-photo-805px-x-512px.jpg"
+import ImpressiveImage1M from "../images/mobile-setup-time-photo-429px-x-266px.jpg"
+import ImpressiveImage2M from "../images/mobile-strongest-frame-system-429px-x-266px.jpg"
+import ImpressiveImage3M from "../images/mobile-equipment-stand-photo-429px-x-266px.jpg"
+import ImpressiveImage4M from "../images/mobile-winter-outdoor-movie-theater-429px-x-266px.jpg"
 
 import YearroundImage from "../images/icon-year-round-402px-138px.png"
 import AffordableImage from "../images/icon-affordable-401px-138px.png"
@@ -198,10 +203,10 @@ function HowToBuildAnOutdoorMovieTheater() {
     return (
       <div className="black-back relative text-white sm:top-0 sm:-mt-12">
         <img className="mx-auto w-full max-w-2400" src={Background} alt="" />
-        <div className="container pb-16 mx-auto">
+        <div className="container pb-4 xl:pb-16 mx-auto">
           <div className="xl:absolute xl:mt-32 2xl:pt-16 sm:top-0 h-full">
             <div className="absolute bg-black z-10 hero-overlay"></div>
-            <div className="relative xl:w-4/6 2xl:w-3/6 z-20">
+            <div className="relative xl:w-4/6 2xl:w-3/6 z-20 mt-5 xl:mt-0">
               <p className="font-semibold text-xl md:text-3xl">
                 Get the only <span className="text-orng">DIY</span> on
               </p>
@@ -219,7 +224,7 @@ function HowToBuildAnOutdoorMovieTheater() {
               <p className="text-xl md:text-2xl hero-line-height">
                 On sale for $99* <span className="text-orng">(50% off)</span>
               </p>
-              <p className="my-4 text-lg md:text-xl xl:mt-8">
+              <p className="mt-4 text-lg md:text-xl xl:mt-8">
                 <a href="#" className="px-8 py-1 xl:px-16 xl:py-2 button-orng">
                   Get the DIY now
                 </a>
@@ -232,67 +237,14 @@ function HowToBuildAnOutdoorMovieTheater() {
   }
 
   const Video = () => {
-    const [playFlag, setPlayFlag] = useState(true)
-    const videoRef = useRef(null)
-
-    const onMobileVideoEnded = () => {
-      setPlayFlag(true)
-      videoRef.current.currentTime = 0
-    }
-
-    const onMobileVideoPlay = () => {
-      setPlayFlag(false)
-    }
-
-    const onMobileVideoPause = () => {
-      setPlayFlag(true)
-    }
-    const videoAct = () => {
-      let videoElement = videoRef.current
-      videoElement.play()
-      setPlayFlag(false)
-    }
-
     return (
       <div className="black-back">
-        <div className="container mx-auto py-8 xl:py-16 how-to">
-          <div className="responsive-video h-full lg:hidden video-adjusted">
-            {playFlag && (
-              <div className="play-button-wrapper">
-                <img
-                  src={PlayButton}
-                  className="play-button-png"
-                  onClick={e => videoAct(e)}
-                />
-              </div>
-            )}
-            <video
-              controls={false}
-              playsInline={false}
-              id="mobile_vid"
-              ref={videoRef}
-              onPlay={onMobileVideoPlay}
-              onPause={onMobileVideoPause}
-              onEnded={onMobileVideoEnded}
-              className="w-full h-full mx-auto"
-              style={{
-                maxWidth: "1280px",
-                maxHeight: "720px",
-                objectFit: "cover",
-              }}
-            >
-              <source src="/homePageVideo.mp4#t=0.1" type="video/mp4" />
-            </video>
-          </div>
-          <div className="responsive-video h-full hidden lg:block video-adjusted">
+        <div className="container mx-auto py-6 xl:py-16 how-to">
+          <div className="responsive-video h-full video-adjusted">
             <video
               controls={true}
               playsInline={false}
               id="mobile_vid"
-              ref={videoRef}
-              onPlay={onMobileVideoPlay}
-              onPause={onMobileVideoPause}
-              onEnded={onMobileVideoEnded}
               className="w-full h-full mx-auto"
               style={{
                 maxWidth: "1280px",
@@ -313,7 +265,7 @@ function HowToBuildAnOutdoorMovieTheater() {
       {
         id: 0,
         img: (
-          <DesignPlanIcon className="my-3 h-16 pb-3 lg:pb-0 md:w-auto md:h-32 p-5 mx-auto dynamic-svg design-plan-svg" />
+          <DesignPlanIcon className="my-3 h-16 pb-3 lg:pb-0 md:w-auto md:h-24 mx-auto dynamic-svg design-plan-svg" />
         ),
         title: "Design Plans",
         text:
@@ -323,7 +275,7 @@ function HowToBuildAnOutdoorMovieTheater() {
       {
         id: 1,
         img: (
-          <MaterialListIcon className="my-3 h-16 pb-3 lg:pb-0 md:w-auto md:h-32 p-5 mx-auto dynamic-svg material-list-svg" />
+          <MaterialListIcon className="my-3 h-16 pb-3 lg:pb-0 md:w-auto md:h-24 mx-auto dynamic-svg material-list-svg" />
         ),
         title: "Material Lists",
         text: "Building material lists include hardware, fasteners, and wood.",
@@ -332,7 +284,7 @@ function HowToBuildAnOutdoorMovieTheater() {
       {
         id: 2,
         img: (
-          <ToolsNeededIcon className="my-3 h-16 pb-3 lg:pb-0 md:w-auto md:h-32 p-5 mx-auto dynamic-svg" />
+          <ToolsNeededIcon className="my-3 h-16 pb-3 lg:pb-0 md:w-auto md:h-24 mx-auto dynamic-svg" />
         ),
         title: "Tools Needed",
         text: "Tools will be covered in depth, from handheld and power tools.",
@@ -341,7 +293,7 @@ function HowToBuildAnOutdoorMovieTheater() {
       {
         id: 3,
         img: (
-          <EquipmentListIcon className="my-3 h-16 pb-3 lg:pb-0 md:w-auto md:h-32 p-5 mx-auto dynamic-svg" />
+          <EquipmentListIcon className="my-3 h-16 pb-3 lg:pb-0 md:w-auto md:h-24 mx-auto dynamic-svg" />
         ),
         title: "Equipment Lists",
         text: "Recommended equipment for wireless and wired systems.",
@@ -350,7 +302,7 @@ function HowToBuildAnOutdoorMovieTheater() {
       {
         id: 4,
         img: (
-          <HowVideoIcon className="my-3 h-16 pb-3 lg:pb-0 md:w-auto md:h-32 p-5 mx-auto dynamic-svg" />
+          <HowVideoIcon className="my-3 h-16 pb-3 lg:pb-0 md:w-auto md:h-24 mx-auto dynamic-svg" />
         ),
         title: "How-To Videos",
         text: "Videos on how to build, assemble and set up your movie theater.",
@@ -359,7 +311,7 @@ function HowToBuildAnOutdoorMovieTheater() {
       {
         id: 5,
         img: (
-          <TipsTechniquesIcon className="my-3 h-16 pb-3 lg:pb-0 md:w-auto md:h-32 p-4 mx-auto dynamic-svg" />
+          <TipsTechniquesIcon className="my-3 h-16 pb-3 lg:pb-0 md:w-auto md:h-24 mx-auto dynamic-svg" />
         ),
         title: "Tips & Techniques",
         text:
@@ -369,7 +321,7 @@ function HowToBuildAnOutdoorMovieTheater() {
       {
         id: 6,
         img: (
-          <FirePitIcon className="my-3 h-16 pb-3 lg:pb-0 md:w-auto md:h-32 p-5 mx-auto dynamic-svg" />
+          <FirePitIcon className="my-3 h-16 pb-3 lg:pb-0 md:w-auto md:h-24 mx-auto dynamic-svg" />
         ),
         title: "Fire Pit Ideas",
         text: "Get recommendations on fire pits and the ones you should avoid.",
@@ -388,11 +340,11 @@ function HowToBuildAnOutdoorMovieTheater() {
       {
         id: 8,
         img: (
-          <ColdNightIcon className="my-3 h-16 pb-3 lg:pb-0 md:w-auto md:h-32 p-5 mx-auto dynamic-svg" />
+          <ColdNightIcon className="my-3 h-16 pb-3 lg:pb-0 md:w-auto md:h-24 mx-auto dynamic-svg" />
         ),
         title: "Cold Night Extras",
         text:
-          "Products to keep you extra warm outside at night while watching movies.",
+          "Products to keep you warm outside at night while watching movies.",
         bonus: true,
       },
     ]
@@ -402,7 +354,7 @@ function HowToBuildAnOutdoorMovieTheater() {
         className="black-back relative text-white border-b md:border-none border-grey-subnav"
         id="whatyouget"
       >
-        <div className="container mx-auto py-8 xl:py-16 flex flex-col xl:grid xl:grid-cols-12 w-full">
+        <div className="container mx-auto py-6 xl:py-16 flex flex-col xl:grid xl:grid-cols-12 w-full">
           <div className="col-span-5">
             <img
               className="mx-auto px-10 xl:px-0 pb-5 xl:pb-0 w-full"
@@ -410,11 +362,11 @@ function HowToBuildAnOutdoorMovieTheater() {
               alt=""
             />
           </div>
-          <div className="text-center xl:col-span-7 xl:text-left xl:text-xl">
+          <div className="text-center xl:col-span-7 xl:text-left xl:text-xl pb-12 xl:pb-10 xl:mb-10">
             <h2 className="text-4xl md:text-6xl font-semibold leading-9 md:leading-none pb-3 xl:pb-3">
               Here's what you get
             </h2>
-            <p className="text-2xl md:text-4xl pb-4 xl:pb-5">
+            <p className="text-2xl md:text-4xl pb-4 xl:pb-5 leading-8">
               <span className="text-orng">
                 Timberline Series 150" Big Moose
               </span>{" "}
@@ -441,10 +393,10 @@ function HowToBuildAnOutdoorMovieTheater() {
               $3,000). This offer expires on July 1, 2023.
             </p>
           </div>
-          <div className="col-span-12 grid grid-cols-12 gap-5 xl:gap-20 mt-16">
+          <div className="col-span-12 grid grid-cols-12 gap-5 xl:gap-20 px-8 md:px-0">
             {gridItems.map(item => (
               <div
-                className="col-span-6 xl:col-span-3 rollover-svg-item"
+                className="col-span-12 md:col-span-6 xl:col-span-3 rollover-svg-item"
                 key={item.id}
               >
                 {item.bonus && (
@@ -471,12 +423,12 @@ function HowToBuildAnOutdoorMovieTheater() {
         className="black-back relative text-white border-b md:border-none border-grey-subnav"
         id="framesystems"
       >
-        <div className="container mx-auto py-8 xl:py-16 flex flex-col xl:grid xl:grid-cols-12 w-full">
-          <div className="text-left xl:col-span-12 xl:text-xl pb-10">
+        <div className="container mx-auto py-6 xl:py-16 flex flex-col xl:grid xl:grid-cols-12 w-full">
+          <div className="text-left xl:col-span-12 xl:text-xl pb-12 xl:pb-10 xl:mb-10">
             <h2 className="text-4xl md:text-6xl font-semibold leading-9 md:leading-none pb-3 xl:pb-3">
               Frame systems that work with your backyard
             </h2>
-            <p className="text-2xl md:text-4xl pb-4 xl:pb-5 text-orng">
+            <p className="text-2xl md:text-4xl pb-4 xl:pb-5 text-orng leading-8">
               Movable Frame System for flat lawns. Streamline Stationary Frame
               System.
             </p>
@@ -492,7 +444,7 @@ function HowToBuildAnOutdoorMovieTheater() {
               instructions are covered in the How-to DIY.
             </p>
           </div>
-          <div className="col-span-12 pb-10 mb-10 text-center relative">
+          <div className="col-span-12 pb-12 xl:pb-10 xl:mb-10 text-center relative">
             <div className="pt-2 hidden xl:block absolute text-right w-full pr-12 pt-6">
               <p className="text-5xl font-semibold leading-12 pt-5">
                 Movable Frame
@@ -504,19 +456,35 @@ function HowToBuildAnOutdoorMovieTheater() {
             <img className="mx-auto w-full" src={FrameSystemsMovable} alt="" />
             <div className="bg-gray-990 py-3 flex justify-around">
               <div>
-                <img src={MovableImage} alt="" className="w-full h-18 p-1" />
+                <img
+                  src={MovableImage}
+                  alt=""
+                  className="w-full h-9 xl:h-18 p-1"
+                />
                 <p className="text-xs xl:text-2xl">Movable</p>
               </div>
               <div>
-                <img src={SturdyImage} alt="" className="w-full h-18 p-1" />
+                <img
+                  src={SturdyImage}
+                  alt=""
+                  className="w-full h-9 xl:h-18 p-1"
+                />
                 <p className="text-xs xl:text-2xl">Sturdy</p>
               </div>
               <div>
-                <img src={YearroundImage} alt="" className="w-full h-18 p-1" />
+                <img
+                  src={YearroundImage}
+                  alt=""
+                  className="w-full h-9 xl:h-18 p-1"
+                />
                 <p className="text-xs xl:text-2xl">Year-round use</p>
               </div>
               <div>
-                <img src={AffordableImage} alt="" className="w-full h-18 p-1" />
+                <img
+                  src={AffordableImage}
+                  alt=""
+                  className="w-full h-9 xl:h-18 p-1"
+                />
                 <p className="text-xs xl:text-2xl">Affordable</p>
               </div>
             </div>
@@ -546,19 +514,35 @@ function HowToBuildAnOutdoorMovieTheater() {
             />
             <div className="bg-gray-990 py-3 flex justify-around">
               <div>
-                <img src={PermanentImage} alt="" className="w-full h-18 p-1" />
+                <img
+                  src={PermanentImage}
+                  alt=""
+                  className="w-full h-9 xl:h-18 p-1"
+                />
                 <p className="text-xs xl:text-2xl">Permanent</p>
               </div>
               <div>
-                <img src={AttractiveImage} alt="" className="w-full h-18 p-1" />
+                <img
+                  src={AttractiveImage}
+                  alt=""
+                  className="w-full h-9 xl:h-18 p-1"
+                />
                 <p className="text-xs xl:text-2xl">Attractive</p>
               </div>
               <div>
-                <img src={LastingImage} alt="" className="w-full h-18 p-1" />
+                <img
+                  src={LastingImage}
+                  alt=""
+                  className="w-full h-9 xl:h-18 p-1"
+                />
                 <p className="text-xs xl:text-2xl">Built-to-last</p>
               </div>
               <div>
-                <img src={BudgetImage} alt="" className="w-full h-18 p-1" />
+                <img
+                  src={BudgetImage}
+                  alt=""
+                  className="w-full h-9 xl:h-18 p-1"
+                />
                 <p className="text-xs xl:text-2xl">Budget-friendly</p>
               </div>
             </div>
@@ -577,7 +561,7 @@ function HowToBuildAnOutdoorMovieTheater() {
       {
         id: 0,
         img: (
-          <BackyardIcon className="grid-icon my-3 mx-auto w-full md:w-auto md:h-32 p-4" />
+          <BackyardIcon className="grid-icon my-3 mx-auto w-full md:w-auto h-24 md:h-32 p-4" />
         ),
         text: "Homeowners with a backyard",
       },
@@ -591,16 +575,16 @@ function HowToBuildAnOutdoorMovieTheater() {
       {
         id: 2,
         img: (
-          <FamilyMovieIcon className="grid-icon my-3 mx-auto w-full md:w-auto md:h-32 p-4" />
+          <FamilyMovieIcon className="grid-icon my-3 mx-auto w-full md:w-auto h-24 md:h-32 p-4" />
         ),
         text: "Family blockbuster movie night",
       },
       {
         id: 3,
         img: (
-          <SportStadiumIcon className="grid-icon my-3 mx-auto w-full md:w-auto md:h-32 p-4" />
+          <SportStadiumIcon className="grid-icon my-3 mx-auto w-full md:w-auto h-24 md:h-32 p-4" />
         ),
-        text: "Sporting event parties with friends and family",
+        text: "Sporting event parties with friends",
       },
       // {
       //   id: 4,
@@ -612,9 +596,9 @@ function HowToBuildAnOutdoorMovieTheater() {
       {
         id: 5,
         img: (
-          <VideoGameConsoleIcon className="grid-icon my-3 mx-auto w-full md:w-auto md:h-32 p-4" />
+          <VideoGameConsoleIcon className="grid-icon my-3 mx-auto w-full md:w-auto h-24 md:h-32 p-4" />
         ),
-        text: "Video game parties with friends and family",
+        text: "Video game parties with friends",
       },
     ]
 
@@ -623,12 +607,12 @@ function HowToBuildAnOutdoorMovieTheater() {
         className="black-back relative text-white border-b md:border-none border-grey-subnav"
         id="cinemauses"
       >
-        <div className="container mx-auto py-8 xl:py-16 flex flex-col xl:grid xl:grid-cols-12 w-full">
-          <div className="text-center xl:col-span-12 xl:text-xl">
+        <div className="container mx-auto py-6 xl:py-16 flex flex-col xl:grid xl:grid-cols-12 w-full">
+          <div className="text-center xl:col-span-12 xl:text-xl pb-3">
             <h2 className="text-4xl md:text-6xl font-semibold leading-9 md:leading-none pb-3 xl:pb-3">
               Outdoor movie theater perfect for
             </h2>
-            <p className="text-2xl md:text-4xl pb-4 xl:pb-5 text-orng">
+            <p className="text-2xl md:text-4xl pb-4 xl:pb-5 text-orng leading-8">
               Homeowners who have a backyard. Regular use. Events and parties.
             </p>
             <p className="text-lg md:text-2xl">
@@ -645,15 +629,15 @@ function HowToBuildAnOutdoorMovieTheater() {
               outside regularly with an easy setup every time.
             </p>
           </div>
-          <div className="col-span-12 grid grid-cols-4 gap-5 xl:gap-20 mt-16">
+          <div className="col-span-12 grid grid-cols-4 gap-5 xl:gap-20 mt-12 xl:mt-16">
             {gridItems.map(item => (
               <div
                 className="orng-overlay col-span-2 sm:col-span-1"
                 key={item.id}
               >
-                <div className="md:border rounded-md border-grey-theater p-4 text-center h-full rollover-svg-item">
+                <div className="md:border rounded-md border-grey-theater py-0 px-5 md:p-5 text-center h-full rollover-svg-item">
                   {item.img}
-                  <p className="xl:text-3xl">{item.text}</p>
+                  <p className="text-lg md:text-2xl leading-6">{item.text}</p>
                 </div>
               </div>
             ))}
@@ -696,14 +680,14 @@ function HowToBuildAnOutdoorMovieTheater() {
       {
         id: 4,
         img: (
-          <LaptopIcon className="white-svg h-16 pb-3 lg:pb-0 lg:w-10 mx-auto lg:mx-3" />
+          <LaptopIcon className="white-svg h-16 py-2 pb-3 lg:pb-0 lg:w-10 mx-auto lg:mx-3" />
         ),
         text: "PCs, Laptops & Tablets",
       },
       {
         id: 5,
         img: (
-          <TunerIcon className="white-svg h-16 pb-3 lg:pb-0 lg:w-10 mx-auto lg:mx-3" />
+          <TunerIcon className="white-svg h-16 py-2 pb-3 lg:pb-0 lg:w-10 mx-auto lg:mx-3" />
         ),
         text: "DVD Players and Receivers",
       },
@@ -724,16 +708,21 @@ function HowToBuildAnOutdoorMovieTheater() {
       {
         id: 8,
         img: (
-          <BatteryIcon className="white-svg h-16 pb-3 lg:pb-0 lg:w-10 mx-auto lg:mx-3" />
+          <BatteryIcon className="white-svg h-16 py-4 pb-3 lg:pb-0 lg:w-10 mx-auto lg:mx-3" />
         ),
         text: "Off-Grid Battery Stations",
       },
       {
         id: 9,
         img: (
-          <CablesIcon className="white-svg h-16 pb-3 lg:pb-0 lg:w-10 mx-auto lg:mx-3" />
+          <CablesIcon className="white-svg h-18 pb-3 lg:pb-0 lg:w-10 mx-auto lg:mx-3" />
         ),
-        text: "HDMI, USB, VGA & Audio",
+        text: (
+          <>
+            HDMI, USB, VGA
+            <br /> & Audio
+          </>
+        ),
       },
     ]
 
@@ -742,12 +731,12 @@ function HowToBuildAnOutdoorMovieTheater() {
         className="black-back relative text-white border-b md:border-none border-grey-subnav"
         id="features"
       >
-        <div className="container mx-auto py-8 xl:py-16 flex flex-col xl:grid xl:grid-cols-12 w-full">
-          <div className="text-left xl:col-span-12 xl:text-xl pb-10">
+        <div className="container mx-auto py-6 xl:py-16 flex flex-col xl:grid xl:grid-cols-12 w-full">
+          <div className="text-left xl:col-span-12 xl:text-xl pb-12 xl:pb-10 xl:mb-10">
             <h2 className="text-4xl md:text-6xl font-semibold leading-9 md:leading-none pb-3 xl:pb-3">
               Powerful cinema equipment capabilities
             </h2>
-            <p className="text-2xl md:text-4xl pb-4 xl:pb-5 text-orng">
+            <p className="text-2xl md:text-4xl pb-4 xl:pb-5 text-orng leading-8">
               Tons of connections. Access everything. High-rated name-brand
               products.
             </p>
@@ -763,13 +752,19 @@ function HowToBuildAnOutdoorMovieTheater() {
             </p>
           </div>
           <div className="block lg:hidden col-span-12 pb-10 mb-10 text-center relative">
-            <img className="mx-auto w-full" src={PowerfulBackground} alt="" />
+            <img
+              className="mx-auto w-full"
+              src={PowerfulBackgroundMobile}
+              alt=""
+            />
 
-            <p className="text-2xl mt-10 text-orng">Projector Connections:</p>
-            <div className="col-span-12 grid grid-cols-6 gap-5 xl:gap-20 mt-8">
+            <p className="text-2xl py-3 text-orng">Projector Connections:</p>
+            <div className="col-span-12 grid grid-cols-6 gap-5 xl:gap-20">
               {gridItems.map(item => (
                 <div
-                  className="orng-overlay col-span-3 md:col-span-2 self-center h-full"
+                  className={`orng-overlay ${
+                    item.id === 9 ? "col-span-6" : "col-span-3"
+                  } md:col-span-2 self-center h-full`}
                   key={item.id}
                 >
                   <div className="md:border rounded-md border-grey-theater p-4 md:p-8 text-center flex flex-col h-full justify-start">
@@ -813,6 +808,7 @@ function HowToBuildAnOutdoorMovieTheater() {
       {
         id: 0,
         img: ImpressiveImage1,
+        imgM: ImpressiveImage1M,
         icon: WatchImage,
         text: "2-minute setup time",
         align: "start",
@@ -820,6 +816,7 @@ function HowToBuildAnOutdoorMovieTheater() {
       {
         id: 1,
         img: ImpressiveImage2,
+        imgM: ImpressiveImage2M,
         icon: FlexingImage,
         text: "Strongest frame system",
         align: "end",
@@ -827,6 +824,7 @@ function HowToBuildAnOutdoorMovieTheater() {
       {
         id: 2,
         img: ImpressiveImage3,
+        imgM: ImpressiveImage3M,
         icon: StampImage,
         text: "Custom equipment stand",
         align: "start",
@@ -834,6 +832,7 @@ function HowToBuildAnOutdoorMovieTheater() {
       {
         id: 3,
         img: ImpressiveImage4,
+        imgM: ImpressiveImage4M,
         icon: YearImage,
         text: "Year-round use",
         align: "end",
@@ -843,11 +842,11 @@ function HowToBuildAnOutdoorMovieTheater() {
     return (
       <div className="black-back relative text-white border-b md:border-none border-grey-subnav">
         <div className="container mx-auto py-8 xl:py-16 flex flex-col xl:grid xl:grid-cols-12 w-full">
-          <div className="text-center xl:col-span-12 xl:text-xl">
+          <div className="text-center xl:col-span-12 xl:text-xl pb-12 xl:pb-10 xl:mb-10">
             <h2 className="text-4xl xl:text-6xl font-semibold leading-9 md:leading-none pb-3 xl:pb-3">
               Impressive outdoor movie theater features
             </h2>
-            <p className="text-2xl md:text-4xl pb-4 xl:pb-5 text-orng">
+            <p className="text-2xl md:text-4xl pb-4 xl:pb-5 text-orng leading-8">
               Fastest setup. Strongest frame system. Custom equipment stand.
               Year-round use.
             </p>
@@ -866,10 +865,10 @@ function HowToBuildAnOutdoorMovieTheater() {
               stand, and can be used year-round.
             </p>
           </div>
-          <div className="col-span-12 grid grid-cols-12 lg:gap-2 mt-16">
+          <div className="col-span-12 grid grid-cols-12 lg:gap-2">
             {gridItems.map(item => (
               <div className="col-span-12 lg:col-span-6" key={item.id}>
-                <div className="text-center h-full relative">
+                <div className="text-center h-full relative hidden lg:block">
                   <img
                     src={item.img}
                     alt={item.text}
@@ -900,6 +899,28 @@ function HowToBuildAnOutdoorMovieTheater() {
                     </div>
                   </div>
                 </div>
+                <div className="text-center h-full relative block lg:hidden">
+                  <img
+                    src={item.imgM}
+                    alt={item.text}
+                    className="grid-image relative"
+                  />
+                  <div
+                    className={`relative lg:absolute w-full flex justify-center large-justify-${item.align} lg:top-1/2 lg:pt-16 xl:py-24 my-3 lg:my-0`}
+                  >
+                    <div className="flex flex-col lg:flex-row bg-opacity-gray items-center relative">
+                      <p
+                        className={`text-xl xl:text-3xl p-3 ${
+                          item.align === "start"
+                            ? "lg:order-2 lg:pl-40"
+                            : "lg:order-1 lg:pr-40"
+                        }`}
+                      >
+                        {item.text}
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
             ))}
           </div>
@@ -916,7 +937,7 @@ function HowToBuildAnOutdoorMovieTheater() {
             <h2 className="text-4xl md:text-6xl font-semibold leading-9 md:leading-none pb-3 xl:pb-3">
               Outdoor movie theater comparison
             </h2>
-            <p className="text-2xl md:text-4xl pb-4 xl:pb-5 text-orng">
+            <p className="text-2xl md:text-4xl pb-4 xl:pb-5 text-orng leading-8">
               How does the competition stack up to the Timberline Series 150"
               Big Moose?
             </p>
@@ -1664,7 +1685,7 @@ function HowToBuildAnOutdoorMovieTheater() {
     const faqList = [
       {
         id: 0,
-        icon: <PriceTagIcon className="w-12 h-fit" />,
+        icon: <PriceTagIcon className="h-13 w-13" />,
         text: "Outdoor Movie Theater Costs",
         questions: [
           {
@@ -1776,7 +1797,7 @@ function HowToBuildAnOutdoorMovieTheater() {
       },
       {
         id: 1,
-        icon: <FrameIcon className="w-12 h-fit" />,
+        icon: <FrameIcon className="h-13 w-13" />,
         text: "Frame System",
         questions: [
           {
@@ -1855,7 +1876,7 @@ function HowToBuildAnOutdoorMovieTheater() {
       },
       {
         id: 2,
-        icon: <ScreenIcon className="w-12 h-fit" />,
+        icon: <ScreenIcon className="h-13 w-13" />,
         text: "Cinematic Screen",
         questions: [
           {
@@ -1942,7 +1963,7 @@ function HowToBuildAnOutdoorMovieTheater() {
       },
       {
         id: 3,
-        icon: <EquipmentStandIcon className="w-12 h-fit" />,
+        icon: <EquipmentStandIcon className="h-13 w-13" />,
         text: "Custom Equipment Stand",
         questions: [
           {
@@ -2032,7 +2053,7 @@ function HowToBuildAnOutdoorMovieTheater() {
       },
       {
         id: 4,
-        icon: <EquipmentListIcon className="w-12 h-fit" />,
+        icon: <EquipmentListIcon className="h-13 w-13" />,
         text: "Cinema Equipment",
         questions: [
           {
@@ -2107,7 +2128,7 @@ function HowToBuildAnOutdoorMovieTheater() {
           {
             id: "46",
             question:
-              "Can I use Bluetooth Wireless Headphones with the cinema equipment?",
+              "Can I use Bluetooth Wireless Head- phones with the cinema equipment?",
             answer: (
               <>
                 Yes. With the wired cinema system, you can use Bluetooth
@@ -2131,7 +2152,7 @@ function HowToBuildAnOutdoorMovieTheater() {
       },
       {
         id: 5,
-        icon: <AssemblyIcon className="w-12 h-fit" />,
+        icon: <AssemblyIcon className="h-13 w-13" />,
         text: "Assembly and Installation",
         questions: [
           {
@@ -2273,22 +2294,22 @@ function HowToBuildAnOutdoorMovieTheater() {
               Below are the most frequently asked questions from customers over
               the years to help you quickly find the answers you are searching
               for broken down by category. Feel free to{" "}
-              <Link to="/connect" style={{ color: "#2ea8df" }}>
+              <Link to="/connect" style={{ color: "#9647f7" }}>
                 connect
               </Link>{" "}
               if you have a question that isn’t here.
             </p>
           </div>
-          <div className="col-span-12 grid grid-cols-12 gap-5 mt-16">
+          <div className="col-span-12 xl:col-span-10 xl:col-start-2 grid grid-cols-12 gap-5 mt-16">
             {faqList.map(item => (
               <div
-                className="col-span-12 lg:col-span-4 border rounded-md p-3 py-5 orng-rollover-overlay rollover-svg-item"
+                className="col-span-12 lg:col-span-6 border rounded-md p-3 lg:p-16 m-1 py-5 lg:py-15 orng-rollover-overlay rollover-svg-item"
                 key={item.id}
               >
                 <div className="flex items-center pb-3">
                   {item.icon}
                   {/* <img src={item.icon} alt="" className="w-12 h-fit" /> */}
-                  <p className="text-md lg:text-xl px-3 text-orng">
+                  <p className="text-lg md:text-2xl px-3 text-orng font-semibold">
                     {item.text}
                   </p>
                 </div>
@@ -2301,15 +2322,13 @@ function HowToBuildAnOutdoorMovieTheater() {
                     />
                     <div className="faq-accordion-title">
                       <label htmlFor={`tgg-title-${qa.id}`}>
-                        <p className="faq-accordion-header p1 text-sm lg:text-lg">
+                        <p className="faq-accordion-header p1 text-lg md:text-2xl">
                           {qa.question}
                         </p>
                       </label>
                     </div>
                     <div className="faq-accordion-content">
-                      <p className="py-2 text-sm lg:text-lg text-grey-bdbbba">
-                        {qa.answer}
-                      </p>
+                      <p className="py-2 text-lg md:text-2xl">{qa.answer}</p>
                     </div>
                   </article>
                 ))}
@@ -2324,11 +2343,11 @@ function HowToBuildAnOutdoorMovieTheater() {
   const Copy = () => {
     return (
       <div className="black-back relative text-white border-b md:border-none border-grey-subnav">
-        <div className="container mx-auto py-8 xl:py-16">
-          <div className="text-left">
+        <div className="container mx-auto py-8 xl:py-16 xl:px-32">
+          <div className="text-center">
             <p className="text-lg">
               * The how-to build a professional outdoor movie theater DIY offer
-              expires on July 1, 2023.
+              expires on September 1, 2023.
             </p>
             <br />
             <p className="text-lg">
