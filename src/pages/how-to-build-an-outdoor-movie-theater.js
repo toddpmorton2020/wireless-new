@@ -708,7 +708,7 @@ function HowToBuildAnOutdoorMovieTheater() {
       {
         id: 8,
         img: (
-          <BatteryIcon className="white-svg h-16 py-3 pb-3 lg:pb-0 lg:w-10 mx-auto lg:mx-3" />
+          <BatteryIcon className="white-svg h-16 py-4 pb-3 lg:pb-0 lg:w-10 mx-auto lg:mx-3" />
         ),
         text: "Off-Grid Battery Stations",
       },
