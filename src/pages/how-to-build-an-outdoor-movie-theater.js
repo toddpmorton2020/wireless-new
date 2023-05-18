@@ -556,7 +556,7 @@ function HowToBuildAnOutdoorMovieTheater() {
       {
         id: 0,
         img: (
-          <BackyardIcon className="grid-icon my-3 mx-auto w-full md:w-auto md:h-32 p-4" />
+          <BackyardIcon className="grid-icon my-3 mx-auto w-full md:w-auto h-24 md:h-32 p-4" />
         ),
         text: "Homeowners with a backyard",
       },
@@ -570,14 +570,14 @@ function HowToBuildAnOutdoorMovieTheater() {
       {
         id: 2,
         img: (
-          <FamilyMovieIcon className="grid-icon my-3 mx-auto w-full md:w-auto md:h-32 p-4" />
+          <FamilyMovieIcon className="grid-icon my-3 mx-auto w-full md:w-auto h-24 md:h-32 p-4" />
         ),
         text: "Family blockbuster movie night",
       },
       {
         id: 3,
         img: (
-          <SportStadiumIcon className="grid-icon my-3 mx-auto w-full md:w-auto md:h-32 p-4" />
+          <SportStadiumIcon className="grid-icon my-3 mx-auto w-full md:w-auto h-24 md:h-32 p-4" />
         ),
         text: "Sporting event parties with friends",
       },
@@ -591,7 +591,7 @@ function HowToBuildAnOutdoorMovieTheater() {
       {
         id: 5,
         img: (
-          <VideoGameConsoleIcon className="grid-icon my-3 mx-auto w-full md:w-auto md:h-32 p-4" />
+          <VideoGameConsoleIcon className="grid-icon my-3 mx-auto w-full md:w-auto h-24 md:h-32 p-4" />
         ),
         text: "Video game parties with friends",
       },
@@ -632,7 +632,7 @@ function HowToBuildAnOutdoorMovieTheater() {
               >
                 <div className="md:border rounded-md border-grey-theater p-5 text-center h-full rollover-svg-item">
                   {item.img}
-                  <p className="text-lg md:text-2xl">{item.text}</p>
+                  <p className="text-lg md:text-2xl leading-6">{item.text}</p>
                 </div>
               </div>
             ))}
