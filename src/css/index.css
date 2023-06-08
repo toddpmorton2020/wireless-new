@@ -6,7 +6,7 @@
   color: #5e5e5e;
 }
 
-.comparison-col>* {
+.comparison-col > * {
   width: 33.333%;
 }
 
@@ -386,7 +386,8 @@
   }
 }
 
-.open-ps {}
+.open-ps {
+}
 
 .closed-ps {
   max-height: 0;
@@ -700,7 +701,8 @@ b {
     line-height: 1.06 !important;
   }
 
-  .accessory .gray-back {}
+  .accessory .gray-back {
+  }
 
   .font-500 {
     font-weight: 500;
@@ -766,7 +768,7 @@ b {
 
 .button-orng {
   background-color: #ff5400;
-  border-radius: 7px
+  border-radius: 7px;
 }
 
 .text-orng {
@@ -800,9 +802,9 @@ b {
 
 @media (min-width: 768px) {
   .bonus-banner-image {
-    max-width: 141px;
+    max-width: 70px;
     position: absolute;
-    margin-left: -29px;
+    margin-left: -9px;
     margin-top: -15px;
   }
 }
@@ -830,27 +832,39 @@ b {
 @media (min-width: 1024px) {
   .bg-black-size-128 {
     background: rgb(2, 0, 36);
-    background: linear-gradient(90deg, rgba(2, 0, 36, 0.7959384437368697) 0%, rgba(0, 0, 0, 0.8015406846332283) 45%, rgba(255, 255, 255, 0) 45%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 0.7959384437368697) 0%,
+      rgba(0, 0, 0, 0.8015406846332283) 45%,
+      rgba(255, 255, 255, 0) 45%,
+      rgba(255, 255, 255, 0) 100%
+    );
   }
 }
 
 @media (min-width: 1280px) {
   .bg-black-size-128 {
     background: rgb(2, 0, 36);
-    background: linear-gradient(90deg, rgba(2, 0, 36, 0.7959384437368697) 0%, rgba(0, 0, 0, 0.8015406846332283) 35%, rgba(255, 255, 255, 0) 35%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 0.7959384437368697) 0%,
+      rgba(0, 0, 0, 0.8015406846332283) 35%,
+      rgba(255, 255, 255, 0) 35%,
+      rgba(255, 255, 255, 0) 100%
+    );
   }
 }
 
 .white-svg path {
-  fill: #ffffff !important
+  fill: #ffffff !important;
 }
 
 .orgn-rollover-svg path {
-  fill: #ffffff !important
+  fill: #ffffff !important;
 }
 
 .orgn-rollover-svg:hover path {
-  fill: #ff5400 !important
+  fill: #ff5400 !important;
 }
 
 .rollover-svg-item:hover .border-grey-theater {
@@ -935,7 +949,7 @@ b {
 }
 
 .text-red-b20000 {
-  color: #b20000
+  color: #b20000;
 }
 
 .w-80 {
@@ -948,7 +962,7 @@ b {
 }
 
 .quote-todd {
-  quotes: "\201C" "\201D" "\2018" "\2019";
+  quotes: "\201C""\201D""\2018""\2019";
 }
 
 .quote-todd:before {
@@ -967,6 +981,19 @@ b {
   padding-left: 5px;
 }
 
+@media only screen and (max-width: 600px) {
+  .quote-todd:before {
+    font-size: 32px;
+    line-height: 32px;
+    padding-right: 3px;
+  }
+
+  .quote-todd:after {
+    font-size: 32px;
+    line-height: 32px;
+    padding-left: 3px;
+  }
+}
 
 input.tgg-title {
   appearance: unset;
@@ -992,7 +1019,7 @@ input.tgg-title {
   transition: max-height 0.35s ease-in-out;
 }
 
-.faq-accordion .tgg-title:checked~.faq-accordion-content {
+.faq-accordion .tgg-title:checked ~ .faq-accordion-content {
   will-change: max-height;
   max-height: 1000px;
 }
@@ -1017,10 +1044,9 @@ input.tgg-title {
   background-color: #ff5400;
 }
 
-
 .faq-accordion-header:after,
 .faq-accordion-header:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0px;
   top: 50%;
@@ -1036,18 +1062,24 @@ input.tgg-title {
   transition: transform 0.35s cubic-bezier(0.65, 0.05, 0.36, 1);
 }
 
-.faq-accordion .tgg-title:checked~.faq-accordion-title .faq-accordion-header:before {
+.faq-accordion
+  .tgg-title:checked
+  ~ .faq-accordion-title
+  .faq-accordion-header:before {
   transition: transform 0.35s cubic-bezier(0.65, 0.05, 0.36, 1);
   background-color: #ff5400;
 }
 
-.faq-accordion .tgg-title:checked~.faq-accordion-title .faq-accordion-header:after {
+.faq-accordion
+  .tgg-title:checked
+  ~ .faq-accordion-title
+  .faq-accordion-header:after {
   transform: rotate(0deg);
   transition: transform 0.35s cubic-bezier(0.65, 0.05, 0.36, 1);
   background-color: #ff5400;
 }
 
-.faq-accordion .tgg-title:checked~.faq-accordion-title .faq-accordion-header {
+.faq-accordion .tgg-title:checked ~ .faq-accordion-title .faq-accordion-header {
   color: #ff5400;
 }
 
@@ -1074,7 +1106,7 @@ input.tgg-title {
   }
 }
 
-@media (min-width:992px) {
+@media (min-width: 992px) {
   .text-7xl {
     font-size: 4.5rem;
   }
@@ -1092,7 +1124,7 @@ input.tgg-title {
   padding-top: 56.25% !important;
 }
 
-@media (min-width:1280px) {
+@media (min-width: 1280px) {
   .hero-overlay {
     display: block;
     height: 500px;
@@ -1120,11 +1152,10 @@ input.tgg-title {
   line-height: 4rem;
 }
 
-.h-13 {
+/* .h-13 {
   height: 3.2rem;
-
 }
 
 .w-13 {
   width: 3.2rem;
-}
+} */
