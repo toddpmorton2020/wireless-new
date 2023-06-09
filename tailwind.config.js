@@ -83,6 +83,13 @@ module.exports = {
           100: "#4c7c07",
         },
       },
+      lineHeight: {
+        c18: "1.8rem",
+        c10: "1rem",
+        c14: "1.4rem",
+
+        // Add more custom line heights as needed
+      },
     },
     container: {
       padding: {
