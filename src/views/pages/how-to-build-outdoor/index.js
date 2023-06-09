@@ -253,7 +253,7 @@ const Hero = () => {
   return (
     <div className="black-back relative text-white sm:top-0 sm:-mt-12 ">
       <img className="mx-auto w-full max-w-2400" src={Background} alt="" />
-      <div class="absolute inset-0 bg-black opacity-50"></div>
+      {/* <div class="absolute inset-0 bg-black opacity-50"></div> */}
       <div className="container pb-4 xl:pb-16 mx-auto px-2  max-w-6xl ">
         <div className="xl:absolute xl:mt-32 2xl:pt-10 sm:top-0 h-full">
           <div className="relative xl:w-4/6 2xl:w-3/6 z-20 px-4 mt-4  xl:mt-0">
@@ -261,10 +261,8 @@ const Hero = () => {
               Get the only <span className="text-orng">DIY</span> on
             </p>
             <h1
-              className="md:text-5xl text-3xl font-semibold leding-9 md:leading-none"
-              style={{
-                lineHeight: "2.8rem",
-              }}
+              className="md:text-5xl text-3xl mb-4 font-semibold leading-8 md:leading-none"
+            
             >
               <span className="text-orng">How-to build a</span> professional
               outdoor movie theater
@@ -312,14 +310,15 @@ const HeresWhatYouGet = () => {
       id: 1,
       img: MaterialListIcon,
       title: "Material Lists",
-      text: "Building material lists include hardware, fasteners, and wood.",
+      text: "The material list includes hardware, fasteners, and wood.",
       bonus: false,
     },
     {
       id: 2,
       img: ToolsNeededIcon,
       title: "Tools Needed",
-      text: "Tools will be covered in depth, from handheld and power tools.",
+      text:
+        "All tools will be covered, from essential handheld and power tools.",
       bonus: false,
     },
     {
@@ -333,7 +332,7 @@ const HeresWhatYouGet = () => {
       id: 4,
       img: HowVideoIcon,
       title: "How-To Videos",
-      text: "Videos on how to build, assemble and set up your movie theater.",
+      text: "How to videos on assembling and installing your movie theater.",
       bonus: true,
     },
     {
@@ -427,13 +426,13 @@ const HeresWhatYouGet = () => {
               const Image = item.img
               return (
                 <div
-                  className="col-span-12   md:col-span-6 xl:col-span-2  rollover-svg-item"
+                  className="col-span-12 md:col-span-6 xl:col-span-2 mx-auto  rollover-svg-item"
                   key={item.id}
                 >
                   {item.bonus && (
                     <img src={BonusBanner} className="bonus-banner-image" />
                   )}
-                  <div className="border rounded-md border-grey-theater  px-2 text-center h-full flex flex-col justify-start">
+                  <div className="border wblock  rounded-md border-grey-theater  px-2 text-center h-full flex flex-col justify-start">
                     <div className="flex justify-center">
                       <Image
                         style={{
@@ -664,7 +663,7 @@ const PerfectFor = () => {
         <BackyardIcon className="grid-icon mx-auto w-full md:w-auto h-16 md:h-16 p-4" />
       ),
       title: "Backyards",
-      text: "Perfect for homeowners with a backyard who loves the outdoors",
+      text: "Great for homeowners with a backyard who love the outdoors.",
     },
     // {
     //   id: 1,
@@ -752,15 +751,15 @@ const PerfectFor = () => {
                 extension of your living room where you can enjoy your favorite
                 entertainment outside regularly with an easy and fast setup
                 every time. The cinema equipment stays on the custom projector
-                stand and never has to be broken down and boxed up — just like
-                the entertainment center inside your home.
+                stand — just like the entertainment center inside your home and
+                never has to be broken down.
               </p>
 
               <p className="text-lg md:txt-2xl">
-                And the frame system stays up on your property year-round, where
-                you only need to hang the cinematic screen when you want to
-                watch movies, sporting events, concerts, stream your favorite
-                shows, or play video games outside. Then, when your movie is
+                The frame system stays up on your property year-round, where you
+                only need to hang the cinematic screen when you want to watch
+                movies, sporting events, concerts, stream your favorite shows,
+                or play video games outside. Then, when your entertainment is
                 over, pick up the portable projector stand and bring it inside
                 to protect the equipment from moisture and rain. The cinematic
                 screen can be removed in the morning during daylight.
@@ -799,7 +798,7 @@ const PowerfulCinema = () => {
     {
       id: 4,
       img: SmartPhoneIcon,
-      text: "Cast Speakers from your IOS or Android",
+      text: "Cast movies from your IOS or Android",
     },
     {
       id: 5,

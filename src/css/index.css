@@ -790,7 +790,8 @@ b {
 }
 
 .bg-gray-990 {
-  background-color: #0e0e0e;
+  /* background-color: #0e0e0e; */
+  background-color: #080808;
 }
 
 .bonus-banner-image {
@@ -986,6 +987,10 @@ b {
     font-size: 32px;
     line-height: 32px;
     padding-right: 3px;
+  }
+
+  .wblock {
+    max-width: 12rem;
   }
 
   .quote-todd:after {
