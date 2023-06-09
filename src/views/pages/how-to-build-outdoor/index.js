@@ -260,10 +260,7 @@ const Hero = () => {
             <p className="font-semibold text-xl md:text-3xl">
               Get the only <span className="text-orng">DIY</span> on
             </p>
-            <h1
-              className="md:text-5xl text-3xl mb-4 font-semibold leading-8 md:leading-none"
-            
-            >
+            <h1 className="md:text-5xl text-3xl mb-4 font-semibold leading-8 md:leading-none">
               <span className="text-orng">How-to build a</span> professional
               outdoor movie theater
               <sup className="pl-1 text-2xl xl:text-3xl">©</sup>
@@ -421,7 +418,7 @@ const HeresWhatYouGet = () => {
             />
           </div>
 
-          <div className="col-span-12 justify-center grid grid-cols-12 gap-6  xl:mt-10 mt-6">
+          <div className="col-span-12 justify-center grid grid-cols-12 gap-6  xl:mt-10 t-6">
             {gridItems.map(item => {
               const Image = item.img
               return (
@@ -438,7 +435,7 @@ const HeresWhatYouGet = () => {
                         style={{
                           maxWidt: "",
                         }}
-                        className="my-3 pb-3 lg:pb-0 md:w-auto lg:h-10 h-12 mx-auto dynamic-svg
+                        className="my-3 pb-3 lg:pb-0 md:w-auto lg:h-10 h-16 mx-auto dynamic-svg
           design-plan-svg"
                       />
                     </div>
@@ -660,7 +657,7 @@ const PerfectFor = () => {
     {
       id: 0,
       img: (
-        <BackyardIcon className="grid-icon mx-auto w-full md:w-auto h-16 md:h-16 p-4" />
+        <BackyardIcon className="grid-icon mx-auto w-full md:w-auto h-16 md:h-18 p-4" />
       ),
       title: "Backyards",
       text: "Great for homeowners with a backyard who love the outdoors.",
@@ -675,7 +672,7 @@ const PerfectFor = () => {
     {
       id: 2,
       img: (
-        <FamilyMovieIcon className="grid-icon  mx-auto w-full md:w-auto h-16 md:h-16 p-4" />
+        <FamilyMovieIcon className="grid-icon  mx-auto w-full md:w-auto h-18 md:h-16 p-4" />
       ),
       title: "Movie Night",
       text:
@@ -684,7 +681,7 @@ const PerfectFor = () => {
     {
       id: 3,
       img: (
-        <SportStadiumIcon className="grid-icon mx-auto w-full md:w-auto h-16 md:h-16 p-4" />
+        <SportStadiumIcon className="grid-icon mx-auto w-full md:w-auto h-18 md:h-16 p-4" />
       ),
       title: "Sporting Events",
       text:
@@ -700,7 +697,7 @@ const PerfectFor = () => {
     {
       id: 5,
       img: (
-        <VideoGameConsoleIcon className="grid-icon  mx-auto w-full md:w-auto h-16 md:h-16 p-4" />
+        <VideoGameConsoleIcon className="grid-icon  mx-auto w-full md:w-auto h-18 md:h-16 p-4" />
       ),
       title: "Video Games",
       text: "Play life-size video games on a massive cinematic screen.",
@@ -888,8 +885,10 @@ const PowerfulCinema = () => {
             </div>
             <div className="">
               <h3 className="text-2xl">Go Wireless</h3>
-              <h3 className="text-xl">No extensions cords. </h3>
-              <h3 className="text-xl">Fast setup every time. </h3>
+              <h3 className="font-bold">
+                No extensions cords. Fast setup every time.{" "}
+              </h3>
+
               <h3 className=" text-orng">Connect to: </h3>
               <ul className="">
                 {gridItems.map(item => {
@@ -897,7 +896,7 @@ const PowerfulCinema = () => {
                   return (
                     <li className="flex items-center my-4 " key={item.id}>
                       <Image className="white-svg p-0 h-8  pb-3 lg:pb-0 lg:w-10 x-auto lg:ml-0" />
-                      <span className="ml-2">{item.text}</span>
+                      <span className="ml-2 font-bold">{item.text}</span>
                     </li>
                   )
                 })}
@@ -943,7 +942,7 @@ const PowerfulCinema = () => {
             </div>
             <div className="">
               <h3 className="text-xl font-bold">Go Wired</h3>
-              <h3 className="tet-xl">
+              <h3 className="font-bold">
                 Unlimited connection options. Play video games{" "}
               </h3>
               <h3 className=" text-orng">Connect to: </h3>
@@ -953,7 +952,7 @@ const PowerfulCinema = () => {
                   return (
                     <li className="flex items-center my-4 " key={item.id}>
                       <Image className="white-svg h-12 p-3 pl-0 x-auto" />
-                      <span className="ml-2">{item.text}</span>
+                      <span className="ml-2 font-bold">{item.text}</span>
                     </li>
                   )
                 })}
@@ -1090,7 +1089,7 @@ const CustomProjector = () => {
                     key={item.id}
                   >
                     <Image className="white-svg h-8 p-1  x-auto " />
-                    <span className="ml-2">{item.text}</span>
+                    <span className="ml-2 font-bold">{item.text}</span>
                   </li>
                 )
               })}
