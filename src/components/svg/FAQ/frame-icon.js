@@ -1,44 +1,19 @@
 import React from "react"
 
 export const FrameIcon = ({ className }) => (
-  <svg
-    id="Layer_1"
-    data-name="Layer 1"
-    xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 116 198"
-    className={className}
-  >
-    <rect
-      x="110"
-      width="6"
-      height="198"
-      style={{ fill: "#ffffff" }}
-      className="color-svg-yellow-fill"
-    />
-    <rect
-      y="27.8"
-      width="6"
-      height="130.2"
-      style={{ fill: "#ffffff" }}
-      className="color-svg-yellow-fill"
-    />
-    <rect
-      x="54.6"
-      y="87.9"
-      width="6"
-      height="114.3"
-      transform="translate(-96.2 171.3) rotate(-78)"
-      style={{ fill: "#ffffff" }}
-      className="color-svg-yellow-fill"
-    />
-    <rect
-      x="1.5"
-      y="21.3"
-      width="114.3"
-      height="6"
-      transform="translate(-3.8 12.8) rotate(-12)"
-      style={{ fill: "#ffffff" }}
-      className="color-svg-yellow-fill"
-    />
-  </svg>
+  <>
+    <svg
+      id="Layer_1"
+      data-name="Layer 1"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 101.2 111.8"
+      className={className}
+    >
+      <path
+        d="m98.7,0c-1.4,0-2.5,1.1-2.5,2.5v3.9L5,17.5v-1.6c0-1.4-1.1-2.5-2.5-2.5s-2.5,1.1-2.5,2.5v75.7c0,1.4,1.1,2.5,2.5,2.5s2.5-1.1,2.5-2.5v-10.6l91.2,11.1v17.1c0,1.4,1.1,2.5,2.5,2.5s2.5-1.1,2.5-2.5V2.5c0-1.4-1.1-2.5-2.5-2.5Zm-2.5,11.8v75.1L5,76V22.6l91.2-10.8Z"
+        style={{ fill: "#fff" }}
+        className="color-svg-orange-fill"
+      />
+    </svg>
+  </>
 )

@@ -30,7 +30,11 @@ function Footer() {
         <Orange>
           <QuoteContainerOr className="container mx-auto">
             <div className="flex md:flex-row flex-col items-center md:items-start py-4 lg:py-0 orange-mob">
-              <img src="/desk-form" alt="" className="ml-3 hidden md:inline-block" />
+              <img
+                src="/desk-form"
+                alt=""
+                className="ml-3 hidden md:inline-block"
+              />
               <img
                 src="/mobile-form.png"
                 alt=""
@@ -298,8 +302,8 @@ function Footer() {
                 Turn your backyard into an exciting outdoor movie theater. Watch
                 big-screen movies, sporting events, play video games, and stream
                 your favorite shows with family and friends outside under the
-                stars and moon. A unique Drive-in movie experience in the privacy
-                of your backyard.
+                stars and moon. A unique Drive-in movie experience in the
+                privacy of your backyard.
               </p>
             </div>
           </div>
@@ -322,6 +326,14 @@ function Footer() {
                 <h5 className="text-left text-orange-500 font-bold uppercase mb-1">
                   Quick Links
                 </h5>
+                <Link
+                  to="/how-to-build-an-outdoor-movie-theater/"
+                  className="flex items-center"
+                >
+                  <img src="/arrowright.png" className="h-3 mr-3" />
+                  How To Build an Outdoor Movie Theater
+                </Link>
+
                 <Link to="/about" className="flex items-center">
                   <img src="/arrowright.png" className="h-3 mr-3" />
                   About
@@ -392,13 +404,15 @@ function Footer() {
 
         <div className="text-left lg:text-center text-sm mt-2 lg:mt-6 py-3 px-6 lg:px-0 lg:py-0 border-t border-gray-800 lg:border-none">
           <div className="flex items-center lg:justify-center lg:mb-2">
-            &copy;2020-{new Date().getFullYear()} The Wireless Outdoor Cinema Company. All Rights Reserved.{" "}
+            &copy;2020-{new Date().getFullYear()} The Wireless Outdoor Cinema
+            Company. All Rights Reserved.{" "}
             <span className="hidden lg:inline">
               <Link className="ml-1" to="/terms">
                 Terms of Use
               </Link>{" "}
               <span className="mx-1">|</span> <Link to="/privacy">Privacy</Link>{" "}
-              <span className="mx-1">|</span> <Link to="/sitemap">Site Map</Link>
+              <span className="mx-1">|</span>{" "}
+              <Link to="/sitemap">Site Map</Link>
             </span>
           </div>
           <div className="flex items-center justify-center hidden lg:hidden">

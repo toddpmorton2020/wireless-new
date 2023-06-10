@@ -1,3 +1,5 @@
+const plugin = require("tailwindcss/plugin")
+
 module.exports = {
   purge: ["./src/**/*.js", "./src/**/*.jsx", "./src/**/*.ts", "./src/**/*.tsx"],
   theme: {
@@ -29,8 +31,12 @@ module.exports = {
       spacing: {
         18: "5rem",
       },
+      height: {
+        13: "3.2rem",
+      },
       width: {
         35: "340px",
+        13: "3.2rem",
       },
       fontSize: {
         11: "44px",
@@ -77,6 +83,13 @@ module.exports = {
           100: "#4c7c07",
         },
       },
+      lineHeight: {
+        c18: "1.8rem",
+        c10: "1rem",
+        c14: "1.4rem",
+
+        // Add more custom line heights as needed
+      },
     },
     container: {
       padding: {
@@ -94,5 +107,12 @@ module.exports = {
     display: ["responsive", "group-hover", "hover"],
     rotate: ["responsive", "hover", "focus", "active", "group-hover"],
   },
-  plugins: [],
+  plugins: [
+    plugin(function ({ addVariant }) {
+      addVariant(
+        "mob-only",
+        "@media screen and (max-width: theme('screens.sm'))"
+      ) // instead of hard-coded 640px use sm breakpoint value from config. Or anything
+    }),
+  ],
 }

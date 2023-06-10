@@ -70,29 +70,36 @@ function Sitemap() {
                   <Link to="/accessory" className="link mb-1">
                     Outdoor Cinema Accessories
                   </Link>
+                  <Link
+                    to="/how-to-build-an-outdoor-movie-theater/"
+                    className="link mb-1"
+                  >
+                    How To Build an Outdoor Movie Theater
+                  </Link>
+
                   <Link to="/in-the-news" className="link mb-1">
                     In the News
                   </Link>
                   <Link to="/august-28-press-release" className="link mb-1">
-                    > August 28, 2021 Press Release
+                    {">"} August 28, 2021 Press Release
                   </Link>
                   <Link to="/june-30-press-release" className="link mb-1">
-                    > June 30, 2021 Press Release
+                    {">"} June 30, 2021 Press Release
                   </Link>
                   <Link to="/january-04-press-release" className="link mb-1">
-                    > January 04, 2021 Press Release
+                    {">"} January 04, 2021 Press Release
                   </Link>
                   <Link to="/september-10-press-release" className="link mb-1">
-                    > September 10, 2020 Press Release
+                    {">"} September 10, 2020 Press Release
                   </Link>
                   <Link
                     to="/june-25-bridgton-news-article"
                     className="link mb-1"
                   >
-                    > June 25, 2020 Press Release
+                    {">"} June 25, 2020 Press Release
                   </Link>
                   <Link to="/june-08-press-release" className="link mb-1">
-                    > June 08, 2020 Press Release
+                    {">"} June 08, 2020 Press Release
                   </Link>
                   <Link to="/faq" className="link mb-1">
                     FAQ
