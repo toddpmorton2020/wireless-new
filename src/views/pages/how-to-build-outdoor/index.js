@@ -108,6 +108,9 @@ import MovableIcon from "./icons/MovableIcon"
 import BuiltIcon from "./icons/BuiltIcon"
 import FireIcon from "./icons/FireIcon"
 import PermanentIcon from "./icons/PermanetIcon"
+import MobileHero from "./images/mobile-timberline-outdoor-movie-theater-480x240.jpg"
+import MobileQuotePhoto from "./images/quote-photo-480px-420px.jpg"
+import MobileQuoteSig from "./images/mobile-quote-signature.png"
 
 function HowToBuildAnOutdoorMovieTheaterView() {
   return (
@@ -252,7 +255,12 @@ const SubNav = () => {
 const Hero = () => {
   return (
     <div className="black-back relative text-white sm:top-0 sm:-mt-12 ">
-      <img className="mx-auto w-full max-w-2400" src={Background} alt="" />
+      <img
+        className="mx-auto w-full hidden lg:block  max-w-2400"
+        src={Background}
+        alt=""
+      />
+      <img className="mx-auto w-full md:hidden" src={MobileHero} alt="" />
       {/* <div class="absolute inset-0 bg-black opacity-50"></div> */}
       <div className="container pb-4 xl:pb-16 mx-auto px-2  max-w-6xl ">
         <div className="xl:absolute xl:mt-32 2xl:pt-10 sm:top-0 h-full">
@@ -260,10 +268,17 @@ const Hero = () => {
             <p className="font-semibold text-xl md:text-3xl">
               Get the only <span className="text-orng">DIY</span> on
             </p>
-            <h1 className="md:text-5xl text-3xl mb-4 font-semibold leading-8 md:leading-none">
+            <h1 className="md:text-5xl text-3xl mb-4 font-semibold leading-8 md:leading-none ">
               <span className="text-orng">How-to build a</span> professional
               outdoor movie theater
-              <sup className="pl-1 text-2xl xl:text-3xl">©</sup>
+              <sup
+                style={{
+                  transform: "translateY(5px)",
+                }}
+                className="pl-1 inline-block lg:text-3xl"
+              >
+                ©
+              </sup>
             </h1>
 
             <div className="md:flex-col-reverse flex-col flex">
@@ -300,7 +315,7 @@ const HeresWhatYouGet = () => {
       img: DesignPlanIcon,
       title: "Design Plans",
       text:
-        "Design plans on how-to build the cinema frame and equipment stand.",
+        "Design plans on how to build the cinema frame and equipment stand.",
       bonus: false,
     },
     {
@@ -322,7 +337,7 @@ const HeresWhatYouGet = () => {
       id: 3,
       img: EquipmentListIcon,
       title: "Equipment Lists",
-      text: "Recommended equipment for wireless and wired systems.",
+      text: "Recommended electronics or wireless and wired systems.",
       bonus: false,
     },
     {
@@ -387,7 +402,7 @@ const HeresWhatYouGet = () => {
 
           <div className="text-center xl:col-span-7 xl:text-left xl:text-xl pb-12 xl:pb-10 xl:mb-10">
             <Header>Here's what you get</Header>
-            <SubHeader>
+            <SubHeader className="text-white">
               <span className="text-orng">
                 Timberline Series 150" Big Moose
               </span>{" "}
@@ -459,7 +474,7 @@ const PowerfulHanging = () => {
     <div className="black-back text-white py-12 xl:py-16">
       <PageWrapper>
         <div>
-          <Header>Outdoor cinematic screen-hanging methods</Header>
+          <Header>Cinematic screen-hanging methods</Header>
           <SubHeader>
             Hang the screen directly to hooks or use rope for a straight line
             look.
@@ -818,7 +833,7 @@ const PowerfulCinema = () => {
     {
       id: 2,
       img: TunerIcon,
-      text: "DVD Players and Receivers",
+      text: "DVD Players, Receivers, and Tuners",
     },
     {
       id: 3,
@@ -1049,7 +1064,7 @@ const CustomProjector = () => {
 
             <Header className="md:hidden ">
               <span className="block  text-xl "> Timberline </span>
-              Outdoor projector stand built just for you
+              Custom projector stand built just for you
             </Header>
             <SubHeader>
               The only projector stand designed for your backyard outdoor movie
@@ -1150,14 +1165,14 @@ const ImpressiveOutdoor = () => {
       id: 2,
       img: ImpressiveImage3,
       icon: PencilIcon,
-      text: "Custom equipment stand",
+      text: "Custom projector stand",
       align: "start",
     },
     {
       id: 3,
       img: ImpressiveImage4,
       icon: YearRoundIcon,
-      text: "Year-round use",
+      text: "Enjoy movies year-round",
       align: "end",
     },
   ]
@@ -1167,13 +1182,13 @@ const ImpressiveOutdoor = () => {
       <PageWrapper>
         <div className="mx-auto flex flex-col xl:grid xl:grid-cols-12 w-full">
           <div className="md:text-center xl:col-span-12 xl:text-xl pb-12 xl:pb-10 xl:mb-10">
-            <Header className="hidden md:block">
+            <Header className="">
               Impressive outdoor movie theater features
             </Header>
-            <Header className="md:hidden ">
-              Time-saving and{" "}
-              <span className="block"> Indudustry leading features</span>
-            </Header>
+
+            <SubHeader className="mb-0">
+              Time-saving and industry-leading features.
+            </SubHeader>
             <SubHeader>
               Fastest setup. Strongest frame system. Custom equipment stand.
               Year-round use.
@@ -1399,7 +1414,7 @@ const Comparison = () => {
                 <div className="col-span-6 font-extralight">
                   <h1 className="text-sm text-center">Cinema Packages</h1>
                   <p className="text-sm text-center text-grey-bdbbba">
-                    Wired equipment only
+                    Wired only
                   </p>
                 </div>
                 <div className="col-span-6 font-extralight">
@@ -1428,13 +1443,13 @@ const Comparison = () => {
               <div className="grid grid-cols-12 my-6 text-center items-center">
                 <div className="col-span-6 font-extralight">
                   <h1 className="text-sm text-center">
-                    Custom Equipment Stand
+                    Custom Projector Stand
                   </h1>
                   <p className="text-sm text-center text-red-b20000">No</p>
                 </div>
                 <div className="col-span-6 font-extralight">
                   <h1 className="text-sm text-center">
-                    Custom Equipment Stand
+                    Custom Projector Stand
                   </h1>
                   <p className="text-sm text-center text-green-1f8f13">Yes</p>
                 </div>
@@ -1457,17 +1472,13 @@ const Comparison = () => {
 
               <div className="grid grid-cols-12 my-6 text-center items-center">
                 <div className="col-span-6 font-extralight">
-                  <h1 className="text-sm text-center">
-                    Frame System After Use
-                  </h1>
+                  <h1 className="text-sm text-center">Frame Storage</h1>
                   <p className="text-sm text-center text-red-b20000">
                     Needs to be broken down
                   </p>
                 </div>
                 <div className="col-span-6 font-extralight">
-                  <h1 className="text-sm text-center">
-                    Frame System After Use
-                  </h1>
+                  <h1 className="text-sm text-center">Frame Storage</h1>
                   <p className="text-sm text-center text-green-1f8f13">
                     Stays up year-round
                   </p>
@@ -1476,17 +1487,13 @@ const Comparison = () => {
 
               <div className="grid grid-cols-12 my-6 text-center items-center">
                 <div className="col-span-6 font-extralight">
-                  <h1 className="text-sm text-center">
-                    Frame System Durability
-                  </h1>
+                  <h1 className="text-sm text-center">Frame Durability</h1>
                   <p className="text-sm text-center text-red-b20000">
                     Not sturdy
                   </p>
                 </div>
                 <div className="col-span-6 font-extralight">
-                  <h1 className="text-sm text-center">
-                    Frame System Durability
-                  </h1>
+                  <h1 className="text-sm text-center">Frame Durability</h1>
                   <p className="text-sm text-center text-green-1f8f13">
                     Strongest frame system
                   </p>
@@ -1620,13 +1627,13 @@ const Comparison = () => {
               <div className="grid grid-cols-12 my-6 text-center items-center">
                 <div className="col-span-6 font-extralight">
                   <h1 className="text-sm text-center">
-                    Custom Equipment Stand
+                    Custom Projector Stand
                   </h1>
                   <p className="text-sm text-center text-red-b20000">No</p>
                 </div>
                 <div className="col-span-6 font-extralight">
                   <h1 className="text-sm text-center">
-                    Custom Equipment Stand
+                    Custom Projector Stand
                   </h1>
                   <p className="text-sm text-center text-green-1f8f13">Yes</p>
                 </div>
@@ -1641,25 +1648,19 @@ const Comparison = () => {
                 </div>
                 <div className="col-span-6 font-extralight">
                   <h1 className="text-sm text-center">Year-Round Use</h1>
-                  <p className="text-sm text-center text-green-1f8f13">
-                    Yes - even in snow climates
-                  </p>
+                  <p className="text-sm text-center text-green-1f8f13">Yes</p>
                 </div>
               </div>
 
               <div className="grid grid-cols-12 my-6 text-center items-center">
                 <div className="col-span-6 font-extralight">
-                  <h1 className="text-sm text-center">
-                    Frame System After Use
-                  </h1>
+                  <h1 className="text-sm text-center">Frame Storage</h1>
                   <p className="text-sm text-center text-red-b20000">
                     Needs to be broken down
                   </p>
                 </div>
                 <div className="col-span-6 font-extralight">
-                  <h1 className="text-sm text-center">
-                    Frame System After Use
-                  </h1>
+                  <h1 className="text-sm text-center">Frame Storage</h1>
                   <p className="text-sm text-center text-green-1f8f13">
                     Stays up year-round
                   </p>
@@ -1668,17 +1669,13 @@ const Comparison = () => {
 
               <div className="grid grid-cols-12 my-6 text-center items-center">
                 <div className="col-span-6 font-extralight">
-                  <h1 className="text-sm text-center">
-                    Frame System Durability
-                  </h1>
+                  <h1 className="text-sm text-center">Frame Durability</h1>
                   <p className="text-sm text-center text-red-b20000">
                     Can potentially get air leaks
                   </p>
                 </div>
                 <div className="col-span-6 font-extralight">
-                  <h1 className="text-sm text-center">
-                    Frame System Durability
-                  </h1>
+                  <h1 className="text-sm text-center">Frame Durability</h1>
                   <p className="text-sm text-center text-green-1f8f13">
                     Strongest frame system
                   </p>
@@ -1926,25 +1923,19 @@ const Comparison = () => {
 
               <div className="grid grid-cols-12 my-10 text-center items-center">
                 <div className="col-span-12 lg:col-span-4 font-extralight text-23">
-                  <h1 className="text-2xl text-center">
-                    Frame System Durability
-                  </h1>
+                  <h1 className="text-2xl text-center">Frame Durability</h1>
                   <p className="text2-xl text-center text-red-b20000">
                     Not sturdy
                   </p>
                 </div>
                 <div className="col-span-12 lg:col-span-4 font-extralight text-23">
-                  <h1 className="text-2xl text-center">
-                    Frame System Durability
-                  </h1>
+                  <h1 className="text-2xl text-center">Frame Durability</h1>
                   <p className="text2-xl text-center text-red-b20000">
                     Can potentially get air leaks
                   </p>
                 </div>
                 <div className="col-span-12 lg:col-span-4 font-extralight text-23">
-                  <h1 className="text-2xl text-center">
-                    Frame System Durability
-                  </h1>
+                  <h1 className="text-2xl text-center">Frame Durability</h1>
                   <p className="text2-xl text-center text-green-1f8f13">
                     Strongest frame system
                   </p>
@@ -2012,7 +2003,17 @@ const BannerCallout = () => {
 const Quote = () => {
   return (
     <div className="black-back relative text-white  border-grey-subnav py-8 xl:py-16">
-      <img className="mx-auto w-full max-w-2400 mb-4" src={QuoteImage} alt="" />
+      <img
+        className="mx-auto w-full hidden md:block max-w-2400 mb-4"
+        src={QuoteImage}
+        alt=""
+      />
+      <img
+        className="mx-auto w-full md:hidden max-w-2400 mb-4"
+        src={MobileQuotePhoto}
+        alt=""
+      />
+
       <div className="container mx-auto w-full">
         <div className="flex flex-col lg:hidden">
           <div className="block col-span-12 mb-5 text-center relative">
@@ -2020,7 +2021,11 @@ const Quote = () => {
               My wireless outdoor movie theaters take less time to set up and
               start watching than it does to pop a bag of popcorn.
             </p>
-            <img src={SignatureImage} alt="" className="w-64 mx-auto mt-5" />
+            <img
+              src={MobileQuoteSig}
+              alt=""
+              className="w-full px-10 mx-auto mt-5 md:hidden"
+            />
           </div>
         </div>
         <div className="block h-full container">
@@ -2030,10 +2035,11 @@ const Quote = () => {
                 My wireless outdoor movie theaters take less time to set up and
                 start watching than it does to pop a bag of popcorn.
               </p>
+
               <img
                 src={SignatureImage}
                 alt=""
-                className="w-full px-10 mx-auto mt-5"
+                className="w-full px-10 mx-auto mt-5 hidden md:block"
               />
             </div>
           </div>
@@ -2056,7 +2062,7 @@ const FAQ = () => {
             "What is the lumber cost for the frame systems and equipment stand?",
           answer: (
             <>
-              <div className="mb-4">
+              <div className="mb-3">
                 The recommended wood for the frame system is pressure-treated
                 4x4 posts. And the recommended timber to build the custom
                 projector stand is Cedar, and you can also use pine wood. These
@@ -2064,25 +2070,25 @@ const FAQ = () => {
                 making it easier to carry. However, when using hardwood like
                 maple or oak, the equipment stand's weight will be heavier.
               </div>
-              <div className="mb-4">
+              <div className="mb-3">
                 The cost will vary depending on your location, and lumber is
                 usually more cost-friendly at your local HomeDepot or Lowes
                 stores.
               </div>
-              <div className="mb-4">
+              <div className="mb-3">
                 <strong>Streamline Frame System:</strong> Average cost is
                 between $150-175.
               </div>
-              <div className="mb-4">
+              <div className="mb-2">
                 <strong>Movable Frame System:</strong> Average cost is between
                 $175-225.
               </div>
-              <div>
-                <strong>Cedar Custom Equipment Stand:</strong> Average cost is
+              <div className="mb-2">
+                <strong>Cedar Custom Projector Stand:</strong> Average cost is
                 between $70-$90.
               </div>
-              <div className="mb-4">
-                <strong>Pine Custom Equipment Stand:</strong> Average cost is
+              <div className="mb-2">
+                <strong>Pine Custom Projector Stand:</strong> Average cost is
                 between $65-$85.
               </div>
               <strong>Pressure-treated Projector:</strong> Average cost is
@@ -2324,7 +2330,7 @@ const FAQ = () => {
     {
       id: 3,
       icon: <EquipmentStandIcon className="h-13 w-13" />,
-      text: "Custom Equipment Stand",
+      text: "Custom Projector Stand",
       questions: [
         {
           id: "31",
